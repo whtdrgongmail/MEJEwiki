@@ -4,6 +4,8 @@
   "description": "명로, 망자항법, 물 위의 의례와 기억을 다루는 세계관.",
   "version": "8고",
   "status": "live",
+  "heroImage": "../../assets/worlds/h5-sangyeoho-hero.png",
+  "heroAlt": "안개 낀 호수 위 장례 배와 등불 항로",
   "files": [
     {
       "path": "00_LOREBOOK_목차.md",

@@ -4,6 +4,8 @@
   "description": "향과 마나, 황실과 조향 길드가 권력을 이루는 세계관.",
   "version": "8고",
   "status": "live",
+  "heroImage": "../../assets/worlds/h2-hyanggung-hero.png",
+  "heroAlt": "향 연기와 바람길이 흐르는 황궁 도시 전경",
   "files": [
     {
       "path": "00_LOREBOOK_목차.md",

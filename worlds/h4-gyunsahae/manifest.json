@@ -4,6 +4,8 @@
   "description": "균사망, 접속, 공생과 부패의 윤리를 다루는 생태형 세계관.",
   "version": "8고",
   "status": "live",
+  "heroImage": "../../assets/worlds/h4-gyunsahae-hero.png",
+  "heroAlt": "빛나는 균사망과 거대 버섯 탑이 이어진 생태 행성",
   "files": [
     {
       "path": "00_LOREBOOK_목차.md",

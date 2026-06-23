@@ -4,6 +4,8 @@
   "description": "게이트, 등급사회, 무특성의 변칙을 다루는 헌터형 세계관.",
   "version": "8고",
   "status": "live",
+  "heroImage": "../../assets/worlds/h1-gongdong-hero.png",
+  "heroAlt": "농도 등고선과 게이트가 떠 있는 미래 도시 전경",
   "files": [
     {
       "path": "00_LOREBOOK_목차.md",

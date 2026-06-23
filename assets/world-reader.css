@@ -99,6 +99,21 @@ a { color: inherit; }
   padding: 42px min(7vw, 82px) 72px;
 }
 
+.hero {
+  margin: 0 0 28px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1915 / 821;
+  object-fit: cover;
+}
+
 .doc-path {
   color: var(--subtle);
   font-size: .86rem;

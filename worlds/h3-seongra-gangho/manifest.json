@@ -4,6 +4,8 @@
   "description": "천기, 별, 본명성, 강호의 은원이 교차하는 무협 세계관.",
   "version": "8고",
   "status": "live",
+  "heroImage": "../../assets/worlds/h3-seongra-gangho-hero.png",
+  "heroAlt": "별자리 하늘 아래 산맥과 강호 문파가 펼쳐진 야경",
   "files": [
     {
       "path": "00_LOREBOOK_목차.md",

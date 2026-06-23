@@ -10,6 +10,8 @@ const tocEl = document.getElementById('toc');
 const searchEl = document.getElementById('search');
 const docEl = document.getElementById('doc');
 const pathEl = document.getElementById('doc-path');
+const heroEl = document.getElementById('hero');
+const heroImageEl = document.getElementById('hero-image');
 
 const escapeHtml = (value) => value
   .replace(/&/g, '&amp;')
@@ -190,6 +192,11 @@ async function init() {
   titleEl.textContent = state.manifest.title;
   document.title = `${state.manifest.title} - MEJEwiki`;
   metaEl.textContent = `${state.manifest.version} / ${state.files.length} documents`;
+  if (state.manifest.heroImage) {
+    heroImageEl.src = state.manifest.heroImage;
+    heroImageEl.alt = state.manifest.heroAlt || `${state.manifest.title} hero image`;
+    heroEl.hidden = false;
+  }
   renderToc(state.files);
   syncHash();
 }

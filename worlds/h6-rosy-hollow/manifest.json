@@ -4,6 +4,8 @@
   "description": "로지할로우 세계관 로어북.",
   "version": "8고",
   "status": "live",
+  "heroImage": "../../assets/worlds/h6-rosy-hollow-hero.png",
+  "heroAlt": "완벽하게 정돈된 장미빛 교외 마을과 감시 탑",
   "files": [
     {
       "path": "00_LOREBOOK_목차.md",

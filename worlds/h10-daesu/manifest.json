@@ -4,6 +4,8 @@
   "description": "거대한 짐승의 등 위에서 살아가는 마을과 약속의 세계관.",
   "version": "8고",
   "status": "live",
+  "heroImage": "../../assets/worlds/h10-daesu-hero.png",
+  "heroAlt": "거대한 생명체의 등 위에 자리한 숲과 마을",
   "files": [
     {
       "path": "00_LOREBOOK_목차.md",

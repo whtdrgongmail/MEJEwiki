@@ -4,6 +4,8 @@
   "description": "전수서 세계관 로어북.",
   "version": "8고",
   "status": "live",
+  "heroImage": "../../assets/worlds/h7-jeonsuseo-hero.png",
+  "heroAlt": "향신료와 조리 기구가 가득한 신화적 요리 도시",
   "files": [
     {
       "path": "00_LOREBOOK_목차.md",
