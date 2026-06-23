@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Worlds - MEJEwiki</title>
+<meta name="description" content="MEJEwiki 세계관 로어북 공개 준비 목록.">
+<style>
+body {
+  margin: 0;
+  background: #f6f2ea;
+  color: #19181f;
+  font-family: -apple-system, BlinkMacSystemFont, "Noto Sans KR", "Segoe UI", sans-serif;
+  line-height: 1.65;
+  word-break: keep-all;
+}
+main {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 44px 20px 64px;
+}
+a { color: inherit; }
+.back {
+  display: inline-block;
+  margin-bottom: 28px;
+  color: #605b66;
+  text-decoration: none;
+}
+h1 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 4rem);
+  line-height: 1;
+  letter-spacing: 0;
+}
+.lead {
+  max-width: 680px;
+  color: #605b66;
+}
+.list {
+  display: grid;
+  gap: 10px;
+  margin-top: 28px;
+}
+.row {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr) auto;
+  gap: 14px;
+  align-items: center;
+  padding: 14px 16px;
+  background: #fffdf8;
+  border: 1px solid #ded6c8;
+  border-radius: 8px;
+}
+.id {
+  color: #8a838d;
+  font-size: .9rem;
+}
+.status {
+  color: #8a6f25;
+  font-size: .85rem;
+}
+@media (max-width: 680px) {
+  .row { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="../">← MEJEwiki</a>
+  <h1>Worlds</h1>
+  <p class="lead">이 페이지는 하얀용 세계관 로어북을 공개하기 전의 목차 자리입니다. 원고 공개 범위, 라이선스, 8개/10개 공개 대상을 확정한 뒤 각 세계관 독서기를 연결합니다.</p>
+  <div class="list" id="list"></div>
+</main>
+<script>
+const list = document.getElementById('list');
+fetch('../data/catalog.json')
+  .then((response) => response.json())
+  .then((data) => {
+    const worlds = data.collections.filter((item) => item.type === 'world');
+    list.innerHTML = worlds.map((item) => `
+      <div class="row">
+        <div class="id">${item.id}</div>
+        <strong>${item.title}</strong>
+        <span class="status">${item.status}</span>
+      </div>
+    `).join('');
+  });
+</script>
+</body>
+</html>

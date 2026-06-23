@@ -1,0 +1,70 @@
+MIT License
+
+Copyright (c) 2026 Kim Dongeun (WhtDrgon)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+NOTE — Two-tier licensing:
+
+The MIT License above applies ONLY to the code scaffolding of this repository
+(index.html, scripts/convert.py, CSS/JS, and site-structure files).
+
+The FEWK worldview content under `content/` (Core Rulebook, World Book, home,
+roadmap, and the FWOL license text itself) is licensed under:
+
+  Creative Commons Attribution 4.0 International (CC BY 4.0)
+  https://creativecommons.org/licenses/by/4.0/
+
+Commercial use IS permitted under CC BY 4.0. No royalty is owed to the
+copyright holder or to MEJE Works Corp. for derivative works set in the FEWK
+universe. Derivative works must be marked as "FEWK 세계관 / FEWK Universe"
+works and must include attribution per content/license.md § 5.
+
+The names "FEWK" and "Far East White Kingdom", the FEWK logo, and related
+brand identifiers are trademarks of MEJE Works Corp. (represented by
+Kim Dongeun / WhtDrgon). Use of the FEWK brand as a product's primary
+brand identity, use of language implying official endorsement, or any
+licensing/assignment of FEWK brand rights to third parties requires a
+separate trademark license administered by FEWK Governance (trademark
+held by MEJE Works Corp.).
+
+FEWK Governance: Official operational authority over canon, trademark
+license review, collaboration approval, and license interpretation. As
+of 2026-04-25, the sole member is Kim Dongeun (whtdrgon@gmail.com);
+the Governance will expand in phases.
+
+FEWK Series Official NFT Holders: Holders of official NFTs of FEWK Core
+(KO/JP editions) and FEWK AD (KO/JP editions) receive separate rights
+and benefits administered by FEWK Governance. The design and operation
+of such rights comply with applicable laws and regulatory guidelines of
+the Republic of Korea. See content/license.md § 8 for details.
+
+Full terms, trademark policy, canon governance, and NFT-holder rights:
+  content/license.md  — FEWK Worldview Open License (FWOL) v2.1
+  [FWOL]/CHANGELOG.md — License revision history and version archive
+
+Canon ownership: FEWK official canon is set exclusively by FEWK Governance.
+
+Content copyright: Kim Dongeun (WhtDrgon), individual.
+Brand/trademark: MEJE Works Corp.
+Official management: FEWK Governance.
+
+Contact: FEWK@meje.kr
