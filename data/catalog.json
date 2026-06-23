@@ -22,7 +22,7 @@
       "title": "공동",
       "description": "게이트, 등급사회, 무특성의 변칙을 다루는 헌터형 세계관.",
       "href": "./worlds/h1-gongdong/",
-      "status": "planned",
+      "status": "live",
       "version": "8고",
       "license": "TBD"
     },
@@ -32,7 +32,7 @@
       "title": "향궁",
       "description": "향과 마나, 황실과 조향 길드가 권력을 이루는 세계관.",
       "href": "./worlds/h2-hyanggung/",
-      "status": "planned",
+      "status": "live",
       "version": "8고",
       "license": "TBD"
     },
@@ -42,7 +42,7 @@
       "title": "성라강호",
       "description": "천기, 별, 본명성, 강호의 은원이 교차하는 무협 세계관.",
       "href": "./worlds/h3-seongra-gangho/",
-      "status": "planned",
+      "status": "live",
       "version": "8고",
       "license": "TBD"
     },
@@ -52,7 +52,7 @@
       "title": "균사해",
       "description": "균사망, 접속, 공생과 부패의 윤리를 다루는 생태형 세계관.",
       "href": "./worlds/h4-gyunsahae/",
-      "status": "planned",
+      "status": "live",
       "version": "8고",
       "license": "TBD"
     },
@@ -62,7 +62,7 @@
       "title": "상여호",
       "description": "명로, 망자항법, 물 위의 의례와 기억을 다루는 세계관.",
       "href": "./worlds/h5-sangyeoho/",
-      "status": "planned",
+      "status": "live",
       "version": "8고",
       "license": "TBD"
     },
@@ -70,9 +70,9 @@
       "id": "h6-rosy-hollow",
       "type": "world",
       "title": "로지할로우",
-      "description": "로지할로우 세계관 로어북 공개 준비 항목.",
+      "description": "로지할로우 세계관 로어북.",
       "href": "./worlds/h6-rosy-hollow/",
-      "status": "planned",
+      "status": "live",
       "version": "8고",
       "license": "TBD"
     },
@@ -80,9 +80,9 @@
       "id": "h7-jeonsuseo",
       "type": "world",
       "title": "전수서",
-      "description": "전수서 세계관 로어북 공개 준비 항목.",
+      "description": "전수서 세계관 로어북.",
       "href": "./worlds/h7-jeonsuseo/",
-      "status": "planned",
+      "status": "live",
       "version": "8고",
       "license": "TBD"
     },
@@ -90,9 +90,9 @@
       "id": "h8-nubi",
       "type": "world",
       "title": "누비의 땅",
-      "description": "누비의 땅 세계관 로어북 공개 준비 항목.",
+      "description": "누비의 땅 세계관 로어북.",
       "href": "./worlds/h8-nubi/",
-      "status": "planned",
+      "status": "live",
       "version": "8고",
       "license": "TBD"
     },
@@ -100,9 +100,9 @@
       "id": "h9-usabu",
       "type": "world",
       "title": "우사부",
-      "description": "우사부 세계관 로어북 공개 준비 항목.",
+      "description": "우사부 세계관 로어북.",
       "href": "./worlds/h9-usabu/",
-      "status": "planned",
+      "status": "live",
       "version": "8고",
       "license": "TBD"
     },
@@ -112,7 +112,7 @@
       "title": "대수의 등",
       "description": "거대한 짐승의 등 위에서 살아가는 마을과 약속의 세계관.",
       "href": "./worlds/h10-daesu/",
-      "status": "planned",
+      "status": "live",
       "version": "8고",
       "license": "TBD"
     }

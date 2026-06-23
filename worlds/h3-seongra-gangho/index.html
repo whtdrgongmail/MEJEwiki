@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World - MEJEwiki</title>
+<meta name="description" content="MEJEwiki world lorebook reader.">
+<link rel="stylesheet" href="../../assets/world-reader.css">
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar">
+    <a class="back" href="../">← Worlds</a>
+    <h1 class="world-title" id="world-title">World</h1>
+    <div class="world-meta" id="world-meta">Loading...</div>
+    <input class="search" id="search" type="search" placeholder="문서 검색" aria-label="문서 검색">
+    <nav class="toc" id="toc" aria-label="Documents"></nav>
+  </aside>
+
+  <main class="content">
+    <div class="doc-path" id="doc-path"></div>
+    <article class="doc" id="doc">
+      <p class="empty">Loading...</p>
+    </article>
+  </main>
+</div>
+<script src="../../assets/world-reader.js"></script>
+</body>
+</html>
