@@ -6,6 +6,128 @@
   "status": "live",
   "heroImage": "../../assets/worlds/h2-hyanggung-hero.png",
   "heroAlt": "향 연기와 바람길이 흐르는 황궁 도시 전경",
+  "illustrations": {
+    "01_세계관_요약시트.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/01.jpg",
+      "alt": "향궁 - 세계관 요약시트 삽화"
+    },
+    "02_세계의물리_향과마나.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/02.jpg",
+      "alt": "향궁 - 세계의물리 향과마나 삽화"
+    },
+    "03_우주관과기원_첫향의신화.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/03.jpg",
+      "alt": "향궁 - 우주관과기원 첫향의신화 삽화"
+    },
+    "04_지형_바람길의제국.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/04.jpg",
+      "alt": "향궁 - 지형 바람길의제국 삽화"
+    },
+    "05_기후와향로.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/05.jpg",
+      "alt": "향궁 - 기후와향로 삽화"
+    },
+    "06_시대연표_향제국의역사.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/06.jpg",
+      "alt": "향궁 - 시대연표 향제국의역사 삽화"
+    },
+    "07_정치체제와권력구조.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/07.jpg",
+      "alt": "향궁 - 정치체제와권력구조 삽화"
+    },
+    "08_황실과첫향_정통성.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/08.jpg",
+      "alt": "향궁 - 황실과첫향 정통성 삽화"
+    },
+    "09_대귀족가문과문향.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/09.jpg",
+      "alt": "향궁 - 대귀족가문과문향 삽화"
+    },
+    "10_조향길드_향의기술과정보.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/10.jpg",
+      "alt": "향궁 - 조향길드 향의기술과정보 삽화"
+    },
+    "11_향신분제_계급과문향.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/11.jpg",
+      "alt": "향궁 - 향신분제 계급과문향 삽화"
+    },
+    "12_향위조와지하세계.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/12.jpg",
+      "alt": "향궁 - 향위조와지하세계 삽화"
+    },
+    "13_경제와향산업.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/13.jpg",
+      "alt": "향궁 - 경제와향산업 삽화"
+    },
+    "14_법금기향윤리.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/14.jpg",
+      "alt": "향궁 - 법금기향윤리 삽화"
+    },
+    "15_메카닉대전_향마법의체계.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/15.jpg",
+      "alt": "향궁 - 메카닉대전 향마법의체계 삽화"
+    },
+    "16_향의분류와등급.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/16.jpg",
+      "alt": "향궁 - 향의분류와등급 삽화"
+    },
+    "17_향마법과다툼의법칙.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/17.jpg",
+      "alt": "향궁 - 향마법과다툼의법칙 삽화"
+    },
+    "18_무후각의예외_면역과문맹.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/18.jpg",
+      "alt": "향궁 - 무후각의예외 면역과문맹 삽화"
+    },
+    "19_향중독과향노예.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/19.jpg",
+      "alt": "향궁 - 향중독과향노예 삽화"
+    },
+    "20_생활과일상_향을두르는사회.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/20.jpg",
+      "alt": "향궁 - 생활과일상 향을두르는사회 삽화"
+    },
+    "21_문화예법과향의위계.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/21.jpg",
+      "alt": "향궁 - 문화예법과향의위계 삽화"
+    },
+    "22_인종과생명_사람과향에깃든것들.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/22.jpg",
+      "alt": "향궁 - 인종과생명 사람과향에깃든것들 삽화"
+    },
+    "23_미학시각가이드_향빛과색.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/23.jpg",
+      "alt": "향궁 - 미학시각가이드 향빛과색 삽화"
+    },
+    "24_언어명명기호_향의말.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/24.jpg",
+      "alt": "향궁 - 언어명명기호 향의말 삽화"
+    },
+    "25_주요인물1_무후각여주와무후각들.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/25.jpg",
+      "alt": "향궁 - 주요인물1 무후각여주와무후각들 삽화"
+    },
+    "26_주요인물2_권력자조향사와황실귀족.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/26.jpg",
+      "alt": "향궁 - 주요인물2 권력자조향사와황실귀족 삽화"
+    },
+    "27_주요인물3_평민조향사위조범지하.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/27.jpg",
+      "alt": "향궁 - 주요인물3 평민조향사위조범지하 삽화"
+    },
+    "28_인물관계망과세력지도.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/28.jpg",
+      "alt": "향궁 - 인물관계망과세력지도 삽화"
+    },
+    "29_캐논과미관찰영역_비밀의지도.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/29.jpg",
+      "alt": "향궁 - 캐논과미관찰영역 비밀의지도 삽화"
+    },
+    "30_이세계가품은이야기들.md": {
+      "image": "../../assets/worlds/pages/h2-hyanggung/30.jpg",
+      "alt": "향궁 - 이세계가품은이야기들 삽화"
+    }
+  },
   "files": [
     {
       "path": "00_LOREBOOK_목차.md",

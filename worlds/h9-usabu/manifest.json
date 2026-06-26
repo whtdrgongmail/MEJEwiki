@@ -6,6 +6,7 @@
   "status": "live",
   "heroImage": "../../assets/worlds/h9-usabu-hero.png",
   "heroAlt": "비와 하늘을 관장하는 산악 관청과 논 terraces",
+  "illustrations": {},
   "files": [
     {
       "path": "00_LOREBOOK_목차.md",

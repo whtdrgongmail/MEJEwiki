@@ -6,6 +6,7 @@
   "status": "live",
   "heroImage": "../../assets/worlds/h8-nubi-hero.png",
   "heroAlt": "천과 실과 단추로 이루어진 누비 지형 전경",
+  "illustrations": {},
   "files": [
     {
       "path": "00_LOREBOOK_목차.md",

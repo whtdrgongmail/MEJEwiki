@@ -6,6 +6,7 @@
   "status": "live",
   "heroImage": "../../assets/worlds/h6-rosy-hollow-hero.png",
   "heroAlt": "완벽하게 정돈된 장미빛 교외 마을과 감시 탑",
+  "illustrations": {},
   "files": [
     {
       "path": "00_LOREBOOK_목차.md",

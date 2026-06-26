@@ -162,12 +162,34 @@ function filterToc() {
   renderToc(items);
 }
 
+function setHero(image, alt) {
+  if (!image) {
+    heroEl.hidden = true;
+    heroImageEl.removeAttribute('src');
+    heroImageEl.alt = '';
+    return;
+  }
+
+  heroImageEl.src = image;
+  heroImageEl.alt = alt || `${state.manifest.title} illustration`;
+  heroEl.hidden = false;
+}
+
+function setHeroForFile(file) {
+  const illustration = state.manifest.illustrations?.[file.path];
+  setHero(
+    illustration?.image || state.manifest.heroImage,
+    illustration?.alt || state.manifest.heroAlt || `${state.manifest.title} hero image`
+  );
+}
+
 async function loadFile(file) {
   state.current = file;
   renderToc(state.files.filter((item) => {
     const query = searchEl.value.trim().toLowerCase();
     return `${item.path} ${item.title}`.toLowerCase().includes(query);
   }));
+  setHeroForFile(file);
   pathEl.textContent = file.path;
   docEl.innerHTML = '<p class="empty">Loading...</p>';
   const response = await fetch(encodeURI(file.path));
@@ -192,11 +214,7 @@ async function init() {
   titleEl.textContent = state.manifest.title;
   document.title = `${state.manifest.title} - MEJEwiki`;
   metaEl.textContent = `${state.manifest.version} / ${state.files.length} documents`;
-  if (state.manifest.heroImage) {
-    heroImageEl.src = state.manifest.heroImage;
-    heroImageEl.alt = state.manifest.heroAlt || `${state.manifest.title} hero image`;
-    heroEl.hidden = false;
-  }
+  setHero(state.manifest.heroImage, state.manifest.heroAlt);
   renderToc(state.files);
   syncHash();
 }

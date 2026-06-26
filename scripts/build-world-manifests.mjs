@@ -1,10 +1,12 @@
-import { copyFile, readdir, writeFile } from 'node:fs/promises';
+import { access, copyFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const worldsDir = path.join(root, 'worlds');
 const template = path.join(worldsDir, '_world-reader-template.html');
+const chapterAssetsDir = path.join(root, 'assets', 'worlds', 'pages');
+const chapterAssetExtensions = ['jpg', 'jpeg', 'png', 'webp'];
 
 const worlds = [
   ['h1-gongdong', '공동', '게이트, 등급사회, 무특성의 변칙을 다루는 헌터형 세계관.', '농도 등고선과 게이트가 떠 있는 미래 도시 전경'],
@@ -28,6 +30,15 @@ function titleFromFile(file) {
     .replace(/_/gu, ' ');
 }
 
+async function exists(file) {
+  try {
+    await access(file);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 for (const [id, title, description, heroAlt] of worlds) {
   const dir = path.join(worldsDir, id);
   const entries = await readdir(dir);
@@ -38,6 +49,20 @@ for (const [id, title, description, heroAlt] of worlds) {
       path: entry,
       title: titleFromFile(entry)
     }));
+  const illustrations = {};
+
+  for (const file of files) {
+    const chapter = file.path.match(/^(\d{2})_/u)?.[1];
+    if (!chapter || chapter === '00') continue;
+
+    const extension = await findImageExtension(id, chapter);
+    if (extension) {
+      illustrations[file.path] = {
+        image: `../../assets/worlds/pages/${id}/${chapter}.${extension}`,
+        alt: `${title} - ${file.title} 삽화`
+      };
+    }
+  }
 
   await writeFile(path.join(dir, 'manifest.json'), `${JSON.stringify({
     id,
@@ -47,8 +72,17 @@ for (const [id, title, description, heroAlt] of worlds) {
     status: 'live',
     heroImage: `../../assets/worlds/${id}-hero.png`,
     heroAlt,
+    illustrations,
     files
   }, null, 2)}\n`, 'utf8');
 
   await copyFile(template, path.join(dir, 'index.html'));
+}
+
+async function findImageExtension(worldId, chapter) {
+  for (const extension of chapterAssetExtensions) {
+    const imageFile = path.join(chapterAssetsDir, worldId, `${chapter}.${extension}`);
+    if (await exists(imageFile)) return extension;
+  }
+  return null;
 }

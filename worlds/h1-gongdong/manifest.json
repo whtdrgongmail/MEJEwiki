@@ -6,6 +6,128 @@
   "status": "live",
   "heroImage": "../../assets/worlds/h1-gongdong-hero.png",
   "heroAlt": "농도 등고선과 게이트가 떠 있는 미래 도시 전경",
+  "illustrations": {
+    "01_세계관_요약시트.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/01.png",
+      "alt": "공동 - 세계관 요약시트 삽화"
+    },
+    "02_세계의_물리와_근본법칙.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/02.jpg",
+      "alt": "공동 - 세계의 물리와 근본법칙 삽화"
+    },
+    "03_우주관과_기원.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/03.jpg",
+      "alt": "공동 - 우주관과 기원 삽화"
+    },
+    "04_지형_농도등고선의도시.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/04.jpg",
+      "alt": "공동 - 지형 농도등고선의도시 삽화"
+    },
+    "05_기후와생태_농도가바꾼하늘과목숨.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/05.jpg",
+      "alt": "공동 - 기후와생태 농도가바꾼하늘과목숨 삽화"
+    },
+    "06_시대연표_게이트0년에서현재까지.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/06.jpg",
+      "alt": "공동 - 시대연표 게이트0년에서현재까지 삽화"
+    },
+    "07_정치체제와권력구조.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/07.jpg",
+      "alt": "공동 - 정치체제와권력구조 삽화"
+    },
+    "08_헌터협회_측정과등급의제국.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/08.jpg",
+      "alt": "공동 - 헌터협회 측정과등급의제국 삽화"
+    },
+    "09_대형길드와자본.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/09.jpg",
+      "alt": "공동 - 대형길드와자본 삽화"
+    },
+    "10_정부와국제질서.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/10.jpg",
+      "alt": "공동 - 정부와국제질서 삽화"
+    },
+    "11_등급사회_계급과신분.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/11.jpg",
+      "alt": "공동 - 등급사회 계급과신분 삽화"
+    },
+    "12_능력말살카르텔과지하세계.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/12.jpg",
+      "alt": "공동 - 능력말살카르텔과지하세계 삽화"
+    },
+    "13_경제와던전산업.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/13.jpg",
+      "alt": "공동 - 경제와던전산업 삽화"
+    },
+    "14_법금기등급윤리.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/14.jpg",
+      "alt": "공동 - 법금기등급윤리 삽화"
+    },
+    "15_메카닉대전_1인1특성의체계.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/15.jpg",
+      "alt": "공동 - 메카닉대전 1인1특성의체계 삽화"
+    },
+    "16_특성분류와등급체계.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/16.jpg",
+      "alt": "공동 - 특성분류와등급체계 삽화"
+    },
+    "17_농도물리와전투의법칙.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/17.jpg",
+      "alt": "공동 - 농도물리와전투의법칙 삽화"
+    },
+    "18_무특성의변칙_빌림과흘림.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/18.jpg",
+      "alt": "공동 - 무특성의변칙 빌림과흘림 삽화"
+    },
+    "19_대체각성과능력말살.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/19.jpg",
+      "alt": "공동 - 대체각성과능력말살 삽화"
+    },
+    "20_생활과일상_등급카드의사회.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/20.jpg",
+      "alt": "공동 - 생활과일상 등급카드의사회 삽화"
+    },
+    "21_문화세대단층과각성자우월주의.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/21.jpg",
+      "alt": "공동 - 문화세대단층과각성자우월주의 삽화"
+    },
+    "22_인종과생명_인간과게이트너머의것들.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/22.jpg",
+      "alt": "공동 - 인종과생명 인간과게이트너머의것들 삽화"
+    },
+    "23_미학시각가이드_색과빛의코드.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/23.jpg",
+      "alt": "공동 - 미학시각가이드 색과빛의코드 삽화"
+    },
+    "24_언어명명기호.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/24.jpg",
+      "alt": "공동 - 언어명명기호 삽화"
+    },
+    "25_주요인물1_강시우와무특성들.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/25.jpg",
+      "alt": "공동 - 주요인물1 강시우와무특성들 삽화"
+    },
+    "26_주요인물2_윤서경과협회의사람들.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/26.jpg",
+      "alt": "공동 - 주요인물2 윤서경과협회의사람들 삽화"
+    },
+    "27_주요인물3_도현나래카르텔.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/27.jpg",
+      "alt": "공동 - 주요인물3 도현나래카르텔 삽화"
+    },
+    "28_인물관계망과세력지도.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/28.jpg",
+      "alt": "공동 - 인물관계망과세력지도 삽화"
+    },
+    "29_캐논과미관찰영역_비밀의지도.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/29.jpg",
+      "alt": "공동 - 캐논과미관찰영역 비밀의지도 삽화"
+    },
+    "30_이세계가품은이야기들.md": {
+      "image": "../../assets/worlds/pages/h1-gongdong/30.jpg",
+      "alt": "공동 - 이세계가품은이야기들 삽화"
+    }
+  },
   "files": [
     {
       "path": "00_LOREBOOK_목차.md",
