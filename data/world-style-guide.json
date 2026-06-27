@@ -35,52 +35,52 @@
       "avoid": "sterile sci-fi metal, dry desert colors, cute mushroom mascots, horror gore"
     },
     "h5-sangyeoho": {
-      "styleMedium": "Korean funerary folk painting and ink-wash watercolor with soft gouache lantern light and quiet ritual composition",
-      "tone": "mournful, ceremonial, misty, reverent",
-      "palette": "lake gray, funeral white, lantern amber, deep indigo, faded crimson",
-      "texture": "wet paper, fog, lacquered wood, silk shrouds, rippling water, ash",
-      "composition": "wide horizontal processions over water, balanced negative space, slow ceremonial movement",
-      "avoid": "horror shock, saturated cartoon, bright festival mood, readable banners"
+      "styleMedium": "East Asian shamanic funerary folk painting with Korean mudang ritual energy, ink-wash watercolor, mineral pigment washes, bold obangsaek color fields, and talismanic paper textures",
+      "tone": "mournful, ecstatic, ceremonial, uncanny, reverent",
+      "palette": "obangsaek blue, red, yellow, white, and black; smoky ink gray; cold spirit white; muted gold; deep indigo water",
+      "texture": "wet hanji paper, ink bleed, mineral pigment granulation, ritual paper streamers, lacquered wood, silk shrouds, ash, fog, rippling water",
+      "composition": "wide horizontal shamanic funeral processions over water, bold ritual silhouettes, asymmetric color-blocked space, slow ceremonial movement",
+      "avoid": "threadlike decorative linework, woven-string look, horror shock, cute cartoon, bright festival cheer, readable banners, legible calligraphy"
     },
     "h6-rosy-hollow": {
-      "styleMedium": "storybook gouache and mid-century suburban illustration twisted with clean psychological-horror composition",
-      "tone": "pretty, controlled, uncanny, suffocating",
-      "palette": "rose pink, lawn green, cream siding, powder blue sky, small black shadows",
-      "texture": "trim hedges, wallpaper, porcelain, clipped grass, surveillance glass",
-      "composition": "wide symmetrical suburban scenes with too-perfect order and subtle visual wrongness",
-      "avoid": "bloody horror, gritty cyberpunk, messy sketching, medieval fantasy"
+      "styleMedium": "analog suburban psychological horror made as a photographed dollhouse diorama and faded 1970s family-album print, with gouache touch-ups, flash glare, dust, and imperfect paper grain",
+      "tone": "pretty, controlled, uncanny, suffocating, domestic",
+      "palette": "rose-pink wallpaper, faded lawn green, nicotine cream, powder blue plastic, old-photo yellow, small pools of black shadow",
+      "texture": "miniature furniture, glossy porcelain, clipped fake grass, wallpaper seams, camera flash bloom, film grain, scuffed photo paper",
+      "composition": "wide still-life diorama frames with rigid suburban symmetry, shallow staged depth, and one small impossible detail that breaks the order",
+      "avoid": "generic cinematic concept art, smooth fantasy lighting, bloody horror, gritty cyberpunk, messy sketching, medieval fantasy, rounded cute storybook look"
     },
     "h7-jeonsuseo": {
-      "styleMedium": "mythic culinary illustration with warm gouache, woodblock-print rhythm, recipe-manuscript textures, and theatrical kitchen lighting",
-      "tone": "savory, mythic, bustling, instructional, enchanted",
-      "palette": "saffron, sesame black, chili red, soy brown, steam white, brass gold",
-      "texture": "steam, spice dust, knife marks, ceramic glaze, parchment, firelight",
-      "composition": "wide banquet and kitchen processions where ingredients, tools, and rituals become landscape",
-      "avoid": "cold sci-fi, sterile product photography, childish food doodles, readable recipe text"
+      "styleMedium": "rough multi-block woodcut and old cookbook plate illustration, with hand-burnished ink, flat carved shapes, registration offsets, rice-paper stains, and limited spot color",
+      "tone": "savory, mythic, bustling, tactile, ritual-instructional",
+      "palette": "sesame black ink, chili red, turmeric yellow, soy brown, steamed rice white, oxidized brass green",
+      "texture": "woodgrain, carved ink edges, spice dust, knife marks, ceramic glaze, oil stains, rough handmade paper",
+      "composition": "wide processional kitchen friezes where ingredients, tools, flames, hands, and mythic creatures are arranged like a printed scroll",
+      "avoid": "generic polished fantasy painting, cold sci-fi, sterile product photography, childish food doodles, readable recipe text, glossy 3D food render"
     },
     "h8-nubi": {
-      "styleMedium": "tactile textile collage, quilt art, stitched felt, embroidered illustration, and gentle stop-motion-like craft texture",
+      "styleMedium": "scanned textile assemblage and Korean bojagi-inspired fabric collage, built from real cloth scraps, paper patterns, appliqué silhouettes, visible pins, raw edges, and uneven hand quilting",
       "tone": "handmade, tender, adventurous, tactile, quietly strange",
-      "palette": "thread red, cotton cream, indigo cloth, button brass, faded green, patchwork multicolor",
-      "texture": "visible stitches, seams, fabric grain, felt edges, buttons, thread shadows",
-      "composition": "wide layered fabric landscapes with sewn roads and soft diorama depth",
-      "avoid": "photoreal metal, slick cyberpunk, flat vector icons, overly cute nursery cartoon"
+      "palette": "indigo cloth, faded madder red, cotton cream, mustard patch, celadon thread, button brass, many muted fabric remnants",
+      "texture": "frayed cloth, woven grain, seams, puckered quilting, paper pattern marks, appliqué edges, thread knots, soft shadows from layered fabric",
+      "composition": "wide top-lit textile landscapes laid out like a photographed craft table, with sewn roads and patchwork terrain instead of painterly depth",
+      "avoid": "smooth digital painting, photoreal metal, slick cyberpunk, flat vector icons, overly cute nursery cartoon, perfect symmetrical quilting"
     },
     "h9-usabu": {
-      "styleMedium": "rain-soaked Korean landscape painting with bureaucratic architectural detail, transparent watercolor, and measured ink line",
+      "styleMedium": "rain-blotted Korean government field ledger and landscape wash, combining sparse ink mountains, stamped administrative marks, crop-survey diagram shapes, and translucent monsoon watercolor",
       "tone": "patient, administrative, agricultural, clouded, dignified",
-      "palette": "rain blue, rice-field green, cloud gray, dark roof tile, seal red, wet earth brown",
-      "texture": "rain streaks, paper wash, stone steps, tiled roofs, wet paddies, mist",
-      "composition": "wide mountain terraces and official halls arranged like weather systems and administrative diagrams",
-      "avoid": "desert dryness, neon cyberpunk, goofy umbrella cartoon, readable documents"
+      "palette": "rain blue, rice-field green, cloud gray, dark roof tile, wet earth brown, restrained seal red",
+      "texture": "rain streaks, buckled paper, diluted ink wash, stamped pigment, stone steps, tiled roofs, wet paddies, mist",
+      "composition": "wide mountain terraces and official halls arranged like a weather report and land registry, with bureaucratic order softened by rain",
+      "avoid": "generic fantasy landscape, desert dryness, neon cyberpunk, goofy umbrella cartoon, readable documents, glossy cinematic clouds"
     },
     "h10-daesu": {
-      "styleMedium": "epic pastoral oil painting and mythic natural-history illustration with large-scale creature anatomy and warm atmospheric depth",
+      "styleMedium": "large-format rural mural and natural-history field plate hybrid, painted with matte casein, charcoal anatomy notes without legible text, dry-brush grass, and weathered fresco texture",
       "tone": "vast, solemn, communal, ancient, hopeful",
-      "palette": "moss green, warm earth, bone ivory, dusk gold, river blue, weathered wood",
-      "texture": "fur or hide ridges, forest canopy, village timber, soil, wind, lichen",
-      "composition": "wide monumental vistas where tiny villages and paths reveal the scale of the living back beneath them",
-      "avoid": "cartoon mascot creature, hard sci-fi machinery, horror monster framing, cramped close-ups"
+      "palette": "moss green, warm earth, bone ivory, dusk gold, river blue, weathered wood, lichen gray",
+      "texture": "fresco cracks, dry brush, fur or hide ridges, forest canopy, village timber, soil, wind, lichen, hand-ground pigment",
+      "composition": "wide monumental pastoral murals where tiny villages, paths, and field-study vignettes reveal the scale of the living back beneath them",
+      "avoid": "generic epic concept art, cartoon mascot creature, hard sci-fi machinery, horror monster framing, cramped close-ups, glossy digital creature render"
     }
   }
 }

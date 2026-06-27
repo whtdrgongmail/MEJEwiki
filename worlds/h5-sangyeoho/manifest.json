@@ -6,7 +6,128 @@
   "status": "live",
   "heroImage": "../../assets/worlds/h5-sangyeoho-hero.png",
   "heroAlt": "안개 낀 호수 위 장례 배와 등불 항로",
-  "illustrations": {},
+  "illustrations": {
+    "01_세계관_요약시트.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/01.jpg",
+      "alt": "상여호 - 세계관 요약시트 삽화"
+    },
+    "02_세계의물리_명로와망자항법.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/02.jpg",
+      "alt": "상여호 - 세계의물리 명로와망자항법 삽화"
+    },
+    "03_우주관과기원_시조항법사의신화.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/03.jpg",
+      "alt": "상여호 - 우주관과기원 시조항법사의신화 삽화"
+    },
+    "04_지형_죽은자가그린성도.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/04.jpg",
+      "alt": "상여호 - 지형 죽은자가그린성도 삽화"
+    },
+    "05_항행환경_명로와묘성의결.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/05.jpg",
+      "alt": "상여호 - 항행환경 명로와묘성의결 삽화"
+    },
+    "06_시대연표_제국의역사.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/06.jpg",
+      "alt": "상여호 - 시대연표 제국의역사 삽화"
+    },
+    "07_정치체제와권력구조.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/07.jpg",
+      "alt": "상여호 - 정치체제와권력구조 삽화"
+    },
+    "08_황실과시조아카이브.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/08.jpg",
+      "alt": "상여호 - 황실과시조아카이브 삽화"
+    },
+    "09_대가문과조상아카이브.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/09.jpg",
+      "alt": "상여호 - 대가문과조상아카이브 삽화"
+    },
+    "10_안치원죽음의문지기.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/10.jpg",
+      "alt": "상여호 - 안치원죽음의문지기 삽화"
+    },
+    "11_무적자와강제안치.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/11.jpg",
+      "alt": "상여호 - 무적자와강제안치 삽화"
+    },
+    "12_신분제.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/12.jpg",
+      "alt": "상여호 - 신분제 삽화"
+    },
+    "13_기억위조와지하세계.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/13.jpg",
+      "alt": "상여호 - 기억위조와지하세계 삽화"
+    },
+    "14_법금기장례윤리.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/14.jpg",
+      "alt": "상여호 - 법금기장례윤리 삽화"
+    },
+    "15_메카닉대전_망자항법의체계.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/15.jpg",
+      "alt": "상여호 - 메카닉대전 망자항법의체계 삽화"
+    },
+    "16_항법사의분류와항로등급.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/16.jpg",
+      "alt": "상여호 - 항법사의분류와항로등급 삽화"
+    },
+    "17_명로항행과다툼의법칙.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/17.jpg",
+      "alt": "상여호 - 명로항행과다툼의법칙 삽화"
+    },
+    "18_무상자의예외.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/18.jpg",
+      "alt": "상여호 - 무상자의예외 삽화"
+    },
+    "19_두번째죽음과닳는항로.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/19.jpg",
+      "alt": "상여호 - 두번째죽음과닳는항로 삽화"
+    },
+    "20_생활과일상_죽음을섬기는사회.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/20.jpg",
+      "alt": "상여호 - 생활과일상 죽음을섬기는사회 삽화"
+    },
+    "21_문화가문애도의의례.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/21.jpg",
+      "alt": "상여호 - 문화가문애도의의례 삽화"
+    },
+    "22_인종생명_사람과망자에깃든것들.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/22.jpg",
+      "alt": "상여호 - 인종생명 사람과망자에깃든것들 삽화"
+    },
+    "23_미학시각가이드_상여와위패의빛.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/23.jpg",
+      "alt": "상여호 - 미학시각가이드 상여와위패의빛 삽화"
+    },
+    "24_언어명명기호_상여호의말.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/24.jpg",
+      "alt": "상여호 - 언어명명기호 상여호의말 삽화"
+    },
+    "25_주요인물1_무상자와예외의사람들.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/25.jpg",
+      "alt": "상여호 - 주요인물1 무상자와예외의사람들 삽화"
+    },
+    "26_주요인물2_황실대가문항법장들.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/26.jpg",
+      "alt": "상여호 - 주요인물2 황실대가문항법장들 삽화"
+    },
+    "27_주요인물3_안치원무적자지하.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/27.jpg",
+      "alt": "상여호 - 주요인물3 안치원무적자지하 삽화"
+    },
+    "28_인물관계망과세력지도.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/28.jpg",
+      "alt": "상여호 - 인물관계망과세력지도 삽화"
+    },
+    "29_캐논과미관찰영역_비밀의지도.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/29.jpg",
+      "alt": "상여호 - 캐논과미관찰영역 비밀의지도 삽화"
+    },
+    "30_이세계가품은이야기들.md": {
+      "image": "../../assets/worlds/pages/h5-sangyeoho/30.jpg",
+      "alt": "상여호 - 이세계가품은이야기들 삽화"
+    }
+  },
   "files": [
     {
       "path": "00_LOREBOOK_목차.md",

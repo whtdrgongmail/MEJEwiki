@@ -14,12 +14,12 @@ const worlds = [
   ['h2-hyanggung', '향궁', '향과 마나, 황실과 조향 길드가 권력을 이루는 세계관.', 'perfume smoke, imperial palace, aromatic magic currents, guild politics, ritual vessels'],
   ['h3-seongra-gangho', '성라강호', '천기, 별, 본명성, 강호의 은원이 교차하는 무협 세계관.', 'starry martial world, celestial fate, mountain sects, sword light, astral constellations'],
   ['h4-gyunsahae', '균사해', '균사망, 접속, 공생과 부패의 윤리를 다루는 생태형 세계관.', 'bioluminescent mycelium networks, fungal sea, symbiosis, spores, organic infrastructure'],
-  ['h5-sangyeoho', '상여호', '명로, 망자항법, 물 위의 의례와 기억을 다루는 세계관.', 'misty funeral lake, lantern routes, ritual boats, memory, the dead and navigation'],
-  ['h6-rosy-hollow', '로지할로우', '장미빛 교외의 완벽함과 감시, 균열을 다루는 세계관.', 'rose-colored suburb, perfect lawns, surveillance, eerie domestic order, soft horror'],
-  ['h7-jeonsuseo', '전수서', '조리와 향신, 전승과 신화적 레시피를 다루는 세계관.', 'mythic culinary city, spices, cooking implements, recipe scrolls, ritual kitchens'],
-  ['h8-nubi', '누비의 땅', '천과 실, 단추와 봉합의 논리로 이루어진 누비 지형 세계관.', 'quilted textile landscape, thread roads, buttons, seams, fabric mountains, handmade terrain'],
-  ['h9-usabu', '우사부', '비와 하늘, 산악 관청과 농경 질서를 다루는 세계관.', 'rain offices in mountain terraces, weather bureaucracy, clouds, paddies, ritual umbrellas'],
-  ['h10-daesu', '대수의 등', '거대한 생명체의 등 위에서 살아가는 마을과 약속의 세계관.', 'villages on the back of a colossal living creature, forests, vows, scale, migration']
+  ['h5-sangyeoho', '상여호', '명로, 망자항법, 물 위의 의례와 기억을 다루는 세계관.', 'shamanic funeral rites, obangsaek spirit colors, ritual boats, talisman paper, ancestral tablets, the dead and navigation'],
+  ['h6-rosy-hollow', '로지할로우', '장미빛 교외의 완벽함과 감시, 균열을 다루는 세계관.', 'faded family photo, photographed dollhouse suburb, rose wallpaper, surveillance, flash glare, domestic unease'],
+  ['h7-jeonsuseo', '전수서', '조리와 향신, 전승과 신화적 레시피를 다루는 세계관.', 'rough woodcut cookbook plate, mythic kitchen frieze, spices, knives, steam, ritual cooking implements'],
+  ['h8-nubi', '누비의 땅', '천과 실, 단추와 봉합의 논리로 이루어진 누비 지형 세계관.', 'scanned fabric collage, bojagi patches, appliqué roads, buttons, raw seams, paper patterns, handmade terrain'],
+  ['h9-usabu', '우사부', '비와 하늘, 산악 관청과 농경 질서를 다루는 세계관.', 'rain-blotted land registry, mountain offices, monsoon fields, stamped survey marks, paddies, ritual umbrellas'],
+  ['h10-daesu', '대수의 등', '거대한 생명체의 등 위에서 살아가는 마을과 약속의 세계관.', 'rural mural field plate, colossal living back, tiny villages, dry-brush anatomy, forests, vows, migration']
 ];
 
 const collator = new Intl.Collator('ko', { numeric: true, sensitivity: 'base' });
