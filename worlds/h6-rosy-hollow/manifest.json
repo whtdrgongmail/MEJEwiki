@@ -6,7 +6,128 @@
   "status": "live",
   "heroImage": "../../assets/worlds/h6-rosy-hollow-hero.png",
   "heroAlt": "완벽하게 정돈된 장미빛 교외 마을과 감시 탑",
-  "illustrations": {},
+  "illustrations": {
+    "01_세계관_요약시트.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/01.jpg",
+      "alt": "로지할로우 - 세계관 요약시트 삽화"
+    },
+    "02_세계의물리_정정과보정.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/02.jpg",
+      "alt": "로지할로우 - 세계의물리 정정과보정 삽화"
+    },
+    "03_기원과설계사상_완벽은어디서왔는가.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/03.jpg",
+      "alt": "로지할로우 - 기원과설계사상 완벽은어디서왔는가 삽화"
+    },
+    "04_지형_분홍빛구역의지리.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/04.jpg",
+      "alt": "로지할로우 - 지형 분홍빛구역의지리 삽화"
+    },
+    "05_환경과유지_완벽을떠받치는것들.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/05.jpg",
+      "alt": "로지할로우 - 환경과유지 완벽을떠받치는것들 삽화"
+    },
+    "06_마을연표_첫정정부터지금까지.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/06.jpg",
+      "alt": "로지할로우 - 마을연표 첫정정부터지금까지 삽화"
+    },
+    "07_정치체제와권력구조.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/07.jpg",
+      "alt": "로지할로우 - 정치체제와권력구조 삽화"
+    },
+    "08_미관위원회_완벽을정하는권력.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/08.jpg",
+      "alt": "로지할로우 - 미관위원회 완벽을정하는권력 삽화"
+    },
+    "09_정정반_흠을지우는손.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/09.jpg",
+      "alt": "로지할로우 - 정정반 흠을지우는손 삽화"
+    },
+    "10_보정과지각통제_눈을다스리는법.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/10.jpg",
+      "alt": "로지할로우 - 보정과지각통제 눈을다스리는법 삽화"
+    },
+    "11_모범주민과완벽의연기.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/11.jpg",
+      "alt": "로지할로우 - 모범주민과완벽의연기 삽화"
+    },
+    "12_신분제_완벽도가가른계급.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/12.jpg",
+      "alt": "로지할로우 - 신분제 완벽도가가른계급 삽화"
+    },
+    "13_정정남용과은폐의그늘.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/13.jpg",
+      "alt": "로지할로우 - 정정남용과은폐의그늘 삽화"
+    },
+    "14_법금기완벽윤리.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/14.jpg",
+      "alt": "로지할로우 - 법금기완벽윤리 삽화"
+    },
+    "15_메카닉대전_정정과보정의체계.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/15.jpg",
+      "alt": "로지할로우 - 메카닉대전 정정과보정의체계 삽화"
+    },
+    "16_흠의분류와정정등급.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/16.jpg",
+      "alt": "로지할로우 - 흠의분류와정정등급 삽화"
+    },
+    "17_정정과추적의법칙.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/17.jpg",
+      "alt": "로지할로우 - 정정과추적의법칙 삽화"
+    },
+    "18_원안자의예외_걸러지지않는눈.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/18.jpg",
+      "alt": "로지할로우 - 원안자의예외 걸러지지않는눈 삽화"
+    },
+    "19_할로우와쌓이는것들.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/19.jpg",
+      "alt": "로지할로우 - 할로우와쌓이는것들 삽화"
+    },
+    "20_생활과일상_완벽을연기하는하루.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/20.jpg",
+      "alt": "로지할로우 - 생활과일상 완벽을연기하는하루 삽화"
+    },
+    "21_문화가정완벽의의례.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/21.jpg",
+      "alt": "로지할로우 - 문화가정완벽의의례 삽화"
+    },
+    "22_사람과흠_인간유형과보정의생물학.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/22.jpg",
+      "alt": "로지할로우 - 사람과흠 인간유형과보정의생물학 삽화"
+    },
+    "23_미학시각가이드_분홍과그아래의부패.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/23.jpg",
+      "alt": "로지할로우 - 미학시각가이드 분홍과그아래의부패 삽화"
+    },
+    "24_언어명명기호_로지할로우의말.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/24.jpg",
+      "alt": "로지할로우 - 언어명명기호 로지할로우의말 삽화"
+    },
+    "25_주요인물1_원안자와보정밖의사람들.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/25.jpg",
+      "alt": "로지할로우 - 주요인물1 원안자와보정밖의사람들 삽화"
+    },
+    "26_주요인물2_미관위원장과위원회의사람들.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/26.jpg",
+      "alt": "로지할로우 - 주요인물2 미관위원장과위원회의사람들 삽화"
+    },
+    "27_주요인물3_정정반모함할로우의사람들.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/27.jpg",
+      "alt": "로지할로우 - 주요인물3 정정반모함할로우의사람들 삽화"
+    },
+    "28_인물관계망과세력지도.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/28.jpg",
+      "alt": "로지할로우 - 인물관계망과세력지도 삽화"
+    },
+    "29_캐논과미관찰영역_비밀의지도.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/29.jpg",
+      "alt": "로지할로우 - 캐논과미관찰영역 비밀의지도 삽화"
+    },
+    "30_이세계가품은이야기들.md": {
+      "image": "../../assets/worlds/pages/h6-rosy-hollow/30.jpg",
+      "alt": "로지할로우 - 이세계가품은이야기들 삽화"
+    }
+  },
   "files": [
     {
       "path": "00_LOREBOOK_목차.md",
