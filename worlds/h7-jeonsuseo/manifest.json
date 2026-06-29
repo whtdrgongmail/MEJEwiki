@@ -6,7 +6,48 @@
   "status": "live",
   "heroImage": "../../assets/worlds/h7-jeonsuseo-hero.png",
   "heroAlt": "향신료와 조리 기구가 가득한 신화적 요리 도시",
-  "illustrations": {},
+  "illustrations": {
+    "01_세계관_요약시트.md": {
+      "image": "../../assets/worlds/pages/h7-jeonsuseo/01.jpg",
+      "alt": "전수서 - 세계관 요약시트 삽화"
+    },
+    "02_세계의물리_손맛과가신.md": {
+      "image": "../../assets/worlds/pages/h7-jeonsuseo/02.jpg",
+      "alt": "전수서 - 세계의물리 손맛과가신 삽화"
+    },
+    "03_기원과신화_가신은어디서왔는가.md": {
+      "image": "../../assets/worlds/pages/h7-jeonsuseo/03.jpg",
+      "alt": "전수서 - 기원과신화 가신은어디서왔는가 삽화"
+    },
+    "04_지형_골짜기의종가들.md": {
+      "image": "../../assets/worlds/pages/h7-jeonsuseo/04.jpg",
+      "alt": "전수서 - 지형 골짜기의종가들 삽화"
+    },
+    "05_절기와부엌_먹이는때.md": {
+      "image": "../../assets/worlds/pages/h7-jeonsuseo/05.jpg",
+      "alt": "전수서 - 절기와부엌 먹이는때 삽화"
+    },
+    "06_시대연표_종가의역사.md": {
+      "image": "../../assets/worlds/pages/h7-jeonsuseo/06.jpg",
+      "alt": "전수서 - 시대연표 종가의역사 삽화"
+    },
+    "07_정치체제와권력구조.md": {
+      "image": "../../assets/worlds/pages/h7-jeonsuseo/07.jpg",
+      "alt": "전수서 - 정치체제와권력구조 삽화"
+    },
+    "08_종부와부엌_사제의권력.md": {
+      "image": "../../assets/worlds/pages/h7-jeonsuseo/08.jpg",
+      "alt": "전수서 - 종부와부엌 사제의권력 삽화"
+    },
+    "09_종가와가문_손맛이가른흥망.md": {
+      "image": "../../assets/worlds/pages/h7-jeonsuseo/09.jpg",
+      "alt": "전수서 - 종가와가문 손맛이가른흥망 삽화"
+    },
+    "10_지하도가_금기재료를대는손.md": {
+      "image": "../../assets/worlds/pages/h7-jeonsuseo/10.jpg",
+      "alt": "전수서 - 지하도가 금기재료를대는손 삽화"
+    }
+  },
   "files": [
     {
       "path": "00_LOREBOOK_목차.md",
