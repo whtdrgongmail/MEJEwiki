@@ -1,21 +1,3 @@
-# FEWKbooks — 제5판
-
-현재 독서기는 **제5판 Core·World 및 지원 문서 8종**을 제공합니다. 2026-10-10 원고 마감 묶음이며, 조판·실제 참가자 플레이테스트 완료판은 아닙니다.
-
-- 기본 독서기: `index.html`
-- 구판 독서기와 기존 주소: `third-edition.html` 및 기존 `#corerulebook/...`, `#worldbook/...` 경로
-- 현재 원고·검증 자료: `content/fifth/`
-- 파일별 원본 SHA-256: `content/fifth/manifest.json`
-- 갱신: `python scripts/sync_fifth.py --source "<제5판 원고 폴더>"`
-
-원고 원본과 구판 파일은 덮어쓰지 않습니다. 삽화 원본·진행 중인 이미지 교체·PDF 도록은 이번 텍스트 동기화에 포함하지 않습니다. 검증 자료의 오래된 완료·대기 기록은 해당 시점의 이력으로 읽습니다.
-
-로컬 확인: `python -m http.server 8080` 후 `http://localhost:8080/`.
-
-아래는 기존 저장소 소개·라이선스 기록입니다.
-
----
-
 # FEWKbooks
 
 **FEWK; Far East White Kingdom** — Universe Setting Project since 2021.10.31 by Universe Designer **WhtDrgon** (Kim Dongeun).
@@ -82,3 +64,17 @@ python3 -m http.server 8080
 ---
 
 © 2021–2026 Kim Dongeun (WhtDrgon). "FEWK" trademark © MEJE Works Corp. Worldbuilding process technology © MEJE Works Corp. Official management: FEWK Governance (FEWK@meje.kr).
+
+## 제5판 추가 (2026-10-13)
+
+기존 에디션의 기본 독서기(`index.html`), 원문과 주소는 유지하며 **제5판을 별도 독서기로 추가**합니다. 기존 메뉴의 ‘FEWK 제5판 보기’로 이동하고, 제5판 메뉴에서 기존 3판 독서기로 돌아갈 수 있습니다.
+
+- 기존 에디션: `index.html`, `#corerulebook/...`, `#worldbook/...`
+- 제5판: `fifth-edition.html` — Core·World와 지원 문서 8종
+- 제5판 원고·검증 자료: `content/fifth/`
+- 파일별 원본 SHA-256: `content/fifth/manifest.json`
+- 제5판 갱신: `python scripts/sync_fifth.py --source "<제5판 원고 폴더>"`
+
+제5판은 2026-10-10 원고 마감 묶음이며 조판·실제 참가자 플레이테스트는 후속 작업입니다. 삽화 바이너리·작업 중 이미지·PDF 도록은 이번 텍스트 추가에 포함하지 않습니다.
+
+로컬 확인: `python -m http.server 8080` 후 기존 에디션은 `http://localhost:8080/`, 제5판은 `http://localhost:8080/fifth-edition.html`.

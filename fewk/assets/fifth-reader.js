@@ -1,4 +1,4 @@
-/* FEWK fifth-edition reader. Existing third-edition routes remain in third-edition.html. */
+/* FEWK fifth-edition reader. Existing third-edition routes remain in index.html. */
 let manifest;
 let files = new Set();
 let currentPage = '';
@@ -85,7 +85,7 @@ function addContents(container) {
 async function loadPage() {
   const [page, anchor] = routeParts();
   if (page.startsWith('corerulebook/') || page.startsWith('worldbook/')) {
-    location.replace('third-edition.html#'+page+(anchor ? '#'+anchor : '')); return;
+    location.replace('index.html#'+page+(anchor ? '#'+anchor : '')); return;
   }
   if (currentPage === page) { scrollAnchor(anchor); return; }
   const sequence = ++loadSequence;
@@ -141,7 +141,7 @@ async function init() {
   if (!response.ok) throw new Error('Manifest unavailable');
   manifest = await response.json();
   files = new Set([...manifest.files.map(item => item.path), ...Object.values(topPages)]);
-  document.getElementById('navMenu').innerHTML = '<div class="nav-part">제5판 · 두 권과 지원 자료</div>'+manifest.documents.map(doc => '<a class="nav-link sub" data-page="'+escapeHTML(doc.page)+'" href="#'+escapeHTML(doc.page)+'">'+escapeHTML(doc.title)+'</a>').join('')+'<a class="nav-link" href="third-edition.html">3판·3.1판 참고 독서기 ↗</a>';
+  document.getElementById('navMenu').innerHTML = '<div class="nav-part">제5판 · 두 권과 지원 자료</div>'+manifest.documents.map(doc => '<a class="nav-link sub" data-page="'+escapeHTML(doc.page)+'" href="#'+escapeHTML(doc.page)+'">'+escapeHTML(doc.title)+'</a>').join('')+'<a class="nav-link" href="index.html">기존 3판 독서기 ↗</a>';
   searches.push(...manifest.documents.map(doc => ({title:doc.title+' · '+doc.description, page:doc.page})));
   document.getElementById('searchInput').addEventListener('input', event => runSearch(event.target.value));
   document.getElementById('searchResults').addEventListener('click', () => document.getElementById('searchResults').classList.remove('open'));

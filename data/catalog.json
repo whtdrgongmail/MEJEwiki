@@ -10,8 +10,18 @@
       "id": "fewk",
       "type": "fewk",
       "title": "FEWK: Far East White Kingdom",
-      "description": "동방의 하얀 나라 제5판 Core·World와 캐릭터북·튜터리얼·시트 온라인 독서기.",
+      "description": "동방의 하얀 나라 3판 룰북과 월드북 온라인 독서기.",
       "href": "./fewk/",
+      "status": "live",
+      "version": "3rd",
+      "license": "FWOL v2.1"
+    },
+    {
+      "id": "fewk-5th",
+      "type": "fewk",
+      "title": "FEWK: Far East White Kingdom — 제5판",
+      "description": "동방의 하얀 나라 제5판 Core·World와 캐릭터북·튜터리얼·시트 온라인 독서기.",
+      "href": "./fewk/fifth-edition.html",
       "status": "live",
       "version": "5th",
       "license": "FWOL v2.1"

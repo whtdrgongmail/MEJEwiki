@@ -29,6 +29,6 @@ MEJEwiki/
 - `worlds/` is a public placeholder until the release set and license for each lorebook are confirmed.
 - Links are intentionally relative so the site works cleanly under the GitHub Pages project path.
 
-## FEWK 제5판 반영 (2026-10-13)
+## FEWK 제5판 추가 (2026-10-13)
 
-`fewk/`에서 제5판 원고 8종을 읽습니다. 원고·검증 자료와 원본 해시 목록은 `fewk/content/fifth/`에 있으며 구판은 `fewk/third-edition.html`에 보존했습니다. 다른 세계관 자료는 기존 내용을 유지합니다. 삽화 교체와 PDF 도록은 별도 진행 중입니다.
+기존 `fewk/` 독서기와 3판 카탈로그 항목을 유지하고, `fewk/fifth-edition.html`과 별도의 제5판 카탈로그 항목을 추가했습니다. 제5판 원문 8종과 관련 자료는 `fewk/content/fifth/`에 있습니다. 기존 에디션의 원문·주소·열람 방식은 그대로 사용합니다.
