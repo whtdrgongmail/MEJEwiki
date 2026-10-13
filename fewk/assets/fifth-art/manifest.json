@@ -1,17 +1,18 @@
 {
   "schema": 1,
   "summary": {
-    "images": 696,
+    "images": 698,
     "groups": {
       "기본 삽화": 100,
       "세계와 생활": 200,
-      "인물 프로필": 396
+      "인물 프로필": 396,
+      "규칙과 예시": 2
     },
-    "full_bytes": 103040318,
-    "thumb_bytes": 12102750,
-    "source_bytes": 1627210054,
+    "full_bytes": 103429906,
+    "thumb_bytes": 12159250,
+    "source_bytes": 1632058728,
     "transparent": 60,
-    "images_with_reader_placements": 548,
+    "images_with_reader_placements": 550,
     "encoding": {
       "format": "WebP",
       "full_max_edge": 1600,
@@ -23419,6 +23420,89 @@
       "source_sha256": "91e13d6ea1d5a6963a5617c8c278323deb51af7faaab65375a7efbe8ecd318f8",
       "source_bytes": 2069032,
       "placements": []
+    },
+    {
+      "id": "rules-tr01",
+      "source_id": "TR01",
+      "group": "규칙과 예시",
+      "category": "타롯 규칙",
+      "title": "홀드 — 한 공방의 숨 고르기",
+      "description": "자기 앞면을 보는 비공개 손패 네 장과 탁자 위의 공개 홀드 한 장",
+      "character": "",
+      "character_id": "",
+      "outfit": "",
+      "form": "",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "transparent": false,
+      "src": "assets/fifth-art/rules-tr01-9ad9d2a9cf.webp",
+      "thumb": "assets/fifth-art/thumbs/rules-tr01-9ad9d2a9cf.webp",
+      "thumb_width": 480,
+      "thumb_height": 320,
+      "bytes": 214586,
+      "thumb_bytes": 30498,
+      "sha256": "b6e52ce777350c1eb7e9e85ab1c1dd722b8805fa2df22a83c65f42b52cf21ee1",
+      "thumb_sha256": "51816c60f160e7c5d3aa22623ab161633b2c6fa377be89933b4090a968f6973a",
+      "source": "규칙삽화/원화/TR01_v1.png",
+      "source_sha256": "9ad9d2a9cfa8322c209eb9530f8f4c95de616b2e0568733ec00e6c63c63501a3",
+      "source_bytes": 2460462,
+      "placements": [
+        {
+          "page": "fifth/books/02_타롯_해킹과_지능전_초안",
+          "anchor": "fewk-tarot-hold",
+          "role": "feature"
+        },
+        {
+          "page": "fifth/books/10_CoreRulebook",
+          "anchor": "fewk-tarot-quick",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "id": "rules-tr02",
+      "source_id": "TR02",
+      "group": "규칙과 예시",
+      "category": "타롯 규칙",
+      "title": "도트 — 한 점을 써서 트리플",
+      "description": "레벨 2에서 도트 한 점을 지불해 999 트리플을 낸다",
+      "character": "",
+      "character_id": "",
+      "outfit": "",
+      "form": "",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "transparent": false,
+      "src": "assets/fifth-art/rules-tr02-8bd262862c.webp",
+      "thumb": "assets/fifth-art/thumbs/rules-tr02-8bd262862c.webp",
+      "thumb_width": 480,
+      "thumb_height": 320,
+      "bytes": 175002,
+      "thumb_bytes": 26002,
+      "sha256": "83b7faf576bb0da5d47553dfc27204fa835cb4005a509dcc2d6b0bc6e583f398",
+      "thumb_sha256": "1218dcdb427f61bc2a58aba033f372df0843b4a7ed8e50acda50724a05fc1464",
+      "source": "규칙삽화/원화/TR02_v1.png",
+      "source_sha256": "8bd262862c0f3986e2f2d99b336bdd51d4d773d5a44db19aee2d3c39a22f024d",
+      "source_bytes": 2388212,
+      "placements": [
+        {
+          "page": "fifth/books/02_타롯_해킹과_지능전_초안",
+          "anchor": "fewk-tarot-dots",
+          "role": "feature"
+        },
+        {
+          "page": "fifth/books/15_표준튜터리얼_시나리오",
+          "anchor": "fewk-tutorial-tarot",
+          "role": "feature"
+        },
+        {
+          "page": "fifth/books/12_룰시트와캐릭터시트",
+          "anchor": "fewk-sheet-09",
+          "role": "gallery"
+        }
+      ]
     }
   ]
 }

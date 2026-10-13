@@ -1,0 +1,100 @@
+{
+  "id": "TAR-P-03",
+  "version": "0.4",
+  "date": "2026-10-13",
+  "status": "playable_test_baseline",
+  "pool": 5,
+  "starting_dots": 5,
+  "max_level": 5,
+  "level_thresholds": [
+    30,
+    50,
+    70,
+    90
+  ],
+  "boost": {
+    "cost_per_level": 1,
+    "min_remaining_dots": 1,
+    "applies": "current_exchange_only",
+    "payment": "simultaneous_reveal",
+    "refund": false
+  },
+  "ranks": [
+    {
+      "name": "high_card",
+      "category": 0,
+      "cards": 1
+    },
+    {
+      "name": "pair",
+      "category": 1,
+      "cards": 2
+    },
+    {
+      "name": "two_pair",
+      "category": 2,
+      "cards": 4
+    },
+    {
+      "name": "triple",
+      "category": 3,
+      "cards": 3
+    },
+    {
+      "name": "straight",
+      "category": 4,
+      "cards": 5
+    },
+    {
+      "name": "flush",
+      "category": 5,
+      "cards": 5
+    },
+    {
+      "name": "full_house",
+      "category": 6,
+      "cards": 5
+    },
+    {
+      "name": "quads",
+      "category": 7,
+      "cards": 4
+    },
+    {
+      "name": "straight_flush",
+      "category": 8,
+      "cards": 5
+    }
+  ],
+  "damage": {
+    "same_or_gap1": 1,
+    "gap2_3": 2,
+    "gap4_plus": 3,
+    "tie": 0
+  },
+  "held": {
+    "face": "public_face_up_on_table",
+    "counts_in_pool": true,
+    "ordinary_discard": false,
+    "consumed_by": "actual_played_combination_including_single_even_if_losing"
+  },
+  "private_cards": "faces_toward_owner_backs_toward_opponent",
+  "optional": {
+    "six_pool": true,
+    "ten_reserve": "no_refill_or_situation_swap; exhaustion_withdraws_after_dot_resolution",
+    "hold_attack": "declared_before_reveal; win_replaces_damage; target_chooses_after_refill",
+    "starting_dot_support": 1
+  },
+  "combat_seconds_per_exchange": 5,
+  "main_actions_per_representative": 1,
+  "deck56_order": "2 3 4 5 6 7 8 9 10 P N Q K A",
+  "deck52_order": "2 3 4 5 6 7 8 9 10 P Q K A",
+  "ace_low_straight": true,
+  "wraparound": false,
+  "major_arcana": false,
+  "jokers": false,
+  "notes": [
+    "Damage, conversion thresholds and optional timings are proposed tuning, not measured human balance.",
+    "Previous TAR-P-02 results are historical and do not validate this profile."
+  ]
+}

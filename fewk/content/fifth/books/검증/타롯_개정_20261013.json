@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-13",
+  "profile": "TAR-P-03 v0.4",
+  "changes": [
+    "five-card persistent pool, level limits actual combination cards",
+    "public face-up Hold, one-card consumption even on a loss",
+    "five duel dots; paid temporary level boost; 1/2/3 loss damage",
+    "core/easy/sheets/intro/runners/tutorial references",
+    "two new illustrations, corrected owner-facing private cards, generation CSV"
+  ],
+  "tests": {
+    "deterministic_passed": 47,
+    "limited_policy_duels": 2400,
+    "human_playtest": "pending"
+  },
+  "findings": [
+    "4-5 level difference is not established by these policies; highest-hand play with all unused cards discarded seldom assembles a five-card hand. Test strategic retention and human growth experience.",
+    "Do not reuse TAR-P-02 validation as evidence for TAR-P-03."
+  ],
+  "files": [
+    {
+      "path": "00_제5판_설계기준.md",
+      "sha256": "74ef61a19ec541aaabb81e1f57465fcd10ff7e434928aee9341c22aeca8cfbfd",
+      "bytes": 367771
+    },
+    {
+      "path": "01_텀블벅_이지룰_초안.md",
+      "sha256": "f1807419c1c8446167b205dabf396fbd8a907d7d4a7f9b9a1d94db92a1f92937",
+      "bytes": 23754
+    },
+    {
+      "path": "02_타롯_해킹과_지능전_초안.md",
+      "sha256": "6e34d491e299b8e552905b1a660d0e1426f652bf6dd0e774418e89b05e525f6b",
+      "bytes": 28015
+    },
+    {
+      "path": "10_CoreRulebook.md",
+      "sha256": "843d9d6e709d5eff2ecaa869f077ce9dc36c2f14169be908c853dd40da0f73a3",
+      "bytes": 402444
+    },
+    {
+      "path": "12_룰시트와캐릭터시트.md",
+      "sha256": "e53cb7ea4435f0093caeecc05264e6c78d4edfa3f0080a0bb4326d47fbd1337b",
+      "bytes": 129104
+    },
+    {
+      "path": "13_입문시나리오.md",
+      "sha256": "ba254c5caedb50f68496184698d45b22a63cc3b5eb4a1d64c29d825384b9da8f",
+      "bytes": 56779
+    },
+    {
+      "path": "14_레디메이드_러너.md",
+      "sha256": "ee75bcbd22d05ea4b6f24887e822b00706d0449d3c9c1b991de86a6d4e19d254",
+      "bytes": 87810
+    },
+    {
+      "path": "15_표준튜터리얼_시나리오.md",
+      "sha256": "8819581d8e0e27c5a179b17613b6ed37ce436865b831c437a89fe76607ba83af",
+      "bytes": 90801
+    },
+    {
+      "path": "../00_최신본_기준.md",
+      "sha256": "28375a87dc2f2287205b97d74d7996c066dff0d98395dd7ed089861dcc0c056c",
+      "bytes": 78497
+    },
+    {
+      "path": "../01_작업계획.md",
+      "sha256": "0b0655aed5470a5b5e3b89588b021e03d7a30372be78b93278a47a5e61686cd8",
+      "bytes": 140802
+    },
+    {
+      "path": "검증/타롯_도트_프로필.json",
+      "sha256": "d5b7e72e079d3223df9b758e6b859e51d78f4f4a7170620ea4290050e0710e26",
+      "bytes": 2280
+    },
+    {
+      "path": "검증/타롯_도트_검증.py",
+      "sha256": "f98e4882b9d8f4f110a314529df9a380f9c1d3a55b789caebc66eacc17d8a8a8",
+      "bytes": 12073
+    },
+    {
+      "path": "검증/타롯_도트_검증결과.json",
+      "sha256": "9fce2e08bae1ca11cbd18cd0277e65bfe3d2e8e8de1cdee4f7020a6a1c24cc6f",
+      "bytes": 8077
+    },
+    {
+      "path": "아트워크/규칙삽화/제작현황.json",
+      "sha256": "dbf6da2a220c0812988e0721146d2cb24597528abac1c424993af7f22cd151c5",
+      "bytes": 2758
+    },
+    {
+      "path": "아트워크/규칙삽화/이미지생성정보.csv",
+      "sha256": "ac1d31df91694e29a9cd82c1f56131ba7ada5f59148d13c50f53f3ae6029fc1c",
+      "bytes": 9766
+    }
+  ],
+  "world_sha256": "bcb4aac69b17aa6dcb92717e6687145040be964d32df8b17460567d32df86988",
+  "previous_snapshot": "타롯_개정_20261013_반영전.json"
+}

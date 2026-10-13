@@ -1,6 +1,7 @@
 {
   "edition": 5,
   "manuscript_closeout": "2026-10-10",
+  "rules_revision": "2026-10-13 TAR-P-03",
   "publication_status": "manuscript; typesetting and participant playtesting pending",
   "documents": [
     {
@@ -15,75 +16,75 @@
       "file": "content/fifth/books/10_CoreRulebook.md",
       "title": "Core Rulebook",
       "description": "공통 백분율 규칙",
-      "version": "0.49"
+      "version": "0.50"
     },
     {
       "page": "fifth/books/01_텀블벅_이지룰_초안",
       "file": "content/fifth/books/01_텀블벅_이지룰_초안.md",
       "title": "이지룰",
       "description": "처음 시작하는 판정과 플레이",
-      "version": "P0.31"
+      "version": "P0.32"
     },
     {
       "page": "fifth/books/12_룰시트와캐릭터시트",
       "file": "content/fifth/books/12_룰시트와캐릭터시트.md",
       "title": "룰시트·캐릭터시트",
       "description": "인물·몸·차원·장면 기록",
-      "version": "0.44"
+      "version": "0.45"
     },
     {
       "page": "fifth/books/14_레디메이드_러너",
       "file": "content/fifth/books/14_레디메이드_러너.md",
       "title": "캐릭터북 · 러너 12인",
       "description": "고른 인물로 바로 시작하기",
-      "version": "1.1"
+      "version": "1.2"
     },
     {
       "page": "fifth/books/15_표준튜터리얼_시나리오",
       "file": "content/fifth/books/15_표준튜터리얼_시나리오.md",
       "title": "튜터리얼 · 6편",
       "description": "첫 플레이와 진행 연습",
-      "version": "1.1"
+      "version": "1.2"
     },
     {
       "page": "fifth/books/13_입문시나리오",
       "file": "content/fifth/books/13_입문시나리오.md",
       "title": "입문 시나리오",
       "description": "함께 맡는 첫 의뢰",
-      "version": "0.5"
+      "version": "0.6"
     },
     {
       "page": "fifth/books/02_타롯_해킹과_지능전_초안",
       "file": "content/fifth/books/02_타롯_해킹과_지능전_초안.md",
       "title": "타롯 · 해킹과 지능전",
       "description": "선택해서 쓰는 대결 모듈",
-      "version": "0.3"
+      "version": "0.4"
     }
   ],
   "files": [
     {
       "path": "content/fifth/books/00_제5판_설계기준.md",
       "source": "00_제5판_설계기준.md",
-      "bytes": 366488,
-      "sha256": "b3c9ad1efa1648bbfa6c11e7be16fc4a554993b42f901cd1d4b1ab6b9b6fd9e9"
+      "bytes": 367771,
+      "sha256": "74ef61a19ec541aaabb81e1f57465fcd10ff7e434928aee9341c22aeca8cfbfd"
     },
     {
       "path": "content/fifth/books/01_텀블벅_이지룰_초안.md",
       "source": "01_텀블벅_이지룰_초안.md",
-      "bytes": 23089,
-      "sha256": "ec37432195d6cd7c43b3d708ec9db0f8e7bfffed29d4fac2d9502ce399863857"
+      "bytes": 23754,
+      "sha256": "f1807419c1c8446167b205dabf396fbd8a907d7d4a7f9b9a1d94db92a1f92937"
     },
     {
       "path": "content/fifth/books/02_타롯_해킹과_지능전_초안.md",
       "source": "02_타롯_해킹과_지능전_초안.md",
-      "bytes": 19124,
-      "sha256": "151cd623d0aee5c98f0ea756cda16167830e297673bddc2289d0be8658e90d68"
+      "bytes": 28015,
+      "sha256": "6e34d491e299b8e552905b1a660d0e1426f652bf6dd0e774418e89b05e525f6b"
     },
     {
       "path": "content/fifth/books/10_CoreRulebook.md",
       "source": "10_CoreRulebook.md",
-      "bytes": 399954,
-      "sha256": "86a18d53401fb3ee4b46b3739602ca7fc28881f7f1c3f5cd4f56ef82a7af3f00"
+      "bytes": 402444,
+      "sha256": "843d9d6e709d5eff2ecaa869f077ce9dc36c2f14169be908c853dd40da0f73a3"
     },
     {
       "path": "content/fifth/books/11_WorldLorebook.md",
@@ -94,26 +95,26 @@
     {
       "path": "content/fifth/books/12_룰시트와캐릭터시트.md",
       "source": "12_룰시트와캐릭터시트.md",
-      "bytes": 127581,
-      "sha256": "95bea7804b617a51d761a7c92a237955b9eb03c2d2299e6fcae47f6db1c527df"
+      "bytes": 129104,
+      "sha256": "e53cb7ea4435f0093caeecc05264e6c78d4edfa3f0080a0bb4326d47fbd1337b"
     },
     {
       "path": "content/fifth/books/13_입문시나리오.md",
       "source": "13_입문시나리오.md",
-      "bytes": 56296,
-      "sha256": "783b757c777062d0db60553bc9d724bd4ac3f58b96b1a9905a3bcfed968b1dca"
+      "bytes": 56779,
+      "sha256": "ba254c5caedb50f68496184698d45b22a63cc3b5eb4a1d64c29d825384b9da8f"
     },
     {
       "path": "content/fifth/books/14_레디메이드_러너.md",
       "source": "14_레디메이드_러너.md",
-      "bytes": 86791,
-      "sha256": "2ce361f0966d45e843c69731723f1384eda48aa0a4995d0c49150226aefc0743"
+      "bytes": 87810,
+      "sha256": "ee75bcbd22d05ea4b6f24887e822b00706d0449d3c9c1b991de86a6d4e19d254"
     },
     {
       "path": "content/fifth/books/15_표준튜터리얼_시나리오.md",
       "source": "15_표준튜터리얼_시나리오.md",
-      "bytes": 87680,
-      "sha256": "9b472a32a20f44f6e689d59bb25bfe02aeb365b55e225bf79c1b5cdae81db514"
+      "bytes": 90801,
+      "sha256": "8819581d8e0e27c5a179b17613b6ed37ce436865b831c437a89fe76607ba83af"
     },
     {
       "path": "content/fifth/books/16_아트워크_제작목록.md",
@@ -806,6 +807,18 @@
       "sha256": "5afd0f8ad74e214b0a1ad575aec107217fb871d0f496496a007729fdee815e15"
     },
     {
+      "path": "content/fifth/books/검증/타롯_개정_20261013.json",
+      "source": "검증/타롯_개정_20261013.json",
+      "bytes": 3615,
+      "sha256": "67f370eb1776fc992f9844921541849e938530a5f8b5a3ac682dfd2c5e8783c8"
+    },
+    {
+      "path": "content/fifth/books/검증/타롯_개정_20261013_반영전.json",
+      "source": "검증/타롯_개정_20261013_반영전.json",
+      "bytes": 1395869,
+      "sha256": "6c962e2ea7131f772c4d70c081c45cac61ee24e9b2fca568ca82adcb5d6cab89"
+    },
+    {
       "path": "content/fifth/books/검증/타롯_검증.py",
       "source": "검증/타롯_검증.py",
       "bytes": 9604,
@@ -816,6 +829,24 @@
       "source": "검증/타롯_검증결과.json",
       "bytes": 11663,
       "sha256": "84a9594c99d2ec51128b68200ac4ab2af61f3765978ed57d635691f7904af80f"
+    },
+    {
+      "path": "content/fifth/books/검증/타롯_도트_검증.py",
+      "source": "검증/타롯_도트_검증.py",
+      "bytes": 12073,
+      "sha256": "f98e4882b9d8f4f110a314529df9a380f9c1d3a55b789caebc66eacc17d8a8a8"
+    },
+    {
+      "path": "content/fifth/books/검증/타롯_도트_검증결과.json",
+      "source": "검증/타롯_도트_검증결과.json",
+      "bytes": 8077,
+      "sha256": "9fce2e08bae1ca11cbd18cd0277e65bfe3d2e8e8de1cdee4f7020a6a1c24cc6f"
+    },
+    {
+      "path": "content/fifth/books/검증/타롯_도트_프로필.json",
+      "source": "검증/타롯_도트_프로필.json",
+      "bytes": 2280,
+      "sha256": "d5b7e72e079d3223df9b758e6b859e51d78f4f4a7170620ea4290050e0710e26"
     },
     {
       "path": "content/fifth/books/검증/타롯_전략검증.py",
@@ -886,14 +917,14 @@
     {
       "path": "content/fifth/00_최신본_기준.md",
       "source": "../00_최신본_기준.md",
-      "bytes": 77446,
-      "sha256": "8f7bde837614e3a2298a0b26fec93faf87f81a64a64bcc4396aa0de31cf65c62"
+      "bytes": 78497,
+      "sha256": "28375a87dc2f2287205b97d74d7996c066dff0d98395dd7ed089861dcc0c056c"
     },
     {
       "path": "content/fifth/01_작업계획.md",
       "source": "../01_작업계획.md",
-      "bytes": 140160,
-      "sha256": "453ffc0d2d7c466202ca2f79f65203b9ec3cfe0f0ad4393b46fc82c3abc4ac11"
+      "bytes": 140802,
+      "sha256": "0b0655aed5470a5b5e3b89588b021e03d7a30372be78b93278a47a5e61686cd8"
     }
   ],
   "excluded": [

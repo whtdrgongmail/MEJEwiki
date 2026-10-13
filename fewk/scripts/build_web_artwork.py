@@ -23,7 +23,7 @@ TAROT='fifth/books/02_타롯_해킹과_지능전_초안'
 SHEETS='fifth/books/12_룰시트와캐릭터시트'
 EASY='fifth/books/01_텀블벅_이지룰_초안'
 INTRO='fifth/books/13_입문시나리오'
-GROUPS=[('base','', '기본 삽화'),('expanded','확장200','세계와 생활'),('profiles','인물프로필','인물 프로필')]
+GROUPS=[('base','', '기본 삽화'),('expanded','확장200','세계와 생활'),('profiles','인물프로필','인물 프로필'),('rules','규칙삽화','규칙과 예시')]
 
 def read(path):return json.loads(path.read_text(encoding='utf-8-sig'))
 def sha(data):return hashlib.sha256(data).hexdigest()
@@ -36,6 +36,8 @@ def placements(a,group):
         if value not in result:result.append(value)
     def world(ch,role='gallery'):add(WORLD,f'fewk-world-{int(ch):02}',role)
     ident=a['id']
+    if group=='rules':
+        return a['placements']
     if group!='base':
         for ch in a.get('source_chapters',[])[:2]:
             if str(ch).isdigit():world(ch)

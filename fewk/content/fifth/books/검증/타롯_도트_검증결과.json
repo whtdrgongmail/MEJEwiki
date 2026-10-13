@@ -1,0 +1,410 @@
+{
+  "profile": "TAR-P-03",
+  "version": "0.4",
+  "date": "2026-10-13",
+  "passed": 47,
+  "checks": [
+    "KK9 is not a made hand",
+    "three-card flush is invalid",
+    "two-pair below triple",
+    "four-card quads are valid",
+    "quads cannot carry a kicker",
+    "one-card high card",
+    "suits do not break ties",
+    "52: ace low",
+    "52: ace high straight",
+    "52: no wraparound",
+    "56: ace low",
+    "56: ace high straight",
+    "56: no wraparound",
+    "single play requires no extra dot at level 5",
+    "level2 triple costs1",
+    "level2 full house costs3",
+    "cannot spend last dot",
+    "cannot exceed 5 cards",
+    "held card cannot ordinary-discard",
+    "hold occupies remaining pool slot",
+    "single held card clears even on losing play",
+    "all five cycle but only pair costs count",
+    "full ordinary discard allowed",
+    "empty play loses as high-card category",
+    "both empty tie",
+    "damage success1 good2 excellent3",
+    "boost paid before additional loss",
+    "boost not refunded on tie",
+    "refill includes hold and supports6",
+    "shared cards conserved",
+    "hold after refill remains total5",
+    "cannot hold same card twice",
+    "discard-only reshuffle conserves56",
+    "10 reserve never refills below5",
+    "10 reserve cannot situation-swap",
+    "held cannot situation-swap",
+    "empty reserve withdraws",
+    "both empty reserves draw",
+    "dot end precedes reserve exhaustion",
+    "example round1 dots",
+    "example round1 continuity",
+    "example round2 dots",
+    "example round2 continuity",
+    "example round3 dots",
+    "example round3 continuity",
+    "example round4 dots",
+    "example round4 continuity"
+  ],
+  "worked_example": [
+    {
+      "round": 1,
+      "dots": [
+        4,
+        3
+      ],
+      "pools": [
+        [
+          "QS",
+          "QH",
+          "QC",
+          "8D",
+          "6H"
+        ],
+        [
+          "6S",
+          "PS",
+          "PH",
+          "7S",
+          "7H"
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "dots": [
+        3,
+        3
+      ],
+      "pools": [
+        [
+          "QS",
+          "QH",
+          "QC",
+          "6D",
+          "6C"
+        ],
+        [
+          "7S",
+          "7H",
+          "7C",
+          "5S",
+          "5H"
+        ]
+      ]
+    },
+    {
+      "round": 3,
+      "dots": [
+        2,
+        1
+      ],
+      "pools": [
+        [
+          "6D",
+          "6C",
+          "AS",
+          "10H",
+          "4C"
+        ],
+        [
+          "5S",
+          "5H",
+          "KD",
+          "8C",
+          "2H"
+        ]
+      ]
+    },
+    {
+      "round": 4,
+      "dots": [
+        2,
+        0
+      ],
+      "pools": [
+        [
+          "AS",
+          "10H",
+          "4C"
+        ],
+        [
+          "KD",
+          "8C",
+          "2H"
+        ]
+      ]
+    }
+  ],
+  "simulations": [
+    {
+      "deck": 52,
+      "levels": [
+        1,
+        1
+      ],
+      "policy": "no_boost_strongest",
+      "seed": 261013,
+      "duels": 200,
+      "wins": [
+        96,
+        104
+      ],
+      "censored_at80": 0,
+      "mean_rounds": 9.07,
+      "median_rounds": 9.0,
+      "mean_dot_spend": [
+        0,
+        0
+      ]
+    },
+    {
+      "deck": 52,
+      "levels": [
+        1,
+        1
+      ],
+      "policy": "strongest_affordable",
+      "seed": 261014,
+      "duels": 200,
+      "wins": [
+        89,
+        111
+      ],
+      "censored_at80": 0,
+      "mean_rounds": 4.51,
+      "median_rounds": 4.0,
+      "mean_dot_spend": [
+        2.155,
+        2.11
+      ]
+    },
+    {
+      "deck": 52,
+      "levels": [
+        4,
+        4
+      ],
+      "policy": "no_boost_strongest",
+      "seed": 261015,
+      "duels": 200,
+      "wins": [
+        89,
+        111
+      ],
+      "censored_at80": 0,
+      "mean_rounds": 7.21,
+      "median_rounds": 7.0,
+      "mean_dot_spend": [
+        0,
+        0
+      ]
+    },
+    {
+      "deck": 52,
+      "levels": [
+        4,
+        4
+      ],
+      "policy": "strongest_affordable",
+      "seed": 261016,
+      "duels": 200,
+      "wins": [
+        103,
+        97
+      ],
+      "censored_at80": 0,
+      "mean_rounds": 7.225,
+      "median_rounds": 7.0,
+      "mean_dot_spend": [
+        0.02,
+        0.05
+      ]
+    },
+    {
+      "deck": 52,
+      "levels": [
+        4,
+        5
+      ],
+      "policy": "no_boost_strongest",
+      "seed": 261017,
+      "duels": 200,
+      "wins": [
+        92,
+        108
+      ],
+      "censored_at80": 0,
+      "mean_rounds": 7.24,
+      "median_rounds": 7.0,
+      "mean_dot_spend": [
+        0,
+        0
+      ]
+    },
+    {
+      "deck": 52,
+      "levels": [
+        4,
+        5
+      ],
+      "policy": "strongest_affordable",
+      "seed": 261018,
+      "duels": 200,
+      "wins": [
+        101,
+        99
+      ],
+      "censored_at80": 0,
+      "mean_rounds": 7.155,
+      "median_rounds": 7.0,
+      "mean_dot_spend": [
+        0.02,
+        0
+      ]
+    },
+    {
+      "deck": 56,
+      "levels": [
+        1,
+        1
+      ],
+      "policy": "no_boost_strongest",
+      "seed": 261019,
+      "duels": 200,
+      "wins": [
+        113,
+        87
+      ],
+      "censored_at80": 0,
+      "mean_rounds": 8.875,
+      "median_rounds": 9.0,
+      "mean_dot_spend": [
+        0,
+        0
+      ]
+    },
+    {
+      "deck": 56,
+      "levels": [
+        1,
+        1
+      ],
+      "policy": "strongest_affordable",
+      "seed": 261020,
+      "duels": 200,
+      "wins": [
+        95,
+        105
+      ],
+      "censored_at80": 0,
+      "mean_rounds": 4.705,
+      "median_rounds": 5.0,
+      "mean_dot_spend": [
+        2.07,
+        2.015
+      ]
+    },
+    {
+      "deck": 56,
+      "levels": [
+        4,
+        4
+      ],
+      "policy": "no_boost_strongest",
+      "seed": 261021,
+      "duels": 200,
+      "wins": [
+        102,
+        98
+      ],
+      "censored_at80": 0,
+      "mean_rounds": 7.45,
+      "median_rounds": 8.0,
+      "mean_dot_spend": [
+        0,
+        0
+      ]
+    },
+    {
+      "deck": 56,
+      "levels": [
+        4,
+        4
+      ],
+      "policy": "strongest_affordable",
+      "seed": 261022,
+      "duels": 200,
+      "wins": [
+        110,
+        90
+      ],
+      "censored_at80": 0,
+      "mean_rounds": 7.135,
+      "median_rounds": 7.0,
+      "mean_dot_spend": [
+        0.06,
+        0.035
+      ]
+    },
+    {
+      "deck": 56,
+      "levels": [
+        4,
+        5
+      ],
+      "policy": "no_boost_strongest",
+      "seed": 261023,
+      "duels": 200,
+      "wins": [
+        86,
+        114
+      ],
+      "censored_at80": 0,
+      "mean_rounds": 7.07,
+      "median_rounds": 7.0,
+      "mean_dot_spend": [
+        0,
+        0
+      ]
+    },
+    {
+      "deck": 56,
+      "levels": [
+        4,
+        5
+      ],
+      "policy": "strongest_affordable",
+      "seed": 261024,
+      "duels": 200,
+      "wins": [
+        98,
+        102
+      ],
+      "censored_at80": 0,
+      "mean_rounds": 7.31,
+      "median_rounds": 7.0,
+      "mean_dot_spend": [
+        0.05,
+        0
+      ]
+    }
+  ],
+  "limits": [
+    "Policies use only own cards, choose highest rank and discard all unused cards. They do not optimize future hands or remaining dots.",
+    "Simulation covers ordinary five-card duels only; optional states have deterministic checks, not balance simulations.",
+    "These small fixed-policy samples are not balanced win-rate claims. 4 vs 5 human growth experience remains untested.",
+    "80-round cap only censors simulations; it is not a duel rule."
+  ],
+  "human_playtest": {
+    "selection_seconds": null,
+    "other_participant_wait_seconds": null,
+    "level4_to5_experience": null
+  }
+}
