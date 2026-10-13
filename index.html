@@ -163,6 +163,8 @@ a { color: inherit; }
 .edition-grid .item h3 { font-size: 1.4rem; }
 .edition-grid .edition-primary { border-color: var(--red); }
 .edition-action { color: var(--red); font-weight: 600; }
+.art-preview { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.art-preview img { display: block; width: 100%; height: auto; aspect-ratio: 3/2; object-fit: contain; background: var(--paper); border-radius: 5px; }
 .item {
   display: grid;
   gap: 12px;
@@ -260,6 +262,7 @@ a { color: inherit; }
     </div>
     <nav class="nav" aria-label="Primary">
       <a class="edition-primary" href="./fewk/fifth-edition.html">FEWK 제5판</a>
+      <a href="./fewk/artwork.html">FEWK 이미지 모음</a>
       <a href="./fewk/">FEWK 제3판</a>
       <a href="./worlds/">세계관 로어북</a>
       <a href="./licenses/">라이선스</a>
@@ -289,6 +292,20 @@ a { color: inherit; }
           <span class="edition-action">3판 읽기 →</span>
         </a>
       </div>
+    </section>
+
+    <section aria-labelledby="fewk-artwork">
+      <h2 class="section-title" id="fewk-artwork">그림으로 만나는 동백국</h2>
+      <a class="item" href="./fewk/artwork.html">
+        <div class="art-preview" aria-hidden="true">
+          <img src="./fewk/assets/fifth-art/thumbs/expanded-x001-c62b90dafc.webp" width="480" height="320" loading="lazy" alt="">
+          <img src="./fewk/assets/fifth-art/thumbs/expanded-x083-49221e91d4.webp" width="480" height="320" loading="lazy" alt="">
+          <img src="./fewk/assets/fifth-art/thumbs/expanded-x084-43da782e8e.webp" width="480" height="320" loading="lazy" alt="">
+        </div>
+        <h3>도시·인물·장비 이미지 모음</h3>
+        <p>기본 삽화 100장, 세계와 생활 200장, 인물 프로필 396장. 도시의 풍경부터 평상복과 전투복까지 이름과 주제로 찾아보세요.</p>
+        <span class="edition-action">696장 둘러보기 →</span>
+      </a>
     </section>
 
     <h2 class="section-title">세계관 로어북</h2>

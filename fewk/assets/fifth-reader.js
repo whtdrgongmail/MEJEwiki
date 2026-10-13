@@ -106,6 +106,13 @@ async function loadPage() {
     }
     rewriteLinks(container, page);
     addContents(container);
+    if (window.FEWKArt) {
+      try {
+        await window.FEWKArt.load();
+        if (sequence !== loadSequence) return;
+        window.FEWKArt.render(container, page);
+      } catch (error) { console.warn('Artwork could not be loaded', error); }
+    }
     const doc = manifest.documents.find(item => item.page === page);
     document.getElementById('breadcrumb').textContent = 'FEWK 제5판 / '+(doc ? doc.title : page === 'home' ? '읽기 안내' : page.split('/').pop().replaceAll('_',' '));
     document.querySelectorAll('.nav-link[data-page]').forEach(link => link.classList.toggle('active', link.dataset.page === page));

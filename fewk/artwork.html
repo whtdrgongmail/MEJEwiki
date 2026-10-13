@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FEWK 이미지 모음 · MEJEwiki</title>
+  <meta name="description" content="FEWK 5판의 도시, 세계와 생활, 인물, 러너와 장비 삽화를 둘러보세요.">
+  <link rel="stylesheet" href="assets/fifth-art.css?v=20261013-art1">
+</head>
+<body class="art-gallery">
+  <header class="art-gallery-header">
+    <a href="../index.html"><strong>MEJEwiki</strong></a>
+    <nav aria-label="주요 메뉴"><a href="fifth-edition.html">5판 읽기</a><a href="index.html">3판 읽기</a></nav>
+  </header>
+  <main class="art-gallery-main">
+    <p class="art-eyebrow">FEWK · FAR EAST WHITE KINGDOM</p>
+    <h1>그림으로 만나는 동백국</h1>
+    <p class="art-gallery-intro" id="artSummary">세계와 생활, 도시의 풍경, 그리고 그곳에 사는 사람들.</p>
+    <div class="art-filters" role="search" aria-label="이미지 검색">
+      <label>이름·도시·장비 검색<input type="search" id="artSearch" placeholder="새우거리, 구미성, 러너…" autocomplete="off"></label>
+      <label>모음<select id="artGroup"><option value="">모든 이미지</option></select></label>
+      <label>주제<select id="artCategory"><option value="">모든 주제</option></select></label>
+      <button type="button" id="artReset">초기화</button>
+    </div>
+    <p id="artCount" class="art-gallery-status" role="status" aria-live="polite">이미지 목록을 불러오는 중입니다.</p>
+    <div id="artGrid" class="art-grid art-collection"></div>
+    <p id="artEmpty" hidden>조건에 맞는 이미지가 없습니다. 검색어나 주제를 바꿔 보세요.</p>
+    <button type="button" id="artLoadMore" hidden>더 보기</button>
+    <noscript>이미지 검색과 미리보기를 사용하려면 JavaScript를 켜 주세요.</noscript>
+  </main>
+  <footer class="art-gallery-footer">FEWK · WhtDrgon / Kim Dongeun · MEJE Works<br><a href="fifth-edition.html#license">라이선스 안내</a></footer>
+  <script src="assets/fifth-art.js?v=20261013-art1"></script>
+</body>
+</html>
