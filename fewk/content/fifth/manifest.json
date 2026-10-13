@@ -65,43 +65,43 @@
       "path": "content/fifth/books/00_제5판_설계기준.md",
       "source": "00_제5판_설계기준.md",
       "bytes": 366488,
-      "sha256": "fa930146dc4ac4130c3a8385f6b4d80d3e6391f1213608c69a059740d83820af"
+      "sha256": "b3c9ad1efa1648bbfa6c11e7be16fc4a554993b42f901cd1d4b1ab6b9b6fd9e9"
     },
     {
       "path": "content/fifth/books/01_텀블벅_이지룰_초안.md",
       "source": "01_텀블벅_이지룰_초안.md",
       "bytes": 23089,
-      "sha256": "72f0f7a9c2fe6cc408884caaeae21ec563b179a256e84d4c58aaa84ccd7ad5cb"
+      "sha256": "ec37432195d6cd7c43b3d708ec9db0f8e7bfffed29d4fac2d9502ce399863857"
     },
     {
       "path": "content/fifth/books/02_타롯_해킹과_지능전_초안.md",
       "source": "02_타롯_해킹과_지능전_초안.md",
       "bytes": 19124,
-      "sha256": "1613f14e485eb4f075cfb1805266afe05cf8db16fa5f11f165b8850ca9ad41e4"
+      "sha256": "151cd623d0aee5c98f0ea756cda16167830e297673bddc2289d0be8658e90d68"
     },
     {
       "path": "content/fifth/books/10_CoreRulebook.md",
       "source": "10_CoreRulebook.md",
       "bytes": 399954,
-      "sha256": "b6c1992a9280533408003e51c5063802eaffb098b0febc60869f026e86327baa"
+      "sha256": "86a18d53401fb3ee4b46b3739602ca7fc28881f7f1c3f5cd4f56ef82a7af3f00"
     },
     {
       "path": "content/fifth/books/11_WorldLorebook.md",
       "source": "11_WorldLorebook.md",
       "bytes": 548226,
-      "sha256": "21bf34286d3f03bc7482be0bd9d1edf79af259b01361dca412b83a594c5a87bc"
+      "sha256": "bcb4aac69b17aa6dcb92717e6687145040be964d32df8b17460567d32df86988"
     },
     {
       "path": "content/fifth/books/12_룰시트와캐릭터시트.md",
       "source": "12_룰시트와캐릭터시트.md",
       "bytes": 127581,
-      "sha256": "d48276e573608547697331fa6f5c38eb21a076292a402ed2d2b97dc64eb9767c"
+      "sha256": "95bea7804b617a51d761a7c92a237955b9eb03c2d2299e6fcae47f6db1c527df"
     },
     {
       "path": "content/fifth/books/13_입문시나리오.md",
       "source": "13_입문시나리오.md",
       "bytes": 56296,
-      "sha256": "e4c269c4af7494360330974ac52baaf6c6aeff24f42f35f8892b11b6fda8d0da"
+      "sha256": "783b757c777062d0db60553bc9d724bd4ac3f58b96b1a9905a3bcfed968b1dca"
     },
     {
       "path": "content/fifth/books/14_레디메이드_러너.md",
@@ -113,7 +113,7 @@
       "path": "content/fifth/books/15_표준튜터리얼_시나리오.md",
       "source": "15_표준튜터리얼_시나리오.md",
       "bytes": 87680,
-      "sha256": "1968e5bc81c586484816c0472cc282d791508c30f8157eff7ff4834094e46460"
+      "sha256": "9b472a32a20f44f6e689d59bb25bfe02aeb365b55e225bf79c1b5cdae81db514"
     },
     {
       "path": "content/fifth/books/16_아트워크_제작목록.md",
@@ -305,7 +305,7 @@
       "path": "content/fifth/books/검증/로어북_편집근거_20261010.md",
       "source": "검증/로어북_편집근거_20261010.md",
       "bytes": 162807,
-      "sha256": "2185364e4700bd19b7e042de88bd90211309318151c756f471d2bae673468d15"
+      "sha256": "68da6c6cda5f56548b99b0d09f5ab9e4ffdb003c94795c709e8b3bcc00b03b10"
     },
     {
       "path": "content/fifth/books/검증/몸노출_계산검증.py",
@@ -887,13 +887,13 @@
       "path": "content/fifth/00_최신본_기준.md",
       "source": "../00_최신본_기준.md",
       "bytes": 77446,
-      "sha256": "d2f858ba9a3290a05d8e7e968fb2c412f281496eb1b03adaeabbf92c777263aa"
+      "sha256": "8f7bde837614e3a2298a0b26fec93faf87f81a64a64bcc4396aa0de31cf65c62"
     },
     {
       "path": "content/fifth/01_작업계획.md",
       "source": "../01_작업계획.md",
       "bytes": 140160,
-      "sha256": "42fae528744046707510bc0e26f5585114596648097060bebeb42696b6da55c3"
+      "sha256": "453ffc0d2d7c466202ca2f79f65203b9ec3cfe0f0ad4393b46fc82c3abc4ac11"
     }
   ],
   "excluded": [

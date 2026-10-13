@@ -94,7 +94,7 @@ async function loadPage() {
   try {
     const file = pageFile(page);
     if (!files.has(file)) throw new Error('Unknown document');
-    const response = await fetch(file);
+    const response = await fetch(file, {cache: 'no-cache'});
     if (!response.ok) throw new Error('HTTP '+response.status);
     const md = await response.text();
     if (sequence !== loadSequence) return;
@@ -127,7 +127,7 @@ function runSearch(query) {
   results.classList.add('open');
 }
 async function indexHeadings(doc) {
-  const response = await fetch(doc.file);
+  const response = await fetch(doc.file, {cache: 'no-cache'});
   if (!response.ok) return;
   const host = document.createElement('div');
   host.innerHTML = marked.parse(await response.text());
@@ -137,7 +137,7 @@ async function indexHeadings(doc) {
 }
 async function init() {
   applyTheme(localStorage.getItem('fewk-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
-  const response = await fetch('content/fifth/manifest.json');
+  const response = await fetch('content/fifth/manifest.json', {cache: 'no-cache'});
   if (!response.ok) throw new Error('Manifest unavailable');
   manifest = await response.json();
   files = new Set([...manifest.files.map(item => item.path), ...Object.values(topPages)]);
