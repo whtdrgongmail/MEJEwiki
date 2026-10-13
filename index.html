@@ -94,6 +94,11 @@ a { color: inherit; }
   background: var(--red-soft);
   color: var(--red);
 }
+.nav .edition-primary {
+  color: var(--red);
+  background: var(--red-soft);
+  font-weight: 700;
+}
 .main {
   padding: 38px min(6vw, 72px) 56px;
 }
@@ -152,6 +157,12 @@ a { color: inherit; }
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 14px;
 }
+.edition-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.edition-grid .item h3 { font-size: 1.4rem; }
+.edition-grid .edition-primary { border-color: var(--red); }
+.edition-action { color: var(--red); font-weight: 600; }
 .item {
   display: grid;
   gap: 12px;
@@ -232,6 +243,7 @@ a { color: inherit; }
     border-bottom: 1px solid var(--line);
   }
   .toolbar { grid-template-columns: 1fr; }
+  .edition-grid { grid-template-columns: 1fr; }
   .main { padding: 28px 20px 42px; }
 }
 </style>
@@ -247,10 +259,10 @@ a { color: inherit; }
       </div>
     </div>
     <nav class="nav" aria-label="Primary">
-      <a href="./fewk/">FEWK</a>
-      <a href="./worlds/">Worlds</a>
-      <a href="./licenses/">Licenses</a>
-      <a href="./data/catalog.json">Catalog JSON</a>
+      <a class="edition-primary" href="./fewk/fifth-edition.html">FEWK 제5판</a>
+      <a href="./fewk/">FEWK 제3판</a>
+      <a href="./worlds/">세계관 로어북</a>
+      <a href="./licenses/">라이선스</a>
     </nav>
   </aside>
 
@@ -258,19 +270,37 @@ a { color: inherit; }
     <section class="intro">
       <p class="eyebrow">Official Archive</p>
       <h2>MEJEwiki</h2>
-      <p>FEWK: Far East White Kingdom과 하얀용 세계관 로어북을 한 곳에서 읽기 위한 GitHub Pages 정적 위키입니다. 지금 단계에서는 공개용 허브, FEWK 독서기, 세계관 로어북 목차를 안정적으로 정리합니다.</p>
+      <p>FEWK 제5판과 제3판, 하얀용의 세계관 로어북을 한 곳에서 읽는 공식 아카이브입니다.</p>
     </section>
 
+    <section aria-labelledby="fewk-editions">
+      <h2 class="section-title" id="fewk-editions">FEWK · 동방의 하얀 나라</h2>
+      <div class="grid edition-grid">
+        <a class="item edition-primary" href="./fewk/fifth-edition.html">
+          <div class="stripe fewk"></div>
+          <h3>FEWK 제5판</h3>
+          <p>Core Rulebook · World Lorebook과 이지룰, 캐릭터북, 튜터리얼 등 문서 8종.</p>
+          <span class="edition-action">5판 읽기 →</span>
+        </a>
+        <a class="item" href="./fewk/">
+          <div class="stripe fewk"></div>
+          <h3>FEWK 제3판</h3>
+          <p>기존 코어 룰북과 월드북을 원래 내용과 구성으로 읽습니다.</p>
+          <span class="edition-action">3판 읽기 →</span>
+        </a>
+      </div>
+    </section>
+
+    <h2 class="section-title">세계관 로어북</h2>
     <div class="toolbar">
-      <input class="search" id="search" type="search" placeholder="컬렉션 검색" aria-label="컬렉션 검색">
-      <div class="counter" id="counter">Loading catalog...</div>
+      <input class="search" id="search" type="search" placeholder="세계관 검색" aria-label="세계관 검색">
+      <div class="counter" id="counter" aria-live="polite">목록을 불러오는 중…</div>
     </div>
 
-    <h2 class="section-title">Collections</h2>
     <div class="grid" id="collections"></div>
 
     <div class="note">
-      FEWK는 기존 독서기를 보존한 상태로 연결했고, 하얀용 세계관 로어북 10종은 `worlds/` 아래의 공통 독서기로 읽을 수 있습니다. 각 세계관의 세부 라이선스 표기는 추후 정리합니다.
+      FEWK는 판본별로 읽을 수 있으며, 세계관 로어북 10종도 함께 제공합니다. 각 세계관의 세부 라이선스 표기는 추후 정리합니다.
     </div>
 
     <footer class="footer">
@@ -306,14 +336,13 @@ function render(items) {
         </div>
         <p>${item.description}</p>
         <div class="meta">
-          <span>${item.id}</span>
           <span>${item.version}</span>
           <span>${item.license}</span>
         </div>
       </a>
     `;
   }).join('');
-  counterEl.textContent = `${items.length} collection${items.length === 1 ? '' : 's'}`;
+  counterEl.textContent = `${items.length}개 세계관`;
 }
 
 function filterCatalog() {
@@ -325,14 +354,18 @@ function filterCatalog() {
   render(items);
 }
 
-fetch('./data/catalog.json')
-  .then((response) => response.json())
+fetch('./data/catalog.json', { cache: 'no-cache' })
+  .then((response) => {
+    if (!response.ok) throw new Error('Catalog unavailable');
+    return response.json();
+  })
   .then((data) => {
-    catalog = data.collections;
+    catalog = data.collections.filter((item) => item.type === 'world');
     render(catalog);
   })
   .catch(() => {
-    counterEl.textContent = 'Catalog unavailable';
+    counterEl.textContent = '세계관 목록을 불러오지 못했습니다.';
+    collectionsEl.innerHTML = '<a class="item" href="./worlds/">세계관 로어북 목록으로 이동 →</a>';
   });
 
 searchEl.addEventListener('input', filterCatalog);
