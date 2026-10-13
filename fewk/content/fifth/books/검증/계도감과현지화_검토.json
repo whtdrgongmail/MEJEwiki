@@ -1,0 +1,182 @@
+{
+  "id": "FEWK-REALM-CATALOG-01",
+  "date": "2026-10-05",
+  "source_ids": [
+    "SRC-295",
+    "SRC-297",
+    "SRC-298",
+    "SRC-299",
+    "SRC-300",
+    "SRC-301",
+    "SRC-302",
+    "SRC-303"
+  ],
+  "scope": "계이해/4분류/경로·공단/사직/플랫/새우/주요인공계안내8개전체·원전9주제/위키8항목전체·S07기존136~141행 및기존소설001검토재참조. 마지막안내문실제본문/작업파일해시검증 후합산. 전체도감/모든현지물리·관련소설전체·실제참가자 완료아님",
+  "sources": [
+    {
+      "path": "_FEWK 설정자료용/업로드 자료/원본_Core 100여개 원고원본.txt",
+      "sha256": "6a1c18b7188cc1fc0f13dc38e9ac158bd081ab821276ecd265747bd7d21d53af",
+      "scope": "이번 원본0001/0003/0032/0041/0042/0064/0071/0072/0080 각 주제 전체. 0064/0080도 전문재대조 완료. 대형원전 전권/중복재수록을 독립완료로 합산안함",
+      "whole_document_reviewed": false
+    },
+    {
+      "path": "_FEWK 설정자료용/업로드 자료/__wiki onepage.txt",
+      "sha256": "dad0d6e63a5304bfead70966d69fca8e12e2b1ffd296eb525b466617b935bba8",
+      "scope": "이번 위키 인덱스33/206/286/492/521/606/696/779 각 항목 전체. 최초정의/확장서술 구분",
+      "whole_document_reviewed": false
+    },
+    {
+      "path": "../_history/2026-10-03_정리/보관/_FEWK 룰북 계획/[수정계획들]/260424_과제_현안_v0.2.md",
+      "sha256": "4a6c82742c9e8cf663c52e56c0c57c5c1c0bd6e14f32b0a1de540d9326f37c45",
+      "scope": "S07 기존 결정136~141행의 이동10~50오얏·코핀출근하루1~2오얏·보수/이동비 맥락. 전체재검수로 합산안함",
+      "whole_document_reviewed": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/01_계의_이해/01_4분류.md",
+      "sha256": "0b41902cdab224374e930e711eb5c73327144d421e0d7c12a9b0aa68c94c651b",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/01_계의_이해/03_이동_비용과_경로.md",
+      "sha256": "6352b366d7abf47c73d35728f57c93275adb568be67110015ad484d1b9cbad27",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/01_계의_이해/README.md",
+      "sha256": "eb9ff5dba3b8c85beaded3d2ffd4ae27ce50b36c2f8042190fbc21cdb210007b",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/02_주요_인공계/01_공단계.md",
+      "sha256": "f91c956850e65e0c5db6437a5d67a185c4c935b792e35185a28d9fc1527cc6bd",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/02_주요_인공계/02_광제사직계.md",
+      "sha256": "39069a203189fbd75a2b7192ff678dcffa386161e931f280d5b5a20ec0b00864",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/02_주요_인공계/03_플랫마운틴.md",
+      "sha256": "4494363c7007c1beb0ef0d322dd8f756d0596d83e5ea20ebbd0c57a576158056",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/02_주요_인공계/04_새우거리.md",
+      "sha256": "f55ac0f42e78bc6b7024dae4b60d174b113683b7b2104500d9a998693f28b9c4",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/02_주요_인공계/README.md",
+      "sha256": "68520c096b6e0f513d32ce76cf56b0226292d5a39c4b919f199b44ef5418da60",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    }
+  ],
+  "original_raw_topics_whole_read_this_pass": [
+    "0001",
+    "0003",
+    "0032",
+    "0041",
+    "0042",
+    "0064",
+    "0071",
+    "0072",
+    "0080"
+  ],
+  "original_wiki_topic_indices_whole_read_this_pass": [
+    33,
+    206,
+    286,
+    492,
+    521,
+    606,
+    696,
+    779
+  ],
+  "previous_full_topic_reviews_referenced": [],
+  "previous_S07_decision_lines_referenced": [
+    136,
+    141
+  ],
+  "conflicts": [
+    [
+      "4분류 본문 전체·원본0041/0071/0072·위키물질/자연/인공/축적 대조. 물질도자연계/축적초기인공아공간이라는 겹침 유지. 물질=모든시민유일본체·오크계중복별세계·일괄희박심리불안/신성IO 불승계. 질량6만자와현재주체21자 구분;1/10000은모든세계고정밀도 아님."
+    ],
+    [
+      "이동비용/경로 본문 전체·0032/0041/0042와S07기존이동/출근비·위키히어로폰 대조. 실제노선/몸/서비스/반입반출/귀환조건 유지.",
+      "표준게이트10~50/공용100/원거리300/미탐험1000/모든출입혼백21자/파이오니아보험/유연공용코핀·수덕팀보수 일괄가격불승계. 히어로폰은DDOGG동심파란가루/부스팅물질이며200+긴급이송서비스가 아님. 현재날짜역은다른도시연결중단·보따리상이용, 상류독점철도/광전혼합요금 정정."
+    ],
+    [
+      "계이해README 전체 읽고4분류/바이트/요금에 연결. 목차1g=21자는물질1g=1자/60kg6만자와주체21자의 혼동으로 정정. 현재IO계보·실제몸/개체·노선별비용에 대응,독립속성일괄숫자처리안함."
+    ],
+    [
+      "공단계 본문 전체·위키33와기존0064검토 대조. 신성주축생산공업·각기업게이트사막의도시/공단인접·신디케이트·출퇴근/생업소재 유지.",
+      "수평101/대사력53개설/세기운영·1G22도무재해/1만분1/자본사원전부개인코핀혼백출근/신성전500식대/모든소비폐쇄·분리의지체상주/이중인격자동·한울7년9시간3단계위험인터뷰는원전공통운영규약으로안이관."
+    ],
+    [
+      "광제사직계 본문 전체·원본0003/0042와54장 대조. 원전운영잘된다는소문/금화수단·금화쓴궁안상류층vs의지만이전도성사람의남은몸 구분.",
+      "수평43/광제력41·사대문전체금화보급·광전60~90만자논리만·비상어디로든혼백티켓/금값프리미엄·현재완전격리/귀환없음/드랍률100·96년/4대후손안인터뷰·기록자가설을원전확정현재운영으로 안이관."
+    ],
+    [
+      "플랫마운틴 본문 전체·위키696와기존원본0080/17장 대조. 브로운영유원지인공/오크애칭·아이와DDOGG로컬질서·현지경제/도시/브로너·장비논리반입제약 유지.",
+      "유일안전등급A·무흑공1G온대/유일DDOGG신개체자생서비스·모든주민인공연출/상시빅데이터동의/무준비출입·자생용설계외/공식최저위험과고정10~30요금 원전공통조건으로안이관. 자연계원형오크vs별인공오크로증식안함."
+    ],
+    [
+      "새우거리 본문 전체·원본0001과위키286·기존14장/관련소설001검토 대조. 물질건물/현지좁은시장·준비된300고정몸과별도방문자·임대/상속·실제케이티두몸/가게/재생/생활 유지.",
+      "무조건문통과즉시몸전체귀환·전역익명/이름안묻는법·모든러너필수거점/오퍼니지지배·고정1G흑공값/요금과케이티동네아이낮재생/노신사제로라는원전일화 정정. 원본재생사트랜스아니나시청피할수없는조건과그일상의생업 보존."
+    ],
+    [
+      "주요인공계README 전체 및실제작업파일해시/획득문자778 대조. 공단/사직/플랫/새우를경제·역사·생활/모험의선택으로 유지.",
+      "목차의수평101개설/광전한개무료한사람혼백/현재완전격리·DDOGG유일서식/아동유일안전계 요약은 앞선7개본문과같은원전근거경계를72장에적용. 안내문수십계를세계전체인공계총수로확정안함."
+    ]
+  ],
+  "versions": {
+    "core": "v0.25",
+    "world": "v0.29",
+    "sheet": "v0.25",
+    "design": "v0.47"
+  },
+  "world_chapters": 72,
+  "sheet_sections": 30,
+  "new_mechanical_parameter_values": [],
+  "new_universal_stats": [],
+  "realm_names_are_exclusive_origin_species": false,
+  "all_artificial_realms_share_Sinsung_IO": false,
+  "Sinsung_IO_is_pioneer_localization_family": true,
+  "all_citizens_have_material_base_body": false,
+  "same_local_combat_engine": true,
+  "Heropone_is_emergency_transport_service": false,
+  "Heropone_is_DDOGG_childhood_powder": true,
+  "all_gates_and_coffins_have_fixed_universal_prices": false,
+  "all_realms_use_one_ten_thousandth_density": false,
+  "Orc_and_Flat_Mountain_are_two_independent_realms": false,
+  "Shrimp_300_fixed_bodies_are_daily_visitors": false,
+  "old_guide_1gram_equals_21JA_is_current_rule": false,
+  "Katie_original_old_customer_name_Zero_confirmed": false,
+  "original_Gwangje_reported_governance_is_direct_verified_current_fact": false,
+  "pending_read_not_counted": [],
+  "directly_related_novels_whole_read_this_pass": [],
+  "previous_related_novel001_review_retained": true,
+  "unread_documents_counted": false,
+  "actual_participant_reading": false,
+  "actual_participant_playtest": false,
+  "actual_async_community_test": false,
+  "previous_partial_source_ids": [
+    "SRC-295",
+    "SRC-297",
+    "SRC-298",
+    "SRC-299",
+    "SRC-300",
+    "SRC-301",
+    "SRC-302"
+  ],
+  "read_delay_resolved": true
+}

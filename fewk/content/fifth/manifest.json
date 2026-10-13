@@ -1,0 +1,902 @@
+{
+  "edition": 5,
+  "manuscript_closeout": "2026-10-10",
+  "publication_status": "manuscript; typesetting and participant playtesting pending",
+  "documents": [
+    {
+      "page": "fifth/books/11_WorldLorebook",
+      "file": "content/fifth/books/11_WorldLorebook.md",
+      "title": "World Lorebook",
+      "description": "세계와 사람들의 삶",
+      "version": "1.05"
+    },
+    {
+      "page": "fifth/books/10_CoreRulebook",
+      "file": "content/fifth/books/10_CoreRulebook.md",
+      "title": "Core Rulebook",
+      "description": "공통 백분율 규칙",
+      "version": "0.49"
+    },
+    {
+      "page": "fifth/books/01_텀블벅_이지룰_초안",
+      "file": "content/fifth/books/01_텀블벅_이지룰_초안.md",
+      "title": "이지룰",
+      "description": "처음 시작하는 판정과 플레이",
+      "version": "P0.31"
+    },
+    {
+      "page": "fifth/books/12_룰시트와캐릭터시트",
+      "file": "content/fifth/books/12_룰시트와캐릭터시트.md",
+      "title": "룰시트·캐릭터시트",
+      "description": "인물·몸·차원·장면 기록",
+      "version": "0.44"
+    },
+    {
+      "page": "fifth/books/14_레디메이드_러너",
+      "file": "content/fifth/books/14_레디메이드_러너.md",
+      "title": "캐릭터북 · 러너 12인",
+      "description": "고른 인물로 바로 시작하기",
+      "version": "1.1"
+    },
+    {
+      "page": "fifth/books/15_표준튜터리얼_시나리오",
+      "file": "content/fifth/books/15_표준튜터리얼_시나리오.md",
+      "title": "튜터리얼 · 6편",
+      "description": "첫 플레이와 진행 연습",
+      "version": "1.1"
+    },
+    {
+      "page": "fifth/books/13_입문시나리오",
+      "file": "content/fifth/books/13_입문시나리오.md",
+      "title": "입문 시나리오",
+      "description": "함께 맡는 첫 의뢰",
+      "version": "0.5"
+    },
+    {
+      "page": "fifth/books/02_타롯_해킹과_지능전_초안",
+      "file": "content/fifth/books/02_타롯_해킹과_지능전_초안.md",
+      "title": "타롯 · 해킹과 지능전",
+      "description": "선택해서 쓰는 대결 모듈",
+      "version": "0.3"
+    }
+  ],
+  "files": [
+    {
+      "path": "content/fifth/books/00_제5판_설계기준.md",
+      "source": "00_제5판_설계기준.md",
+      "bytes": 366488,
+      "sha256": "fa930146dc4ac4130c3a8385f6b4d80d3e6391f1213608c69a059740d83820af"
+    },
+    {
+      "path": "content/fifth/books/01_텀블벅_이지룰_초안.md",
+      "source": "01_텀블벅_이지룰_초안.md",
+      "bytes": 23089,
+      "sha256": "72f0f7a9c2fe6cc408884caaeae21ec563b179a256e84d4c58aaa84ccd7ad5cb"
+    },
+    {
+      "path": "content/fifth/books/02_타롯_해킹과_지능전_초안.md",
+      "source": "02_타롯_해킹과_지능전_초안.md",
+      "bytes": 19124,
+      "sha256": "1613f14e485eb4f075cfb1805266afe05cf8db16fa5f11f165b8850ca9ad41e4"
+    },
+    {
+      "path": "content/fifth/books/10_CoreRulebook.md",
+      "source": "10_CoreRulebook.md",
+      "bytes": 399954,
+      "sha256": "b6c1992a9280533408003e51c5063802eaffb098b0febc60869f026e86327baa"
+    },
+    {
+      "path": "content/fifth/books/11_WorldLorebook.md",
+      "source": "11_WorldLorebook.md",
+      "bytes": 548226,
+      "sha256": "21bf34286d3f03bc7482be0bd9d1edf79af259b01361dca412b83a594c5a87bc"
+    },
+    {
+      "path": "content/fifth/books/12_룰시트와캐릭터시트.md",
+      "source": "12_룰시트와캐릭터시트.md",
+      "bytes": 127581,
+      "sha256": "d48276e573608547697331fa6f5c38eb21a076292a402ed2d2b97dc64eb9767c"
+    },
+    {
+      "path": "content/fifth/books/13_입문시나리오.md",
+      "source": "13_입문시나리오.md",
+      "bytes": 56296,
+      "sha256": "e4c269c4af7494360330974ac52baaf6c6aeff24f42f35f8892b11b6fda8d0da"
+    },
+    {
+      "path": "content/fifth/books/14_레디메이드_러너.md",
+      "source": "14_레디메이드_러너.md",
+      "bytes": 86791,
+      "sha256": "2ce361f0966d45e843c69731723f1384eda48aa0a4995d0c49150226aefc0743"
+    },
+    {
+      "path": "content/fifth/books/15_표준튜터리얼_시나리오.md",
+      "source": "15_표준튜터리얼_시나리오.md",
+      "bytes": 87680,
+      "sha256": "1968e5bc81c586484816c0472cc282d791508c30f8157eff7ff4834094e46460"
+    },
+    {
+      "path": "content/fifth/books/16_아트워크_제작목록.md",
+      "source": "16_아트워크_제작목록.md",
+      "bytes": 47859,
+      "sha256": "d7996b95ef2c15f650567bdab4117efa5f02844e2b1405680d72f8603f5f640b"
+    },
+    {
+      "path": "content/fifth/books/17_삽화_화풍과제작규칙.md",
+      "source": "17_삽화_화풍과제작규칙.md",
+      "bytes": 39470,
+      "sha256": "829490358c4e7faa1da0e550c1eaa923a61b2be8e14914235ec4228ccca638d9"
+    },
+    {
+      "path": "content/fifth/books/18_로어북_전체_이미지후보.md",
+      "source": "18_로어북_전체_이미지후보.md",
+      "bytes": 79357,
+      "sha256": "722d24487be908e89529753b33586539c4d98f4b42883679aa98aac6ccaa9105"
+    },
+    {
+      "path": "content/fifth/books/19_추가삽화_200선_제작계획.md",
+      "source": "19_추가삽화_200선_제작계획.md",
+      "bytes": 45020,
+      "sha256": "4cdad260a3e468445dae28820891f7a649503c4d33fac03875d6a1cf72d7752a"
+    },
+    {
+      "path": "content/fifth/books/3.1판_참고원고_기준선.json",
+      "source": "3.1판_참고원고_기준선.json",
+      "bytes": 457692,
+      "sha256": "a53bbd9d09c68df5acdebe1bf4a5535129e7e208b41bd3dc5d6a9ea47ad0216d"
+    },
+    {
+      "path": "content/fifth/books/검증/NPC_검증.py",
+      "source": "검증/NPC_검증.py",
+      "bytes": 14195,
+      "sha256": "4f176f108ac0d89de9cac7d2e54518851409ccd7e24a11ae2e2f79985a6e3aac"
+    },
+    {
+      "path": "content/fifth/books/검증/NPC_검증결과.json",
+      "source": "검증/NPC_검증결과.json",
+      "bytes": 12227,
+      "sha256": "85eb343849688f464573ae92d1dba7337218425fc77b2b2b8013fd1ae966c4a2"
+    },
+    {
+      "path": "content/fifth/books/검증/NPC_프로필.json",
+      "source": "검증/NPC_프로필.json",
+      "bytes": 8647,
+      "sha256": "fe5db533418cfe3b175e0bd92effc52b9c6fdfd79c05e5076faedfc349900ec0"
+    },
+    {
+      "path": "content/fifth/books/검증/거점임무와조직_검토.json",
+      "source": "검증/거점임무와조직_검토.json",
+      "bytes": 13695,
+      "sha256": "de86291b6586b7dbbdea64786fb5ad47f1ac627b13d31212b3436bdc75c39dcc"
+    },
+    {
+      "path": "content/fifth/books/검증/검증결과.json",
+      "source": "검증/검증결과.json",
+      "bytes": 37199,
+      "sha256": "5b94523726f36346b5adc859831cf3c4da8174b23b029b383eacc2431c0e7b84"
+    },
+    {
+      "path": "content/fifth/books/검증/계도감과현지화_검토.json",
+      "source": "검증/계도감과현지화_검토.json",
+      "bytes": 10237,
+      "sha256": "fb8b7a4804361cedb81317ba51fd5cd2d8043cc5ee42274f02f382c20e53a78f"
+    },
+    {
+      "path": "content/fifth/books/검증/고유효과_검증.py",
+      "source": "검증/고유효과_검증.py",
+      "bytes": 26427,
+      "sha256": "b1fa4d463bcc900bed6dd3bb62debb5e6457cd1d61d050034b1d87022af92551"
+    },
+    {
+      "path": "content/fifth/books/검증/고유효과_검증결과.json",
+      "source": "검증/고유효과_검증결과.json",
+      "bytes": 6097,
+      "sha256": "b7da63b7192f9cbb0801a03c3a27b3a3f6ebfd63bb8e544105946e332b845d9f"
+    },
+    {
+      "path": "content/fifth/books/검증/고유효과_프로필.json",
+      "source": "검증/고유효과_프로필.json",
+      "bytes": 8374,
+      "sha256": "481e768e8b69a0008dd8d612d9a497c51305004abeba7d40035e85b6f1fbe304"
+    },
+    {
+      "path": "content/fifth/books/검증/구판_판정산술_검증.py",
+      "source": "검증/구판_판정산술_검증.py",
+      "bytes": 178609,
+      "sha256": "4035790874c5d14b4bd3040a89fab74eebef74202828e115a1de45a4c94a1d0b"
+    },
+    {
+      "path": "content/fifth/books/검증/구판_판정산술_검증결과.json",
+      "source": "검증/구판_판정산술_검증결과.json",
+      "bytes": 105646,
+      "sha256": "1747d5ce34db6e9380deff15992486a7c73bad10fd13d67f6f800f6eb0d01c89"
+    },
+    {
+      "path": "content/fifth/books/검증/기본캠페인_검증.py",
+      "source": "검증/기본캠페인_검증.py",
+      "bytes": 5774,
+      "sha256": "4dae37a948e197f273838dca8b836f14c6baa6b60ce3b8428c039780e67e4479"
+    },
+    {
+      "path": "content/fifth/books/검증/기본캠페인_검증결과.json",
+      "source": "검증/기본캠페인_검증결과.json",
+      "bytes": 1059,
+      "sha256": "1ee7c83eafcd8ab009aeaffedcf025313656f0daed7d56f2fa3faefbda623a60"
+    },
+    {
+      "path": "content/fifth/books/검증/기본캠페인_프로필.json",
+      "source": "검증/기본캠페인_프로필.json",
+      "bytes": 7417,
+      "sha256": "01e2157f5250e21dea7fcb6ff55f6297c5ed145b3120f11adae9204671672171"
+    },
+    {
+      "path": "content/fifth/books/검증/대표지면_검수.json",
+      "source": "검증/대표지면_검수.json",
+      "bytes": 3069,
+      "sha256": "452bfd930cadd5685d0643c4afd2b7fce6d158913d1789dc1f234ab4b1005fb2"
+    },
+    {
+      "path": "content/fifth/books/검증/대표지면_생성.py",
+      "source": "검증/대표지면_생성.py",
+      "bytes": 13800,
+      "sha256": "9ac92f4e81ae0aa76dec74862b8ef35eb4a3c2674a1fd45681e56872b22fd022"
+    },
+    {
+      "path": "content/fifth/books/검증/대형시설_검증.py",
+      "source": "검증/대형시설_검증.py",
+      "bytes": 15912,
+      "sha256": "0ee7e509f86054dc3255b11bcfb7c8531468474d261fd0360aa33c701a8f22d9"
+    },
+    {
+      "path": "content/fifth/books/검증/대형시설_검증결과.json",
+      "source": "검증/대형시설_검증결과.json",
+      "bytes": 3664,
+      "sha256": "deb07053d0efb9b43d1421f719f6b94567f8458a576df389558b2d4917c9c991"
+    },
+    {
+      "path": "content/fifth/books/검증/대형시설_프로필.json",
+      "source": "검증/대형시설_프로필.json",
+      "bytes": 1933,
+      "sha256": "5db6860ebb705f0de43924a2009569001f1b4538e752332d0b289a4736ea38c3"
+    },
+    {
+      "path": "content/fifth/books/검증/독자편집_대조.json",
+      "source": "검증/독자편집_대조.json",
+      "bytes": 117572,
+      "sha256": "dd066c1bd1a86a389e18dfc0717317b7362324d4545bec90e98a1dae3626dc28"
+    },
+    {
+      "path": "content/fifth/books/검증/러너생애와전환_검토.json",
+      "source": "검증/러너생애와전환_검토.json",
+      "bytes": 6964,
+      "sha256": "befafcbd36b04023980b0d61496d68e7e33b1196434f0a0c1f64334a8484a910"
+    },
+    {
+      "path": "content/fifth/books/검증/러너와템플릿_검토.json",
+      "source": "검증/러너와템플릿_검토.json",
+      "bytes": 8523,
+      "sha256": "15717284fe899bcc6cafa968fba58b6332aa43e7236a81df810f6a3e03951fd4"
+    },
+    {
+      "path": "content/fifth/books/검증/러너와튜터리얼_검증.py",
+      "source": "검증/러너와튜터리얼_검증.py",
+      "bytes": 18150,
+      "sha256": "b4d4b085913ec83e5e4ef50b071b79e8239fd1f81e711aae0c6016e9934fd1fc"
+    },
+    {
+      "path": "content/fifth/books/검증/러너와튜터리얼_검증결과.json",
+      "source": "검증/러너와튜터리얼_검증결과.json",
+      "bytes": 46398,
+      "sha256": "11e08629f7ba06799668e8dbb23702c7cd6d65a9c92a54e71b4afb1f28cc90d1"
+    },
+    {
+      "path": "content/fifth/books/검증/러너와튜터리얼_대조.json",
+      "source": "검증/러너와튜터리얼_대조.json",
+      "bytes": 283571,
+      "sha256": "2a59094071539ef93fe1eee8c56b19d5c8c7cf54a4d59b068a5d67ae66ad78c4"
+    },
+    {
+      "path": "content/fifth/books/검증/레디메이드_러너프로필.json",
+      "source": "검증/레디메이드_러너프로필.json",
+      "bytes": 70401,
+      "sha256": "136909bdeec4328b041dd16bf5a643532e0879ed9bd068dde794b1608d089e1c"
+    },
+    {
+      "path": "content/fifth/books/검증/로어북_편집근거_20261010.md",
+      "source": "검증/로어북_편집근거_20261010.md",
+      "bytes": 162807,
+      "sha256": "2185364e4700bd19b7e042de88bd90211309318151c756f471d2bae673468d15"
+    },
+    {
+      "path": "content/fifth/books/검증/몸노출_계산검증.py",
+      "source": "검증/몸노출_계산검증.py",
+      "bytes": 30199,
+      "sha256": "d0e281d546f3fa8814a39bbe91c9c16a82c03db5907b7d227677f95b7251c88e"
+    },
+    {
+      "path": "content/fifth/books/검증/몸노출_계산검증결과.json",
+      "source": "검증/몸노출_계산검증결과.json",
+      "bytes": 8090,
+      "sha256": "2eaef3f87bacac74f0764459a7c860f5e46f920073f544913b9e7203a8cf6465"
+    },
+    {
+      "path": "content/fifth/books/검증/몸노출_계산프로필.json",
+      "source": "검증/몸노출_계산프로필.json",
+      "bytes": 4646,
+      "sha256": "3fa3882f99977e0885c658778bebe84e4aff4f17fd9943e8ebe740f01e6e7f45"
+    },
+    {
+      "path": "content/fifth/books/검증/바이트_검증.py",
+      "source": "검증/바이트_검증.py",
+      "bytes": 6817,
+      "sha256": "d0ba14c9f3f3a13acd9a93393fb65ba4be450a8d3cd9904cebb91ca86f28f4a1"
+    },
+    {
+      "path": "content/fifth/books/검증/바이트_검증결과.json",
+      "source": "검증/바이트_검증결과.json",
+      "bytes": 2448,
+      "sha256": "0a188d620aeae8a2e24c4be31f845309164bd4b2af81b10941790fb7309bf1b6"
+    },
+    {
+      "path": "content/fifth/books/검증/바이트_프로필.json",
+      "source": "검증/바이트_프로필.json",
+      "bytes": 971,
+      "sha256": "35472f7ebf26681012fd1fd6153b0c18a3ffe095b2a889474cd79c041b6a81c7"
+    },
+    {
+      "path": "content/fifth/books/검증/백분율_코어검증.py",
+      "source": "검증/백분율_코어검증.py",
+      "bytes": 5476,
+      "sha256": "7213dd8fc5650ec402271ed0f2920bc1c250586bf88472234a23aa82423a95c8"
+    },
+    {
+      "path": "content/fifth/books/검증/백분율_코어검증결과.json",
+      "source": "검증/백분율_코어검증결과.json",
+      "bytes": 4833,
+      "sha256": "57e25e6c555fba5b7b763746eac285288188b7c4ad8e04e6ab7915a479ad7930"
+    },
+    {
+      "path": "content/fifth/books/검증/부록_참조검증.py",
+      "source": "검증/부록_참조검증.py",
+      "bytes": 9189,
+      "sha256": "12621d43b3d16f091e60edbf37baa7c1d7397076cc670811fb2d99388a91adc2"
+    },
+    {
+      "path": "content/fifth/books/검증/부록_참조검증결과.json",
+      "source": "검증/부록_참조검증결과.json",
+      "bytes": 8097,
+      "sha256": "ebdd474e46c4178c31c401b1ed52b83c0df4def22622b3e296689571bae8a01f"
+    },
+    {
+      "path": "content/fifth/books/검증/부록_참조규격.json",
+      "source": "검증/부록_참조규격.json",
+      "bytes": 14816,
+      "sha256": "9c02afb90421694df3794fab4e5849c5b0373f9d50221c04fadbfd9d740a86c4"
+    },
+    {
+      "path": "content/fifth/books/검증/서문과차원개요_검토.json",
+      "source": "검증/서문과차원개요_검토.json",
+      "bytes": 67338,
+      "sha256": "0cc8a585ec4461b365d5b138d5312bc7061a69c30c24397494b2d394a8cb564a"
+    },
+    {
+      "path": "content/fifth/books/검증/세계관_종합리뷰_20261009.json",
+      "source": "검증/세계관_종합리뷰_20261009.json",
+      "bytes": 61498,
+      "sha256": "5c11bf2a0623b08124ea1e2fde21c755bc9d85e8d3cc3d1b9484ee6a2a454c16"
+    },
+    {
+      "path": "content/fifth/books/검증/세계관_종합리뷰_20261009_반영전.json",
+      "source": "검증/세계관_종합리뷰_20261009_반영전.json",
+      "bytes": 2150115,
+      "sha256": "a11d450e288f177bfa2eeafa20b7303b633be9ffa4b28e52c045af6bd08b1170"
+    },
+    {
+      "path": "content/fifth/books/검증/세계관보강_20261009.json",
+      "source": "검증/세계관보강_20261009.json",
+      "bytes": 7701,
+      "sha256": "8b37f92abf9055c78b406666fe9f30167c77ec1a794e3ea0cb8b98cd2e4daa66"
+    },
+    {
+      "path": "content/fifth/books/검증/세계관보강_20261009_대사만국.json",
+      "source": "검증/세계관보강_20261009_대사만국.json",
+      "bytes": 20264,
+      "sha256": "5559b012ba48f57e5d42795ee19c0c47cb8eeba8c65f2eff34214905cae6c60c"
+    },
+    {
+      "path": "content/fifth/books/검증/세계관보강_20261009_대사만국_반영전.json",
+      "source": "검증/세계관보강_20261009_대사만국_반영전.json",
+      "bytes": 2187405,
+      "sha256": "0e192700c3fbb0910de4caccd8f5e42299987f2513c90b68416ee0cb5dd25d67"
+    },
+    {
+      "path": "content/fifth/books/검증/세계관보강_20261009_반영전.json",
+      "source": "검증/세계관보강_20261009_반영전.json",
+      "bytes": 2104369,
+      "sha256": "ee83465a898bad4916818c8f7f5446ea46946b5d70db8fb606eaaf93600038d4"
+    },
+    {
+      "path": "content/fifth/books/검증/세계관보강_20261009_사회구조.json",
+      "source": "검증/세계관보강_20261009_사회구조.json",
+      "bytes": 7988,
+      "sha256": "f7dfe7ca78c6a8af054c6e99182b9665ba7f111f449fb68850a9671e9d8d763a"
+    },
+    {
+      "path": "content/fifth/books/검증/세계관보강_20261009_사회구조_반영전.json",
+      "source": "검증/세계관보강_20261009_사회구조_반영전.json",
+      "bytes": 2134222,
+      "sha256": "d458997cf2857a2fc9bce040d36350599f653f237efc1a99ae1306ac5aee134e"
+    },
+    {
+      "path": "content/fifth/books/검증/세계관보강_20261009_추가답변.json",
+      "source": "검증/세계관보강_20261009_추가답변.json",
+      "bytes": 12021,
+      "sha256": "fab16e69af9ae4b91c9cd7bd42400b4e0c74de551ff4b4882906f5b961d89140"
+    },
+    {
+      "path": "content/fifth/books/검증/세계관보강_20261009_추가답변_반영전.json",
+      "source": "검증/세계관보강_20261009_추가답변_반영전.json",
+      "bytes": 2128072,
+      "sha256": "a463aa92850dabb7e44428eee8e1bdfd314cd84b7f1ab891ffa7838903a49b3e"
+    },
+    {
+      "path": "content/fifth/books/검증/세력과작전_검토.json",
+      "source": "검증/세력과작전_검토.json",
+      "bytes": 92712,
+      "sha256": "36b992f1bf1ee90a320c407fcd6c09ae65b14938ecfc8564a1243a067bcd6597"
+    },
+    {
+      "path": "content/fifth/books/검증/스페셜_검증.py",
+      "source": "검증/스페셜_검증.py",
+      "bytes": 17419,
+      "sha256": "6b9d327e91b425230bf293a26f1627c45e415bea004b85fd68f4d3bb3189f12a"
+    },
+    {
+      "path": "content/fifth/books/검증/스페셜_검증결과.json",
+      "source": "검증/스페셜_검증결과.json",
+      "bytes": 5780,
+      "sha256": "6d93daef3f532873d39bc5df2f347a24bbf79fa27a39d6a609d8e2b11334f93f"
+    },
+    {
+      "path": "content/fifth/books/검증/스페셜_프로필.json",
+      "source": "검증/스페셜_프로필.json",
+      "bytes": 2955,
+      "sha256": "ffbf8cb20fedc180f248a35da51da61fed39017f583ad26957064ee0fa2ec7c9"
+    },
+    {
+      "path": "content/fifth/books/검증/시간이동_검증.py",
+      "source": "검증/시간이동_검증.py",
+      "bytes": 12827,
+      "sha256": "6d56a34d39411eaca96b6ebf1ff4cd81b0b59c6b79bb028de77b59ea0137da99"
+    },
+    {
+      "path": "content/fifth/books/검증/시간이동_검증결과.json",
+      "source": "검증/시간이동_검증결과.json",
+      "bytes": 4878,
+      "sha256": "856cbc6af531afbfa2d29ebd8a1fecff93bff3d7ab4abd70721879f3a1feda2b"
+    },
+    {
+      "path": "content/fifth/books/검증/시간이동_프로필.json",
+      "source": "검증/시간이동_프로필.json",
+      "bytes": 3032,
+      "sha256": "db04446500a5a1a37e2beac658c927136f5a96702889570fd773e5fd8e0152cb"
+    },
+    {
+      "path": "content/fifth/books/검증/시나리오_확장검증.py",
+      "source": "검증/시나리오_확장검증.py",
+      "bytes": 14287,
+      "sha256": "3d601675117449240f8226465fbb736204a5681b6ef219c7626894143701180b"
+    },
+    {
+      "path": "content/fifth/books/검증/시나리오_확장검증결과.json",
+      "source": "검증/시나리오_확장검증결과.json",
+      "bytes": 8900,
+      "sha256": "7467c9f3977da266239cbbf430e5e897cebe05ead4c783413385f2333797f013"
+    },
+    {
+      "path": "content/fifth/books/검증/시나리오_확장프로필.json",
+      "source": "검증/시나리오_확장프로필.json",
+      "bytes": 4930,
+      "sha256": "c8768c5bd37fed618ff3bb9c8d47f5577a31ce52eaf0e77bd7703e0ebe520b80"
+    },
+    {
+      "path": "content/fifth/books/검증/오지와기록_검토.json",
+      "source": "검증/오지와기록_검토.json",
+      "bytes": 10967,
+      "sha256": "48e9cb3d9bf16a355f2de9dad683462875f336fd1bc79429416bc90c1197a83a"
+    },
+    {
+      "path": "content/fifth/books/검증/온라인_검증.py",
+      "source": "검증/온라인_검증.py",
+      "bytes": 14910,
+      "sha256": "e51de52502e21e0725b16f185660926ba2a54fc49653cba16ccc04a0dfd6cf2c"
+    },
+    {
+      "path": "content/fifth/books/검증/온라인_검증결과.json",
+      "source": "검증/온라인_검증결과.json",
+      "bytes": 6435,
+      "sha256": "57e98ef68de8000a55048dd5de84f2efb93eb16d55be04f418ded700d04cfe74"
+    },
+    {
+      "path": "content/fifth/books/검증/온라인_기록예시.json",
+      "source": "검증/온라인_기록예시.json",
+      "bytes": 2402,
+      "sha256": "4a508df5b1a485ed12770a09023fa790730453bef9c47bad9c5395ca9b75ecaf"
+    },
+    {
+      "path": "content/fifth/books/검증/온라인_프로필.json",
+      "source": "검증/온라인_프로필.json",
+      "bytes": 1538,
+      "sha256": "c562c8a6d7bfb6b39f1c1bbdf9d3a298286a3f57d00b976a41a8b8938fcb0141"
+    },
+    {
+      "path": "content/fifth/books/검증/완료_관문.json",
+      "source": "검증/완료_관문.json",
+      "bytes": 370973,
+      "sha256": "f031ce076e7de35488953bdc37a14aeee7a0dd7326538fb9a2d431cd418d0c26"
+    },
+    {
+      "path": "content/fifth/books/검증/운송_검증.py",
+      "source": "검증/운송_검증.py",
+      "bytes": 46216,
+      "sha256": "5407f74acfef18017fd3cd7e1dbe6b5b2f86aaafb72fd0ac26ae15d2f0b9dd23"
+    },
+    {
+      "path": "content/fifth/books/검증/운송_검증결과.json",
+      "source": "검증/운송_검증결과.json",
+      "bytes": 9501,
+      "sha256": "3d2af0d519a4d15ab2d0527dedd3f7ac01163754abc8e72016e536fbb8a8192c"
+    },
+    {
+      "path": "content/fifth/books/검증/운송_프로필.json",
+      "source": "검증/운송_프로필.json",
+      "bytes": 6777,
+      "sha256": "d5e8f69a36475a21436af0ddf278e2349c90ae74403dafcf74e4008969beecfe"
+    },
+    {
+      "path": "content/fifth/books/검증/원고묶음_구조검증.py",
+      "source": "검증/원고묶음_구조검증.py",
+      "bytes": 500896,
+      "sha256": "b82b7bd9aaffea094cc806f5208bb7673ad16111354d6781308cac4ae256d179"
+    },
+    {
+      "path": "content/fifth/books/검증/원고묶음_구조검증결과.json",
+      "source": "검증/원고묶음_구조검증결과.json",
+      "bytes": 8203,
+      "sha256": "5d1f291f90859434898eff29f7a72eeb4b1508f3859b429329f29927d78dbd3d"
+    },
+    {
+      "path": "content/fifth/books/검증/월드부록_검토.json",
+      "source": "검증/월드부록_검토.json",
+      "bytes": 90910,
+      "sha256": "9bba43cd11f3eb8d69995b9e18e63bf0198ff26f5d63681803c42009b033eb3b"
+    },
+    {
+      "path": "content/fifth/books/검증/이전/독자편집전_20261007.json",
+      "source": "검증/이전/독자편집전_20261007.json",
+      "bytes": 1244746,
+      "sha256": "959a053638319dfcac0346285fad7bcd56925e122d09b7593a6e5dde8bf17e96"
+    },
+    {
+      "path": "content/fifth/books/검증/이전/러너확장전_20261008.json",
+      "source": "검증/이전/러너확장전_20261008.json",
+      "bytes": 1573806,
+      "sha256": "28b548b80a838915e407db11c5d9d2c659365e2924005bf2da2fc5ccb5479d83"
+    },
+    {
+      "path": "content/fifth/books/검증/이전/백분율_v0.1_기록.json",
+      "source": "검증/이전/백분율_v0.1_기록.json",
+      "bytes": 31375,
+      "sha256": "04dc5917aa927e700a9bf2dca92d970b7040a6296ee5be4e1ed7e02102fa716e"
+    },
+    {
+      "path": "content/fifth/books/검증/이전/시나리오북편성전_20261008.json",
+      "source": "검증/이전/시나리오북편성전_20261008.json",
+      "bytes": 1800752,
+      "sha256": "19ddfab0160d9f4f910961d584ee83f28cf2a8cb666599ad8281583e28484e28"
+    },
+    {
+      "path": "content/fifth/books/검증/이전/이지룰_A_v0.10_기록.json",
+      "source": "검증/이전/이지룰_A_v0.10_기록.json",
+      "bytes": 52636,
+      "sha256": "0c3a70eee1b5c49796628868fab836f505418030c3b2e8e14bd27f78d5ef22cc"
+    },
+    {
+      "path": "content/fifth/books/검증/이전/이지룰_P_v0.18_기록.json",
+      "source": "검증/이전/이지룰_P_v0.18_기록.json",
+      "bytes": 31710,
+      "sha256": "c9e1f3a4bd7b1b84b9b400c1f5615ea383f22cefdeec14994e868807840df42b"
+    },
+    {
+      "path": "content/fifth/books/검증/이전/타롯_v0.1_기록.json",
+      "source": "검증/이전/타롯_v0.1_기록.json",
+      "bytes": 10147,
+      "sha256": "b632de814c6720c6fe3dab7977a2c73fb9f77d24ce9aa88db279f013434f5b76"
+    },
+    {
+      "path": "content/fifth/books/검증/이전/타롯_v0.2_기록.json",
+      "source": "검증/이전/타롯_v0.2_기록.json",
+      "bytes": 17334,
+      "sha256": "54e1721a2bac0560f15f767be1d60f15bca49fb52b1472c334eaeacb7ee553dd"
+    },
+    {
+      "path": "content/fifth/books/검증/이전설계_통합검토.json",
+      "source": "검증/이전설계_통합검토.json",
+      "bytes": 12703239,
+      "sha256": "4adda3b8278227deefe9cf9adcbf59b1b5be9bc55a61af6f2f1e4be83ba64300"
+    },
+    {
+      "path": "content/fifth/books/검증/일반플레이_검증.py",
+      "source": "검증/일반플레이_검증.py",
+      "bytes": 14466,
+      "sha256": "d23e6363f1ca28beddf8b7cd9c24839c2ba0ea66eada525295b4663e6b493585"
+    },
+    {
+      "path": "content/fifth/books/검증/일반플레이_검증결과.json",
+      "source": "검증/일반플레이_검증결과.json",
+      "bytes": 4178,
+      "sha256": "ade1ac2d467b95b962982725921383c547357fe847b9176018216b5f4c8202ca"
+    },
+    {
+      "path": "content/fifth/books/검증/일상과오지_기준선검토.json",
+      "source": "검증/일상과오지_기준선검토.json",
+      "bytes": 23025,
+      "sha256": "5c45d337086669f85e6aed429ec1798dccea6298da67ce655ea4bd4bf0ab9c46"
+    },
+    {
+      "path": "content/fifth/books/검증/일상과이지룰_검토.json",
+      "source": "검증/일상과이지룰_검토.json",
+      "bytes": 4325,
+      "sha256": "1db1f4dd881a7b55dbe738d543aef84f7f2a7f462527c3374667bd3594d5ddd0"
+    },
+    {
+      "path": "content/fifth/books/검증/임플란트_검증.py",
+      "source": "검증/임플란트_검증.py",
+      "bytes": 20969,
+      "sha256": "815756ef0aba3628b352ca1b47fd0acc7295d05963e09d05e843e49805a3e8c7"
+    },
+    {
+      "path": "content/fifth/books/검증/임플란트_검증결과.json",
+      "source": "검증/임플란트_검증결과.json",
+      "bytes": 4196,
+      "sha256": "5307e0ee26384f6ac587c4d155c3bca91b494195b54e7f307d64db0b76f762b0"
+    },
+    {
+      "path": "content/fifth/books/검증/임플란트_프로필.json",
+      "source": "검증/임플란트_프로필.json",
+      "bytes": 2059,
+      "sha256": "ea1cb0b31badeea6a2ad3023065bb9b1e2df0016204d1e7a500cc53179f2110c"
+    },
+    {
+      "path": "content/fifth/books/검증/입문_프로필.json",
+      "source": "검증/입문_프로필.json",
+      "bytes": 2683,
+      "sha256": "24fb4b594346497662f09dd9d3ffd99c79fa3ea098fdeb360ce54956727d6a3f"
+    },
+    {
+      "path": "content/fifth/books/검증/입문시나리오_검토.json",
+      "source": "검증/입문시나리오_검토.json",
+      "bytes": 42801,
+      "sha256": "100e1447520dd200792eef9a9ae8ecb02f11389d65731d86c8cb9a3ced79bbec"
+    },
+    {
+      "path": "content/fifth/books/검증/자료_구조검증.json",
+      "source": "검증/자료_구조검증.json",
+      "bytes": 115210,
+      "sha256": "9c6602f5e641f87362dc538e8e8de2a1e731b8b0add36fe1c6716ef1b083c83d"
+    },
+    {
+      "path": "content/fifth/books/검증/장면운영_검증.py",
+      "source": "검증/장면운영_검증.py",
+      "bytes": 13866,
+      "sha256": "7c9b7ee4a3269e6d13ec618a7b066a73eed00b3889ba9d3439759dd63f7928d7"
+    },
+    {
+      "path": "content/fifth/books/검증/장면운영_검증결과.json",
+      "source": "검증/장면운영_검증결과.json",
+      "bytes": 2927,
+      "sha256": "54f4ed67c8c5f94807408a385efca2be902f66aae9f4c82daacd2c22829fd802"
+    },
+    {
+      "path": "content/fifth/books/검증/장면운영_프로필.json",
+      "source": "검증/장면운영_프로필.json",
+      "bytes": 1654,
+      "sha256": "0c3877ad103469e1cb82f43d54b33ec6b0ee8f4cd0ccc9a3d523561e8dfa44a3"
+    },
+    {
+      "path": "content/fifth/books/검증/장비_검증.py",
+      "source": "검증/장비_검증.py",
+      "bytes": 31912,
+      "sha256": "ead97b3fc20a74aa019adb9bf59351d1192e1b5428d35d2a345afa7f0d91b076"
+    },
+    {
+      "path": "content/fifth/books/검증/장비_검증결과.json",
+      "source": "검증/장비_검증결과.json",
+      "bytes": 6453,
+      "sha256": "74fafa380fce2775f07d24f7e0a59f309d8e9a766e5bfccb932ab4bfd5286f4b"
+    },
+    {
+      "path": "content/fifth/books/검증/장비_프로필.json",
+      "source": "검증/장비_프로필.json",
+      "bytes": 4589,
+      "sha256": "2fe1edaa3125600aef1816463cf43cb89771d2f8dd85618237d11a03b2f60e8a"
+    },
+    {
+      "path": "content/fifth/books/검증/제5판_로어정리_20261010.json",
+      "source": "검증/제5판_로어정리_20261010.json",
+      "bytes": 659415,
+      "sha256": "d2103dd74ad432850198f766ec7eeb3f4d287a639c3034c3b597225e769f9689"
+    },
+    {
+      "path": "content/fifth/books/검증/제5판_로어정리_20261010_반영전.json",
+      "source": "검증/제5판_로어정리_20261010_반영전.json",
+      "bytes": 2200356,
+      "sha256": "25d6f0ef8cf48b743b50108fe3a1b3e44bfe7fcc8728d0d84427f208d6b4b58f"
+    },
+    {
+      "path": "content/fifth/books/검증/제5판_원고해시.json",
+      "source": "검증/제5판_원고해시.json",
+      "bytes": 113098,
+      "sha256": "7e971796c1f219292b501d9c59a5098a3275d0600f22b10b8101d4239c6061dd"
+    },
+    {
+      "path": "content/fifth/books/검증/제5판_이관검수.json",
+      "source": "검증/제5판_이관검수.json",
+      "bytes": 881178,
+      "sha256": "0a7d71e5bd1087b3d1f17cd840fb95b08bc2bd4123455cb40a03934762daffc9"
+    },
+    {
+      "path": "content/fifth/books/검증/존재도감_검토.json",
+      "source": "검증/존재도감_검토.json",
+      "bytes": 82131,
+      "sha256": "6939ae0918bc8ed79cc7de89bf02f8676ea9ce24f36220fc483ecc107eb7900a"
+    },
+    {
+      "path": "content/fifth/books/검증/종교경제와기반시설_검토.json",
+      "source": "검증/종교경제와기반시설_검토.json",
+      "bytes": 10891,
+      "sha256": "f908566deec38eb8435defbcdaf36e9d99c890bf496f0798ab43fba8a4d9b297"
+    },
+    {
+      "path": "content/fifth/books/검증/직업과현화_검토.json",
+      "source": "검증/직업과현화_검토.json",
+      "bytes": 6581,
+      "sha256": "fd44ae3b430e81308a4c0f495a81c44c0ebe302b27397ce57381e5b8bd97efcf"
+    },
+    {
+      "path": "content/fifth/books/검증/진행자_검증.py",
+      "source": "검증/진행자_검증.py",
+      "bytes": 10998,
+      "sha256": "1079456cf2b344e6653e7a1594d04436c3ac182aa4d1a18f48b23174af469c35"
+    },
+    {
+      "path": "content/fifth/books/검증/진행자_검증결과.json",
+      "source": "검증/진행자_검증결과.json",
+      "bytes": 6971,
+      "sha256": "664890b043d30d6152d421fa09038c2e352afb097cce166c8554d3abe3f953c5"
+    },
+    {
+      "path": "content/fifth/books/검증/진행자_장면프로필.json",
+      "source": "검증/진행자_장면프로필.json",
+      "bytes": 1931,
+      "sha256": "82c09dad1cb6d89dac2dedc42947c8e3865a3aee848b9513a583d26360a63112"
+    },
+    {
+      "path": "content/fifth/books/검증/차원프로필.json",
+      "source": "검증/차원프로필.json",
+      "bytes": 5730,
+      "sha256": "92d773679ad000e3099fa624252ff4093e3cc2ea6f33c3e9487504b00f6f14f4"
+    },
+    {
+      "path": "content/fifth/books/검증/차원프로필_검증.py",
+      "source": "검증/차원프로필_검증.py",
+      "bytes": 28760,
+      "sha256": "1d413df79c5cb97cb76a7894f9444197e91fa64dd9113a3986d46d66b86a97e8"
+    },
+    {
+      "path": "content/fifth/books/검증/차원프로필_검증결과.json",
+      "source": "검증/차원프로필_검증결과.json",
+      "bytes": 7474,
+      "sha256": "8178237721a81d8405b104dc3bfd1b665928e5076cce2152a93e9d3d0937f1b2"
+    },
+    {
+      "path": "content/fifth/books/검증/캐릭터와시나리오북_편집.json",
+      "source": "검증/캐릭터와시나리오북_편집.json",
+      "bytes": 3986,
+      "sha256": "5afd0f8ad74e214b0a1ad575aec107217fb871d0f496496a007729fdee815e15"
+    },
+    {
+      "path": "content/fifth/books/검증/타롯_검증.py",
+      "source": "검증/타롯_검증.py",
+      "bytes": 9604,
+      "sha256": "7c9e9fde23da51e93a5256fbb148a5bbeabb9b18a44fb46966833aabf08fc01b"
+    },
+    {
+      "path": "content/fifth/books/검증/타롯_검증결과.json",
+      "source": "검증/타롯_검증결과.json",
+      "bytes": 11663,
+      "sha256": "84a9594c99d2ec51128b68200ac4ab2af61f3765978ed57d635691f7904af80f"
+    },
+    {
+      "path": "content/fifth/books/검증/타롯_전략검증.py",
+      "source": "검증/타롯_전략검증.py",
+      "bytes": 16841,
+      "sha256": "ece8eaf9f96847c4de9ef05ea280ca42d2fea0f3652ec97028c939492b1e5630"
+    },
+    {
+      "path": "content/fifth/books/검증/타롯_전략검증결과.json",
+      "source": "검증/타롯_전략검증결과.json",
+      "bytes": 318089,
+      "sha256": "858b3fca5e7fa6e07f5cafc735b9d0c16eab42840d6ce1a3024391a5d0ee94e7"
+    },
+    {
+      "path": "content/fifth/books/검증/타롯_프로필.json",
+      "source": "검증/타롯_프로필.json",
+      "bytes": 1848,
+      "sha256": "3ad67f7e112174f73c4fb84613ff7a3c0008934458873544134c298cd0ff1e65"
+    },
+    {
+      "path": "content/fifth/books/검증/팀지원_검증.py",
+      "source": "검증/팀지원_검증.py",
+      "bytes": 10804,
+      "sha256": "46ecbd931f04073b5b31ca5dbb1afc2a064156991c50a92b8b1b3e390b72d392"
+    },
+    {
+      "path": "content/fifth/books/검증/팀지원_검증결과.json",
+      "source": "검증/팀지원_검증결과.json",
+      "bytes": 3175,
+      "sha256": "d5a44d7908b17adace5847ed252c67dad1cc9f13db6b759ca15dcc54caf9eeec"
+    },
+    {
+      "path": "content/fifth/books/검증/팀지원_프로필.json",
+      "source": "검증/팀지원_프로필.json",
+      "bytes": 1285,
+      "sha256": "1316bc0186ee7f8b1eaa8eed8a0e6e853010fe371d1e37a789e9e8dbfc916a31"
+    },
+    {
+      "path": "content/fifth/books/검증/표준튜터리얼_프로필.json",
+      "source": "검증/표준튜터리얼_프로필.json",
+      "bytes": 34315,
+      "sha256": "d5dbe2be5eac1d1dc316ed463ab97ea6c36d888cd671f6d6a9537c66d79f5673"
+    },
+    {
+      "path": "content/fifth/books/검증/현재_원고상태.json",
+      "source": "검증/현재_원고상태.json",
+      "bytes": 117884,
+      "sha256": "42abd1feb49ac097431f525a3236557679bd905145df9e6431030f8f7f8677ff"
+    },
+    {
+      "path": "content/fifth/books/검증/현재_참고원고_해시검증.json",
+      "source": "검증/현재_참고원고_해시검증.json",
+      "bytes": 329926,
+      "sha256": "a96428a55c4751b4df770bc5d8ba5ed3390720fdfb64b046840ea11dc7358781"
+    },
+    {
+      "path": "content/fifth/books/검증/확률검산.py",
+      "source": "검증/확률검산.py",
+      "bytes": 20395,
+      "sha256": "85818a47f02d52e64ce437cb4a2ddaa2e6a7027d019133fa1e10928036a889c5"
+    },
+    {
+      "path": "content/fifth/books/이전자료_조달목록.json",
+      "source": "이전자료_조달목록.json",
+      "bytes": 213967,
+      "sha256": "513055763805a20b1c9eae25608cde4648690521f1d2ab8070d6f513bf83d050"
+    },
+    {
+      "path": "content/fifth/00_최신본_기준.md",
+      "source": "../00_최신본_기준.md",
+      "bytes": 77446,
+      "sha256": "d2f858ba9a3290a05d8e7e968fb2c412f281496eb1b03adaeabbf92c777263aa"
+    },
+    {
+      "path": "content/fifth/01_작업계획.md",
+      "source": "../01_작업계획.md",
+      "bytes": 140160,
+      "sha256": "42fae528744046707510bc0e26f5585114596648097060bebeb42696b6da55c3"
+    }
+  ],
+  "excluded": [
+    "artwork binaries and production work in progress"
+  ]
+}

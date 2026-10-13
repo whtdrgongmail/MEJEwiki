@@ -1,0 +1,138 @@
+{
+  "id": "FEWK-INSTITUTIONS-LORE-01",
+  "date": "2026-10-05",
+  "source_ids": [
+    "SRC-237",
+    "SRC-238",
+    "SRC-239",
+    "SRC-240",
+    "SRC-241",
+    "SRC-243",
+    "SRC-245"
+  ],
+  "scope": "참고7개 전체·원본11주제/위키10항목·1판07·관련소설007/036 전체 읽기와 종교/경제/시설/관계 집중대조. 전권/전체 관련소설 완료 아님",
+  "sources": [
+    {
+      "path": "_FEWK 설정자료용/업로드 자료/원본_Core 100여개 원고원본.txt",
+      "sha256": "6a1c18b7188cc1fc0f13dc38e9ac158bd081ab821276ecd265747bd7d21d53af",
+      "scope": "원본0015/0016/0032/0063/0064/0087/0090/0094/0095 주제 전체+번호/가격 확인0019/0036 전체; 후반 중복을 독립근거로 합산하지 않음",
+      "whole_document_reviewed": false
+    },
+    {
+      "path": "_FEWK 설정자료용/업로드 자료/__wiki onepage.txt",
+      "sha256": "dad0d6e63a5304bfead70966d69fca8e12e2b1ffd296eb525b466617b935bba8",
+      "scope": "위키25/246/419/420/470/471/560/597/739/740 각 항목 전체. 초기 정의·역사 서술과 후속 분석/추가제안 구분",
+      "whole_document_reviewed": false
+    },
+    {
+      "path": "[소설100]/_claudecode_story1006/007_전쟁과평화의어머니.md",
+      "sha256": "607ab3a29141e2a8137c718d4ac3fd7dc35343f7d5351c831f2486caaa4be8e7",
+      "scope": "본문·설명·용어집 전체 읽기; 종교/관계/IO·원본과 확장 차이 집중대조. 설정 전부 확정 아님",
+      "whole_document_read": true,
+      "whole_setting_verified": false,
+      "novel_number": "007"
+    },
+    {
+      "path": "[소설100]/_claudecode_story1006/036_테트라모프의교회.md",
+      "sha256": "c61721424095f15bca924e956bc3e0d426ee5af929ace8bd3df1eca6228a027d",
+      "scope": "본문·설명·용어집 전체 읽기; 종교/관계/IO·원본과 확장 차이 집중대조. 설정 전부 확정 아님",
+      "whole_document_read": true,
+      "whole_setting_verified": false,
+      "novel_number": "036"
+    },
+    {
+      "path": "[1판_설정집]/07_전체집단리스트.md",
+      "sha256": "22a457e69735f0a34b09df22310807f919629e9e2835c274130a383d4c5268d1",
+      "scope": "7942자 전체 읽기; 종교D01~D13/권력·경제 편집 목록 집중대조. 다른기관/직업/군사/가문 전수 의미확정 아님",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/03_종교재단/02_칼리코와_어머니_전쟁.md",
+      "sha256": "8492568de4b7bbfc4ca6a15eafd8ca8b41d08f02a939ed4d0126688ce0da1c26",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/03_종교재단/03_기타_종교_세력.md",
+      "sha256": "655486223f9f1f3aba7e5753ad1c5e7bd39d070defc6c3c9e82357c39e383104",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/03_종교재단/README.md",
+      "sha256": "860c2c1ee3e0f931f5f145c040c1b0a81894a87261c5474c1ada2732a5c1a26c",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/04_화폐_경제/01_화폐전_체계와_사회.md",
+      "sha256": "d91508ecf8c62351faad6f0197752aefa22aaee9a7f6ea26b85cee6c733e3cce",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/05_권력_지형/01_인물_관계와_권력_맵.md",
+      "sha256": "b060ec657b1fe37997ef147d2881b72df0e072db7e7f66fb4d3a00e390db27a4",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/07_핵심_발명품_경제/01_와치엔진_복제기_코핀_게이트.md",
+      "sha256": "0d1503b73a05665390ec0b26f24830ed7b26c0797459c9459c11cec0a4f60ea1",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/README.md",
+      "sha256": "ed4f59b0ef4ed89b1b1b5408deb65523027a17a84d5442084429bdb42063269d",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    }
+  ],
+  "conflicts": [
+    "칼리코/어머니 전쟁 본문 전체와 위키419/420·직접 관련 소설007 전체를 대조. 원전은 생체계 보존 장로 대 뉴오더 월드 임플란트 현대화 혁신 갈등이며 추상 정통/개혁 교리체계와 다름. 더블블라인드 길드장 사일로의 강제결합·양측 초기환호/뇌네붕괴 결과를 복원.",
+    "어머니 성별 무관/태내 노출 계승·생체차원 비용/생물 한계를 유지하되 모든 코핀의 생체어머니 필수·믿음감소가 모든 차원의 물리법칙·오지 미개척 최초 진입을 일반화하지 않음. 소설007의3일/모크/서버독점/유세손신/시간변형은 확장 설정, 무장/뇌네/IO 규격을 별도로 확인.",
+    "기타종교 본문 전체와1판07 집단리스트 전체·관련 소설036 전체 대조. 구판13개 목록은 재단/분파/학교/개별교회가 함께 있는 편집 목록이며 공식 등록종교13개의 현행 인구조사 근거가 아님.",
+    "요나/테트라모프/새예루살렘·네오바티칸/세인트릭스는 관련 확장소설036에서 실제 확보. 원본Core0036은 가야로 번호 체계 다름. 소설의30년/신앙위 심의권·고정 장비가격/양자모듈/동시4형태·열세번째와열네번째 반복표현은 원전 공통법/장치 사양으로 승계하지 않음. 과실농원/향신교/후당 연계·모든플라이어 컬트·천해학교종교등록은 현근거 미확정.",
+    "종교부README 전체 읽음. 주요3계열/13개 이상은 탐색용 구판 편집 범주와 구분, SRC238의 등록13개 단정 및1판D01~D13과 상호 독립 증거로 합산하지 않음.",
+    "현재 World64~65에 원전 워피스/칼리코 사건과 확장소설036 공동체 모티프를 연결. 전체 종교 수/예배/인물/근거는 미완료.",
+    "화폐경제 전체와 원본0015/0016/0063/0064/0087·위키739/740 전체 대조. 한끼 오얏/공개 제조칼로리·100개 넘는 화폐/지역 사용·신성기업화폐를 유지. S07 회계1오얏=10000크레딧과 특정 국값/코핀통근 맥락 유지.",
+    "현실 현재최저임금/3000kcal/스타일별 고정월수입·만능 가격표·신성신앙코인/블록체인·GCS/CBA/UVU/TEEC·90일 리밸런스는 원전 초기 정의와 후속 제안을 구분. 루쳄은 날짜 이동이지 공간 통근 환율의 근거 아님. 마마클럽 일반 회원권 수치는 이번 원전에서 미확보(원본0019는 걱정인형).",
+    "원본0064:40수입−3식사−1통근=36이나본문잔액34; 차액2의 원인 미기재로 표시하고 새 비용 발명 안 함. 원본0087의 신성100전/일·600~700오얏은 해당 장면 교환 맥락이지 세계 고정환율 아님.",
+    "권력지도 전체와 칼리코/뉴오더 원전·소설007/036 및 기존World35~37 대조. 국가/기업/종교가 서로 소유/연결되는 구조는 유지하되 일괄 소유관계·백년균형·48~90/90~130 연대/모든현재기관 합의체를 전역제도로 승계하지 않음.",
+    "원전의 사일로/강제결합·소설 확장 중개약속/수금·원본0095 재민의 회사매각추정과 붕괴관측을 출처/시점/발화자 있는 관계로 기록. 신성CEO/미모/모든종교·국가기업결맹/과실농원은 미확인관계 후보; 관할/권한/소유/접근권을 합치지 않음. 미래3가지전개는 새 캠페인 선택이며 과거 정사 아님.",
+    "발명품경제 전체와 원본0090·위키25/246/470/471/560 전체 대조. 원형희망엔진 공식1기와 현대 와치엔진/기본블랙회로/소형셀 구분. 복제기는 값비싼 블랙 공급으로 수공업 여전히 주류, 모든가정무료제조 아님.",
+    "게이트는 목적지 고정 전용코핀과 통근 경로/바이트·패러독스 최적화이며 육체가 통째로 걷는 공공포털로 보편화하지 않음. 네거티브플레인/전용장비가 자동 미개척 표준IO의 근거도 아님. 뫼비우스독점/초록손수직공급/유니콘보험/보편가격표·반드시왕복두요금·드랍아웃사망/코핀파손 불승계.",
+    "사회정치경제부README 전체와1판07 목록을 대조.10대사국/23기업/3종교 구판목록의 탐색 기능과 전세계 배타적 현재등록통계를 구분.",
+    "DCSA/FHI는 실제 시대별 기관이며 현재 전차원 규제/중재 공통망으로 고정하지 않음. 국가/기업/종교·식사/임금·기술/권한·지역 생활을 같은 World65~67/현재 인터랙션에 연결하고 새 능력치/자동정신변화를 추가하지 않음."
+  ],
+  "source_arithmetic_discrepancy": {
+    "original_topic": "0064",
+    "earned_OYAT": 40,
+    "food_OYAT": 3,
+    "commute_OYAT": 1,
+    "declared_remaining_OYAT": 34,
+    "computed_remaining_OYAT": 36,
+    "unexplained_difference_OYAT": 2,
+    "additional_expense_invented": false
+  },
+  "related_novel_boundaries": {
+    "007": "모크·사흘/유세손신 등 확장은 원전의 해당 사건과 구분. 전세계 믿음/코핀법으로 일반화하지 않음",
+    "036": "별도 번호·종교기관/네 형태 동시/장치/반복 번호는 확장 내부에서 추가 확인"
+  },
+  "versions": {
+    "core": "v0.23",
+    "world": "v0.25",
+    "sheet": "v0.23",
+    "design": "v0.43"
+  },
+  "world_chapters": 67,
+  "sheet_sections": 28,
+  "new_mechanical_parameter_values": [],
+  "new_universal_stats": [],
+  "whole_document_read_is_full_semantic_completion": false,
+  "actual_participant_reading": false,
+  "actual_participant_playtest": false,
+  "actual_async_community_test": false
+}

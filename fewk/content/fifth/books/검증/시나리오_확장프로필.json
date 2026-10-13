@@ -1,0 +1,190 @@
+{
+  "id": "FEWK-SCENARIOS-01",
+  "date": "2026-10-05",
+  "engine": "P-FEWK-0.2",
+  "status": "NEW도입/짧은시나리오3/생활표·실제참가자시험전",
+  "source_indices": [
+    98,
+    99,
+    100,
+    101,
+    104,
+    105
+  ],
+  "prior_intro_file_sha256": "7194cf6558e208c08ee4f035f264e0293dc84e2ee9ea0ee74fada862af789cd9",
+  "prior_intro_text_sha256": "7194cf6558e208c08ee4f035f264e0293dc84e2ee9ea0ee74fada862af789cd9",
+  "prior_main_story_unchanged_except_version_and_appendix": false,
+  "new_universal_stats": [],
+  "hooks": [
+    "궁정구행사반출기록",
+    "살롱즈두몸진료자료",
+    "자본구직원계약기록",
+    "힙스전시샘플",
+    "서민구잘못된수거",
+    "노마드구미성재활용소유"
+  ],
+  "one_shots": {
+    "S1": {
+      "name": "기업행사의보관서류",
+      "primary_goal": "COPY-S1수신",
+      "deadline_IC_seconds": 600,
+      "base_clue_routes": [
+        "valid_request_to_record_keeper",
+        "actual_contact_with_issuer"
+      ],
+      "optional_risky_route": "accessible_locked_terminal",
+      "optional_failure_removes_base_routes": false,
+      "copy_capacity_files": 1,
+      "source_record_moved": false,
+      "copy_requires_actual_source_access_capacity_receiver": true,
+      "copy_main_actions": 1,
+      "copy_seconds": 5,
+      "reward_oyat_per_PC": 2,
+      "deadline_closes_current_window_not_all_evidence_or_HP": true,
+      "NPC_cards": [
+        "N01",
+        "N06",
+        "N04"
+      ]
+    },
+    "S2": {
+      "name": "공단계의마지막접수",
+      "goal": "하람/BOX-S2실제접수·귀환/보관",
+      "NPC_cards": [
+        "N05",
+        "N04",
+        "N04"
+      ],
+      "NPC_guard_count": 2,
+      "layer": "lower3",
+      "mode": "runner",
+      "starting_ego": 10,
+      "elapsed_at_open_seconds": 21560,
+      "booking_deadline_seconds": 21600,
+      "deadline_equality_allowed": true,
+      "detour_distance_m": 150,
+      "base_move_m": 10,
+      "round_seconds": 5,
+      "reception_after_arrival_seconds": 5,
+      "reception_main_actions": 1,
+      "reception_after_arrival_next_round": true,
+      "delay_examples_seconds": [
+        0,
+        20,
+        25
+      ],
+      "direct_open_distance_m": 20,
+      "melee_range_m": 1,
+      "shield_block_per_body_round": 1,
+      "deadline_auto_original_damage_or_Ego_zero_or_Dropout": false,
+      "reward_oyat_per_PC": 2,
+      "direct_negotiation_seconds": 5,
+      "direct_guard_negotiation_target": 30,
+      "direct_basic_completion_seconds": 20,
+      "direct_fast_completion_seconds": 15,
+      "detour_basic_completion_seconds": 80,
+      "detour_fast_completion_seconds": 45,
+      "late_rebooking_delay_seconds": 1200,
+      "late_rebooking_cost_team_oyat": 1,
+      "late_rebooking_default_payer": "하람",
+      "detour_uses_extra_main_movement": true
+    },
+    "S3": {
+      "name": "잔잔카페의잘못된수거표",
+      "truth_fixed_before_PC_investigation": "mislinked_delivery_order_read_as_disposal",
+      "base_clue_routes": [
+        "owner_actual_receipt",
+        "witness_vehicle_mark"
+      ],
+      "optional_failure_removes_base_routes": false,
+      "NPC_cards": [
+        "N01",
+        "N06",
+        "N05",
+        "N02"
+      ],
+      "repair_part": "PART-S3",
+      "repair_object": "MOD-S3",
+      "repair_seconds": 300,
+      "repair_safe_functional_not_HP_healing": true,
+      "mandatory_death_Dropout_or_matting": false,
+      "reward_oyat_per_PC": 1
+    }
+  },
+  "inspiration_tables": [
+    {
+      "id": "생활변화",
+      "bounds": [
+        [
+          1,
+          20
+        ],
+        [
+          21,
+          40
+        ],
+        [
+          41,
+          60
+        ],
+        [
+          61,
+          75
+        ],
+        [
+          76,
+          90
+        ],
+        [
+          91,
+          100
+        ]
+      ]
+    },
+    {
+      "id": "요청목적",
+      "bounds": [
+        [
+          1,
+          20
+        ],
+        [
+          21,
+          40
+        ],
+        [
+          41,
+          60
+        ],
+        [
+          61,
+          75
+        ],
+        [
+          76,
+          90
+        ],
+        [
+          91,
+          100
+        ]
+      ]
+    }
+  ],
+  "table_choice_changes_PC_state_by_itself": false,
+  "random100_automatically_new_historical_event": false,
+  "same_engine_and_canonical_biographies_separated": true,
+  "all_original_scenario_and_campaign_consequences_complete": false,
+  "full_encounter_balance_verified": false,
+  "actual_participant_reading": false,
+  "actual_participant_playtest": false,
+  "actual_async_community_test": false,
+  "historical_v04_main_story_prefix_verified_against_v02": true,
+  "current_main_story_editorial_review": {
+    "record": "이전설계_통합검토.json",
+    "key": "intro_identity_evidence_review",
+    "Intro": "v0.5",
+    "scenario_tools_appendix_unchanged": true
+  },
+  "updated_date": "2026-10-08"
+}

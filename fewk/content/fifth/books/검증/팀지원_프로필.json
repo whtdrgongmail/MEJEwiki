@@ -1,0 +1,44 @@
+{
+  "id": "FEWK-TEAM-01",
+  "date": "2026-10-05",
+  "engine": "P-FEWK-0.2",
+  "status": "new_workshop_support_and_growth_examples_not_full_NPC_catalogue",
+  "new_universal_stats": [],
+  "mandatory_six_team_roles": false,
+  "mandatory_contact_trust_score": false,
+  "flashback_causes_automatic_paradox": false,
+  "existing_common_support": {
+    "max_situation_pp": 20,
+    "duplicate_helpers_stack": false,
+    "opposed_situations_cancel": true,
+    "prerequisites_needed_before_roll": true
+  },
+  "remote_example": {
+    "body": "B-T2",
+    "receiver_body": "B-T1",
+    "source": "MANUAL-T1",
+    "shared_skill": "해킹",
+    "base_target": 50,
+    "with_help_target": 70,
+    "roll": 62,
+    "message_main_actions": 1,
+    "message_seconds": 5,
+    "cross_dimension_network_default": false,
+    "late_help_rewrites_prior_result": false
+  },
+  "growth": {
+    "story_unit": "ARC-WORKSHOP-01",
+    "person": "P-T1",
+    "one_learned_skill_per_story": true,
+    "skill": "해킹",
+    "before": 50,
+    "after": 55,
+    "increment": 5,
+    "cap": 95,
+    "body_switch_duplicates_growth": false,
+    "post_count_grants_extra_growth": false
+  },
+  "long_campaign_requires_global_war_or_retirement": false,
+  "actual_participant_playtest": false,
+  "actual_async_community_test": false
+}

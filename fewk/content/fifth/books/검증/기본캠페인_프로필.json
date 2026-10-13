@@ -1,0 +1,251 @@
+{
+  "id": "FEWK-DISTRICT-C1",
+  "date": "2026-10-07",
+  "status": "NEW기본캠페인/지역가격/작전예",
+  "engine": "P-FEWK-0.2",
+  "combat_profile": "P-INTRO-01",
+  "world_basis": "World16 공단계의 생산/출퇴근·기업 게이트/카페; 구역/인물/사건/수치는 새 캠페인",
+  "new_universal_stats": [],
+  "prices_apply_globally": false,
+  "starting_personal_money_oyat": 6,
+  "players": 3,
+  "catalog": [
+    {
+      "id": "MELEE",
+      "name": "동력 근접 도구",
+      "price_oyat": 3,
+      "skill": "격투",
+      "use": "접촉1m·피해6. 원거리 방호를 우회하는 대신 직접 접근해야 함",
+      "mechanical_basis": "P-INTRO-01"
+    },
+    {
+      "id": "PISTOL",
+      "name": "권총",
+      "price_oyat": 3,
+      "skill": "사격",
+      "use": "기본30m/최대60m·피해4/P·12발. 구매 때 탄창1개 포함",
+      "mechanical_basis": "P-INTRO-01"
+    },
+    {
+      "id": "CARBINE",
+      "name": "카빈",
+      "price_oyat": 5,
+      "skill": "사격",
+      "use": "기본60m/최대120m·피해5/P·12발. 구매 때 탄창1개 포함",
+      "mechanical_basis": "P-INTRO-01"
+    },
+    {
+      "id": "LASER",
+      "name": "레이저 단말",
+      "price_oyat": 5,
+      "skill": "사격",
+      "use": "기본30m/최대60m·피해4/L·6회 셀 포함",
+      "mechanical_basis": "P-INTRO-01"
+    },
+    {
+      "id": "ARMOR",
+      "name": "작업 장갑",
+      "price_oyat": 2,
+      "skill": "—",
+      "use": "장치 방호 뒤 피해1 감소. 같은 몸에 여러 벌을 입어 감쇄를 더하지 않음",
+      "mechanical_basis": "P-INTRO-01"
+    },
+    {
+      "id": "SHIELD-P",
+      "name": "프로젝타일 방호",
+      "price_oyat": 3,
+      "skill": "—",
+      "use": "P적중 차단·충전2. L방호와 함께 쓰면 총충전2/라운드1회 공유",
+      "mechanical_basis": "P-INTRO-01"
+    },
+    {
+      "id": "SHIELD-L",
+      "name": "레이저 방호",
+      "price_oyat": 3,
+      "skill": "—",
+      "use": "L적중 차단·충전2. P방호와 함께 쓰면 총충전2/라운드1회 공유",
+      "mechanical_basis": "P-INTRO-01"
+    },
+    {
+      "id": "HACKTERM",
+      "name": "접속 단말",
+      "price_oyat": 2,
+      "skill": "해킹",
+      "use": "공단계C1의 서비스 포트/현지망 접속. 지정 기능에 개입할 수단이며 목표값 가산 없음",
+      "mechanical_basis": "DISTRICT-C1"
+    },
+    {
+      "id": "COMTERM",
+      "name": "외장 통신 단말",
+      "price_oyat": 1,
+      "skill": "교섭/해당 행동",
+      "use": "공단계C1 현지 연락망과 거점 지원자에게 메시지. 전술 연락은 주요1/5초",
+      "mechanical_basis": "BODY-COMM-01"
+    },
+    {
+      "id": "ENGTOOLS",
+      "name": "공학 공구",
+      "price_oyat": 2,
+      "skill": "공학",
+      "use": "C1 외부 연결부 점검·수리의 공구. 교체 부품은 별도",
+      "mechanical_basis": "COMM-REPAIR-01"
+    },
+    {
+      "id": "JOBTOOLS",
+      "name": "생업 도구",
+      "price_oyat": 2,
+      "skill": "생활",
+      "use": "처음 정한 생활 전문1종의 일상 도구. 정상 업무를 수행할 수단",
+      "mechanical_basis": "DISTRICT-C1"
+    },
+    {
+      "id": "TRANSLATOR",
+      "name": "번역 단말",
+      "price_oyat": 2,
+      "skill": "조사/교섭",
+      "use": "C1의 한국어/영어 말·문자 번역. 숨긴 의도나 사실 여부는 별도 정보",
+      "mechanical_basis": "DISTRICT-C1"
+    },
+    {
+      "id": "STORAGE",
+      "name": "사본 저장장치",
+      "price_oyat": 1,
+      "skill": "해킹/조사",
+      "use": "현재 빈 공간1만자. 본 의뢰의 기록묶음1건을 저장; 읽기/반출 조건은 대상별 적용",
+      "mechanical_basis": "DISTRICT-C1"
+    },
+    {
+      "id": "MED",
+      "name": "응급 키트",
+      "price_oyat": 1,
+      "skill": "의학",
+      "use": "처치1회분. HP0 안정화/회복과 같은24시간 창의 중복 제한은 공통 치료 적용",
+      "mechanical_basis": "P-INTRO-01"
+    },
+    {
+      "id": "AMMO",
+      "name": "권총/카빈 탄창",
+      "price_oyat": 1,
+      "skill": "사격",
+      "use": "지정 총기12발1개. 장전 주요1; 남은 옛 탄창은 별도 잔량으로 보관",
+      "mechanical_basis": "P-INTRO-01"
+    },
+    {
+      "id": "LCELL",
+      "name": "레이저 셀",
+      "price_oyat": 1,
+      "skill": "사격",
+      "use": "지정 레이저 단말6회분1개. 장전 주요1",
+      "mechanical_basis": "P-INTRO-01"
+    },
+    {
+      "id": "CHARGE",
+      "name": "방호 충전팩",
+      "price_oyat": 1,
+      "skill": "—",
+      "use": "안전 거점에서 주요1로 한 몸의 공유 방호 충전을2로 채움",
+      "mechanical_basis": "P-INTRO-01"
+    },
+    {
+      "id": "PART",
+      "name": "서비스 연결부",
+      "price_oyat": 1,
+      "skill": "공학",
+      "use": "외부 연결부 수리1회분. 작업5분·시작 때 소비",
+      "mechanical_basis": "COMM-REPAIR-01"
+    },
+    {
+      "id": "IM-COMM",
+      "name": "몸의 통신 모듈",
+      "price_oyat": 4,
+      "skill": "교섭/해당 행동",
+      "use": "F-COM 지원 몸에서 손에 단말을 들지 않고 지정망 연락. 행동/시간은 외장 단말과 동일",
+      "mechanical_basis": "BODY-COMM-01"
+    },
+    {
+      "id": "IM-REFLEX",
+      "name": "반응 보조 모듈",
+      "price_oyat": 6,
+      "skill": "운동",
+      "use": "지원 몸에서 관측 가능한P/L총격에 개인 반응1을 써 운동 대립. 추가 행동/반응 없음",
+      "mechanical_basis": "P-INTRO-01"
+    }
+  ],
+  "starter_kits": [
+    {
+      "name": "현장 러너",
+      "items": {
+        "MELEE": 1,
+        "PISTOL": 1
+      }
+    },
+    {
+      "name": "자료 러너",
+      "items": {
+        "HACKTERM": 1,
+        "ENGTOOLS": 1,
+        "STORAGE": 1,
+        "MED": 1
+      }
+    },
+    {
+      "name": "생활 중개자",
+      "items": {
+        "JOBTOOLS": 1,
+        "TRANSLATOR": 1,
+        "MED": 2
+      }
+    }
+  ],
+  "body": {
+    "max_hp": 12,
+    "resistance": 50,
+    "move_m": 10,
+    "base_BP": 90,
+    "framework": "C1-F/F-COM",
+    "prepared_BP_assessments": {
+      "none": 90,
+      "IM-COMM": 89,
+      "IM-REFLEX": 87,
+      "IM-COMM+IM-REFLEX": 86
+    },
+    "implant_service_seconds": 21600,
+    "implant_service_price_oyat": 2
+  },
+  "mission": {
+    "id": "DISTRICT-NIGHT-01",
+    "advance_per_person_oyat": 1,
+    "completion_per_person_oyat": 3,
+    "evidence_chars": 10000,
+    "personal_payroll_chars": 4000,
+    "machine_log_chars": 6000,
+    "port_rounds": 1,
+    "alarm_arrival_rounds_after_detection": 3,
+    "guards": 2,
+    "guard_hp": 12,
+    "guard_shooting": 50,
+    "guard_melee": 30,
+    "guard_observation": 50,
+    "guard_armor": 1,
+    "guard_shield_charges": 1,
+    "guard_ammo": 12,
+    "guard_weapon": "권총",
+    "alarm_clearance_covers_only_local_patrol": true
+  },
+  "settlement_example": {
+    "ammo_packs": 2,
+    "shield_packs": 2,
+    "aid_kits": 1,
+    "repair_parts": 1,
+    "lodging_person_nights": 3,
+    "lodging_price_oyat": 1
+  },
+  "actual_participant_playtest": false,
+  "balance_confirmed": false,
+  "settlement_account": "물질계 공동 작업실 오얏 예치금; C1 공급소/숙소/지정시술소 협약 정산",
+  "starting_money_is_per_person_not_per_body": true,
+  "translation_languages": [
+    "한국어",
+    "영어"
+  ]
+}

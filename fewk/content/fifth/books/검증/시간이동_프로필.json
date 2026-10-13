@@ -1,0 +1,87 @@
+{
+  "id": "FEWK-TIME-01",
+  "date": "2026-10-05",
+  "engine": "P-FEWK-0.2",
+  "status": "NEW 철도 왕복·지원 시간도보·지정 인과 변경 시험",
+  "source_indices": [
+    150,
+    151,
+    152,
+    153
+  ],
+  "new_universal_stats": [],
+  "unified_action_term": "인터랙션",
+  "body_preserved": true,
+  "all_time_physics_verified": false,
+  "actual_participant_playtest": false,
+  "records": [
+    "인물/몸ID",
+    "노선/행로/인과경로ID",
+    "출발/도착 환경 날짜",
+    "기존 연호/자기력",
+    "몸의 실제 누적 IC초",
+    "에고와 같은 구간 체류율",
+    "현재 물품/정보/계약 이력",
+    "귀환 경로/변경 조건"
+  ],
+  "train": {
+    "id": "TIME-RAIL-T1",
+    "departure": "D0",
+    "arrival": "D-1",
+    "route": "RAIL-T1",
+    "seconds": 1800,
+    "tickets": 1,
+    "normal_ego_loss_per_hour": 0,
+    "timewalking_ability_required": false,
+    "uncertain_roll_required": false,
+    "body_reset": false
+  },
+  "walk": {
+    "id": "TIME-WALK-T1",
+    "departure": "D0",
+    "arrival": "D-1",
+    "route": "WALK-T1",
+    "seconds": 300,
+    "required_interaction": "WALK-T1-ABILITY",
+    "required_tool": "TOTEM-T1",
+    "route_uncertain": true,
+    "skill": "공학",
+    "target": 50,
+    "main_actions": 1,
+    "setup_seconds": 5,
+    "ego_loss_per_hour_unprotected": 1,
+    "ego_loss_per_hour_with_calibrated_tool": "1/2",
+    "same_interval_residence_rate": "max, not sum",
+    "failure": "현재 위치에서 출발 중단; 실제 준비5초/행동과 그5초의 지정 존재 부담만 소비. 실패 추가 손실/새 방법 없는 반복 굴림은 없음",
+    "origin": "이 능력의 입수·학습/각성 이력은 개별 인물 기록; 공학 숙련만으로 이동 기능 생성 안 함",
+    "setup_uses_same_ego_rate": true
+  },
+  "causal_event": {
+    "id": "TIME-PATH-T1",
+    "trigger": "NPC-A와 약속한 부품을 이 날짜에 전달하지 않는다는 실제 선택",
+    "old_return_route": "RETURN-T1",
+    "new_return_route": "RETURN-T1B",
+    "old_return_available": false,
+    "new_return_available": true,
+    "others_history_rewritten": false,
+    "automatic_damage": false,
+    "automatic_Dropout": false,
+    "scope": "이 신규 장면의 지정 귀환 경로 변경만. 모든 정보/선택이 같은 결과를 내는 보편 공식 아님"
+  },
+  "consequence_policy": {
+    "calendar_is_display_not_snapshot": true,
+    "out_of_character_wait_advances_IC": false,
+    "age_and_healing_windows_use_elapsed_IC": true,
+    "events_and_goods_are_not_reissued_on_return": true,
+    "other_PC_memories_or_choices_reset": false,
+    "checkpoint_Mug_requires_declared_case": true,
+    "universal_horror_or_PC_emotion_roll": false
+  },
+  "support_context": {
+    "id": "TIME-SUPPORT-T1",
+    "scope": "시험왕복·도보구간은원래물질계지원재접속전시간행로",
+    "recovery_during_declared_route": 0,
+    "normal_return_recovery_after_completion": true,
+    "universal_recovery_ban_for_all_time_travel": false
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "id": "FEWK-HUB-MISSIONS-01",
+  "date": "2026-10-05",
+  "source_ids": [
+    "SRC-276",
+    "SRC-277",
+    "SRC-278",
+    "SRC-279",
+    "SRC-280",
+    "SRC-281",
+    "SRC-282",
+    "SRC-283",
+    "SRC-284",
+    "SRC-285"
+  ],
+  "scope": "거점/의뢰/조직10개 문서 전체·원전14주제·위키19항목 전체, S07 기존 결정114~126행·직접 관련 소설002 전체를 집중 대조. 원전 전권/전체NPC/관련 소설 전체/실제 참가자의 완료는 아님",
+  "sources": [
+    {
+      "path": "_FEWK 설정자료용/업로드 자료/원본_Core 100여개 원고원본.txt",
+      "sha256": "6a1c18b7188cc1fc0f13dc38e9ac158bd081ab821276ecd265747bd7d21d53af",
+      "scope": "원본 0001,0007,0025,0027,0028,0048,0049,0053,0054,0058,0063,0073,0078,0079 각 주제 전체. 중복 재수록은 독립근거로 합산하지 않음",
+      "whole_document_reviewed": false
+    },
+    {
+      "path": "_FEWK 설정자료용/업로드 자료/__wiki onepage.txt",
+      "sha256": "dad0d6e63a5304bfead70966d69fca8e12e2b1ffd296eb525b466617b935bba8",
+      "scope": "위키 인덱스 83,84,112,147,149,150,171,257,315,319,348,466,467,534,608,642,670,687,742 각 항목 전체. 최초정의/리디렉션/후기 확장·분석을 구분; 지난회 확인한71/72·611/613·720 정의를 재참조",
+      "whole_document_reviewed": false
+    },
+    {
+      "path": "../_history/2026-10-03_정리/보관/_FEWK 룰북 계획/[수정계획들]/260424_과제_현안_v0.2.md",
+      "sha256": "4a6c82742c9e8cf663c52e56c0c57c5c1c0bd6e14f32b0a1de540d9326f37c45",
+      "scope": "이전결정 S07 114~126행의 본점/체인 소화·국값1오얏·레드몽키즈유일/분점없음·경계/유적/S간판 대조. 전체재검수라고 합산 안 함",
+      "whole_document_reviewed": false
+    },
+    {
+      "path": "[소설100]/_claudecode_story1006/002_러너카페의채무자.md",
+      "sha256": "53903eb8556db750cec9e88e30ddba950b6d12d40590675b9deae3b365c6b616",
+      "scope": "직접 관련 소설002 전체·작가노트/용어집 포함. 카페/인물/의지담보와 원전/새코어 경계·80−50=30 산술 대조, 전체소설100 완료 아님",
+      "whole_document_reviewed": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/02_경제와_거점/03_카페와_클럽.md",
+      "sha256": "e4caf6fe21259029e1840705316ff6942483a5bd1cf184d4609fc52045c735c4",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/02_경제와_거점/README.md",
+      "sha256": "269624790134c0244e8269e2cb99c064091a23e46bd6a9a32282131e119ca090",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/03_임무의_지형/01_통상_임무와_서비스.md",
+      "sha256": "811bb8d53edbb0e70e6a2ac0bfdd47e54c06701e6600bcd36cc80462e420ed40",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/03_임무의_지형/02_나이트_러닝.md",
+      "sha256": "88a9c58b37b810d9de52edc4fb18c43199d0724266f8e42911f1a689db2488b1",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/03_임무의_지형/03_피지컬_러닝과_드랍_위험.md",
+      "sha256": "27e322abb6870851fb655308da153024634054f58140185a07d84bbe60e1480a",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/03_임무의_지형/README.md",
+      "sha256": "c7196384176ab81ee7f462e26aee0c9ec6f1f9dad4c7ea8ea12fdbae9b29691c",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/04_조직과_갱단/01_솔로와_팀.md",
+      "sha256": "dfacd984e4f4f1ea107ebb71d2a9ba4242e3847e08f5635579ba5fa923fb41b1",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/04_조직과_갱단/02_갱단의_지도.md",
+      "sha256": "a794e4a99b9522ef736df131eb451f7b2b822e867027ec77e994427c25f74509",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/04_조직과_갱단/03_신디케이트와_동맹.md",
+      "sha256": "de8eef698e99992dc675f48c36acbaa9b90d4a4397bb606dacb3e163951fc2bd",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/04_조직과_갱단/README.md",
+      "sha256": "174812f3f846479f9c79dba93f8d66577f0515eeed34c26dca1918915444780d",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    }
+  ],
+  "original_raw_topics_whole_read": [
+    "0001",
+    "0007",
+    "0025",
+    "0027",
+    "0028",
+    "0048",
+    "0049",
+    "0053",
+    "0054",
+    "0058",
+    "0063",
+    "0073",
+    "0078",
+    "0079"
+  ],
+  "original_wiki_topic_indices_whole_read": [
+    83,
+    84,
+    112,
+    147,
+    149,
+    150,
+    171,
+    257,
+    315,
+    319,
+    348,
+    466,
+    467,
+    534,
+    608,
+    642,
+    670,
+    687,
+    742
+  ],
+  "previous_decision_lines_reviewed": {
+    "S07": [
+      114,
+      126
+    ]
+  },
+  "directly_related_novels_whole_read_this_pass": [
+    "002"
+  ],
+  "conflicts": [
+    [
+      "카페/클럽 본문 전체와 원본0025/0028/0053/0054/0079·위키 운영자/장소·S07의 기존 결정·직접관련 소설002 전체 대조. 본점 실인물/체인 마스코트·국값1오얏과 유일 레드몽키즈/분점없음·경계/구남항 유적/S간판은 S07 유지.",
+      "원전0025/0028 및 위키가 농장 소화·치코와 카페를 실제로 연결해 이전15/68장의 전부 미확인 경계 정정. 소설002의 소하 표기/신전사 대출·몸/인격/마담 외형과 원전 네이티브/변신 시점은 추가 확인.",
+      "크리스 가스 판촉 공연 중 사망은0054 실제근거, 데뷔/현재클럽 모든상세는 미확정. 마리아 단독물질계생존/리브스트레이트제작확정·분점 신디케이트 요약은 원전/추측/S07과 분리. 식스센스/빅터/로제아 및 헬스카페 파라오는 실제위키소개 유지; 모든카페전역안전/실시간환율·등급/통지법 불승계.",
+      "원본0025/0028/0054 전문 재대조: 농부가 밭에서 주운 서국의 새를 고양이 치코에게 먹이는 사건이며 카나리아/고양이가포획했다는 정보없음. 팬 표기요섭·편지받고도보장례행·과거단독무음공연·추모장기타인계/청소원의이름호출 유지, 원문없는추모단체공연/케이크는 제거."
+    ],
+    [
+      "경제/거점 README 전체 읽어 화폐·중개·거점을 같은 활동의 관계로 연결. 경제가 공적자치 밖이라는 일괄서술은 개별기업/길드/발행자·지급처 조건과 구분. 기존68장 지급/금융 경계를 유지하고69장 거점·70장 의뢰로 대응."
+    ],
+    [
+      "통상임무/서비스 본문 전체 대조. 배달/조달/호위/정보/조사/수리의 실제 대상·도구·인계·지급을 같은 인터랙션으로 유지; 의뢰명별 별도엔진/강제인원·직업역할 불승계.",
+      "재생사는0001/위키534의 영상기록/재생/전이, 진 신호기능은 실제칩/기능범위로 정정; 모든기계/영혼/기록복구로 확대 안 함. 티로리20년/최초관측은0078 실제근거이나 종교계괴물퇴치뒤유령귀환/지원으로, 최초오지조사/전원영구삭제 정정."
+    ],
+    [
+      "나이트러닝 본문 전체와 지난71/72 정의·0073/0053 원전 대조. 불법/합법과 의뢰보안·조건 선택 유지, 항상야간/악인·고정의뢰급·모든기업국가흑예산·PC감정강제는 불승계.",
+      "칼리코 일반정통/개혁 기업전쟁 요약은65장의 세계/강제융합·사일로 기록과 다름. 해당후속시나리오를 원전의 현재사건으로 확정하지 않음."
+    ],
+    [
+      "피지컬/드랍위험 본문 전체와0049/0073/0007/0078·위키오퍼니지 대조. 실제본체공격/네이티브돌아갈곳과 사회적호칭 유지, 현지전투 같은엔진/실제피해대상.",
+      "모든현지통증본체피해·자동강제귀환/사망/에고정신붕괴/글로벌재산퇴직/자격박탈 및 모험50%매팅은 불승계.0007 개인매팅/생존조건을 직업통계로 안 씀. 오퍼니지 리더황도/실제거점은 유지, 모든성인본체전문가/훈련법은 미확정."
+    ],
+    [
+      "임무README 전체와 통상/스페셜 사용자분류 대조. 임포트익스포트·현지전투·거주 중심, 필요시 오지/개척특수IO·장기거주·플라잉·드랍아웃 붙임. 드랍아웃=그차원재진입금지 보존, 장르명에 전역죽음통계 안 붙임."
+    ],
+    [
+      "솔로/팀 본문 전체·0048 실제팀/지현과 위키수덕670 확장대조. 솔로/임시/상설작업과 길드소속 다름; 여러소속같은의뢰 가능. 고정2~4/3~5/수덕5~7인·필수전용직업/혼자100%보수·협력지원금자동보장은 미확정.",
+      "원본0048의 지휘/동면관101·액골100/지급거절과 후기고스트헌터스전기/탈영순서는 구분. 원전미모표기는美貌, 구판美毛 잘못된표기를 현재로 승계하지 않음."
+    ],
+    [
+      "갱단지도 본문 전체·원본0028/0049/0063/0079 및 위키로제아/빅터/식스센스/오퍼니지/POKZOO/노마드 대조. 실제연결·거점·이름 유지.",
+      "오퍼니지 황도/들꽃보육원과 원전0049사업구상은 실제근거; 정확한설립/성인특수훈련/모든소속의무 미확정. POKZOO는 에버래스팅 큰바이커갱단, 노마드의 모든물류/협약정책을 자동합침 안 함. 모든갱단동일문신/가족규율/불간섭·원전초기정책으로 확대하지 않음."
+    ],
+    [
+      "신디케이트/연합 본문 전체 및0049경쟁갱공동보수·S07분점없음·기업신성전 대조. 구체적공동업무/자원/발행자 관계로 유지, 모든연합3필수자격/보안연락망/공동자원무료이용·전역사망통지 미확정.",
+      "레드몽키즈 노마드지점은 같은부275의분점없음과 S07에 충돌, 분점으로 증식 안 함. 신성전은기업지급수단으로 유지, 종교단체전용공통화폐 정정."
+    ],
+    [
+      "조직README 전체 읽어 솔로/팀/갱단/연합을 실제 활동/관계에 대응. 상위레벨/의무편성/전역소속운명으로 묶지 않고70장·Core 같은팀지원/온라인·시트30에 연결."
+    ]
+  ],
+  "versions": {
+    "core": "v0.25",
+    "world": "v0.27",
+    "sheet": "v0.25",
+    "design": "v0.45"
+  },
+  "world_chapters": 70,
+  "sheet_sections": 30,
+  "new_mechanical_parameter_values": [],
+  "new_universal_stats": [],
+  "mandatory_job_slots_added": false,
+  "physical_runner_label_creates_cross_body_damage": false,
+  "dropout_means_only_named_realm_reentry_ban": true,
+  "Red_Monkeys_has_branches": false,
+  "Sohwa_original_farm_and_cafe_link_confirmed": true,
+  "Sohwa_vs_Soha_spelling_resolved": false,
+  "original_Native_and_transformation_chronology_resolved": false,
+  "Maria_Live_Straight_maker_is_confirmed_fact": false,
+  "Chris_gas_promotion_death_supported": true,
+  "Chris_gas_promotion_debut_supported": false,
+  "Tirori_20years_first_observation_supported": true,
+  "cafe_global_safety_and_FX_and_notices_guaranteed": false,
+  "OOC_sheet_visibility_is_IC_knowledge": false,
+  "novel_arithmetic_discrepancy": {
+    "earned_OYAT": 80,
+    "interest_OYAT": 50,
+    "available_principal_reduction_OYAT": 30,
+    "source_says_debt_increases": true,
+    "this_pair_proves_increase": false,
+    "additional_expenses_invented": false
+  },
+  "unread_documents_counted": false,
+  "actual_participant_reading": false,
+  "actual_participant_playtest": false,
+  "actual_async_community_test": false,
+  "primary_recheck_corrections": {
+    "raw_topics_whole_reread": [
+      "0025",
+      "0028",
+      "0054"
+    ],
+    "fan_name": "요섭",
+    "soundless_concert": "장례 이전 소년 한 명을 위한 단독 공연",
+    "bird": "밭에서 농부가 주운 서국의 새를 고양이 치코에게 먹임",
+    "unsupported_collective_memorial_concert_and_cake_removed": true,
+    "new_canon_added": false
+  }
+}

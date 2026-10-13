@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-05",
+  "id": "SPL-RES-01",
+  "status": "신규 FEWK 스페셜 시험 구현·원전/구판 집중 대조 후 참가자 시험 전",
+  "common_engine": "P-FEWK-0.2",
+  "core": "../10_CoreRulebook.md",
+  "ego_max": 10,
+  "modes": {
+    "settled": 0,
+    "walker": 1,
+    "runner": 2,
+    "flyer": 3
+  },
+  "layer_full_capacity_hours": {
+    "lower1": "2400",
+    "lower2": "240",
+    "lower3": "24",
+    "lower4": "5/2",
+    "lower5": "1/4"
+  },
+  "material_time_decay": false,
+  "flying_chain_cost": "maximum_once_per_common_time_segment",
+  "support": {
+    "activity_hours": "1",
+    "material_recovery_per_hour": "1",
+    "material_recovery_requires_positive_ego": true,
+    "zero_restoration_hours": "1",
+    "zero_restoration_resources": 1,
+    "zero_restoration_ego": "1",
+    "same_method_history_persists_across_switches": true,
+    "history_reset": "full_material_recovery",
+    "same_method_uses_gains": [
+      "2",
+      "1",
+      "0"
+    ]
+  },
+  "body_damage_auto_ego_damage": false,
+  "zero_auto_dropout": false,
+  "zero_auto_original_damage": false,
+  "dropout": {
+    "scope": "specific_realm_and_shared_person",
+    "new_body_bypasses": false,
+    "ordinary_exit_is_dropout": false,
+    "automatic_safe_return": false
+  },
+  "tests": {
+    "pioneer": {
+      "id": "SPL-PIO-TEST",
+      "mode": "walker",
+      "entry_resource": 1,
+      "return_resource": 1,
+      "coffin_allowed": false,
+      "same_physical_body_id": true,
+      "failed_entry_body_stays": "origin",
+      "io_publication_requires_records_and_review": true
+    },
+    "flying": {
+      "id": "SPL-FLY-TEST",
+      "time_ratios": [
+        "1",
+        "1"
+      ],
+      "layer_H_hours": [
+        "2400",
+        "240"
+      ],
+      "return_order": [
+        "B2",
+        "B1",
+        "B0"
+      ],
+      "direct_fallback_default": false,
+      "fallback_resource_if_prepared": 1
+    },
+    "dropout": {
+      "id": "SPL-DROP-TEST",
+      "realm": "TEST-DROP",
+      "detonation_main_actions": 1,
+      "device_resource": 1,
+      "failed_activation_before_effects": true,
+      "local_body_destroyed_on_success": true,
+      "original_damage_on_success": 0,
+      "export_before_detonation_required": true
+    }
+  },
+  "original_text_review_scope": "Core0026/0031·wiki에고·이전Physics05/Pack/3.1판해당항목의주제집중대조;전체원전/358개전권검수아님",
+  "actual_participant_playtest": false,
+  "canonical_all_realms_time_table_claimed": false,
+  "settled_time_decay": false,
+  "native_birth_status_is_separate_from_residence_mode": true,
+  "settled_mode_requires_campaign_conditions_and_does_not_reset_ego": true,
+  "terminology_migration": {
+    "previous_mode_key": "native",
+    "current_mode_key": "settled",
+    "reason": "출생 신분과 조건을 갖춘 현지 정착 체류 상태를 구분",
+    "old_label_requires_rechecking_actual_settlement_conditions": true,
+    "numeric_rate_changed": false
+  }
+}

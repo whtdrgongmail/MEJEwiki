@@ -1,0 +1,215 @@
+{
+  "id": "FEWK-ROAD-01",
+  "date": "2026-10-05",
+  "engine": "P-FEWK-0.2",
+  "status": "new_declared_road_rules_not_canon_vehicle_statistics",
+  "unified_action_term": "인터랙션",
+  "drive_skill": "생활",
+  "drive_specialty_required": "운전",
+  "round_seconds": 5,
+  "new_universal_stats": [],
+  "actual_participant_playtest": false,
+  "all_transport_ships_and_vehicle_IO_complete": false,
+  "vehicles": {
+    "ROAD-BIKE-01": {
+      "max_hp": 16,
+      "armor": 0,
+      "seats": 2,
+      "cargo_limit_g": 30000,
+      "normal_move_m": 40,
+      "fast_move_m": 60,
+      "fast_failure_max_m": 20,
+      "cover_for_riders": "none",
+      "initial_cells": 1000
+    },
+    "ROAD-VAN-01": {
+      "max_hp": 24,
+      "armor": 1,
+      "seats": 4,
+      "cargo_limit_g": 200000,
+      "normal_move_m": 30,
+      "fast_move_m": 50,
+      "fast_failure_max_m": 10,
+      "cover_for_riders": "full_closed_opaque_cabin_or_partial_open_hatch",
+      "initial_cells": 1000
+    }
+  },
+  "drive": {
+    "main_actions": 1,
+    "own_basic_movement_consumed": true,
+    "one_vehicle_movement_per_round": true,
+    "normal_cost_cells": 10,
+    "fast_cost_cells": 15,
+    "safe_normal_roll": false,
+    "roll_on_fast_or_actual_route_risk": true,
+    "failed_normal_move_m": 0,
+    "invalid_attempt_consumption": 0,
+    "autopilot": false,
+    "stop_at_destination_is_declared": true,
+    "dismount_main_includes_at_most_10m_extra_foot_movement": true
+  },
+  "collision": {
+    "only_when_declared_failure_consequence": true,
+    "raw_vehicle_damage": 6,
+    "raw_rider_damage": 3,
+    "apply_armor_once": true,
+    "projectile_laser_shields_apply": false,
+    "damage_to_every_body": true,
+    "vehicle_zero_does_not_automatically_damage_riders": true
+  },
+  "repair": {
+    "actual_work_seconds": 300,
+    "part_cost_on_start": 1,
+    "hp_restored": 4,
+    "skill": "공학",
+    "safe_roll": false,
+    "failed_completion_hp_restored": 0,
+    "restores_power": false,
+    "destroyed_vehicle_repairable_in_this_profile": false
+  },
+  "fuel_swap": {
+    "main_actions": 1,
+    "actual_compatible_cell_required": true,
+    "stationary_required": true,
+    "old_cell_keeps_its_ID_and_remaining_amount": true
+  },
+  "pursuit": {
+    "uses_actual_positions_and_routes": true,
+    "no_roll_difference_times_grid": true,
+    "no_universal_escape_distance": true,
+    "contact_is_not_automatic_capture": true,
+    "escape_does_not_clear_identity_or_future_investigation": true
+  },
+  "storage": {
+    "existing_IO_must_support_vehicle": true,
+    "keeps_vehicle_ID_damage_power_cargo": true,
+    "stored_vehicle_cannot_drive": true,
+    "personal_skills_are_not_vehicle_data": true,
+    "Kiwa_cross_dimension_allowed": false,
+    "vehicle_stationary_and_empty_required": true
+  },
+  "vessels": {
+    "id": "FEWK-VESSEL-01",
+    "date": "2026-10-06",
+    "status": "NEW 연안 연락선과 소형 작업비행선 규격;넵튠/워피스원전함선수치아님",
+    "source_topics": [
+      "0088",
+      "0052",
+      "0061",
+      "0067"
+    ],
+    "new_universal_stats": [],
+    "models": {
+      "SEA-LINK-01": {
+        "max_HP": 40,
+        "armor": 2,
+        "seats": 6,
+        "cargo_limit_g": 500000,
+        "normal_m": 20,
+        "fast_m": 30,
+        "fast_failed_m": 5,
+        "deck_length_m": 6,
+        "specialty": "항해",
+        "medium": "water"
+      },
+      "AIR-LINK-01": {
+        "max_HP": 32,
+        "armor": 1,
+        "seats": 4,
+        "cargo_limit_g": 200000,
+        "normal_m": 30,
+        "fast_m": 45,
+        "fast_failed_m": 10,
+        "deck_length_m": 4,
+        "specialty": "비행",
+        "medium": "supported_air"
+      }
+    },
+    "drive": {
+      "skill": "생활",
+      "main_actions": 1,
+      "one_craft_move_per_round": true,
+      "normal_cells": 10,
+      "fast_cells": 15,
+      "initial_cells": 1000,
+      "driver_basic_move_spent": true,
+      "passengers_deck_movement_kept": true,
+      "autopilot": false
+    },
+    "protection": {
+      "main_actions": 1,
+      "cost_cells": 2,
+      "one_activation_per_round": true,
+      "requires_closed_intact_supported_cabin": true,
+      "scope": "선실에 외부에서 들어오는 시험흑공접촉만 차단",
+      "blocks_P_L_or_collision": false,
+      "recharges_power": false
+    },
+    "gun": {
+      "type": "P",
+      "damage": 8,
+      "normal_m": 120,
+      "max_m": 240,
+      "ammo": 6,
+      "target_scale": "선체/차량급 이상 지정표적",
+      "main_actions": 1,
+      "one_fire_per_mount_round": true,
+      "unstable_is_one_adverse_situation": true,
+      "crew_bodies_automatically_hit": false
+    },
+    "repair": {
+      "skill": "공학",
+      "seconds": 300,
+      "part_on_start": 1,
+      "HP_gain": 4,
+      "requires_docked_support": true,
+      "restores_power_or_person_HP": false,
+      "destroyed_repair_allowed": false
+    },
+    "docking": {
+      "requires_actual_supported_route": true,
+      "airship_ground_or_docking_platform_required": true,
+      "boarding_main_actions": 1,
+      "ordinary_IO_support_is_required": true,
+      "live_body_cannot_use_house_as_person_gateway": true
+    },
+    "incapacitation": {
+      "zero_HP_disables_movement_not_all_crew": true,
+      "remaining_float_support_is_separate_declared_function": true,
+      "test_context": "잔잔한항만/지원공역·독립부력장치가 남아있음·자동추락/전원사망없음",
+      "unexpected_wind_or_breach_is_separate_declared_hazard": true
+    },
+    "actual_participant_playtest": false,
+    "all_ships_aircraft_and_vehicle_IO_complete": false,
+    "repair_handover": {
+      "status": "NEW 기존 두 시험모델의 정비 작업/담당자 인계 절차",
+      "job_record": [
+        "작업ID",
+        "선박ID",
+        "작업대상",
+        "소모부품ID",
+        "작업담당자ID",
+        "실제사용몸/도구·학습/권한",
+        "실제누적작업초",
+        "중단/진행/완료",
+        "인계IC시각/담당자",
+        "각자배운공학숙련"
+      ],
+      "actual_worker_required_for_progress": true,
+      "work_reserves_main_and_movement": true,
+      "paused_job_blocks_storage_and_second_repair": true,
+      "handover_main_actions": 1,
+      "handover_IC_seconds": 5,
+      "handover_increases_repair_progress": false,
+      "uses_new_workers_learned_engineering_skill": true,
+      "OOC_wait_advances_work": false,
+      "previous_work_time_and_part_preserved": true,
+      "automatic_supply_from_shindan_count": false,
+      "all_original_ship_power_and_air_support_functions_complete": false,
+      "actual_participant_playtest": false,
+      "abandoned_job_keeps_time_and_consumed_part": true,
+      "abandoned_job_cannot_resume": true,
+      "open_job_blocks_departure": true
+    }
+  }
+}

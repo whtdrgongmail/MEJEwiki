@@ -1,0 +1,66 @@
+{
+  "id": "FEWK-LARGE-FACILITY-01",
+  "model": "PLANT-STOP-01",
+  "date": "2026-10-06",
+  "engine": "P-FEWK-0.2",
+  "status": "NEW 작업시설 시험 규격",
+  "unified_action_term": "인터랙션",
+  "parts": {
+    "tank": {
+      "max_hp": 12,
+      "armor": 1
+    },
+    "console": {
+      "max_hp": 6,
+      "armor": 0
+    },
+    "cooling_a": {
+      "max_hp": 8,
+      "armor": 0
+    },
+    "cooling_b": {
+      "max_hp": 8,
+      "armor": 0
+    }
+  },
+  "parts_sum_is_hull_HP": false,
+  "part_hit_automatically_damages_operators_or_base": false,
+  "part_hp_zero_disables_only_declared_function": true,
+  "shield_charge": 0,
+  "automatic_attack": false,
+  "initial_state": "running",
+  "initial_IC_seconds": 0,
+  "overheat": {
+    "disabled_coolers_required": 2,
+    "seconds_to_leak": 60,
+    "deadline_is_fixed_once_started": true,
+    "OOC_wait_advances_IC_seconds": false,
+    "deadline_boundary": "leak_when_IC_reaches_deadline_before_command_completion",
+    "clock_progress_is_success_count": false
+  },
+  "shutdown": {
+    "skill": "공학",
+    "specialty_and_actual_manual_required": true,
+    "distance_m": 1,
+    "manual_handle_and_access_required": true,
+    "main_actions": 1,
+    "actual_work_seconds": 5,
+    "safe_command_roll": false,
+    "roll_only_if_declared_command_fault": true,
+    "restores_HP_or_contents_or_power": false,
+    "repairs_or_reverses_leak": false,
+    "failure_spends_started_action_and_actual_work_time": true
+  },
+  "leak": {
+    "tank_hp_zero_or_real_overheat_deadline": true,
+    "automatic_HP_damage_to_people": false,
+    "automatic_Ego_or_formation_or_dropout": false,
+    "all_black_tides_have_this_rule": false
+  },
+  "new_universal_stats": [],
+  "all_large_entity_profiles_complete": false,
+  "all_black_material_or_facility_effects_complete": false,
+  "full_encounter_balance_verified": false,
+  "actual_participant_playtest": false,
+  "actual_async_community_test": false
+}

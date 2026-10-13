@@ -1,0 +1,345 @@
+{
+  "id": "FEWK-LORE-20261009-ANSWERS",
+  "date": "2026-10-09",
+  "status": "confirmed_five_answers_integrated_pending_two_survival_answers",
+  "before_snapshot": "세계관보강_20261009_추가답변_반영전.json",
+  "previous_record": "세계관보강_20261009.json",
+  "author_attachment": "/Users/whtdrgon/.codex/attachments/079bcdff-8fbf-45e9-a9a5-1bdbe40515ba/붙여넣은 텍스트.txt",
+  "input_hashes": {
+    "00_제5판_설계기준.md": "c02383eb831d4367b68994e664b3ebdbdbb5dc2176898c8d859d6ea323818e17",
+    "01_텀블벅_이지룰_초안.md": "80e43245243f9994a75bb08841ac549ee80e47588a63b22028ee2bba28db1fa5",
+    "02_타롯_해킹과_지능전_초안.md": "1613f14e485eb4f075cfb1805266afe05cf8db16fa5f11f165b8850ca9ad41e4",
+    "10_CoreRulebook.md": "7676f851d5b46acc55a77ee69962196e71226ccef5d8d2c939281531723a9ef4",
+    "11_WorldLorebook.md": "51d14426a7b426eafd6f45b61aa63fea738fe001ca90b679ed1def91af433837",
+    "12_룰시트와캐릭터시트.md": "ae322c199c7c9fb636b84c06a81052899ce80d3c459888ae332a14bd1a420ff6",
+    "13_입문시나리오.md": "e4c269c4af7494360330974ac52baaf6c6aeff24f42f35f8892b11b6fda8d0da",
+    "14_레디메이드_러너.md": "abf0ff117466d8c6d89570658ebe1ff0fc02415cbb0488d3a316be3440494dc9",
+    "15_표준튜터리얼_시나리오.md": "3a85aaafc96d32796bc37601ff3762fd58b174d8b5b03b7bcaffe60a39721022"
+  },
+  "output_hashes": {
+    "00_제5판_설계기준.md": "e0dc6c45734e937dc8d95874c70641f67a4b5fd0d894ee2efeec1ae51b00198e",
+    "01_텀블벅_이지룰_초안.md": "72f0f7a9c2fe6cc408884caaeae21ec563b179a256e84d4c58aaa84ccd7ad5cb",
+    "02_타롯_해킹과_지능전_초안.md": "1613f14e485eb4f075cfb1805266afe05cf8db16fa5f11f165b8850ca9ad41e4",
+    "10_CoreRulebook.md": "f3283c101901df609339f92632f119757f575f09879fff1cfe5d1a2d42fc8ee6",
+    "11_WorldLorebook.md": "60b386497ae19e9afe89d26a3900a9eddabe96c6184a6028c47dc7a425a25e60",
+    "12_룰시트와캐릭터시트.md": "09709b927df08c515da3b7c2f512a42f6a9206e9e7e072da9b75a253cf5eb160",
+    "13_입문시나리오.md": "e4c269c4af7494360330974ac52baaf6c6aeff24f42f35f8892b11b6fda8d0da",
+    "14_레디메이드_러너.md": "abf0ff117466d8c6d89570658ebe1ff0fc02415cbb0488d3a316be3440494dc9",
+    "15_표준튜터리얼_시나리오.md": "3a85aaafc96d32796bc37601ff3762fd58b174d8b5b03b7bcaffe60a39721022"
+  },
+  "changed_files": [
+    "00_제5판_설계기준.md",
+    "01_텀블벅_이지룰_초안.md",
+    "10_CoreRulebook.md",
+    "11_WorldLorebook.md",
+    "12_룰시트와캐릭터시트.md",
+    "../00_최신본_기준.md",
+    "../01_작업계획.md"
+  ],
+  "world_version": "v1.02",
+  "core_numeric_version": "v0.49",
+  "design_version": "v1.40",
+  "changes": [
+    {
+      "file": "11_WorldLorebook.md",
+      "change": "세계관 현재 판본 갱신"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "change": "기본 캠페인 시점을 서두에 명시"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 18,
+      "change": "계측 근사값과 질량/중력/혼백 이동의 구분"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "change": "질량 예시 제목 정리"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 18,
+      "change": "일반 재료 저장 비교를 근사 계측으로 정정"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "change": "물질계 계측 표의 근사 기호"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "change": "하위 계측과 정확한 단위 환산의 분리"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 18,
+      "change": "질량 예시의 근사와 단위 산술 구분"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 21,
+      "change": "정제 계산기 참조값의 적용 범위"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 39,
+      "change": "역사와 월풍 이전의 기본 시점 연결"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 44,
+      "change": "월풍 이후를 별도 캠페인으로 분리"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 61,
+      "change": "출산 관측과 일반 붕괴 원인의 분리"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 61,
+      "change": "출산 예외와 세계 승계의 의도된 미지 보존"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 65,
+      "change": "어머니 사망·일시 의식 중단·출산 예외의 경계"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "change": "칼리코 기술적 결합과 출산 자동 승계 구분"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 71,
+      "change": "현지 사망 귀환과 죽음의 인과를 드랍아웃 정의에 반영"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 71,
+      "change": "은퇴·행정적 추방·현지 사망 귀환의 분리"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 72,
+      "change": "차원 도감의 미결 질량 설명을 근사 계측으로 갱신"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 73,
+      "change": "만월 고무 안정화 보조재 채택"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "change": "말미의 드랍아웃 대조 설명 갱신"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "change": "정상 종료와 사망 귀환의 용어 설명 갱신"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": null,
+      "change": "말미의 추가 답변 반영 상태"
+    },
+    {
+      "file": "10_CoreRulebook.md",
+      "change": "현재 텍스트 수정일 표시"
+    },
+    {
+      "file": "01_텀블벅_이지룰_초안.md",
+      "change": "현재 텍스트 수정일 표시"
+    },
+    {
+      "file": "12_룰시트와캐릭터시트.md",
+      "change": "현재 텍스트 수정일 표시"
+    },
+    {
+      "file": "10_CoreRulebook.md",
+      "chapter": null,
+      "change": "드랍아웃의 원인과 결과를 코어에 통합"
+    },
+    {
+      "file": "10_CoreRulebook.md",
+      "chapter": null,
+      "change": "HP0/정상 해산/확정 사망/행정 취소의 경계"
+    },
+    {
+      "file": "10_CoreRulebook.md",
+      "chapter": null,
+      "change": "전투 소실의 사망 판정과 드랍아웃 연결"
+    },
+    {
+      "file": "10_CoreRulebook.md",
+      "chapter": null,
+      "change": "오크계 입역 금지와 드랍아웃 구분"
+    },
+    {
+      "file": "10_CoreRulebook.md",
+      "change": "찾아보기의 드랍아웃 정의 정정"
+    },
+    {
+      "file": "10_CoreRulebook.md",
+      "change": "총 AI의 지정 몸 사망 확인과 드랍아웃 기록 구분"
+    },
+    {
+      "file": "01_텀블벅_이지룰_초안.md",
+      "chapter": null,
+      "change": "이지룰 HP0와 현지 확정 사망의 일관성"
+    },
+    {
+      "file": "01_텀블벅_이지룰_초안.md",
+      "chapter": null,
+      "change": "이지룰 드랍아웃 원인과 결과"
+    },
+    {
+      "file": "12_룰시트와캐릭터시트.md",
+      "change": "IO 시트의 사망 인과와 행정 제한 구분"
+    },
+    {
+      "file": "12_룰시트와캐릭터시트.md",
+      "change": "드랍아웃 작전의 사망 대상 기록"
+    },
+    {
+      "file": "12_룰시트와캐릭터시트.md",
+      "change": "드랍아웃 이후 기록"
+    },
+    {
+      "file": "12_룰시트와캐릭터시트.md",
+      "change": "총 시트에서 사망 대상 몸 구분"
+    },
+    {
+      "file": "00_제5판_설계기준.md",
+      "change": "설계 기준 판본 갱신"
+    },
+    {
+      "file": "00_제5판_설계기준.md",
+      "change": "확정 설정의 근사 계측 반영"
+    },
+    {
+      "file": "00_제5판_설계기준.md",
+      "chapter": null,
+      "change": "설계 기준의 현재 반영 범위"
+    },
+    {
+      "file": "00_제5판_설계기준.md",
+      "change": "다섯 답변 완료·의도된 미지·새 생존 질문·검증 범위 기록"
+    },
+    {
+      "file": "00_제5판_설계기준.md",
+      "change": "서두의 현재 World 판본 동기화"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "change": "말미의 질량 대조 설명도 근사값으로 갱신"
+    }
+  ],
+  "answered_questions": [
+    "byte_measurement_is_approximate",
+    "base_campaign_before_MoonWind",
+    "Mother_sleep_and_death_boundary",
+    "local_death_return_is_Dropout",
+    "MoonRubber_stabilizer"
+  ],
+  "pending_author_questions": [
+    "ordinary_runner_survival_when_material_body_dies",
+    "death_return_when_coffin_route_or_receiver_fails"
+  ],
+  "intentional_unknowns": [
+    "childbirth_exception_and_possible_world_inheritance",
+    "paradox_magnitude_for_independent_will_return_to_dead_original_realm"
+  ],
+  "dice_engine_changed": false,
+  "game_numeric_profiles_changed": false,
+  "confirmed_death_consequence_clarified": true,
+  "new_social_proposals_are_global_canon": false,
+  "human_tests_performed": false,
+  "final_layout_performed": false,
+  "protected_historical_record_hashes": {
+    "세계관보강_20261009.json": "8b37f92abf9055c78b406666fe9f30167c77ec1a794e3ea0cb8b98cd2e4daa66",
+    "세계관보강_20261009_반영전.json": "ee83465a898bad4916818c8f7f5446ea46946b5d70db8fb606eaaf93600038d4",
+    "캐릭터와시나리오북_편집.json": "5afd0f8ad74e214b0a1ad575aec107217fb871d0f496496a007729fdee815e15",
+    "완료_관문.json": "f031ce076e7de35488953bdc37a14aeee7a0dd7326538fb9a2d431cd418d0c26"
+  },
+  "verification": {
+    "status": "current_structure_hash_preservation_and_definition_review_passed",
+    "checked_documents": 11,
+    "local_file_links_checked": 707,
+    "named_anchor_links_checked": 777,
+    "missing_file_links": [],
+    "missing_named_anchors": [],
+    "markdown_fences": [
+      {
+        "path": "00_최신본_기준.md",
+        "balanced": true
+      },
+      {
+        "path": "01_작업계획.md",
+        "balanced": true
+      },
+      {
+        "path": "[5판_FEWK]/00_제5판_설계기준.md",
+        "balanced": true
+      },
+      {
+        "path": "[5판_FEWK]/01_텀블벅_이지룰_초안.md",
+        "balanced": true
+      },
+      {
+        "path": "[5판_FEWK]/02_타롯_해킹과_지능전_초안.md",
+        "balanced": true
+      },
+      {
+        "path": "[5판_FEWK]/10_CoreRulebook.md",
+        "balanced": true
+      },
+      {
+        "path": "[5판_FEWK]/11_WorldLorebook.md",
+        "balanced": true
+      },
+      {
+        "path": "[5판_FEWK]/12_룰시트와캐릭터시트.md",
+        "balanced": true
+      },
+      {
+        "path": "[5판_FEWK]/13_입문시나리오.md",
+        "balanced": true
+      },
+      {
+        "path": "[5판_FEWK]/14_레디메이드_러너.md",
+        "balanced": true
+      },
+      {
+        "path": "[5판_FEWK]/15_표준튜터리얼_시나리오.md",
+        "balanced": true
+      }
+    ],
+    "before_snapshot_hashes_verified": 11,
+    "current_reader_hashes_verified": 9,
+    "historical_records_unchanged": [
+      "세계관보강_20261009.json",
+      "세계관보강_20261009_반영전.json",
+      "캐릭터와시나리오북_편집.json",
+      "완료_관문.json"
+    ],
+    "unchanged_reader_artifacts": [
+      "02_타롯_해킹과_지능전_초안.md",
+      "13_입문시나리오.md",
+      "14_레디메이드_러너.md",
+      "15_표준튜터리얼_시나리오.md"
+    ],
+    "changed_reader_artifacts": [
+      "00_제5판_설계기준.md",
+      "01_텀블벅_이지룰_초안.md",
+      "10_CoreRulebook.md",
+      "11_WorldLorebook.md",
+      "12_룰시트와캐릭터시트.md"
+    ],
+    "numbered_world_chapters_preserved": 77,
+    "previous_world_named_anchors_preserved": 113,
+    "changed_reader_named_anchors_preserved": true,
+    "historical_cached_results_relabelled_as_current": false,
+    "rules_numeric_suite_rerun": false,
+    "verification_basis": "read-only structure checks and current hashes; confirmed definitions read against combat, IO, Dropout, Easy and sheets"
+  }
+}

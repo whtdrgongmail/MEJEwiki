@@ -1,0 +1,2631 @@
+{
+  "date": "2026-10-06",
+  "framework_archive_arithmetic": {
+    "documents": 4,
+    "checks_passed": 17,
+    "multiplied_1d10_by10": {
+      "mean": {
+        "numerator": 55,
+        "denominator": 1,
+        "decimal": 55.0
+      },
+      "variance": {
+        "numerator": 825,
+        "denominator": 1,
+        "decimal": 825.0
+      }
+    },
+    "sum_10d10": {
+      "mean": {
+        "numerator": 55,
+        "denominator": 1,
+        "decimal": 55.0
+      },
+      "variance": {
+        "numerator": 165,
+        "denominator": 2,
+        "decimal": 82.5
+      }
+    },
+    "multiplied_1d10_by3": {
+      "mean": {
+        "numerator": 33,
+        "denominator": 2,
+        "decimal": 16.5
+      },
+      "variance": {
+        "numerator": 297,
+        "denominator": 4,
+        "decimal": 74.25
+      }
+    },
+    "sum_3d10": {
+      "mean": {
+        "numerator": 33,
+        "denominator": 2,
+        "decimal": 16.5
+      },
+      "variance": {
+        "numerator": 99,
+        "denominator": 4,
+        "decimal": 24.75
+      }
+    },
+    "scope": "구판 검토 보고서의 순수 비폭발 피해분포·문턱/가격/집계 산술. 자연1/20·방호·사망·확률 전체 룰/FEWK 신규 균형을 검증하지 않음",
+    "physical_damage_variance_is_ego_or_dropout_cost": false,
+    "actual_external_expert_evidence": false,
+    "actual_participant_playtest": false
+  },
+  "second_edition_reader_arithmetic": {
+    "documents": 9,
+    "checks_passed": 18,
+    "scope": "구판 문체의 질량 표준과 목차·선집 분량 추정·현화 확률 범위 합계, 인수인계 밀도/시간과 대본 피해 분포, 편집규칙의 영역/카드/단폭·페이지 합계. 실제 조판·사회 통계·사망 판정/새 엔진 균형 검증이 아님",
+    "current_engine_changed": false,
+    "actual_publication_pages_verified": false,
+    "actual_participant_playtest": false
+  },
+  "current_framework_spec_arithmetic": {
+    "documents": 3,
+    "checks_passed": 12,
+    "minimum_stat_cost_for_old_six_stat_mean_6_to_8": 120,
+    "old_budget": 100,
+    "report_actual_status_rows": 18,
+    "report_actual_correction_rows": 6,
+    "ordinary_4d4_mean": {
+      "numerator": 10,
+      "denominator": 1,
+      "decimal": 10.0
+    },
+    "unlimited_exploding_4d4_mean": {
+      "numerator": 40,
+      "denominator": 3,
+      "decimal": 13.333333333333334
+    },
+    "scope": "현재 구판 명세/검토 문서의 비용·분포 평균·집계와 상태 구간의 제한 대조. 구판 엔진 재현·100p 빌드 작성·제5판 수치 변경·실제 참가자 시험이 아님",
+    "current_engine_changed": false,
+    "old_100point_build_rewritten": false,
+    "actual_participant_playtest": false
+  },
+  "first_character_source_arithmetic": {
+    "character_documents": 4,
+    "related_novels": 3,
+    "checks_passed": 2,
+    "novel065_escape_fraction": {
+      "numerator": 3,
+      "denominator": 1000,
+      "decimal": 0.003
+    },
+    "scope": "확장 소설065의 지정 인원 비율과 스틱/운반 가격의 산술만 대조. 도시/인구·임금·출력·심박·공연 효과를 정사나 공통 규칙으로 검증하지 않음",
+    "current_engine_changed": false,
+    "actual_participant_playtest": false
+  },
+  "world_physics_byte_arithmetic": {
+    "documents": 3,
+    "checks_passed": 17,
+    "actual_value_categories": 8,
+    "mass_70kg_yang": {
+      "numerator": 7,
+      "denominator": 1,
+      "decimal": 7.0
+    },
+    "initial_subject_20jaa_times30": 600,
+    "wiki_subject_21jaa_times30": 630,
+    "scope": "원전의 물질계1g1자와 만자=양, 구판 표/후속 패치의 제한 산술을 대조한다.20자/21자 모델·약600 표현의 차이는 보존한다. 이동 요금·혼백 계측/불멸·21그램/21만자의 등치, 모든 차원/존재/게임 효과를 검증하지 않는다.",
+    "current_engine_changed": false,
+    "actual_participant_playtest": false
+  },
+  "world_physics_dimension_ego_arithmetic": {
+    "documents": 2,
+    "checks_passed": 20,
+    "five_day_ego_loss": {
+      "numerator": 5,
+      "denominator": 1,
+      "decimal": 5.0
+    },
+    "thirty_minute_fraction_used": {
+      "numerator": 1,
+      "denominator": 5,
+      "decimal": 0.2
+    },
+    "ego8_consistent_remaining_hours": {
+      "numerator": 96,
+      "denominator": 5,
+      "decimal": 19.2
+    },
+    "ego8_consistent_six_hour_loss": {
+      "numerator": 5,
+      "denominator": 2,
+      "decimal": 2.5
+    },
+    "ego8_unscaled_six_hour_loss": {
+      "numerator": 2,
+      "denominator": 1,
+      "decimal": 2.0
+    },
+    "BP30_actual_old_band": [
+      "Broken",
+      "-3",
+      "-10",
+      "-15"
+    ],
+    "scope": "구판의 명시한 시간·비례모델·BP 구간을 제한 대조한다. 근삿값은 정확1/10과 구분하며 구판BP/강제내면/형성트랙을 제5판에 채택하지 않는다. 밀도비는 같은 질량 기준이며 총량/밀도 비교로 상향 이동 불가나 사후 상태를 증명하지 않는다.",
+    "current_engine_changed": false,
+    "actual_participant_playtest": false
+  },
+  "world_physics_sinki_arithmetic": {
+    "documents": 1,
+    "wiki_unit_topics": 1,
+    "checks_passed": 8,
+    "subject21jaa_bytes": 21000000000000000000000000,
+    "million_times_subject_bytes": 21000000000000000000000000000000,
+    "million_times_subject_yang": {
+      "numerator": 2100,
+      "denominator": 1,
+      "decimal": 2100.0
+    },
+    "unadjusted_to_printed_21yang_ratio": {
+      "numerator": 100,
+      "denominator": 1,
+      "decimal": 100.0
+    },
+    "comparison_10000cell_kcal": 10000,
+    "comparison_10000cell_OYAT": {
+      "numerator": 10,
+      "denominator": 1,
+      "decimal": 10.0
+    },
+    "scope": "지정한 구판 등식과 위키의 읽기용 근사 단위만 대조한다. LCC의 배수가 명시되지 않아 적용 후21양을 계산 검증으로 인정하지 않는다. 실제 혼백/질량·영양·신앙·장치 출력과 시간·행동 비용·전원 신사 용량을 검증하지 않는다.",
+    "post_LCC_21yang_verified": false,
+    "real_nutrition_or_soul_measurement_verified": false,
+    "current_engine_changed": false,
+    "actual_participant_playtest": false
+  },
+  "world_physics_power_arithmetic": {
+    "documents": 2,
+    "wiki_unit_topics": 1,
+    "checks_passed": 8,
+    "old_Dolchip_actual_spec_rows": 7,
+    "old_Dolchip_printed_spec_count": 6,
+    "wiki_canister_solution_kg": {
+      "numerator": 20,
+      "denominator": 1,
+      "decimal": 20.0
+    },
+    "wiki_drum_solution_kg": {
+      "numerator": 200,
+      "denominator": 1,
+      "decimal": 200.0
+    },
+    "old_canister_mass_mismatch_ratio": {
+      "numerator": 10,
+      "denominator": 1,
+      "decimal": 10.0
+    },
+    "old_C_cell_consumption_price_range_OYAT": [
+      {
+        "numerator": 9,
+        "denominator": 1,
+        "decimal": 9.0
+      },
+      {
+        "numerator": 12,
+        "denominator": 1,
+        "decimal": 12.0
+      }
+    ],
+    "scope": "구판의 규격 표7행/제목6·말통/드럼 혼동과 명시한C형 소비예의 가격 합을 제한 대조한다. 구판7판매규격/가격·전투필수소비·충전시간/자동신단충전을 제5판 공통 값으로 채택하지 않는다. 위키의 보통1g1만셀/케이스 비는 해당 동력 비교이며 돌칩 질량당 용량이나 혼백/모든 IO를 검증하지 않는다.",
+    "current_engine_changed": false,
+    "actual_participant_playtest": false
+  },
+  "world_physics_causal_time_arithmetic": {
+    "documents": 3,
+    "checks_passed": 8,
+    "printed_adult_jaa": {
+      "numerator": 7000,
+      "denominator": 1,
+      "decimal": 7000.0
+    },
+    "old_cost_range_to_printed_mass_ratio": [
+      {
+        "numerator": 600,
+        "denominator": 7,
+        "decimal": 85.71428571428571
+      },
+      {
+        "numerator": 900,
+        "denominator": 7,
+        "decimal": 128.57142857142858
+      }
+    ],
+    "old_cost_range_to_corrected_70kg_ratio": [
+      {
+        "numerator": 60,
+        "denominator": 7,
+        "decimal": 8.571428571428571
+      },
+      {
+        "numerator": 90,
+        "denominator": 7,
+        "decimal": 12.857142857142858
+      }
+    ],
+    "old_Mokgaebi_table_widths": [
+      20,
+      20,
+      20,
+      20,
+      15,
+      5
+    ],
+    "old_Consumption_table_fraction": {
+      "numerator": 1,
+      "denominator": 20,
+      "decimal": 0.05
+    },
+    "scope": "구판0.7양/60~90만자라는 지정수량의 크기 비교와 명시한d100 구간의 수량만 대조한다. 영혼/생명량·광전/전원 이동료·실제 포식/PC상실 확률·구판 전엔진 재현이나 강제 드랍아웃/6능력치를 검증하거나 제5판에 채택하지 않는다.",
+    "current_engine_changed": false,
+    "actual_participant_playtest": false
+  },
+  "world_physics_index_counts": {
+    "documents": 3,
+    "checks_passed": 18,
+    "metrics": {
+      "directory_markdown_files": 16,
+      "index_base_law_rows": 99,
+      "index_addendum_law_rows": 3,
+      "index_unique_codes": 102,
+      "index_base_by_prefix": {
+        "B": 7,
+        "D": 10,
+        "T": 9,
+        "S": 10,
+        "E": 9,
+        "C": 25,
+        "N": 9,
+        "M": 20
+      },
+      "index_current_by_prefix": {
+        "B": 9,
+        "D": 10,
+        "T": 10,
+        "S": 10,
+        "E": 9,
+        "C": 25,
+        "N": 9,
+        "M": 20
+      },
+      "old_report_declared_law_total": 87,
+      "old_report_declared_files": 13,
+      "report_file_table_rows": 15,
+      "readme_file_table_rows": 14,
+      "external_analogy_rows": 19,
+      "report_citation_rows": 17,
+      "report_inherited_citation_rows": 16,
+      "report_new_citation_rows": 1,
+      "report_label_rows": 19,
+      "report_label_unique_codes": 22,
+      "literal_TN_matching_lines_in_01_to_10": 3,
+      "readme_still_allocates_PHYS_A": true
+    },
+    "index_code_mappings": 102,
+    "scope": "원문 해시와 현재 파일/색인/표의 행·개별 코드·독립 TN 토큰만 재계수한다. 라인 재검증 면제·grep0·코드 연결·Clean 선언은 원전 전체의 의미 정합이나 실제 참가자 검증을 증명하지 않는다. 수량 검산을 구판 엔진 채택/완전 재현으로 합산하지 않는다.",
+    "current_engine_changed": false,
+    "actual_participant_playtest": false
+  },
+  "cyberpunk_pack_foundation_arithmetic": {
+    "documents": 4,
+    "checks_passed": 18,
+    "spec_catalog_counts": {
+      "능력": 15,
+      "기술": 12,
+      "기능": 12
+    },
+    "spec_file_tree_entries": 19,
+    "actual_pack_documents": 21,
+    "BP_costs_by_level": [
+      5,
+      10,
+      15,
+      20,
+      30
+    ],
+    "level5_formula_difference": 5,
+    "level1_table_starting_BP": 95,
+    "two_implants_table_starting_BP": 85,
+    "printed_hacker_change_total": 82,
+    "level2_removal_net_BP": {
+      "numerator": 3,
+      "denominator": 1,
+      "decimal": 3.0
+    },
+    "level2_point_refund": {
+      "numerator": 7,
+      "denominator": 1,
+      "decimal": 7.0
+    },
+    "old_d100_fumble_band_widths": [
+      1,
+      2,
+      5,
+      10,
+      20
+    ],
+    "reported_critical_split": [
+      12,
+      10,
+      2
+    ],
+    "scope": "구판 명세/예시의 지정 행·레벨·변경량·표상 구간을 재계수·검산한다. 같은 합계는 레벨업 차액·치료조건·권리/정체성·구판 전체 엔진 정합을 증명하지 않는다.100p/프리셋을 재작성하거나 BP인간성/사회감점·형성트랙·강제은퇴·옛 비용/대실패를 제5판에 채택하지 않는다.",
+    "current_engine_changed": false,
+    "actual_participant_playtest": false
+  },
+  "cyberpunk_pack_catalog_arithmetic": {
+    "documents": 3,
+    "checks_passed": 26,
+    "detailed_entries": 39,
+    "same_three_dice_outcomes": 216,
+    "actual_shooting_margin": 11,
+    "remaining_example_HP": 19,
+    "BP55_actual_legacy_matting_modifier": -5,
+    "level3_removal_net_BP": 6,
+    "level3_point_refund": 10,
+    "shield_level5_table_dice": 6,
+    "scope": "상세 카탈로그의 지정 예시·표·차액·반올림·의식 시간·실드 소비/Hit 해석을 원문에 한정해 검산한다. 차이값 표와Ace 자동승격의 결합·치명상 조건·구판 전체 엔진의 의미/승률은 미검증이다. 같은 숫자나 평균은 원전 기능·현재 프로필·실제 참가자 적합성의 합격을 뜻하지 않는다. 형성 트랙/BP/Lv비용/Pool을 제5판에 채택하지 않는다.",
+    "current_engine_changed": false,
+    "actual_participant_playtest": false
+  },
+  "cyberpunk_pack_character_track_arithmetic": {
+    "documents": 3,
+    "checks_passed": 22,
+    "tags_by_group": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+    },
+    "tags_total": 30,
+    "package_totals": [
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30
+    ],
+    "original_stat_cost_totals": [
+      68,
+      70,
+      68,
+      72,
+      77,
+      68,
+      68,
+      66,
+      66
+    ],
+    "G0_stat_table_PRE_SEN": [
+      3,
+      4
+    ],
+    "G0_correct_legacy_derived_values": [
+      6,
+      11,
+      9
+    ],
+    "G0_printed_derived_values": [
+      4,
+      10,
+      8
+    ],
+    "G3_adjusted_stat_total": 68,
+    "G4_adjusted_stat_total": 69,
+    "G6_BP_tag_requirement_met": false,
+    "G8_net_resistance_modifier": 10,
+    "G1_replacement_total": 31,
+    "trauma_catalog_items": 8,
+    "actual_d100_result_tables": 3,
+    "shining_log62_actual_band": 4,
+    "ego12_scaled_horizon_minutes": 180,
+    "ego12_scaled_hour_loss": {
+      "numerator": 4,
+      "denominator": 1,
+      "decimal": 4.0
+    },
+    "ego12_unscaled_hour_loss": {
+      "numerator": 24,
+      "denominator": 5,
+      "decimal": 4.8
+    },
+    "scope": "구판 태그/프리셋/트랙의 지정 행·예시·자격/합계·분포 포괄·시간식 두 가지를 제한 대조한다. 합30은 같은 인물/자격/효과/플레이 균형을 증명하지 않으며 새로운100p 캐릭터를 작성하지 않는다. 올림 미명시와 로그 발생 경로의 공백·현재 모든 직능/기능·참가자 적합성은 별도다. 구판의 형성 트랙/사회HP·감정/행동 강제·PRE/DSR/Pool/Lv를 현재 규칙으로 승계하지 않는다.",
+    "current_engine_changed": false,
+    "old_100point_build_rewritten": false,
+    "actual_participant_playtest": false
+  },
+  "cyberpunk_pack_dsr_dropout_arithmetic": {
+    "documents": 2,
+    "checks_passed": 21,
+    "logged_DSR_net": 0,
+    "special_gear_qualified_DSR_net": 1,
+    "inferred_unwritten_opening_d6_pool": 9,
+    "extended_flashback_source_YAML_increase": 1,
+    "extended_flashback_body_increase": 3,
+    "conditional_dashboard_sessions": 10,
+    "sample_A_HP_after_damage": -14,
+    "sample_A_ego_after_loss": 5,
+    "sample_B_actual_d10067_band": 4,
+    "legacy_stat9_grade": "5d8",
+    "sample_B_declared_paradox_after_losses": 7,
+    "sample_B_printed_paradox": 8,
+    "BOD7_omitted_HP_values": [
+      -13,
+      -12,
+      -11,
+      -10,
+      -9,
+      -8
+    ],
+    "ambiguous_26_damage_has_expanded_reading": true,
+    "own_numeric_d100_threshold_rows": 0,
+    "scope": "09/10의지정로그·대시보드·초과잔여·샘플A/B·BOD7표와이전08/공통명세의참조행을제한검산한다. 시작Pool9·Max14·일정속도10세션은조건/추론값이며완전플레이검증이나현재DSR채택이아니다.26피해는해석을구분하고폭발주사위/보정자격·부족한진행로그를미상수치로메우지않는다. 신단/정비/관조의서로다른규격과재진입/사망묶음은이관판단으로따로남긴다.",
+    "current_engine_changed": false,
+    "actual_participant_playtest": false
+  },
+  "cyberpunk_pack_weapon_arithmetic": {
+    "documents": 1,
+    "checks_passed": 23,
+    "major_headings": 18,
+    "duplicated_11_15_headings": 2,
+    "main_catalog_table_rows": 100,
+    "with_standalone_crocodile": 101,
+    "declared_prior_v02_inventory": 110,
+    "malformed_battle_bow_columns": [
+      7,
+      8
+    ],
+    "weapon_set_lower_bounds": [
+      420,
+      400,
+      1150,
+      900,
+      1700,
+      2500,
+      2500,
+      50000
+    ],
+    "external_deck_variants_by_type": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "damage_multiplier_interpretations_not_same_distribution": true,
+    "flat_ammo_fee_to_standard_magazine_ratio": {
+      "numerator": 1250,
+      "denominator": 9,
+      "decimal": 138.88888888888889
+    },
+    "own_core_damage_multipliers_adopted": false,
+    "current_engine_changed": false,
+    "scope": "무기/장비1086줄의지정행/표구조·무장세트가격하한·단말사양수·인쇄공격합·피해주사위배수두해석·탄약비/보험비교·구판부록환산을제한검산한다.원전110개전체검토나현재101제품의성능/가격검증·구매가능/전투균형·현실화폐환산을증명하지않는다. 피해배수는독립주사위와한번굴린피해전체배수의분포를구분하며현재규칙으로승계하지않는다.",
+    "actual_participant_playtest": false
+  },
+  "cyberpunk_pack_NPC_arithmetic": {
+    "documents": 1,
+    "checks_passed": 17,
+    "NPC_blocks": 17,
+    "sample_blocks": 13,
+    "original_name_based_blocks": 4,
+    "derived_value_groups_checked": 6,
+    "derived_value_cells_checked": 102,
+    "initiative_means_checked": 17,
+    "grade_map_cells_checked": 102,
+    "grade_differences": [
+      [
+        "12-5-D",
+        "BOD",
+        9,
+        "6d6",
+        "5d8"
+      ],
+      [
+        "12-5-E",
+        "LCK",
+        13,
+        "8d10",
+        "7d10"
+      ]
+    ],
+    "outside_declared_stat_range": [
+      [
+        "12-2-D",
+        "BOD",
+        4
+      ],
+      [
+        "12-3-B",
+        "BOD",
+        5
+      ],
+      [
+        "12-3-B",
+        "PRE",
+        7
+      ],
+      [
+        "12-3-C",
+        "REF",
+        7
+      ],
+      [
+        "12-3-C",
+        "LCK",
+        7
+      ],
+      [
+        "12-3-D",
+        "BOD",
+        6
+      ],
+      [
+        "12-3-D",
+        "REF",
+        6
+      ],
+      [
+        "12-4-B",
+        "REF",
+        11
+      ],
+      [
+        "12-4-B",
+        "INT",
+        9
+      ],
+      [
+        "12-4-B",
+        "SEN",
+        10
+      ],
+      [
+        "12-4-B",
+        "LCK",
+        9
+      ],
+      [
+        "12-4-C",
+        "BOD",
+        8
+      ],
+      [
+        "12-4-C",
+        "REF",
+        9
+      ],
+      [
+        "12-4-C",
+        "LCK",
+        10
+      ],
+      [
+        "12-4-D",
+        "BOD",
+        10
+      ],
+      [
+        "12-4-D",
+        "INT",
+        11
+      ],
+      [
+        "12-4-D",
+        "PRE",
+        9
+      ],
+      [
+        "12-4-E",
+        "BOD",
+        10
+      ],
+      [
+        "12-4-E",
+        "REF",
+        10
+      ]
+    ],
+    "legacy_number_derivation_is_current_adoption": false,
+    "source_critical_guarantee_counterexamples": [
+      -8,
+      -7
+    ],
+    "current_engine_changed": false,
+    "scope": "17블록의인쇄파생6값·평균/Grade명세·등급범위·제시수량·지정확률/평균/확정Critical반례를독립추출/제한검산. 전NPC전투력/원전정사/현재자동환산·균형·실제참가자검증아님.",
+    "actual_participant_playtest": false
+  },
+  "cyberpunk_pack_large_arithmetic": {
+    "documents": 1,
+    "checks_passed": 17,
+    "entity_blocks": 11,
+    "major_sections": 10,
+    "part_HP_sums": {
+      "13-2-A": 1230,
+      "13-2-B": 1060,
+      "13-2-C": 950,
+      "13-4-A": 890,
+      "13-4-B": 1170,
+      "13-4-C": 200,
+      "13-6-A": 1550
+    },
+    "part_sums_are_current_whole_body_HP": false,
+    "white_form_part_sums": [
+      150,
+      860,
+      450
+    ],
+    "plant_conflicting_deadline_seconds_at_60s_round": [
+      300,
+      600
+    ],
+    "clock_rows": 17,
+    "clock_diagram_mismatches": 14,
+    "old_A_rounds_at_6s_and_current_5s": [
+      60,
+      50
+    ],
+    "tide_meters_per_second": {
+      "numerator": 25,
+      "denominator": 3,
+      "decimal": 8.333333333333334
+    },
+    "minimum_old_breath_damage_on_current_guard": [
+      20,
+      19,
+      0
+    ],
+    "current_engine_changed": false,
+    "legacy_damage_values_adopted": false,
+    "scope": "11개 블록의지정부품수량/인쇄HP합·동일시설기한상충·FatRound동기/속도/격자·위험도표기·자동안전권과피해환산반례를제한검산한다. 원전정사/대형물리/현재전체HP·신수균형이나참가자검증을증명하지않는다.",
+    "actual_participant_playtest": false
+  },
+  "cyberpunk_pack_glossary_arithmetic": {
+    "documents": 2,
+    "checks_passed": 14,
+    "term_heading_entries": 259,
+    "term_entries_by_area": [
+      42,
+      49,
+      64,
+      81,
+      23
+    ],
+    "actual_H3_outside_fences": 277,
+    "major_sections": [
+      11,
+      9
+    ],
+    "cross_reference_rows": 31,
+    "approximate_distribution_values_sum": 193,
+    "approximate_declared_total": 190,
+    "all_term_headings_are_distinct_canonical_terms": false,
+    "layer_printed_unit_exponents": [
+      24,
+      20,
+      16,
+      12,
+      4,
+      0,
+      28
+    ],
+    "lower_adjacent_density_ratios": [
+      10000,
+      10000,
+      10000,
+      100000000,
+      10000
+    ],
+    "assumed_same_code_credit_unit_contradiction_factor": {
+      "numerator": 100000,
+      "denominator": 1,
+      "decimal": 100000.0
+    },
+    "code_and_credit_are_same_unit_proven": false,
+    "README_file_table_rows": 19,
+    "current_pack_files": 21,
+    "README_declared_files": 18,
+    "README_checked_Critical_rows": 12,
+    "old_review_count_sum": 63,
+    "README_actual_playtest_count": 0,
+    "planned_alpha_beta": [
+      10,
+      30
+    ],
+    "current_engine_changed": false,
+    "legacy_currency_conversion_adopted": false,
+    "all_source_canonical_facts_verified": false,
+    "scope": "표제/행/명세 집계·표준 단위표의 밀도비·가정된 코드/크레딧 역환산 상충·과거 검사 선언과 플레이시험0회를 제한 검산. 근사분류 합193/표시190과 실제표제259는 고유 정사용어 수의 증명이 아니며 실제 통화 동일성·전세계 이동물리/시세·참가자 시험을 증명하지 않는다.",
+    "actual_participant_playtest": false
+  },
+  "cyberpunk_pack_deck_audit_arithmetic": {
+    "documents": 2,
+    "checks_passed": 12,
+    "major_sections": [
+      12,
+      15
+    ],
+    "completion_checkboxes_checked": 2,
+    "completion_checkboxes_pending": 1,
+    "explicit_pending_rows": 5,
+    "concept_inventory_counts": [
+      16,
+      9,
+      5
+    ],
+    "TODO_concept_rows": 18,
+    "byte_density_repeated_rows": 2,
+    "printed_density_exponents": [
+      24,
+      20,
+      16,
+      12,
+      4,
+      0,
+      28
+    ],
+    "jo_to_man_printed_density_ratio": 100000000,
+    "illustrative_mass_grams": 60000,
+    "illustrative_body_to_one_high_gram_byte_ratio": {
+      "numerator": 6,
+      "denominator": 1,
+      "decimal": 6.0
+    },
+    "illustrative_mass_is_source_canonical_profile": false,
+    "illustrative_ratio_is_travel_permission": false,
+    "initial_audit_scope_rows": 17,
+    "initial_read_modes": {
+      "whole": 9,
+      "partial": 6,
+      "skipped": 1,
+      "missing": 1
+    },
+    "initial_issue_count": 20,
+    "appendix_C_changed_count": 10,
+    "appendix_D_remaining_count": 10,
+    "appendix_E_claimed_count": 63,
+    "all_audit_completion_claims_verified": false,
+    "current_engine_changed": false,
+    "old_100point_build_rewritten": false,
+    "scope": "두 자료의 절·항목·체크 상태와 과거 건수를 제한 검산. g당 밀도와 전신량을 섞은 주장은 가정한60kg 반례로 구분하며 실제 이동 허가·신체 구성·시세 또는 과거 완료 선언 전체를 증명하지 않는다.",
+    "actual_participant_playtest": false
+  },
+  "cyberpunk_pack_world_correction_arithmetic": {
+    "documents": 2,
+    "checks_passed": 16,
+    "major_sections": [
+      18,
+      9
+    ],
+    "declared_correction_class_counts": [
+      12,
+      23,
+      11,
+      17
+    ],
+    "declared_correction_code_total": 63,
+    "detailed_issue_heading_count": 39,
+    "detailed_issue_heading_counts": [
+      12,
+      16,
+      11
+    ],
+    "expanded_C_M_m_codes": 46,
+    "label_rows": 17,
+    "already_passing_label_rows": [
+      "L-12",
+      "L-13"
+    ],
+    "label_rows_other_than_already_passing": 15,
+    "main_layer_rows": 7,
+    "appendix_declared_layers": 8,
+    "appendix_actual_density_rows": 9,
+    "appendix_printed_density_exponents": [
+      32,
+      28,
+      24,
+      20,
+      16,
+      12,
+      8,
+      4,
+      0
+    ],
+    "old_Ego10_limits_minutes": [
+      {
+        "numerator": 144000,
+        "denominator": 1,
+        "decimal": 144000.0
+      },
+      {
+        "numerator": 14400,
+        "denominator": 1,
+        "decimal": 14400.0
+      },
+      {
+        "numerator": 1440,
+        "denominator": 1,
+        "decimal": 1440.0
+      },
+      {
+        "numerator": 150,
+        "denominator": 1,
+        "decimal": 150.0
+      },
+      {
+        "numerator": 15,
+        "denominator": 1,
+        "decimal": 15.0
+      }
+    ],
+    "old_weapon_price_ratios": [
+      {
+        "numerator": 3,
+        "denominator": 2,
+        "decimal": 1.5
+      },
+      {
+        "numerator": 3,
+        "denominator": 2,
+        "decimal": 1.5
+      },
+      {
+        "numerator": 4,
+        "denominator": 1,
+        "decimal": 4.0
+      },
+      {
+        "numerator": 10,
+        "denominator": 1,
+        "decimal": 10.0
+      }
+    ],
+    "old_insurance_monthly_price_ratio": {
+      "numerator": 100,
+      "denominator": 1,
+      "decimal": 100.0
+    },
+    "same_insurance_product_proven": false,
+    "nominal_report_sample": 250,
+    "nominal_report_shares": [
+      {
+        "numerator": 68,
+        "denominator": 1,
+        "decimal": 68.0
+      },
+      {
+        "numerator": 92,
+        "denominator": 5,
+        "decimal": 18.4
+      },
+      {
+        "numerator": 68,
+        "denominator": 5,
+        "decimal": 13.6
+      }
+    ],
+    "all_63_reported_codes_are_distinct_actual_errors": false,
+    "all_audit_completion_claims_verified": false,
+    "all_nominal_sample_items_revalidated": false,
+    "canonical_current_year_fixed": false,
+    "legacy_price_layer_or_track_parameters_adopted": false,
+    "current_engine_changed": false,
+    "old_100point_build_rewritten": false,
+    "scope": "두 자료의 표/상태/코드집계와 지정 연호·물가·밀도·구판체류한계만 제한 검산. 근사분모250은 실제샘플항목대조가 아니며 이미일치/합격인코드를포함한63건은독립오류총수의증명이 아니다. 현재연도/환율·실제보험보장·이동물리/지원·정사/프로필·참가자검증은별도다.",
+    "actual_participant_playtest": false
+  },
+  "framework_foundation_arithmetic": {
+    "documents": 4,
+    "checks_passed": 13,
+    "major_sections": [
+      8,
+      7,
+      11,
+      14
+    ],
+    "door_example_different_TNs": [
+      15,
+      25,
+      25
+    ],
+    "door_example_margins": [
+      10,
+      1,
+      0,
+      5
+    ],
+    "legend_mean": {
+      "numerator": 85,
+      "denominator": 1,
+      "decimal": 85.0
+    },
+    "legend_minimum": 19,
+    "legend_mean_margin": {
+      "numerator": 25,
+      "denominator": 1,
+      "decimal": 25.0
+    },
+    "stat9_nonexploding_mean": {
+      "numerator": 45,
+      "denominator": 2,
+      "decimal": 22.5
+    },
+    "stat9_exploding_mean": {
+      "numerator": 180,
+      "denominator": 7,
+      "decimal": 25.714285714285715
+    },
+    "six_times_d10_variance": {
+      "numerator": 297,
+      "denominator": 1,
+      "decimal": 297.0
+    },
+    "six_d10_variance": {
+      "numerator": 99,
+      "denominator": 2,
+      "decimal": 49.5
+    },
+    "unmapped_d10_range": [
+      11,
+      110
+    ],
+    "pool_sample_hits": 6,
+    "resolution_example_totals": [
+      27,
+      13,
+      44
+    ],
+    "all_legacy_random_distributions_verified": false,
+    "external_system_or_legal_claims_verified": false,
+    "current_engine_changed": false,
+    "old_100point_build_rewritten": false,
+    "actual_participant_playtest": false,
+    "scope": "4자료의지정예/단위/분포반례13검산. 폭발평균은공정독립주사위/무한최대눈재굴림 가정이며 전부1/상황/보너스를포함한전체성공확률이아니다. 기존구판엔진전체·외부게임/권리·온라인앱동작·참가자검증은포함하지않는다."
+  },
+  "framework_character_combat_arithmetic": {
+    "documents": 3,
+    "checks_passed": 23,
+    "major_sections": [
+      11,
+      19,
+      17
+    ],
+    "stat_table_rows": 25,
+    "both_stat_cost_and_grade_tables_agree": true,
+    "tier_cost_increments": [
+      6,
+      12,
+      16,
+      20,
+      26
+    ],
+    "creation_declared_steps": 10,
+    "creation_actual_steps": 12,
+    "creation_five_example_stat_totals": [
+      88,
+      93,
+      82,
+      92,
+      51
+    ],
+    "creation_yaml_actual_stat_cost": 97,
+    "creation_yaml_actual_total": 111,
+    "creation_yaml_approved_budget": 105,
+    "creation_yaml_over_budget": 6,
+    "novice_actual_spent": 68,
+    "novice_remaining": 7,
+    "BOD7_undefined_negative_HP_values": [
+      -13,
+      -12,
+      -11,
+      -10,
+      -9,
+      -8
+    ],
+    "old_range_grid_overlap": [
+      1
+    ],
+    "current_common_60second_rounds": 12,
+    "external_game_rules_verified": false,
+    "all_legacy_random_distributions_verified": false,
+    "all_specific_use_profiles_complete": false,
+    "current_engine_changed": false,
+    "old_100point_build_rewritten": false,
+    "actual_participant_playtest": false,
+    "scope": "3자료 지정표/구매예/파생/전투산술과분포반례만제한검산. 구판100p를5판빌드로수정/환산하지않으며 등급/평균만으로정사·승률/균형을증명하지않는다. 원전인물/장치/대형부품전효과·실제참가자/외부게임은별도."
+  },
+  "framework_resource_growth_arithmetic": {
+    "documents": 3,
+    "checks_passed": 22,
+    "major_sections": [
+      12,
+      14,
+      17
+    ],
+    "ego_formula_rows": 10,
+    "supply_log_printed_amount": 3,
+    "supply_log_amount_from_printed_formula": 6,
+    "Pool_log_prefix_if_start_once": [
+      7,
+      2,
+      5
+    ],
+    "Pool_log_prefix_if_supply_corrected": [
+      7,
+      2,
+      8
+    ],
+    "both_Pool_log_prefixes_cannot_pay_10": true,
+    "assumed_zero_start_genre_log_net_change": 1,
+    "genre_start_required_for_printed_current6": 5,
+    "all_legacy_logs_are_complete_histories": false,
+    "threshold_ranges": [
+      [
+        1,
+        20
+      ],
+      [
+        21,
+        50
+      ],
+      [
+        51,
+        75
+      ],
+      [
+        76,
+        90
+      ],
+      [
+        91,
+        100
+      ]
+    ],
+    "threshold_modified_roll_counts": {
+      "0": [
+        20,
+        30,
+        25,
+        15,
+        10
+      ],
+      "20": [
+        0,
+        30,
+        25,
+        15,
+        30
+      ],
+      "-10": [
+        30,
+        30,
+        25,
+        15,
+        0
+      ],
+      "10": [
+        10,
+        30,
+        25,
+        15,
+        20
+      ]
+    },
+    "goal50_failure_overlap_rolls": [
+      60
+    ],
+    "goal50_failure_unassigned_non100_rolls": [
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+    ],
+    "fourp_session_single_upgrade_ceiling": [
+      1,
+      2,
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "replacement_budget_250_two_values": [
+      {
+        "numerator": 200,
+        "denominator": 1,
+        "decimal": 200.0
+      },
+      {
+        "numerator": 375,
+        "denominator": 2,
+        "decimal": 187.5
+      }
+    ],
+    "replacement_budget_400_two_values": [
+      {
+        "numerator": 300,
+        "denominator": 1,
+        "decimal": 300.0
+      },
+      {
+        "numerator": 280,
+        "denominator": 1,
+        "decimal": 280.0
+      }
+    ],
+    "all_legacy_random_distributions_verified": false,
+    "all_specific_use_profiles_complete": false,
+    "external_game_rules_verified": false,
+    "current_engine_changed": false,
+    "old_100point_build_rewritten": false,
+    "actual_participant_playtest": false,
+    "scope": "3문서의지정예/표·임계100눈수정/클램프·실패구간/성장/로그조건부산술만검산. 로그의초기값/생략사건을추정하거나 현재잔량을정사로복원하지않는다. 구판100p새빌드·전체확률/균형·세션페이싱/실제앱/참가자검증과별도다."
+  },
+  "framework_team_NPC_session_arithmetic": {
+    "documents": 3,
+    "checks_passed": 23,
+    "major_sections": [
+      12,
+      14,
+      14
+    ],
+    "helper_thresholds": [
+      {
+        "numerator": 63,
+        "denominator": 2,
+        "decimal": 31.5
+      },
+      {
+        "numerator": 9,
+        "denominator": 2,
+        "decimal": 4.5
+      }
+    ],
+    "helper_success_probabilities": [
+      {
+        "numerator": 1,
+        "denominator": 4096,
+        "decimal": 0.000244140625
+      },
+      {
+        "numerator": 1,
+        "denominator": 2,
+        "decimal": 0.5
+      }
+    ],
+    "team_leader_result": 42,
+    "team_total_result": 55,
+    "Pool_minimum_current_for_contribution15": 29,
+    "Pool_max_contributors_if_15_each_and_total30": 2,
+    "attitude_conditions": [
+      [
+        4,
+        4,
+        3,
+        10
+      ],
+      [
+        4,
+        4,
+        3,
+        15
+      ],
+      [
+        4,
+        6,
+        4,
+        15
+      ],
+      [
+        4,
+        6,
+        4,
+        20
+      ],
+      [
+        5,
+        8,
+        5,
+        25
+      ]
+    ],
+    "attitude_partial_plus_exact_exploding": [
+      {
+        "numerator": 241,
+        "denominator": 256,
+        "decimal": 0.94140625
+      },
+      {
+        "numerator": 145,
+        "denominator": 256,
+        "decimal": 0.56640625
+      },
+      {
+        "numerator": 829,
+        "denominator": 972,
+        "decimal": 0.852880658436214
+      },
+      {
+        "numerator": 1979,
+        "denominator": 3888,
+        "decimal": 0.5090020576131687
+      },
+      {
+        "numerator": 99205,
+        "denominator": 131072,
+        "decimal": 0.7568740844726562
+      }
+    ],
+    "attitude_nonexploding_control": [
+      {
+        "numerator": 241,
+        "denominator": 256,
+        "decimal": 0.94140625
+      },
+      {
+        "numerator": 33,
+        "denominator": 128,
+        "decimal": 0.2578125
+      },
+      {
+        "numerator": 545,
+        "denominator": 648,
+        "decimal": 0.8410493827160493
+      },
+      {
+        "numerator": 145,
+        "denominator": 432,
+        "decimal": 0.33564814814814814
+      },
+      {
+        "numerator": 11725,
+        "denominator": 16384,
+        "decimal": 0.71563720703125
+      }
+    ],
+    "NPC_reaction_unassigned_outputs": [
+      -2,
+      -1,
+      0,
+      7
+    ],
+    "zero_cast_Pool_cap": 11,
+    "zero_cast_requested_Pool": 15,
+    "zero_cast_shortfall": 4,
+    "boss_conditional_weapon_margins": [
+      19,
+      30
+    ],
+    "session_log_minutes": 220,
+    "session_declared_minutes": 240,
+    "session_unitemized_minutes": 20,
+    "session_major_roll_actual_qualities": [
+      "Full",
+      "Full"
+    ],
+    "session_printed_earned_points": [
+      5,
+      6,
+      14
+    ],
+    "session_points_if_everyone_receives_named_milestone": [
+      15,
+      16,
+      14
+    ],
+    "all_legacy_logs_are_complete_histories": false,
+    "all_legacy_random_distributions_verified": false,
+    "all_specific_use_profiles_complete": false,
+    "external_game_rules_verified": false,
+    "current_engine_changed": false,
+    "old_100point_build_rewritten": false,
+    "actual_participant_playtest": false,
+    "scope": "3문서지정예/평균·원조기준·Pool한도·태도5조건폭발합/비폭발전수·반응/단계경계·세션예시시간/등급/포인트만검산. 태도는개별수치와Botch가성공범위밖인조건에한정하며 NPC전체밸런스/정사수치·세션완전이력/실제참가자시험과다르다. 43+무기조건부차이는원문의평균대평균을고정해검산한것이며전체전투성공확률이아니다."
+  },
+  "framework_final_reader_arithmetic": {
+    "documents": 5,
+    "checks_passed": 21,
+    "major_sections": [
+      12,
+      13,
+      11,
+      17,
+      10
+    ],
+    "online_grade_rows_checked": 6,
+    "prose_balance_costs": [
+      26,
+      26,
+      15,
+      20,
+      5,
+      5
+    ],
+    "prose_balance_total_points": 97,
+    "prose_balance_remaining_points": 3,
+    "prose_same_PC_additional_shoot4_dodge2_cost": 13,
+    "prose_same_PC_history_missing_for_additional_skills": true,
+    "Pool_sample_hits": 6,
+    "Pool_sample_face_sum": 43,
+    "damage_multiplier_support_values": 10,
+    "six_damage_dice_support_values": 55,
+    "multiplied_damage_variance": {
+      "numerator": 297,
+      "denominator": 1,
+      "decimal": 297.0
+    },
+    "six_damage_dice_variance": {
+      "numerator": 99,
+      "denominator": 2,
+      "decimal": 49.5
+    },
+    "gang_BOD5_formula_HP": 25,
+    "gang_HP_after_printed_damage10": 15,
+    "prose_session_minutes": [
+      130,
+      240
+    ],
+    "glossary_BOD7_negative_HP_gap": [
+      -13,
+      -12,
+      -11,
+      -10,
+      -9,
+      -8
+    ],
+    "README_numbered_modules": 16,
+    "README_declared_module_count_with_self": 17,
+    "README_count_with_additional_16_guide": 18,
+    "tool_documentation_pages_verified": 2,
+    "live_application_execution_verified": false,
+    "all_legacy_logs_are_complete_histories": false,
+    "all_legacy_random_distributions_verified": false,
+    "all_specific_use_profiles_complete": false,
+    "external_game_rules_verified": false,
+    "current_engine_changed": false,
+    "old_100point_build_rewritten": false,
+    "actual_participant_playtest": false,
+    "scope": "남은5개지정예/표·생성97p일치/별도추가학습미기재·파생/폭발/공백·배수와합분포·시간/모듈계수만검산. Roll20/Foundry공식문서는표기대조이며실제앱/봇/시스템실행검증이아니다. 구판100p빌드재작성/모든세계단위/환율·외부게임전체/정사인물수치와실제참가자시험은별도다."
+  },
+  "first_relationship_chronology_arithmetic": {
+    "documents": 4,
+    "checks_passed": 14,
+    "major_sections": [
+      8,
+      6,
+      5,
+      6
+    ],
+    "assumed_common_AD_base": 1860,
+    "FHI_horizon_years_if_common_AD": [
+      85,
+      96,
+      104,
+      106
+    ],
+    "all_FHI_years_before_Horizon1_if_common_AD": false,
+    "primary1965_plus54": 2019,
+    "gap_after_assumed_currentAD2003": 16,
+    "red_dragon_birth_if_battle34_and_age15": 19,
+    "red_dragon_current_age_if_constant_calendar": 125,
+    "red_dragon_dates_or_current_age_canon_verified": false,
+    "chronology_stated_counts": [
+      14,
+      12,
+      6,
+      11,
+      82,
+      4
+    ],
+    "chronology_stated_count_sum": 129,
+    "chronology_stated_percentage_sum": 101,
+    "master_table_type_counts": {
+      "[추산]": 6,
+      "[확정]": 13,
+      "[범위]": 7,
+      "[현재]": 100,
+      "[미래]": 3,
+      "[한계]": 1
+    },
+    "master_table_rows": 130,
+    "current_rows_in_master_table": 100,
+    "numbered_summary_rows": 11,
+    "primary_topics_whole_rechecked": 10,
+    "wiki_topics_whole_rechecked": 3,
+    "all_relationships_canon_verified": false,
+    "all_first_chronology_dates_canon_verified": false,
+    "all_related_novels_reviewed": false,
+    "all_specific_use_profiles_complete": false,
+    "current_engine_changed": false,
+    "old_100point_build_rewritten": false,
+    "actual_participant_playtest": false,
+    "scope": "4개문서의기재시점/계산·한AD/수평가정아래순서충돌·가정출생/나이·총람기재통계와실제표행분모/요약항목만검산. 조건부환산은FEWK세계공통정사연표/현재나이입증이아니며원전10/위키3과1판분류의출처범위를구분한다.100편동시/전체소설100의원전대조·실제참가자검증은별도다."
+  },
+  "first_catalog_arithmetic": {
+    "documents": 4,
+    "checks_passed": 10,
+    "major_sections": [
+      5,
+      13,
+      13,
+      12
+    ],
+    "person_index_bins": [
+      18,
+      177,
+      7
+    ],
+    "person_index_rows": 202,
+    "assumed_city_population_parts_in_ten_thousands": [
+      300,
+      280,
+      250,
+      120,
+      50
+    ],
+    "assumed_city_population_total_in_ten_thousands": 1000,
+    "natural_realm_rows": 13,
+    "artificial_realm_rows": 17,
+    "realm_rows": 30,
+    "realm_alias_normalized_names": 29,
+    "object_category_rows": [
+      18,
+      22,
+      16,
+      20,
+      8,
+      10,
+      14,
+      17,
+      24,
+      15,
+      15
+    ],
+    "object_rows": 179,
+    "stated_approximate_object_count": 180,
+    "parchment_rows": [
+      "I18",
+      "K01"
+    ],
+    "company_base_new_other_rows": [
+      15,
+      8,
+      10
+    ],
+    "company_rows": 33,
+    "proposed_connector_shares": [
+      35,
+      12,
+      15,
+      10,
+      10,
+      5
+    ],
+    "proposed_connector_share_sum": 87,
+    "unreported_share_remainder": 13,
+    "group_index_rows": 170,
+    "group_summary_counts": [
+      13,
+      14,
+      23,
+      13,
+      25,
+      10,
+      39,
+      14
+    ],
+    "group_summary_sum": 151,
+    "group_row_summary_gap": 19,
+    "primary_topics_whole_rechecked": 7,
+    "all_catalog_entries_individually_canon_verified": false,
+    "catalog_counts_are_world_unique_entities": false,
+    "all_related_novels_reviewed": false,
+    "all_specific_use_profiles_complete": false,
+    "current_engine_changed": false,
+    "old_100point_build_rewritten": false,
+    "actual_participant_playtest": false,
+    "scope": "4개 목록의 행/통계 내부 산술·약180 근사의 옳은 합·같은 양피지/오크계 중복·기업/집단/인물 분모를 검산한다. 7개 원전의 소속/스타일/이름/출입과 목록 충돌을 대조하되 모든 항목의 정사·인구/소속/고유 수/시장점유 검증은 아니다. 새 엔진 수치/100p/소설100 재작성이나 실제 참가자 검증을 포함하지 않는다."
+  },
+  "first_life_uncertainty_arithmetic": {
+    "documents": 4,
+    "checks_passed": 11,
+    "major_sections": [
+      15,
+      10,
+      10,
+      11
+    ],
+    "value_rows": [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C08"
+    ],
+    "value_row_count": 8,
+    "value_heading_count": 7,
+    "crocodile_assumed_price_floor": 50000,
+    "assumed_monthly_living_costs": [
+      50,
+      100,
+      200
+    ],
+    "crocodile_conditional_years": [
+      "250/3",
+      "125/3",
+      "125/6"
+    ],
+    "crocodile_conditional_months_at100": 500,
+    "crocodile_conditional_year_month_at100": [
+      41,
+      8
+    ],
+    "assumed_one_soup_per_day_month_cost": 60,
+    "assumed_three_soups_per_day_month_cost": 180,
+    "living_cost_rent_same_value_other_costs": [
+      0,
+      0,
+      0
+    ],
+    "proposed_insurance_monthly_premium": 5,
+    "proposed_insurance_payout": 200,
+    "payout_premium_ratio": 40,
+    "cinnabar_assumed_grams": 4200000000,
+    "cinnabar_assumed_price_per_gram": 1050000,
+    "cinnabar_assumed_total_credits": 4410000000000000,
+    "cinnabar_stated_total_credits": 4435000000000000,
+    "cinnabar_total_difference_credits": 25000000000000,
+    "cinnabar_implied_quoted_price_per_gram": "22175000/21",
+    "stated_currency_conversion_rows": 17,
+    "stated_currency_conversion_rows_agree": true,
+    "stated_234eok_credits": 23400000000,
+    "stated_numeric_value": 23742190000,
+    "numeric_gap_if_234eok": 342190000,
+    "value_if_literal_eok_times_man": 234000000000000,
+    "primary_topics_whole_rechecked": 12,
+    "related_novels_whole_rechecked": 1,
+    "new_related_novels_whole_read": 0,
+    "all_institutions_and_laws_canon_verified": false,
+    "all_unnamed_stories_or_unknown_identities_verified": false,
+    "all_related_novels_reviewed": false,
+    "all_specific_use_profiles_complete": false,
+    "real_world_exchange_rate_current_verified": false,
+    "all_daily_food_requirements_or_market_prices_canon_verified": false,
+    "current_engine_changed": false,
+    "old_100point_build_rewritten": false,
+    "actual_participant_playtest": false,
+    "scope": "4문서의 제목/기재행·월생활비/월세분모·기간/식사횟수/가격을가정한내부산술·보험료/지급·질량/가격과기재총액·17행환산의옳은산술·234억만의조건부단위해석을대조한다. 이값은새FEWK가격/보험/금융/생리/현실환율/법률/성장제가아니다. 원전12주제와기존관련소설1편의현재전문을대조하며새소설0/100편재작성0/실제참가자미검증을유지한다."
+  },
+  "first_encyclopedia_scene_glossary_arithmetic": {
+    "documents": 3,
+    "checks_passed": 11,
+    "major_sections": [
+      16,
+      17,
+      10
+    ],
+    "numbered_slots": 40,
+    "FEWK_entries_excluding_nonFEWK_placeholder": 39,
+    "daily_wage": "18/5",
+    "monthly_wage_assuming30_days": 108,
+    "scene_monthly_wage_mislabel_factor": 30,
+    "coffin300_days_at_daily36": "250/3",
+    "coffin300_months_at_monthly108": "25/9",
+    "quality_difference_percentage_points": 6,
+    "quality_relative_difference": "3/46",
+    "annual_rent_assuming1000_monthly": 12000,
+    "lower_bound10000_shortfall": 2000,
+    "room_price_terms_not_fixed": true,
+    "half_oyat_meals_assuming_one_oyat_one_meal": "1/2",
+    "primary_topics_whole_rechecked": 7,
+    "related_novels_whole_read_in_pass": 1,
+    "all_market_prices_or_labor_conditions_canon_verified": false,
+    "current_engine_changed": false,
+    "old_100point_build_rewritten": false,
+    "actual_participant_playtest": false,
+    "scope": "구판의 기재 분모/기간/번호·직접소설083의 실제 시급/일당/월급과 각색표의 오기·퍼센트포인트/상대비율·같은 상품/월30일/전액저축 가정의 조건부 산술이다. 세계 현재 가격/근무일/회복·IO 성공률을 확정하지 않으며10000이상에12000이 포함될 수 있음을 유지한다."
+  },
+  "first_address_nuance_motif_arithmetic": {
+    "documents": 3,
+    "checks_passed": 6,
+    "major_sections": [
+      7,
+      71,
+      15
+    ],
+    "nuance_numbered_entries": 83,
+    "individual_story_headings": 64,
+    "individual_stories_with_one_entry": 58,
+    "individual_stories_with_two_entries": 6,
+    "story_numbers_referenced_including_grouped_ranges": 92,
+    "story_numbers_not_referenced": [
+      12,
+      15,
+      71,
+      73,
+      77,
+      78,
+      79,
+      81
+    ],
+    "translation_mapping_rows": [
+      28,
+      34
+    ],
+    "story12_to04_duration_ratio": 30,
+    "primary_topics_whole_rechecked": 5,
+    "related_novels_whole_rechecked": 1,
+    "new_related_novels_whole_read": 0,
+    "all_quoted_novel_passages_against_whole_novels_verified": false,
+    "all_translation_terms_canon_verified": false,
+    "all_related_novels_reviewed": false,
+    "current_engine_changed": false,
+    "old_100point_build_rewritten": false,
+    "actual_participant_playtest": false,
+    "scope": "문서의 절/항목/스토리 번호 지시/누락·두 번역목록 분모와 개별 소설 시간비율을 검산한다. 번호92개는92개 소설 전문 읽음/인용 대조 증거가 아니며, 해석은 전역 법칙/판정/PC감정 강제가 아니다. 소설083을 재대조해 뉘앙스의 월급3.6 오기와 기존 임금 검산을 연결한다."
+  },
+  "first_letters_narrator_translation_readme_arithmetic": {
+    "documents": 4,
+    "checks_passed": 8,
+    "major_sections": [
+      7,
+      10,
+      101,
+      9
+    ],
+    "letter_list_rows": 22,
+    "letter_numeric_story_rows": 21,
+    "letter_unique_story_numbers": 20,
+    "translation_numbered_summaries": 100,
+    "translation_rows_with_seven_fields": 85,
+    "translation_partial_tables": 15,
+    "viewpoint_table_rows": 86,
+    "FID_locations": 25,
+    "FID_story_number_occurrences": 26,
+    "FID_unique_story_numbers": 25,
+    "readme_declared_md": 31,
+    "bounded_first_inventory_md": 32,
+    "novel024_numbered_dialogue_chapters": 7,
+    "novel024_last_chapter_nonempty": true,
+    "novel100_letters": 7,
+    "primary_topics_whole_rechecked": 6,
+    "related_novels_whole_read_in_pass": 2,
+    "new_related_novels_whole_read": 1,
+    "previously_reviewed_related_novels_rechecked": 1,
+    "current_wiki_documents_whole_rechecked": 2,
+    "all_quoted_novel_passages_against_whole_novels_verified": false,
+    "all_related_novels_reviewed": false,
+    "old_self_completion_claims_are_fifth_evidence": false,
+    "current_engine_changed": false,
+    "old_100point_build_rewritten": false,
+    "actual_participant_playtest": false,
+    "scope": "범위/완료해석에영향을주는행·소설번호/묶음·표의실제필드·시점/FID분모·README구조와취득목록·직접024/기존100의서로다른7구조를대조한다.100요약/86시점행/25위치는100소설/번역전수검토증거가아니다.024마지막공란/소멸을복원하지않고기록자의정보/현지몸/장치와같은인터랙션을유지한다."
+  },
+  "foundational_chronology_csv_arithmetic": {
+    "checks_passed": 8,
+    "data_rows": 383,
+    "columns": 21,
+    "FEWK_nonempty_rows": 44,
+    "source_current_AD": 2003,
+    "source_rows_after_current": 32,
+    "Chris_funeral_year_gap": 29,
+    "Chris_funeral_counter": 30,
+    "Chris_post_funeral_counter_rows": 6,
+    "company_first_counter_DD": 4255,
+    "wiki_company_first_year_DD": 4254,
+    "war_counter_rows": 14,
+    "war_named_annual_rows": 10,
+    "calendar_numeric_rows": {
+      "디디": 351,
+      "수평": 144,
+      "광제력": 141,
+      "동쟁": 14,
+      "대사력": 97,
+      "(주)신성": 120
+    },
+    "source_current_is_fifth_current": false,
+    "all_world_calendar_dates_or_ages_fixed": false,
+    "real_history_columns_fact_checked": false,
+    "linked_Google_Doc_read": false,
+    "actual_participant_playtest": false
+  },
+  "foundational_world_bible_outline_arithmetic": {
+    "checks_passed": 8,
+    "Ver5_part_budgets": [
+      7000,
+      45000,
+      100000,
+      40000,
+      110000,
+      100000,
+      100000
+    ],
+    "Ver5_part_sum": 502000,
+    "Ver5_geography_budgeted_rows": 9,
+    "Ver5_geography_allocated_chars": 22500,
+    "Ver5_selected_power_profiles_planned": 18,
+    "Ver5_power_allocated_chars": 46000,
+    "Ver5_style_features_planned_lines": 150,
+    "Ver5_appendix_part_budgets": [
+      25000,
+      25000,
+      25000,
+      25000
+    ],
+    "Ver3_Keiti_numbered_ranges_planned": [
+      [
+        "1",
+        "10"
+      ],
+      [
+        "11",
+        "20"
+      ],
+      [
+        "21",
+        "30"
+      ],
+      [
+        "31",
+        "40"
+      ],
+      [
+        "41",
+        "50"
+      ]
+    ],
+    "Ver3_Keiti_allocated_chars": 50000,
+    "Ver3_Keiti_stated_parent_budget": 70000,
+    "Ver3_appendix_AB_budget_sum": 55000,
+    "Ver3_appendix_stated_budget": 75000,
+    "source_heading_rows_are_actual_written_chapters": false,
+    "outline_lengths_are_actual_written_lengths": false,
+    "all_source_story_ranges_whole_read": false,
+    "all_maps_or_project_archives_delivered": false,
+    "fifth_engine_changed": false,
+    "actual_participant_playtest": false
+  },
+  "foundational_world_bible_prose_arithmetic": {
+    "checks_passed": 3,
+    "predicted_part_budgets": [
+      150000,
+      250000,
+      150000,
+      300000,
+      200000,
+      50000
+    ],
+    "predicted_total_chars": 1100000,
+    "source_actual_chars": 43175,
+    "source_horizon_labels": [
+      0,
+      1
+    ],
+    "source_DD_offsets": [
+      4227,
+      4226
+    ],
+    "estimated_lengths_are_actual_written_lengths": false,
+    "one_world_calendar_base_fixed": false,
+    "all_source_stories_or_maps_delivered": false,
+    "fifth_engine_changed": false,
+    "actual_participant_playtest": false
+  },
+  "foundational_world_bible_chronicle_arithmetic": {
+    "checks_passed": 6,
+    "conversion_table_rows": 7,
+    "DD_H_offsets": [
+      4227,
+      4226,
+      4226,
+      4226,
+      4225,
+      4226,
+      4226
+    ],
+    "H_G_offsets": [
+      2,
+      3,
+      3,
+      4,
+      3,
+      3
+    ],
+    "table_war_exile_G": [
+      37,
+      40
+    ],
+    "detail_war_exile_G": [
+      38,
+      41
+    ],
+    "source_current_E": 96,
+    "CSV_current_E": 97,
+    "one_world_calendar_base_fixed": false,
+    "real_history_fact_checked": false,
+    "fifth_engine_changed": false,
+    "actual_participant_playtest": false
+  },
+  "scope": "구판 TN 합계≥TN·예시 산술/실제 스킬/생성 비용·성장 잔여·모두1 확률·체류 시간/명목 시나리오 분량을 제한 대조. 스킬/태그/운 토큰·모든1 자동펌블의 저TN예외·3회체인Critical자동승격·효과/피해 전체 구판 승률/호환 검증 아님. 신판 엔진으로 채택하지 않는다.",
+  "checks_passed": 525,
+  "checks": [
+    "seven old fifty-percent labels are not exact sum thresholds",
+    "2d4 TN5 independent enumeration",
+    "6d6 basic mean",
+    "5d8 minus6d6 basic mean",
+    "example INT9 sum",
+    "example Grade ace sum",
+    "example critical chain sum",
+    "pool example six hits",
+    "1d4 all-one fumble",
+    "6d8 all-one fumble",
+    "five legacy tier cost differences",
+    "four actual legacy skill level sums match labels",
+    "four actual legacy skill cumulative costs",
+    "legacy skill p labels are not actual purchase costs",
+    "five actual legacy stat subtotals",
+    "all five labeled standard100 builds exceed100 before skills",
+    "five actual legacy build skill cumulative costs",
+    "10d6 actual all-one percent differs from printed value",
+    "6d8 actual all-one percent differs from printed value",
+    "legacy ego example exact time sum under its own periods",
+    "legacy stored85 spends incremental7 not entire52",
+    "legacy own33 plus50 minus7 minus8 arithmetic",
+    "legacy scenario103 nominal minutes",
+    "legacy scenario104 nominal minutes",
+    "배수와 합산의 평균은 같아도 분산은 다름",
+    "10d10의 실제 분산",
+    "1d10×10에 없는 중간 눈15",
+    "10d10에는 중간 눈15가 있음",
+    "1d10×3의 평균과 분산",
+    "3d10의 평균과 분산",
+    "근접 예시의 실제 나눗셈 범위",
+    "구판+14 DV29 문턱",
+    "축소된+11 DV29 문턱",
+    "구판+14 AC17은 모든 눈 통과가 아님",
+    "단계별 올림의 다섯 가격",
+    "Lv5 단일 배수가격",
+    "다섯 구매총액과 단일가격 구분",
+    "구판50개 이슈 집계",
+    "구판 해결 주장44개 집계",
+    "44/50의 비율",
+    "반 단위 효과의 표시합",
+    "70kg의 질량 표준 환산은7양",
+    "60~90kg의 자 단위 범위",
+    "2판 목차 주제 절 합계",
+    "2판 제안 페이지 합계",
+    "구판10편의 줄 수 합계",
+    "개별 선집 분량의 합계 범위",
+    "독립 현화 구간은 항상100이 아님",
+    "인수인계의10000배 밀도 표준",
+    "정확한1/10의1일 이후 분 단위",
+    "대본1d10×2의 평균과 분산",
+    "대본2d10은 배수와 다른 분산",
+    "구판 조판 영역과 두 단폭",
+    "T06의 두 카드와 간격은 영역 초과",
+    "T15는 간격 없이도 가로와 세로 초과",
+    "T23의 제안 폭과 실제 세 단폭",
+    "편집규칙 본편 표의 실제 합계",
+    "여유분을 포함한 실제 합계",
+    "T20의 실제 축소 여백 영역",
+    "현재 명세의 스탯 비용25행",
+    "구판 평균6~8의 최소 스탯 비용",
+    "정정된 스킬0에서7의 누적 비용",
+    "보고서의 현재값 두 배를 문자대로 합산",
+    "보고서2/8/14 예시의 다음값 두 배 합산",
+    "정합성 보고 상태 표의 실제 문서 수",
+    "정합성 보고 표의 정정 대상 실제 수",
+    "현재 명세4d4의 비폭발 평균",
+    "현재 명세4d4의 무한 폭발 평균",
+    "차이+20은 모든 음수 차이를20으로 만들지 않음",
+    "명세의 빈사와 진사 사이 미지정 HP",
+    "명세4d4 모두1 확률의 퍼센트",
+    "소설065의 탈출 인원 비율",
+    "소설065의 스틱값과 운반 건수",
+    "물리 엔진의7대 가치라는 제목과 실제8범주",
+    "원전 만자=양의 기본 단위",
+    "70kg의 표준 물질 바이트",
+    "70kg의 양 표기",
+    "구판0.7양 표기의 열 배 차이",
+    "400g 책의 순수 물질 바이트",
+    "1.5톤 자동차의 그램 수",
+    "자동차의 순수 물질 바이트",
+    "자동차의 양 표기",
+    "100만명60kg의 물질 바이트",
+    "구판6만경 표기의 자릿수 차이",
+    "네 차례 밀도 감쇠의 상대 비율",
+    "네 차례 감쇠의 절대 표준 바이트",
+    "초기0042의20자와30배 산술",
+    "위키21자를30배로 문자대로 계산",
+    "6만자30배의 구판 예시 산술",
+    "6만자와21자의 정확한 구성량 비율",
+    "구판2계층10일 한계의5일 에고 소모",
+    "구판2계층5일 후 에고 잔여",
+    "구판4계층150분 중30분 소모",
+    "30분에 사용한 비율",
+    "30분 후 잔여 비율",
+    "구판4계층90분 소모",
+    "구판4계층120분 소모",
+    "구판4계층120분 후 남은 시간",
+    "정확한24시간의십분의일",
+    "구판150분 근사와 정확144분의 차이",
+    "기준10의24시간에서 잔여8의 한계",
+    "같은 기준시간 정의를 쓴 에고8의6시간 소모",
+    "구판 고정24시간 모델 자체의 산술",
+    "구판 고정 한계와 비례 한계를 혼용한 소모 차이",
+    "같은 기준을 적용한 에고8의6시간 후 잔여",
+    "구판BP30의 실제 표 구간",
+    "구판BP30의 실제 표 사회 수정치",
+    "구판BP30의 실제 표 샤이닝 수정치",
+    "구판BP30의 실제 표 매팅 수정치",
+    "같은1g 기준의 물질계와 하위1 밀도비",
+    "21자의 바이트 표기",
+    "21자 백만 배의 실제 바이트 표기",
+    "백만 배 등식의 누락 배수",
+    "21자 백만 배의 양 표기",
+    "21양 자체의 바이트 표기",
+    "LCC 전2100양과 명시한21양의 비율",
+    "위키 근사1셀1kcal을 적용한1만셀 비교",
+    "위키 근사오얏1000셀을 적용한1만셀 비교",
+    "구판6규격이라는 표의 실제 규격 행 수",
+    "구판 규격행과 제목6의 차이",
+    "위키이억셀의 정제용액 kg",
+    "위키이십억셀의 정제용액 kg",
+    "구판 말통200kg과 위키20kg의 비율",
+    "위키드럼 케이스 포함과 용액의 무게비",
+    "구판C형3개라는 소비예의 가격 합",
+    "구판C형4개라는 소비예의 가격 합",
+    "구판심화의0.7양을 자로 환산",
+    "구판0.7양 대비60만자의 비율",
+    "구판0.7양 대비90만자의 비율",
+    "정정70kg7만자 대비60만자 비율",
+    "정정70kg7만자 대비90만자 비율",
+    "구판먹개비 표의 실제6구간 너비",
+    "구판먹개비 표의1~100 전체 포함",
+    "구판Consumption 구간의 표상 비율",
+    "역사 보고87개 그룹 합계",
+    "현재 색인 기본 코드 행",
+    "현재 색인 추가 코드 행",
+    "현재 색인 고유 코드 수",
+    "현재 색인 그룹별 코드 분포",
+    "기본 색인 통계99의 그룹 합계",
+    "현재 물리 계열 실제 문서 수",
+    "역사 보고 범위 표의 실제 파일 행",
+    "README 파일 표의 실제 행",
+    "외부 비유 대응 표의 행",
+    "원전 인용 표의 실제 행",
+    "원전 인용 검증 승계 행",
+    "원전 인용 신규 행",
+    "추론 확장 라벨 표의 행",
+    "추론 확장 라벨의 개별 코드",
+    "01~10의 TN 독립 토큰 존재 줄",
+    "README의 PHYS-A 할당 잔존",
+    "현재 이관표와 색인의 코드 이름 대응",
+    "Pack 명세 카탈로그 그룹별 실제 행",
+    "Pack 명세 카탈로그 실제 고유 항목",
+    "Pack 실제 디렉토리 문서 수",
+    "Pack 명세 파일트리의 실제 문서 항목",
+    "구판 BP 레벨별 실제 감소 표",
+    "구판 BP 요약식의 Lv5 감소",
+    "구판 Lv5 감소 표와 요약식의 차이",
+    "구판 Lv1 표 적용의 시작 BP",
+    "구판 하얀여우 시작90과 표 적용의 차이",
+    "구판 민 Lv2와Lv1 적용의 시작 BP",
+    "구판 민 시작75와 표 적용의 차이",
+    "구판 하얀여우 표시 변경량의 산술",
+    "구판 Lv2 제거 절반 회수와 수술 부담의 순합",
+    "구판 Lv2 비용10p의70퍼센트 환급",
+    "구판 SEN7 에고저항3 지정 목표 예시",
+    "구판 BP별 명시된 d100 펌블 구간의 너비",
+    "구판 보고 심각도 선언의63 합계",
+    "구판 보고 Critical12의 실제 조건부 분리",
+    "구판 샤이닝 예시 폭발 포함 합",
+    "구판 샤이닝 예시 최종 판정",
+    "구판 샤이닝 예시 발동 차이",
+    "구판 샤이닝 예시 실제 사격 차이",
+    "구판 샤이닝 예시 표시 피해",
+    "구판 샤이닝 예시 피해 뒤 남는 HP",
+    "구판 매팅 예시 저항 목표",
+    "구판 매팅 예시 폭발 포함 합",
+    "구판 매팅 예시 최종 판정",
+    "구판 매팅 예시 차이",
+    "구판 매팅 예시 저항 성공",
+    "구판 매팅 예시 트랙 합",
+    "구판 매팅 예시 변경 후 BP",
+    "구판 BP55의 실제 표상 매팅 수정",
+    "구판 Lv1에서Lv2로 올리는 BP 차액",
+    "구판 Lv3 제거 회수 올림",
+    "구판 Lv3 제거 순회수",
+    "구판 Lv3 포인트 환급 내림",
+    "구판 기능 Lv2/Lv1/Lv3 합산 감소",
+    "구판 기능 Lv2/Lv1/Lv3 장착 후 BP",
+    "구판 의식 시간 문자 그대로1 감소",
+    "구판 의식 시간 절반 적용",
+    "구판 실드 Lv5 표상 소비",
+    "구판 실드 Lv와 소비 표의 차이",
+    "구판 4이상Hit와Core5이상Hit의 한 주사위 확률",
+    "구판 같은3d6 모든216경우의 평균Hit 차이",
+    "구판 실제 태그 세 그룹의 항목 수",
+    "구판 실제 태그 총수",
+    "구판9프리셋 각 상세 패키지 합",
+    "구판9프리셋 각 원안 능력치 비용 합",
+    "구판G0 실제 표의PRE/SEN",
+    "구판G0 표를 적용한에고/DSR/Pool",
+    "구판G0 파생 블록에 실제 인쇄된값",
+    "구판G3 LCK4를3으로 낮춘 조정 합",
+    "구판G4 INT7을6/LCK2를1로 낮춘 조정 합",
+    "구판G6의BP95와배경태그 최대80 조건 충족",
+    "구판G8 형성후유증 포함 순 저항 수정",
+    "구판G1 교체 예의 실제 합",
+    "구판G1 교체 예와30 표기의 차이",
+    "구판 후유증 실제 카탈로그 항목 수",
+    "구판 실제 d100 결과표 수",
+    "구판 실제3결과표 각각1에서100까지중복없이포괄",
+    "구판 샤이닝 로그62의 실제 위기행 번호",
+    "구판 차원실조50퍼센트 증가의 올림 전 값",
+    "구판 에고12 선형시간의4계층 한계분",
+    "구판 에고12 선형시간 적용의1시간 소모",
+    "구판 에고12 기본150분 적용의1시간 소모",
+    "구판 에고12의 두 시간식 결과 차이",
+    "구판DSR 캠페인에 기록된 순변동",
+    "구판DSR 표시 순변동1과 로그합 차이",
+    "구판DSR 만트라 특수장비추가1까지 적용한 순변동",
+    "구판Pool 변화와말미3에필요한미기록시작값",
+    "구판DSR Max13 현재12 증가3의넘침/잔여",
+    "구판YAML Max14가정 현재13 증가1의넘침/잔여",
+    "구판확장본문비용3을Max14현재13에적용한넘침/잔여",
+    "구판대시보드 순증가와일정속도 조건부세션수",
+    "구판샘플A HP감산과선언경계도달",
+    "구판샘플A 에고감산",
+    "구판샘플A 인쇄주사위합/보정과TN차이",
+    "구판샘플B 패러독스발동값",
+    "구판샘플B d10067의실제패러독스표 행",
+    "구판공통명세의능력치9 Grade",
+    "구판샘플B 인쇄주사위합/보정과TN차이",
+    "구판샘플B 에고감산",
+    "구판샘플B 선언된정화2와의식1뒤패러독스",
+    "구판샘플B 표시8과감산7의차이",
+    "구판BOD7 지정HP표의미지정구간",
+    "구판26피해를3d8합/단일d8전체삼배로해석할때가능여부",
+    "구판드랍아웃 자체d100 임계행 실제수",
+    "구판장비 실제 대분류제목 수",
+    "구판장비 중복11-15 제목 수",
+    "구판무기9개 주표그룹 실제행수",
+    "구판무기 주표행수 합",
+    "구판주표100과별도크로코다일1 합",
+    "구판v02취득선언110과현재주카탈로그101 차이",
+    "구판전투활 상세표 실제열수와표머리열수",
+    "구판8무장세트에표시한가격하한합",
+    "구판외장단말4분류 사양수",
+    "구판까마귀의인쇄공격/방어/차이",
+    "구판까마귀9피해의독립2d6/단일d6전체배수 해석",
+    "구판까마귀 두배수해석의평균/분산",
+    "구판벽사종 인쇄공격합/TN차이",
+    "구판벽사종 두배수해석의평균/분산",
+    "구판새매 인쇄공격/방어/TN차이",
+    "구판새매26피해의독립3d12/단일d12전체배수 해석",
+    "구판새매 두배수해석의평균/분산",
+    "구판돌칩표준탄12발 가격",
+    "구판500세션비의표준12발탄창가 대비배수",
+    "구판부록오얏환산의개인/공용/월유지비 크레딧",
+    "구판보험월500과제시월수입200/300의비율",
+    "구판A/B/C형 전원표가격",
+    "구판본문1크레딧비교와부록1만크레딧비교 차이배수",
+    "구판NPC 실물블록수",
+    "구판NPC 창작/원전이름기반 분리",
+    "구판NPC 실제절별블록수",
+    "구판NPC17 HP인쇄식 검산",
+    "구판NPC17 에고Max인쇄식 검산",
+    "구판NPC17 에고저항인쇄식 검산",
+    "구판NPC17 DSR인쇄식 검산",
+    "구판NPC17 운토큰인쇄식 검산",
+    "구판NPC17 Pool인쇄식 검산",
+    "구판NPC17 Initiative인쇄평균 검산",
+    "구판NPC102스탯중 Grade명세와다른2행",
+    "구판NPC등급스탯이탈절대금지와실제19행",
+    "구판NPC헤더샘플12와실제13 차이",
+    "구판NPC후반12더하기3과실제17 차이",
+    "구판하얀모자 평균9.5대12의실제차이",
+    "구판한씨사회예의정확한성공수와분모",
+    "구판Critical확정의반례 최소사격차이",
+    "구판대형 실제블록수",
+    "구판대형 대분류수",
+    "구판대형 절별4/2/3/1/1 구성",
+    "구판대형7블록의인쇄부품수량합",
+    "구판백무의서로다른형태HP합",
+    "구판플랜트4냉각부합",
+    "구판동일플랜트5/10회차기한의60초기준초",
+    "구판FatRound_B양끝조합이60초인경우와아닌경우",
+    "구판FatRound_A와현재공통5초10회차",
+    "구판해일30kmh의초당거리",
+    "구판해일5초와60초동안의이동거리",
+    "구판50m이상격자의3/5/2넉백하한",
+    "구판대형도주/위험도안표행",
+    "구판위험도안채움과분자상충행수",
+    "구판공중탈출마이너스3은6에서0이아님",
+    "구판적룡브레스최저값을그대로옮길때현재N04HP",
+    "구판부품합과인쇄본체HP의상이한비율",
+    "구판용어실제표제별칭폐기약어포함",
+    "구판용어정렬영역별표제수",
+    "구판용어코드예문제외3단제목수",
+    "구판용어대분류수",
+    "구판용어교차참조본문행",
+    "구판용어근사분류표의행수합과별도표시합계",
+    "구판차원0부터6의인쇄단위지수",
+    "구판하위층인접밀도비와조에서만의누락",
+    "구판6층고차원은0층기준1만배",
+    "구판코드와패치크레딧을동일단위라가정할때역환산불일치비",
+    "구판README파일표행현재파일수표제선언",
+    "구판README대분류수",
+    "구판README완료표시12개와63건합",
+    "구판README실제0회와계획10/30회구분",
+    "대기문서와검사이력주요절",
+    "처리완료표시와실제세조건중두체크한미처리",
+    "처리완료이후명시된미처리항목",
+    "대기문서차원바이트존재개념목록",
+    "누락개념체크리스트항목과바이트밀도중복",
+    "대기문서밀도표인쇄지수",
+    "대기문서조에서만의인접밀도비",
+    "전신량과1g단위비교는g당밀도비와다름",
+    "검사초기범위전문부분스킵미존재",
+    "과거초기미처리등급과합",
+    "부록C정정합과부록D잔여합",
+    "부록E선언등급별건수합과별도63건표시",
+    "세계배경본문후속패치와수정목록대분류",
+    "수정목록초기분류코드수와표시합계",
+    "수정목록상세소제목과묶음코드분해수",
+    "누락라벨표에이미합격두행포함",
+    "시점이동서기수평대사력신년의각기다른차",
+    "원년포함가정신년구표기233와정정234및117",
+    "수평1사건에서144의경과연수와표시144차이",
+    "세계배경본문0에서6의실제행수",
+    "상하8계층표제와실제밀도행수",
+    "후속9행단위밀도지수와인접비",
+    "구판에고10표의100일10일1일2점5시간15분과인접비",
+    "세계배경30선실제용어행",
+    "무기표의1점5배두건과4배10배",
+    "서로다른보험상품의월납액만비교한500대5",
+    "오얏주3과1오얏가능반잔서술의분량상충",
+    "보고서근사일치불일치창작분포의명목합계와반올림",
+    "Framework개요원칙주사위결과해석대분류",
+    "같은문해킹층별예의달라진TN과차이",
+    "구판폭발3d6와5d8의표시합",
+    "4d4초보예미완료폭발전합과최소추가",
+    "중견해커의폭발전후와TN25차이",
+    "평균85의차이25는Critical구간이나최솟값은19",
+    "스탯9의비폭발폭발평균과TN25의비일치",
+    "1d10곱하기6과6d10의평균은같지만분산과가능합은다름",
+    "전부1의서로다른세확률",
+    "자리정의없는두일반d10과올바른0부터9자리00매핑",
+    "구판Pool한도시작과공급올림",
+    "구판12Pool예의7이라고쓴후정정한실제6Hit",
+    "결과해석세예의실제합과차이",
+    "Framework스탯생성전투대분류",
+    "스탯문서와생성문서25행Grade누적비용동일",
+    "25행표시비폭발평균과최대",
+    "구판실제다섯승급지점비용증분",
+    "승급최대초과가굴림항상초과는아닌다",
+    "구판스킬삼각누적28와재능상한25값",
+    "스탯문서네구매예의합계와영스탯상충",
+    "스탯시트예의191p와파생값",
+    "홀수Pool시작올림과10d6비폭발평균",
+    "Tier반올림근사와정확표의첫경계차이",
+    "프리셋부분교체예의양쪽30p",
+    "생성10단계표제와실제12단계",
+    "생성다섯예스탯실제합과신참소비68여유7",
+    "사교리더PRE8실제Grade와Tier",
+    "생성YAML표시스탯91실제97과합의105대실제111",
+    "구판BP표의몸구성감산65",
+    "실내전투예폭발전합계와차이",
+    "거리전투예공격방어합계와차이",
+    "거리전투피해표시평균9와분포차이및명시숙련누락",
+    "대형예독립몸부품합630과8Pool4Hit",
+    "구판FatRound세시간과현재5초12라운드",
+    "BOD7구판빈사와진사사이미정의6값",
+    "구판거리칸구간의한칸중복",
+    "Framework자원트랙성장대분류",
+    "구판에고열행최소4와최대기준저항",
+    "구판4자원예의각에고저항장르운저장",
+    "구판저장네예의시작올림",
+    "공급27예의6과YAML3표기사이3차이및14올림",
+    "구판탄창예시작6소모5공급6후7은표준10보다부족",
+    "시작7한번으로읽은Pool로그소모10전의두조건부잔량",
+    "자원로그명시증감만의운잔량DSR순증가와에고최대가정",
+    "차이20가산이기존실패를항상Critical로만들지는않음",
+    "구판임계5범위전100눈과수정클램프분포",
+    "구판목표50실패등급의60중복과81부터99공백",
+    "구판10칸3분의4와7칸표시차이",
+    "샤이닝예비폭발기대25점5와폭발기대29",
+    "구판임계78보정68과에고명시흐름",
+    "순증가만있는10세션2부터3은10칸절반5와다름",
+    "구판성장기본최대와명시이정표네예",
+    "구판4p세션기준단일향상최소올림",
+    "구판기능Lv누적30과장비포인트반액환급예",
+    "구판새PC세예와250400중복경계의상이한값",
+    "Late성장할인6와4및누적194131",
+    "20부터40세션5부터6p가정의범위와40세션400필요평균",
+    "성장로그101잔량과105누적역량을구분해야함",
+    "Framework팀NPC세션대분류",
+    "원조전체평균과단일평균의서로다른기준",
+    "폭발d8원조전체31점5와단일4점5초과확률",
+    "팀침투최대눈8폭발3리더와원조합",
+    "집단Pool상한30과개인절반올림의15기여조건",
+    "회상두굴림합과실제결과등급",
+    "경쟁표시값24와27의독립등급",
+    "NPC다섯태도조건모두최저눈Botch가성공범위밖",
+    "NPC태도지정5조건폭발합의정확통과확률",
+    "NPC태도지정5조건비폭발전수대조",
+    "NPC태도제안근사70과35와55와계산값차이",
+    "곤봉잭비폭발공격평균8점5와방어6",
+    "단위가다른공격3d4와방어2d4의Botch확률",
+    "제로캐스트개인Pool11로15투입부족과평균차이8",
+    "흑사자룡무기1d12를포함한조건부차이범위와등급",
+    "흑사자룡방어기본평균과두수정의합",
+    "선택NPC반응표수정후원래d6범위밖",
+    "보스백분율4단계중복경계",
+    "NPC최소준비목록정해진각하한의합",
+    "세션YAML단계시간합220과4시간차20",
+    "세션5단계권장시간합과휴식제외범위",
+    "세션주요굴림22와31의같은Full등급",
+    "이정표전원10과개별0의충돌및조건부총점",
+    "Framework잔여대분류",
+    "구판온라인시트6Grade가Stats표와일치",
+    "온라인파생HP정신에고저항장르운Pool시작구판표",
+    "입문서술균형예97p는구판표와정확일치",
+    "입문균형예6Grade와Initiative비폭발평균",
+    "입문균형예구판파생7종",
+    "균형예잔량3만으로전투사격4회피2구매불가조건부",
+    "입문폭발완료예와Partial차이2",
+    "기관포예Pool10눈의Hit6과합43",
+    "1d10곱6과6d10피해의지지집합크기다름",
+    "1d10곱6과6d10평균같고분산다름",
+    "입문교섭폭발완료결과23과Full차이8",
+    "BOD5갱HP기준25와고정피해10후15",
+    "권총최대눈6누락Ace후최소1을더하면차이11",
+    "카빈응사예11과민방어19의차이",
+    "입문5단계분범위는130부터240",
+    "용어집BOD7음수HP기재단계공백",
+    "구판고정환율과바이트Addendum표현의수치만",
+    "README모듈표00부터15와누락16추가의서로다른계수",
+    "동일6눈표본의합계와정확5표시와5이상개수의차이",
+    "문서수정자확인과실제앱실행검증구분",
+    "1판관계장소두연대기대분류",
+    "구판가정안수평동단선형환산네시점",
+    "구판현재144와AD2003으로역산한원년및143경과",
+    "구판한서력을가정하면FHI년대는수평1이후",
+    "1965뒤54년과구판현재2003의16년차이",
+    "동쟁34에나이15조건부출생19와이전표기49",
+    "크리스1968과1997차29는날짜정사입증과별개",
+    "구판대표나이역산의144빼기",
+    "총람기재범주하한합129와비율합101",
+    "총람실제표130행의유형전체수",
+    "총람실제표와요약총계의다른분모",
+    "총람10줄제목과실제11항목",
+    "원전목격10주제와위키관계3주제의별도범위",
+    "관계연대기대조새기계수치와소설전문수",
+    "1판네목록대분류43절",
+    "인물목록의번호행202는고유개인수가아님",
+    "구판서울인구기재5부분내부합1000만",
+    "장소목록의자연인공행30과한명칭겹침29",
+    "사물목록11개범주179행",
+    "사물통계합179와약180근사는오류가아님",
+    "양피지두번등장고유사물과행수의다른분모",
+    "기업기재15더하기8과기타10행",
+    "구판부분커넥터점유율87과미기재13",
+    "집단목록170행과요약151의서로다른범주분모",
+    "1판생활불특정계급제도경제46절",
+    "구판가치7제목과여덟행혼백혼합분류",
+    "오만오얏탈것의세생활비가정별연수",
+    "월100가정500개월은41년8개월",
+    "구판월50총생활비와30일하루한죽가정60의10차이",
+    "구판죽하루세그릇가정180과50및100예산차",
+    "같은금액총생활비와월세를동시적용하면기타지출영",
+    "구판보험기재지급200은보험료5의40회분",
+    "오주사4200톤에그램105만가정4410조와표4435조차25조",
+    "구판17환산행의범위와하한산술은일관",
+    "234억과표기234억만곱셈해석및기재숫자의차",
+    "1판백과씬용어43절",
+    "1판사전40번호중비FEWK호호레이제외39",
+    "소설083시급03일당36월30일가정108",
+    "씬월급36과소설월108의30배분모차",
+    "코핀300가격의일당36월108총액저축기간가정",
+    "보정률92에서98은6퍼센트포인트상대3분의46",
+    "정식5두끼10과술3세잔9잔당3일때1은3분의1잔",
+    "월1000임대12개월은12000으로하한10000만으로불충분",
+    "같은방10하루100삼일가정의일당비교",
+    "원전한개한끼가정05는반끼소설한끼반과1차이",
+    "공장23시시작12시간11시종료8시간경과7시잔여4",
+    "1판호칭뉘앙스모티프93절",
+    "뉘앙스83연속항목은100소설전문대조와별도",
+    "뉘앙스초기64편중58편한항목6편두항목",
+    "뉘앙스92편번호지시와8누락은분모가다름",
+    "호칭28대응어모티프34대응어는별도목록",
+    "소설의12초04초는30배기간비율이며실제성공률아님",
+    "1판서간서술번역README127절",
+    "서간22행21번호행20고유소설번호064중복",
+    "번역안내100개연속번호는100소설전문대조와별도",
+    "번역안내85표7항목후반15표2부터5항목",
+    "시점맵86행100번호포함은08509915편묶음",
+    "FID25위치26번호지시25고유번호065두위치",
+    "README31md와취득1판32md총람누락",
+    "소설024일곱대화장마지막비공란과100일곱편지",
+    "연대표383연도행21열연속1653부터2035",
+    "연대표여섯연호의실제기재행수와일정한환산차",
+    "광제원년CSV수평4와위키수평3의한해차이",
+    "신성창립행과기업원년카운터는서로다름",
+    "적룡화이듬해1과다른네인물출생해1",
+    "크리스카운터30의연도차29와장례뒤여섯카운터",
+    "동쟁14카운터는10전쟁표기와4후속사건행",
+    "자료현재2003여섯값44표기행과32후속행",
+    "Ver5기획상7부분502천자는실제집필량아님",
+    "Ver5법칙4묶음의기획합45천자",
+    "Ver5지리9기재행22천5백과부모25천예산",
+    "Ver5세력4개개요와18선정프로필46천",
+    "Ver5스타일두개기재행5천과150라인열거계획",
+    "Ver5부록세묶음과원문모음네예산100천",
+    "Ver3케이티5개번호구간50천과제목70천기획",
+    "Ver3부록A27천B28천합55천과75천기획예산",
+    "설명원고여섯기획분량합110만과실문서43175자구분",
+    "같은설명원고수평0과연표수평1의같은사건1년차",
+    "수평0DD4227기준과퍼즐수평100DD4326의기준차",
+    "확장제3부동일사건수평0와변환표1",
+    "확장제3부7행디디수평환산4225부터4227",
+    "확장제3부6행수평광제환산2부터4",
+    "확장제3부전쟁망명표와상세광제력각1년차",
+    "확장제3부현재대사96과CSV97의차",
+    "원본0092동일AD계산2019와동백CSV1860구분"
+  ],
+  "old_TN_rows": [
+    "| **AA형** | 뇌 임플란트·스마트 라벨 | 0.2 오얏 | 0.5g | 10 | 손톱 크기 백색 돌 (투명=방전) |",
+    "| **A형** | 의복·센서 | 0.5 오얏 | 2g | 50 | 우표 크기, 유연판 가능 |",
+    "| **B형** | 통신기·소도구 | 1 오얏 | 25g | 200 | 탄환 크기 백색 원통 |",
+    "| **C형** | 화기·전동공구 (표준) | 3 오얏 | 250g | 1,000 | 권총 탄창 크기 |",
+    "| **D형** | 군용 화기·중장비 | 30 오얏 | 2.5kg | 5,000 | 문고본 크기 (파워팩 형태) |",
+    "| **E형** | 탈것·외골격 | 500 오얏 | 10kg | 20,000 | — |",
+    "| **F형** | 차량·시설 | 5,000 오얏 | 100kg | 200,000 | — |"
+  ],
+  "source_example_recheck": {
+    "legacy_skill_levels": [
+      [
+        4,
+        3,
+        4,
+        3,
+        2,
+        1
+      ],
+      [
+        6,
+        4,
+        4,
+        3,
+        1,
+        2
+      ],
+      [
+        5,
+        5,
+        4,
+        3,
+        3,
+        2
+      ],
+      [
+        6,
+        5,
+        4,
+        3,
+        2,
+        2
+      ]
+    ],
+    "legacy_skill_declared_p": [
+      17,
+      20,
+      22,
+      22
+    ],
+    "legacy_skill_cumulative_costs": [
+      36,
+      51,
+      55,
+      58
+    ],
+    "legacy_creation_stat_subtotals": [
+      120,
+      139,
+      112,
+      120,
+      124
+    ],
+    "legacy_creation_skill_cumulative_costs": [
+      35,
+      44,
+      47,
+      43,
+      40
+    ],
+    "all_one_6d8_percent": {
+      "numerator": 25,
+      "denominator": 65536,
+      "decimal": 0.0003814697265625
+    },
+    "all_one_10d6_percent": {
+      "numerator": 25,
+      "denominator": 15116544,
+      "decimal": 1.6538171687920202e-06
+    },
+    "legacy_ego_unrounded_under_its_own_periods": {
+      "numerator": 103,
+      "denominator": 60,
+      "decimal": 1.7166666666666666
+    },
+    "legacy_saved85_after_incremental7": 78,
+    "legacy_own33_plus50_minus7_minus8": 68,
+    "legacy_scenario_nominal_minutes": {
+      "102": 180,
+      "103": 270
+    },
+    "100p_builds_rewritten": false,
+    "source_combat_missing_explosion_or_injury_rules_repaired": false,
+    "actual_play_durations_verified": false
+  },
+  "fifth_engine_changed": false,
+  "old_complete_engine_reproduced": false,
+  "actual_participant_playtest": false,
+  "source_sha256": {
+    "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/01_1부_게임기초/02_주사위_3총사.md": "9fedee63338943b18d6484b9280f9e7b959a7a9df48412e58464e5d11ccd5bcf",
+    "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/03_3부_판정과_행동/01_Grade_Die_판정.md": "3f662b0ca0a7283a9958dea3b89231da7f83fa5e5f6e389e5221cee3acfd57d1",
+    "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/03_3부_판정과_행동/03_d6_Pool.md": "8af5fb5ecce793cf2e4d5e561f3da36e8e7ea10bc0de5d2ec4a075665c521390",
+    "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/03_3부_판정과_행동/04_Position_x_Effect.md": "e32bb759b57caa4df9421322c2908926c439917633036a28e66ecfc91686e296",
+    "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/03_3부_판정과_행동/README.md": "e13e5fe271da0f61da4f17bc189236aa3674bbda6fcfef8f4c9aee68eeaf9188",
+    "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/08_8부_성장과_경력/02_스탯_Tier_승급.md": "7cae29bf2e58e314bdb5e7302f8dd2311e788abc26d5d70ce476c1c7d405572c",
+    "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/02_2부_캐릭터/03_스킬.md": "5eabd8042793161050a20b284d47b0125074286a49fddce7cebe765beb01ca66",
+    "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/02_2부_캐릭터/08_생성_10단계.md": "8f6d879e5d696c86e06e4026304323075d6964aa0afa0844a7dda7610257de70",
+    "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/03_3부_판정과_행동/06_수정치_순서_펌블.md": "cd9a6335afe0c4c4aa696920c2e068c9247b6712060e6f7396addce14d382fca",
+    "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/05_5부_자원과_트랙/03_에고.md": "3574e48d57727328ecaef0ed61f23b9ebdea4031254c9f95716f3b8f0fb06977",
+    "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/08_8부_성장과_경력/01_세션_포인트.md": "f9b7bd3bd5c1efe88b61e5c6e89d17f4f2f6592ffc889a027374dccb1db44cb8",
+    "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/12_12부_시나리오_씨앗/05_입문_시나리오_신성의_카드.md": "fee81e109116759dd12845c5a50ab9d47d12d46a78aef59bced014acb187b945",
+    "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/12_12부_시나리오_씨앗/06_입문_시나리오_흑공의_저택.md": "fdd2ff512f24cdaf24718acee497698b3538125a8d5672f0eaa4a9e054e67002",
+    "../_history/2026-10-03_정리/보관/_FEWK 룰북 계획/[엔진_3판용_FEWK Framework Core]/_v0.2_archive/_Consistency_Check_v0.1.md": "abe104a56b42b9c6337128f3fc963929eafa98a7454be4e750bf404b33b8d32c",
+    "../_history/2026-10-03_정리/보관/_FEWK 룰북 계획/[엔진_3판용_FEWK Framework Core]/_v0.2_archive/_Consistency_Check_v0.2.md": "8449b02bcbbc6c802d9302fcabfcc7a5761c904eb7a9bff949c9b668eff25bef",
+    "../_history/2026-10-03_정리/보관/_FEWK 룰북 계획/[엔진_3판용_FEWK Framework Core]/_v0.2_archive/_Professional_Review_v0.1.md": "c31883943ccba420d679f6cea2b5662cb0dda7ee0ac7fcf0316ec2656b783b6a",
+    "../_history/2026-10-03_정리/보관/_FEWK 룰북 계획/[엔진_3판용_FEWK Framework Core]/_v0.2_archive/_v0.2_Changes.md": "b5bde7d51dfd1e675874453a98ae0957d8d7e795e4ee2b85fece81778044752d",
+    "../_history/2026-10-03_정리/보관/_FEWK 룰북 계획/[2판_룰북시트화]/00_Book1_목차주제분류.md": "9ab56e4cd4d6d0428f9aa432548ca29e5a057da3b3e1a2bac5bec3ec43fa2af9",
+    "../_history/2026-10-03_정리/보관/_FEWK 룰북 계획/[2판_룰북시트화]/Volume1_11부_단편편집_지침.md": "52f9fe6d69db1bc8660490e9f62a4bb6ea1a121a627b1dec38efe9b153d5b5a3",
+    "../_history/2026-10-03_정리/보관/_FEWK 룰북 계획/[2판_룰북시트화]/Volume1_2부_현화_구체사례_초안.md": "3ef37dfccc2f8c0aaeac11c560651e0af799fcd2aa45e3aed2edd0fb622739e5",
+    "../_history/2026-10-03_정리/보관/_FEWK 룰북 계획/[2판_룰북시트화]/Volume1_Pack_재정립_체크리스트.md": "35f3d62d2ccec7155c4b83f97de08b55a3bd5c6306cfa3b167bb3031730ddca4",
+    "../_history/2026-10-03_정리/보관/_FEWK 룰북 계획/[2판_룰북시트화]/Volume1_문체_톤_가이드.md": "4e60d4654557c76536e68ecc3fd9095a96d393eb4de4916f067b9dc5152126c7",
+    "../_history/2026-10-03_정리/보관/_FEWK 룰북 계획/[2판_룰북시트화]/Volume1_로어북_준비_차원계_인수인계.md": "7b972838c24344d651e61a9bf2db05afc45d21cedf328e9ad9a671ef38ca08a6",
+    "../_history/2026-10-03_정리/보관/_FEWK 룰북 계획/[2판_룰북시트화]/Rule_Book_draft_v0.3.md": "ff4425a2ce342e4435a6c9627c02d09c4262e2d31e799ab0315a666fcdd5c1d1",
+    "../_history/2026-10-03_정리/보관/_FEWK 룰북 계획/[2판_룰북시트화]/Volume1_World_Codex_목차.md": "5c2746340d53e37b60d25cf7c680cd432995369a359dc0cbb15b761cff4b0b1a",
+    "../_history/2026-10-03_정리/보관/_FEWK 룰북 계획/[2판_룰북시트화]/편집규칙.md": "9a663e515cdd3931200bf8c7356bca98aab4072d630cd1f1c99af33e0060b826",
+    "[엔진_3판용_FEWK Framework Core]/_v0.3_Grade_Die_Spec.md": "579ef6e1833872213b5dd5dd35fd8ca90e7821bf85f785359d979ce9409e2213",
+    "[엔진_3판용_FEWK Framework Core]/_v0.3_Changes.md": "53415f59fe3c8264dc8fd160bd3ab8b2ad5a7e9cb2a949b45c94a620f9daf221",
+    "[엔진_3판용_FEWK Framework Core]/_Consistency_Check_v0.3.md": "e222b8b1f4e3c51f78eca0d836c1951143f6835aa5c7026dc92041b1dba74f3f",
+    "[1판_설정집]/[캐릭터시트]/00_크리스.md": "1e6a5509b551d65da5b712efc1722f4ecc895efd5cacc259212f08b072da2e30",
+    "[1판_설정집]/[캐릭터시트]/01_에이미_하트.md": "7757bacc06635ac6af1f938d5b957ff08b3dc86495fc6ace65268f56ff159a3b",
+    "[1판_설정집]/[캐릭터시트]/02_적룡화.md": "cd62637f47e82e15297ad501cd0b80c83c5bb732a72496d3eb6a0ef931366485",
+    "[1판_설정집]/[캐릭터시트]/03_광제.md": "79847ce328bb31a1012b1a0c79c08821dc04b668ede739d786129f05f3ed9199",
+    "[소설100]/_claudecode_story1006/012_넌대체뭐냐.md": "40df14231471342160a837098bd952eac7d8cbda304e847f01cd3863726e10ad",
+    "[소설100]/_claudecode_story1006/064_불타는망상의광대들.md": "64bd7a9126b3daed5c95ae24a687dbcef2093d3881ed0318902ff7caedde2bde",
+    "[소설100]/_claudecode_story1006/065_최후의연주자들.md": "516283d15f998f0aa76b8169da4417ff37210213bfaf472c4e0c2df756e9759f",
+    "[엔진_3판용_FEWK World Physics]/_Spec.md": "15d44e768dd510b39a6f534db35dd5bcb5e5ab91c4c320c4a1533c5f28504eca",
+    "[엔진_3판용_FEWK World Physics]/00_Overview.md": "df5927e41e403840346af1975353f2b413d395c940ec004c522620d0266e7552",
+    "[엔진_3판용_FEWK World Physics]/01_바이트_체계.md": "578fe9e99eccdeb13254598d725567f77adf46953c9bea22139670c788b245df",
+    "[엔진_3판용_FEWK World Physics]/02_차원_구조.md": "b411dab208b9bad25ee281cbfc6dc081bb16ff1a9082a94820108438c19d1f22",
+    "[엔진_3판용_FEWK World Physics]/05_생체_에고_인지.md": "0ebe79778b69441894673eb590092a9df1d1fe0bc9c01a55d3f79d7ffc3f1b83",
+    "[엔진_3판용_FEWK World Physics]/04_신기_체계.md": "202775ec4656b0550803e83e56f716dd2b88e09ce5e0e33f5ba4961d219e898c",
+    "_FEWK 설정자료용/업로드 자료/__wiki onepage.txt": "dad0d6e63a5304bfead70966d69fca8e12e2b1ffd296eb525b466617b935bba8",
+    "[엔진_3판용_FEWK World Physics]/08_동력_체계.md": "ef90f1d5774d38b113957f47443c3e04da9ea7347878d7ae35693ce79a0f1d04",
+    "[엔진_3판용_FEWK World Physics]/10_인공_법칙.md": "a7ec5ddbd37c416d16b50fde3876785e83ec30fe9aeeda4f6f7fcc4cfd8df9ea",
+    "[엔진_3판용_FEWK World Physics]/06_시간_인과율_패러독스.md": "9030af915308daee123f1ae7476b37066c80973d4b49896d13d2f65bb97adb9a",
+    "[엔진_3판용_FEWK World Physics]/09_인과율_심화.md": "b4d3641f5f81f37552db5d549710c98374fec751069152d3cf9cf7b1cef7df09",
+    "[엔진_3판용_FEWK World Physics]/12_시간여행_체계.md": "91ca94945b47b02801d9a731c5aaf3475e2971f71ad5278c8460852f97dc9a91",
+    "[엔진_3판용_FEWK World Physics]/11_용어_색인.md": "bb730f4b0ee23c102dd96000524ee67d897ba43a674e21b8b566316cb2cd5650",
+    "[엔진_3판용_FEWK World Physics]/README.md": "f00b66b5625bcc017f1da04ed72645de8e69ef0a593263bd5afbdf71146312ac",
+    "[엔진_3판용_FEWK World Physics]/_Consistency_Check.md": "6a121cb1682467f667c810710e79f0a96634eeb6b14ac0ed4b5cadddd0cc43cd",
+    "[엔진_3판용_FEWK Cyberpunk Pack]/00_Pack_Overview.md": "4a8a809fddddc7ef6d162a6b4b9704704a0763a20712f5f5bf4260e1cece4cee",
+    "[엔진_3판용_FEWK Cyberpunk Pack]/_Pack_Spec.md": "34ca0145c4f4cc5f241577ff4f21988087684149b575d809d37cf36abcc58b43",
+    "[엔진_3판용_FEWK Cyberpunk Pack]/02_BP_Body_Purity.md": "6789614c9330b1918816511738e0e10f877d2c518983943ab53084cdf39101b1",
+    "[엔진_3판용_FEWK Cyberpunk Pack]/_v0.3_Review_Report.md": "1c166d1a7d0cd5f5942a66dbec878f79e9a575cb936bf2997d9a16969a58da86",
+    "[엔진_3판용_FEWK Cyberpunk Pack]/05_Interactions_Powers.md": "444cef6aa023a0a4a2e9de32eb2efeee8b92f8e2a2bf95144dd6f715e93075ea",
+    "[엔진_3판용_FEWK Cyberpunk Pack]/06_Interactions_Skills.md": "d90a20d721fc53f18718833e9cdce4976eb608052269858c9df5d72e94aee26a",
+    "[엔진_3판용_FEWK Cyberpunk Pack]/07_Interactions_Functions.md": "18a642378fab1a61090cfda7f5193a02e7cb83437ef8ad72738227bbb8377fe0",
+    "[엔진_3판용_FEWK Framework Core]/06_Resolution_System.md": "5a7afad426c8201300da8e8f18ac46b13de38c4aa80d8cb3194143e1c2374540",
+    "[엔진_3판용_FEWK Framework Core]/07_Resources_Tokens.md": "62204a141c466b2afb9221c4ff58e26cd1d40f9141d2fcdd3afec2f554b8c7c2",
+    "[엔진_3판용_FEWK Cyberpunk Pack]/03_Runner_Tags.md": "d2a73aca7ebc468b7b8efae29d5422225a4de1ed147813db1eabeb2fb978119e",
+    "[엔진_3판용_FEWK Cyberpunk Pack]/04_Presets.md": "7a463cf49fb4e070a1324d5597e926c1351f9f00faba3ffa5e37aaeb2986f01d",
+    "[엔진_3판용_FEWK Cyberpunk Pack]/08_Tracks_Shining_Matting.md": "83898daa72e3b612eaa3994f0e5bdbcb08ef7824151714c19048b5e517307a6b",
+    "[엔진_3판용_FEWK Cyberpunk Pack]/09_DSR_Detail.md": "a5cc9944ee1ce215bcdd78220002136379ddb6771fc87deb0e3142eb7c141dd4",
+    "[엔진_3판용_FEWK Cyberpunk Pack]/10_Dropout.md": "5ef80a50dbde2c8dde871651145e3132c18a233f0839c70568daf79adeaf66fb",
+    "[엔진_3판용_FEWK Cyberpunk Pack]/11_Weapons_Equipment.md": "fe790e284ca8a296ad39ca889c56163e42d093e9fab808549b1646927e9cef6d",
+    "[엔진_3판용_FEWK Cyberpunk Pack]/12_NPC_Catalog.md": "fefa369770754b925a01e361981a56a1d469762e517181cee6373b2e3eb777cb",
+    "[엔진_3판용_FEWK Cyberpunk Pack]/13_Scale_C_Entities.md": "95c68d5189574a825005bc257f743fb230fc92b9c6c5b074d99be191900f8034",
+    "[엔진_3판용_FEWK Cyberpunk Pack]/14_Pack_Glossary.md": "852e0f13da8d3a8b0e2f21b5809366194542a56ac4aee508e477308a5cc52bfb",
+    "[엔진_3판용_FEWK Cyberpunk Pack]/README.md": "43b48c3c9f7e49242d754b54d984a20d8eaf8648361d658bb3bae451d8ed88c1",
+    "[엔진_3판용_FEWK Cyberpunk Pack]/사이버덱 정리용 정보누적 처리 대기문서.md": "6c02daadf9921140eeb5f9998d9cd0ee5b9ec94761e83b24e85e390499775ebc",
+    "[엔진_3판용_FEWK Cyberpunk Pack]/_Consistency_Check_Pack_v0.1.md": "9d183bbece01dd7a32a2600e659faeb2fa5c495d796cdcec92493ff8ba865ab1",
+    "[엔진_3판용_FEWK Cyberpunk Pack]/01_World_Background.md": "f6b62a9756eda60954e486592d06c3f13209def24a263452171baa0836f0815b",
+    "[엔진_3판용_FEWK Cyberpunk Pack]/사이버팩수정리스트1.md": "0a78709900e7bba78c0b497e226527cd02f6bec386c5cdf9e2639ee511a09829",
+    "[엔진_3판용_FEWK Framework Core]/00_Overview.md": "ca6d526536787cda793ca6a42aeae94c11678d720f5b0e7df824f0f9ae045c6f",
+    "[엔진_3판용_FEWK Framework Core]/01_Core_Principles.md": "d15cda04505dbb85152572364a5ed130d9957e8016f8a9213f4761e9503ccb21",
+    "[엔진_3판용_FEWK Framework Core]/02_Dice_System.md": "acdfef9d3d85641ad1fd9af0a36032613a1ecc50724edc3d20296fd9f65a4fd1",
+    "[엔진_3판용_FEWK Framework Core]/03_Stats_and_Attributes.md": "7eed9005d5b89ef16b494fdd111ea28f20d57a24d3bbc99ed6f18e69bf4ddfb9",
+    "[엔진_3판용_FEWK Framework Core]/04_Character_Creation.md": "1b57f998acc8b8484bce19060a07a48aadde08100a9d4294b8f8b52d3a2e3410",
+    "[엔진_3판용_FEWK Framework Core]/05_Combat_Scales.md": "8d3c84f9844cf4b75472994b0713a9dc8ccdd6d629a78472a415950983131a80",
+    "[엔진_3판용_FEWK Framework Core]/08_Track_System.md": "d1e79ea65092ff27b757a855217fd61db49561b11fac54ac3e12fd0358c46384",
+    "[엔진_3판용_FEWK Framework Core]/09_Growth_Progression.md": "9ed7dd8ac5b8085a8bf2d5c5f3210d393a207e240beeee0418ca90f712abef4f",
+    "[엔진_3판용_FEWK Framework Core]/10_Team_and_Retry.md": "d6b422ef4426abdfcd24fea71baf27b7d7ed4ba873cbd522680d7a66b17dd097",
+    "[엔진_3판용_FEWK Framework Core]/11_NPC_Standard.md": "ee21f234150a1f68195e8d40b60f0bc078f2f5832512824cd9c5eae482c8f1b9",
+    "[엔진_3판용_FEWK Framework Core]/12_Session_Campaign.md": "47c94dec4121581302b8931de8c77102002014a3082aa74240e48035587ce1a5",
+    "[엔진_3판용_FEWK Framework Core]/13_Online_Play.md": "be9428278bd339e630f6f14a273cb4725c2ae72c1cbb9f79332346537a1c8e4b",
+    "[엔진_3판용_FEWK Framework Core]/14_Extension_Guide.md": "0d3ec023f366661f15b45f3966f35041fd4122f5e17de87baeeae3bba3df4e1f",
+    "[엔진_3판용_FEWK Framework Core]/15_Glossary.md": "aa268ce2fa741bf5a0d94c582f9b35ef4e0eff15d2cee021b1cd9c177a6008db",
+    "[엔진_3판용_FEWK Framework Core]/16. 플레이 규칙 서술.md": "8ba8a0aefa88f8c98c93679e9dac79057c698243d0c8056c19eb7de860e78977",
+    "[엔진_3판용_FEWK Framework Core]/README.md": "a15f59521e034e05f349483c139dc613282530c71fa7a3e4fa7b1dcd337d9c8d",
+    "[1판_설정집]/01_인물관계도.md": "854debc59c3908bbd0eaeaf4b6edbe0e845593b4c28922b28e112eae02ba1f08",
+    "[1판_설정집]/02_인물별_사건별_장소관계도.md": "034ca0a9305cf2c0890386678ac7ddd3631bc0bae00d4179729d1bbfbd07d67f",
+    "[1판_설정집]/03_연대기.md": "0625a5c969d5e9d7a7522bef0af5e92fa65ea8fd07f9620502fbeb5679fef700",
+    "[1판_설정집]/03_연대기_총람.md": "11726682d0b0a3a0e4c3b416b767eca4a5b8976143da297c576c0a147a1f2644",
+    "[1판_설정집]/04_전체인물리스트.md": "23e41213a3c4704892976bdd89ae03d32e21fd73d595b02d69db1498b7fea9f0",
+    "[1판_설정집]/05_전체장소리스트.md": "634afb56225acfe90064813eee3fb17d7241f1fa36a28fe620e1963ca1f41cd6",
+    "[1판_설정집]/06_전체사물리스트.md": "11f34550d5a775e31b837729c018a93941d5edf40234c0d3ffaf821b50c8a6c3",
+    "[1판_설정집]/07_전체집단리스트.md": "22a457e69735f0a34b09df22310807f919629e9e2835c274130a383d4c5268d1",
+    "[1판_설정집]/08_전체기타리스트.md": "3538e737e4e24e8f907b0df5869cf7f2a08f9de0a3eb6d7c4ab20125bc9e9c9b",
+    "[1판_설정집]/09_전체불특정리스트.md": "f6a5742075266aa315c15c5b5134c838dcfdc6b70a92d43c45f17473622e9c85",
+    "[1판_설정집]/10_사물_계급상징_사전.md": "4df21abca755be5c9a4601adc3249393adffd26dc8a3a9888c2dc861313d3777",
+    "[1판_설정집]/11_제도_경제용어_관계도.md": "ef6884e05126032fce57afd024dbcfeda00c774280a6ed81e58f2f0d8eac3801",
+    "[소설100]/_claudecode_story1006/100_에이미하트의편지.md": "c2df2581b0dfe85d984b8e15d4d637b62f9f4e2e5135fe25b5f8680440839589",
+    "[1판_설정집]/12_FEWK세계관백과.md": "98f02cd955bf75b0380b3fa036e38081ad15fb4bd9448059e683af9056d382da",
+    "[1판_설정집]/13_씬_세트_구성도.md": "aea0a20b93a44f9fa0193e3d0d3b34ad4eb984444d0df85cfba5dd3d3faf24b0",
+    "[1판_설정집]/14_FEWK용어사전.md": "50a2646cf0c2bf4599f5f510bc68145f2372ea465394065f8c5b4a80d711206a",
+    "[소설100]/_claudecode_story1006/083_뫼비우스공장의야간조.md": "fa5ff17d41551caada69882a9cfcc7b0a5193927822ebd14cc1e0f7e28c7d7c0",
+    "[1판_설정집]/15_경칭_어조_번역가이드.md": "38aad909aa73f7668446755d5242462035743cb31ab1403f9185e1bfb3585545",
+    "[1판_설정집]/16_뉘앙스리스트.md": "c2ce7c65a9aabbe879f542050010de14caf2c320686e36b858a8e8870c40057f",
+    "[1판_설정집]/17_반복모티프_추적표.md": "5cf554c499115d0fa7824b10f8dad070cc58f8e0e4406a4ad63c0b6621467ab3",
+    "[1판_설정집]/18_서간체_모음집.md": "7106e305c904843a47acb154810466747f3b3b8eaa003ffe981c1607127099da",
+    "[1판_설정집]/19_서술자_가이드.md": "fee20e117848aca97249b882b3f0e9daf9a8a1146b91c294ff92afbe7341fe8b",
+    "[1판_설정집]/20_스토리별_번역가이드.md": "f479d7917d03f890beec0397bd02dacd98d2f0eab9a6353fafb732a1513253de",
+    "[1판_설정집]/README.md": "dd9fab84927ff431b1b5804e0c18357da90ecb8c2537f84f47f39b481e91c3d1",
+    "[소설100]/_claudecode_story1006/024_포도알산책.md": "cad31c688b66f281ccdbdf2c4d9cab3a69a85a0bedb84577b34b990943980e8d",
+    "[FEWK위키]/_아/에이미 하트.md": "4c5eef86e33cfc2958f7237d7f6ef6540d42b34569427c78e5b9c7de733f1cdf",
+    "[FEWK위키]/_하/하트의 여왕.md": "ffcdeb4ab91e90080a51fe5ea48ba75b83150374224420ba6d3f487d4a66817a",
+    "_FEWK 설정자료용/[FW]dc2. 230302 FEWK 글로서리 재정리 페이지 - 연대표.csv": "5da071248fb7ab3a9410a06a66ba44d6f197b42a3ebc61942b0aafd06efdf446",
+    "[FEWK위키]/_가/광제력.md": "080e9524f3507744c620dd39a029548c41a02474c9e6e3edf32756704827b88a",
+    "[FEWK위키]/_다/디디.md": "1187eb166158515bd4ec934b11e93cd9fb4b8a98374e01bb23470c712bd55f95",
+    "[FEWK위키]/_아/연호.md": "869cef85010fe01367456c095719658810f0a2e4de44327f44bab9ca37624eac",
+    "[FEWK위키]/_아/연호시.md": "a3e50c5a3481691611393e049b3153c90872f81a44a566a4c5383b3b5695ddde",
+    "[FEWK위키]/_자/자기력.md": "57e888f74f00f2f7b7bcbd8a9610368c9a5b4a5d0a02bc7f77833f57b0e34d7e",
+    "_FEWK 설정자료용/[FW]dc61-2. FEWK 설정자료집 버전별 진행중 문서 (3).txt": "adea7d1a13ba4521e2bbb9875364933affb82d096843b029962dd4fda382d135",
+    "_FEWK 설정자료용/[FW]dc61-2. FEWK 설정자료집 버전별 진행중 문서 (2).txt": "eed77cc35f0812b13f197896256709cce92c0170ad54239fa649416265f477f0",
+    "_FEWK 설정자료용/[FW]dc61-2. FEWK 설정자료집 버전별 진행중 문서 (5).txt": "cf07bd6d10f459a27c3f6c11cd7283e4f907ce3584f4bbae2b4da0eef8ce1d42"
+  },
+  "verifier_sha256": "4035790874c5d14b4bd3040a89fab74eebef74202828e115a1de45a4c94a1d0b"
+}

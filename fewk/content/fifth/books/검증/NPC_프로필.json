@@ -1,0 +1,334 @@
+{
+  "id": "FEWK-NPC-01",
+  "date": "2026-10-05",
+  "engine": "P-FEWK-0.2",
+  "status": "NEW 입문 NPC·기존 공통 엔진에 연결/참가자시험 전",
+  "templates": [
+    {
+      "id": "N01",
+      "name": "기록원",
+      "status": "NEW 입문 인물·원전 인물 전투력 아님",
+      "skills": {
+        "격투": 10,
+        "사격": 10,
+        "운동": 30,
+        "은밀": 30,
+        "관찰": 50,
+        "조사": 50,
+        "해킹": 10,
+        "공학": 30,
+        "의학": 30,
+        "교섭": 70,
+        "생활": 70,
+        "지식": 50
+      },
+      "body": {
+        "hp_max": 12,
+        "move_m": 10,
+        "resistance": 50,
+        "round_seconds": 5,
+        "main_per_round": 1,
+        "reaction_per_round": 1,
+        "armor": 0,
+        "shield_charge": 0,
+        "shield_types": [],
+        "weapon": null,
+        "ammo": 0
+      },
+      "auto_special_power_or_access_from_job": false,
+      "auto_knowledge_from_title": false
+    },
+    {
+      "id": "N02",
+      "name": "정비사",
+      "status": "NEW 입문 인물·원전 인물 전투력 아님",
+      "skills": {
+        "격투": 10,
+        "사격": 30,
+        "운동": 30,
+        "은밀": 10,
+        "관찰": 50,
+        "조사": 50,
+        "해킹": 10,
+        "공학": 70,
+        "의학": 30,
+        "교섭": 30,
+        "생활": 70,
+        "지식": 50
+      },
+      "body": {
+        "hp_max": 12,
+        "move_m": 10,
+        "resistance": 50,
+        "round_seconds": 5,
+        "main_per_round": 1,
+        "reaction_per_round": 1,
+        "armor": 0,
+        "shield_charge": 0,
+        "shield_types": [],
+        "weapon": null,
+        "ammo": 0
+      },
+      "auto_special_power_or_access_from_job": false,
+      "auto_knowledge_from_title": false
+    },
+    {
+      "id": "N03",
+      "name": "진료원",
+      "status": "NEW 입문 인물·원전 인물 전투력 아님",
+      "skills": {
+        "격투": 10,
+        "사격": 10,
+        "운동": 30,
+        "은밀": 30,
+        "관찰": 70,
+        "조사": 30,
+        "해킹": 10,
+        "공학": 30,
+        "의학": 70,
+        "교섭": 50,
+        "생활": 50,
+        "지식": 50
+      },
+      "body": {
+        "hp_max": 12,
+        "move_m": 10,
+        "resistance": 50,
+        "round_seconds": 5,
+        "main_per_round": 1,
+        "reaction_per_round": 1,
+        "armor": 0,
+        "shield_charge": 0,
+        "shield_types": [],
+        "weapon": null,
+        "ammo": 0
+      },
+      "auto_special_power_or_access_from_job": false,
+      "auto_knowledge_from_title": false
+    },
+    {
+      "id": "N04",
+      "name": "현지 경비",
+      "status": "NEW 입문 인물·원전 인물 전투력 아님",
+      "skills": {
+        "격투": 50,
+        "사격": 70,
+        "운동": 50,
+        "은밀": 10,
+        "관찰": 70,
+        "조사": 10,
+        "해킹": 10,
+        "공학": 30,
+        "의학": 30,
+        "교섭": 30,
+        "생활": 50,
+        "지식": 30
+      },
+      "body": {
+        "hp_max": 12,
+        "move_m": 10,
+        "resistance": 50,
+        "round_seconds": 5,
+        "main_per_round": 1,
+        "reaction_per_round": 1,
+        "armor": 1,
+        "shield_charge": 2,
+        "shield_types": [
+          "프로젝타일"
+        ],
+        "weapon": "권총",
+        "ammo": 12
+      },
+      "auto_special_power_or_access_from_job": false,
+      "auto_knowledge_from_title": false
+    },
+    {
+      "id": "N05",
+      "name": "운송 동료",
+      "status": "NEW 입문 인물·원전 인물 전투력 아님",
+      "skills": {
+        "격투": 30,
+        "사격": 30,
+        "운동": 70,
+        "은밀": 30,
+        "관찰": 50,
+        "조사": 10,
+        "해킹": 10,
+        "공학": 50,
+        "의학": 10,
+        "교섭": 50,
+        "생활": 70,
+        "지식": 30
+      },
+      "body": {
+        "hp_max": 12,
+        "move_m": 10,
+        "resistance": 50,
+        "round_seconds": 5,
+        "main_per_round": 1,
+        "reaction_per_round": 1,
+        "armor": 0,
+        "shield_charge": 0,
+        "shield_types": [],
+        "weapon": null,
+        "ammo": 0
+      },
+      "auto_special_power_or_access_from_job": false,
+      "auto_knowledge_from_title": false
+    },
+    {
+      "id": "N06",
+      "name": "연구 조력자",
+      "status": "NEW 입문 인물·원전 인물 전투력 아님",
+      "skills": {
+        "격투": 10,
+        "사격": 10,
+        "운동": 30,
+        "은밀": 10,
+        "관찰": 50,
+        "조사": 70,
+        "해킹": 30,
+        "공학": 50,
+        "의학": 30,
+        "교섭": 50,
+        "생활": 30,
+        "지식": 70
+      },
+      "body": {
+        "hp_max": 12,
+        "move_m": 10,
+        "resistance": 50,
+        "round_seconds": 5,
+        "main_per_round": 1,
+        "reaction_per_round": 1,
+        "armor": 0,
+        "shield_charge": 0,
+        "shield_types": [],
+        "weapon": null,
+        "ammo": 0
+      },
+      "auto_special_power_or_access_from_job": false,
+      "auto_knowledge_from_title": false
+    }
+  ],
+  "new_universal_stats": [],
+  "narrative_rank_changes_HP_or_access": false,
+  "N01_known_sources": [
+    "CAM-01",
+    "RECEIPT-01"
+  ],
+  "NPC_actions_use_actual_body_and_shared_budget": true,
+  "directly_imported_legacy_grade_or_BP_output": false,
+  "canonical_people_have_new_numeric_stats_assigned": false,
+  "all_NPC_and_large_entity_profiles_complete": false,
+  "full_encounter_balance_verified": false,
+  "actual_participant_playtest": false,
+  "actual_async_community_test": false,
+  "named_samples": [
+    {
+      "id": "NP-HAN-01",
+      "name": "산복도로 한 씨",
+      "status": "NEW 제5판 재구성·Pack 창작 소재",
+      "base_template": "N01",
+      "source_section": "12-1-D",
+      "role": "소매상·정보 중개",
+      "goal": "돌려받은 장부를 확인하고 오늘 영업을 마치기",
+      "known_facts": [
+        "REC-HAN-01"
+      ],
+      "private_sources": [
+        "CUSTOMERS-HAN-01"
+      ],
+      "interactions": [
+        {
+          "name": "장부 대조",
+          "skill": "조사"
+        },
+        {
+          "name": "인계 조건 협의",
+          "skill": "교섭"
+        },
+        {
+          "name": "확인한 영수증 전달",
+          "skill": null
+        }
+      ],
+      "approved_contact": "CONTACT-HAN-01",
+      "automatic_PC_relationship": false,
+      "automatic_access_to_other_sources": false
+    },
+    {
+      "id": "NP-WHITE-01",
+      "name": "경비원 하얀모자",
+      "status": "NEW 제5판 재구성·Pack 창작 소재",
+      "base_template": "N04",
+      "source_section": "12-1-C",
+      "role": "민간 경비",
+      "goal": "맡은 문을 지키고 허가된 장부 인계를 확인하기",
+      "known_facts": [
+        "DOOR-WHITE-01"
+      ],
+      "private_sources": [
+        "ACCESS-WHITE-01"
+      ],
+      "interactions": [
+        {
+          "name": "실제 출입 승인 확인",
+          "skill": "조사"
+        },
+        {
+          "name": "본 상황 보고",
+          "skill": null
+        },
+        {
+          "name": "권총 사격",
+          "skill": "사격"
+        }
+      ],
+      "approved_contact": "CONTACT-WHITE-01",
+      "automatic_PC_relationship": false,
+      "automatic_access_to_other_sources": false
+    },
+    {
+      "id": "NP-BIPA-01",
+      "name": "라이벌 비파",
+      "status": "NEW 제5판 재구성·Pack 창작 소재",
+      "base_template": "N05",
+      "source_section": "12-2-B",
+      "role": "경쟁 러너",
+      "goal": "받은 운송 일을 마치고 다음 식사 약속에 맞춰 돌아가기",
+      "known_facts": [
+        "ROUTE-BIPA-01"
+      ],
+      "private_sources": [
+        "CLIENT-BIPA-01"
+      ],
+      "interactions": [
+        {
+          "name": "인계 조건 협의",
+          "skill": "교섭"
+        },
+        {
+          "name": "준비한 경로 이동",
+          "skill": "운동"
+        },
+        {
+          "name": "현지 운송 업무",
+          "skill": "생활"
+        }
+      ],
+      "approved_contact": "CONTACT-BIPA-01",
+      "automatic_PC_relationship": false,
+      "automatic_access_to_other_sources": false
+    }
+  ],
+  "named_sample_rules": {
+    "numbers_from_existing_template": true,
+    "legacy_Grade_conversion": false,
+    "equipment_or_knowledge_from_rank": false,
+    "same_person_has_independent_copy_of_resources": false,
+    "canonical_people_numeric_profiles_added": false,
+    "all_17_legacy_NPC_numeric_profiles_complete": false,
+    "actual_participant_playtest": false
+  }
+}

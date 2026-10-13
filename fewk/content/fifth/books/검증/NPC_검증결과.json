@@ -1,0 +1,446 @@
+{
+  "date": "2026-10-06",
+  "profile": "FEWK-NPC-01",
+  "scope": "NEW입문NPC6과그값을쓰는NEW명명예3의12숙련/몸·구판등급불승계·인물/몸중복초기화거부·상태보존·송신192조건/백분율700경우를기존함수로대조하며,기존입문6의송신384조건/접근24조건을유지하고구판D/B/A정의와21표본HP범위·부위합계를독립추출/검산. 전NPC/고유능력·세계프로필·지식/감정판단·거대전투·참가자/균형검증아님.",
+  "checks_passed": 83,
+  "checks": [
+    {
+      "name": "six NEW cards",
+      "passed": true
+    },
+    {
+      "name": "N01 common12skills",
+      "passed": true
+    },
+    {
+      "name": "N01 same440allocation",
+      "passed": true
+    },
+    {
+      "name": "N01 sameallocationcounts",
+      "passed": true
+    },
+    {
+      "name": "N01 active budget",
+      "passed": true
+    },
+    {
+      "name": "N01 independent full die success count",
+      "passed": true
+    },
+    {
+      "name": "N02 common12skills",
+      "passed": true
+    },
+    {
+      "name": "N02 same440allocation",
+      "passed": true
+    },
+    {
+      "name": "N02 sameallocationcounts",
+      "passed": true
+    },
+    {
+      "name": "N02 active budget",
+      "passed": true
+    },
+    {
+      "name": "N02 independent full die success count",
+      "passed": true
+    },
+    {
+      "name": "N03 common12skills",
+      "passed": true
+    },
+    {
+      "name": "N03 same440allocation",
+      "passed": true
+    },
+    {
+      "name": "N03 sameallocationcounts",
+      "passed": true
+    },
+    {
+      "name": "N03 active budget",
+      "passed": true
+    },
+    {
+      "name": "N03 independent full die success count",
+      "passed": true
+    },
+    {
+      "name": "N04 common12skills",
+      "passed": true
+    },
+    {
+      "name": "N04 same440allocation",
+      "passed": true
+    },
+    {
+      "name": "N04 sameallocationcounts",
+      "passed": true
+    },
+    {
+      "name": "N04 active budget",
+      "passed": true
+    },
+    {
+      "name": "N04 independent full die success count",
+      "passed": true
+    },
+    {
+      "name": "N05 common12skills",
+      "passed": true
+    },
+    {
+      "name": "N05 same440allocation",
+      "passed": true
+    },
+    {
+      "name": "N05 sameallocationcounts",
+      "passed": true
+    },
+    {
+      "name": "N05 active budget",
+      "passed": true
+    },
+    {
+      "name": "N05 independent full die success count",
+      "passed": true
+    },
+    {
+      "name": "N06 common12skills",
+      "passed": true
+    },
+    {
+      "name": "N06 same440allocation",
+      "passed": true
+    },
+    {
+      "name": "N06 sameallocationcounts",
+      "passed": true
+    },
+    {
+      "name": "N06 active budget",
+      "passed": true
+    },
+    {
+      "name": "N06 independent full die success count",
+      "passed": true
+    },
+    {
+      "name": "only specified guard has ranged shield",
+      "passed": true
+    },
+    {
+      "name": "guard actual gun attack on unarmored recorder",
+      "passed": true
+    },
+    {
+      "name": "actual injury and guard ammunition",
+      "passed": true
+    },
+    {
+      "name": "same guard main cannot shoot again",
+      "passed": true
+    },
+    {
+      "name": "guard first shield hit",
+      "passed": true
+    },
+    {
+      "name": "guard same round second hit",
+      "passed": true
+    },
+    {
+      "name": "shield and body budget preserved",
+      "passed": true
+    },
+    {
+      "name": "new round permits remaining charge",
+      "passed": true
+    },
+    {
+      "name": "next round does not refill shield",
+      "passed": true
+    },
+    {
+      "name": "contact damage uses common melee and armor",
+      "passed": true
+    },
+    {
+      "name": "melee does not spend ranged shield",
+      "passed": true
+    },
+    {
+      "name": "actual sender boundaries",
+      "passed": true
+    },
+    {
+      "name": "report cannot also shoot same main",
+      "passed": true
+    },
+    {
+      "name": "inactive body cannot transmit known record",
+      "passed": true
+    },
+    {
+      "name": "new round does not repeat already sent event",
+      "passed": true
+    },
+    {
+      "name": "known specialty never supplies absent access",
+      "passed": true
+    },
+    {
+      "name": "D overview inconsistent actual rows",
+      "passed": true
+    },
+    {
+      "name": "B overview inconsistent actual rows",
+      "passed": true
+    },
+    {
+      "name": "A overview inconsistent actual rows",
+      "passed": true
+    },
+    {
+      "name": "old Qinghu stated part sum",
+      "passed": true
+    },
+    {
+      "name": "old truck stated part sum",
+      "passed": true
+    },
+    {
+      "name": "entry engine and supplied dice",
+      "passed": true
+    },
+    {
+      "name": "three named NEW samples",
+      "passed": true
+    },
+    {
+      "name": "NP-HAN-01 uses actual existing numeric card",
+      "passed": true
+    },
+    {
+      "name": "NP-HAN-01 same skills only",
+      "passed": true
+    },
+    {
+      "name": "NP-HAN-01 interactions reference existing skills",
+      "passed": true
+    },
+    {
+      "name": "NP-HAN-01 facts are declared only",
+      "passed": true
+    },
+    {
+      "name": "NP-HAN-01 original ranks grant no access",
+      "passed": true
+    },
+    {
+      "name": "NP-WHITE-01 uses actual existing numeric card",
+      "passed": true
+    },
+    {
+      "name": "NP-WHITE-01 same skills only",
+      "passed": true
+    },
+    {
+      "name": "NP-WHITE-01 interactions reference existing skills",
+      "passed": true
+    },
+    {
+      "name": "NP-WHITE-01 facts are declared only",
+      "passed": true
+    },
+    {
+      "name": "NP-WHITE-01 original ranks grant no access",
+      "passed": true
+    },
+    {
+      "name": "NP-BIPA-01 uses actual existing numeric card",
+      "passed": true
+    },
+    {
+      "name": "NP-BIPA-01 same skills only",
+      "passed": true
+    },
+    {
+      "name": "NP-BIPA-01 interactions reference existing skills",
+      "passed": true
+    },
+    {
+      "name": "NP-BIPA-01 facts are declared only",
+      "passed": true
+    },
+    {
+      "name": "NP-BIPA-01 original ranks grant no access",
+      "passed": true
+    },
+    {
+      "name": "named skills use same d100 enumeration",
+      "passed": true
+    },
+    {
+      "name": "three distinct person and body states",
+      "passed": true
+    },
+    {
+      "name": "initialization does not mutate baseline templates",
+      "passed": true
+    },
+    {
+      "name": "same named person cannot reinitialize resources",
+      "passed": true
+    },
+    {
+      "name": "different named person cannot borrow already registered body",
+      "passed": true
+    },
+    {
+      "name": "missing body identity rejects before registration",
+      "passed": true
+    },
+    {
+      "name": "unknown named sample rejects before registration",
+      "passed": true
+    },
+    {
+      "name": "alias rejection keeps wounded used state",
+      "passed": true
+    },
+    {
+      "name": "other named person resources stay independent",
+      "passed": true
+    },
+    {
+      "name": "named guard report spends actual action",
+      "passed": true
+    },
+    {
+      "name": "named guard report cannot also shoot same action",
+      "passed": true
+    },
+    {
+      "name": "receipt holder does not know guard private access record",
+      "passed": true
+    },
+    {
+      "name": "named runner inactive installation cannot report route",
+      "passed": true
+    },
+    {
+      "name": "three named senders actual prerequisites",
+      "passed": true
+    }
+  ],
+  "named_sample_checks": 30,
+  "named_sample_sender_cases": 192,
+  "named_sample_percentile_rolls": 700,
+  "all_17_legacy_NPC_numeric_profiles_complete": false,
+  "single_percentile_rolls": 600,
+  "sender_condition_cases": 384,
+  "access_prerequisite_cases": 24,
+  "old_HP_overview_rows": [
+    {
+      "index": 91,
+      "overview_range": [
+        10,
+        20
+      ],
+      "sample_rows_read": 10,
+      "outside_overview": [
+        {
+          "name": "갱단 졸개",
+          "HP": 25
+        },
+        {
+          "name": "술집 취객",
+          "HP": 25
+        },
+        {
+          "name": "공단계 광부",
+          "HP": 30
+        },
+        {
+          "name": "노마드 방랑자",
+          "HP": 25
+        }
+      ]
+    },
+    {
+      "index": 93,
+      "overview_range": [
+        40,
+        55
+      ],
+      "sample_rows_read": 5,
+      "outside_overview": [
+        {
+          "name": "블랙햇 한월 (Pack 12 §12-3-B)",
+          "HP": 25
+        },
+        {
+          "name": "레이라 본부장 (Pack 12 §12-3-D)",
+          "HP": 30
+        },
+        {
+          "name": "신기사 — 혜월",
+          "HP": 25
+        }
+      ]
+    },
+    {
+      "index": 94,
+      "overview_range": [
+        60,
+        85
+      ],
+      "sample_rows_read": 6,
+      "outside_overview": [
+        {
+          "name": "크리스 (원전 A14, Pack v0.3 E-3 재작성)",
+          "HP": 50
+        },
+        {
+          "name": "티로리 (20년 차 베테랑, 원전 __wiki L.20849~20858)",
+          "HP": 45
+        },
+        {
+          "name": "윌리엄 경 (Pack 12 §12-4-C)",
+          "HP": 40
+        }
+      ]
+    }
+  ],
+  "all_NPC_and_large_entity_profiles_complete": false,
+  "full_encounter_balance_verified": false,
+  "actual_participant_playtest": false,
+  "actual_async_community_test": false,
+  "artifacts_sha256": {
+    "10_CoreRulebook.md": "7676f851d5b46acc55a77ee69962196e71226ccef5d8d2c939281531723a9ef4",
+    "11_WorldLorebook.md": "7a1f0a2c099ba84ce7f190361cfa1c8282ac12e6c39787e126a5fea65275a2ea",
+    "12_룰시트와캐릭터시트.md": "ae322c199c7c9fb636b84c06a81052899ce80d3c459888ae332a14bd1a420ff6",
+    "검증/NPC_프로필.json": "fe5db533418cfe3b175e0bd92effc52b9c6fdfd79c05e5076faedfc349900ec0",
+    "검증/입문_프로필.json": "24fb4b594346497662f09dd9d3ffd99c79fa3ea098fdeb360ce54956727d6a3f",
+    "검증/백분율_코어검증.py": "7213dd8fc5650ec402271ed0f2920bc1c250586bf88472234a23aa82423a95c8",
+    "검증/일반플레이_검증.py": "d23e6363f1ca28beddf8b7cd9c24839c2ba0ea66eada525295b4663e6b493585",
+    "검증/팀지원_검증.py": "46ecbd931f04073b5b31ca5dbb1afc2a064156991c50a92b8b1b3e390b72d392",
+    "검증/임플란트_검증.py": "815756ef0aba3628b352ca1b47fd0acc7295d05963e09d05e843e49805a3e8c7",
+    "검증/임플란트_프로필.json": "ea1cb0b31badeea6a2ad3023065bb9b1e2df0016204d1e7a500cc53179f2110c",
+    "검증/NPC_검증.py": "4f176f108ac0d89de9cac7d2e54518851409ccd7e24a11ae2e2f79985a6e3aac"
+  },
+  "source_sha256": {
+    "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/11_11부_NPC_카탈로그/01_D급_하수.md": "34ed7243d5330af06470854c9f4880c10abdf79a23a8e75a1bd96c3b243eec35",
+    "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/11_11부_NPC_카탈로그/02_C급_표준.md": "3c9092fbc61e1d358fb7a132e4fbb9f5d7ce8f2bfef8f232dccb1e8afabea99d",
+    "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/11_11부_NPC_카탈로그/03_B급_엘리트.md": "c9e22285c86ad6d248cd4f305370b8cfdc78fa4d40b785f0ca7663763aab86b1",
+    "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/11_11부_NPC_카탈로그/04_A급_보스.md": "c491d53b0b4d5d1da039e35c96cb221656856fbd57bb4faeac6e129c4cbcd828",
+    "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/11_11부_NPC_카탈로그/06_Scale_C_개체.md": "42f3d050d87b99968fdc96ca3d22f06c03547475dc232ead270d8232bc6e1ad1",
+    "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/11_11부_NPC_카탈로그/README.md": "d6991386d1cb7f5e6684a849ac422ae692f7c747b0a70fea00d03b87a556b05e",
+    "_FEWK 설정자료용/업로드 자료/원본_Core 100여개 원고원본.txt": "6a1c18b7188cc1fc0f13dc38e9ac158bd081ab821276ecd265747bd7d21d53af",
+    "_FEWK 설정자료용/업로드 자료/__wiki onepage.txt": "dad0d6e63a5304bfead70966d69fca8e12e2b1ffd296eb525b466617b935bba8"
+  }
+}

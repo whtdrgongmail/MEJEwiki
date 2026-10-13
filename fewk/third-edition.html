@@ -1,0 +1,1556 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FEWK: 동방의 하얀 나라 — 공식 룰북 샘플</title>
+<meta name="description" content="FEWK(Far East White Kingdom) 제3판 — 사이버펑크·오컬트 TRPG 월드북·코어 룰북 온라인 샘플. 2026 텀블벅 크라우드펀딩 예정.">
+<meta property="og:title" content="FEWK: 동방의 하얀 나라 — 공식 룰북 샘플">
+<meta property="og:description" content="2021년 시작된 FEWK 세계관의 5년 여정. 제3판 월드북·코어 룰북 온라인 샘플.">
+<meta property="og:type" content="website">
+<!-- og:image 는 GitHub Pages 배포 확정 후 추가 (예: https://whtdrgon.github.io/FEWKbooks/assets/img/og.png) -->
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+/* ═══════════════════════════════════════════
+   FEWK LOREBOOK 3rd — Dual Mode (Light/Dark)
+   ═══════════════════════════════════════════ */
+
+/* Light mode (default) — "백공" 모티프 */
+:root {
+  --bg: #F7F5F0;
+  --bg-surface: #FFFFFF;
+  --bg-elevated: #FDFBF6;
+  --bg-hover: #F0ECE4;
+  --text: #1F1F2E;
+  --text-muted: #5A5663;
+  --text-subtle: #8B8590;
+  --border: #E0DCD2;
+  --border-strong: #C4BFB2;
+  --accent: #B91C3A;
+  --accent-soft: rgba(185, 28, 58, 0.08);
+  --accent-border: rgba(185, 28, 58, 0.25);
+  --gold: #9A7B28;
+  --gold-soft: rgba(154, 123, 40, 0.1);
+  --code-bg: #F0ECE4;
+  --blockquote-bg: rgba(154, 123, 40, 0.05);
+}
+
+/* Dark mode — "흑공" 모티프 */
+html[data-theme="dark"] {
+  --bg: #1A1A2E;
+  --bg-surface: #16162B;
+  --bg-elevated: #1F1F3A;
+  --bg-hover: #252545;
+  --text: #F0EDE8;
+  --text-muted: #A09890;
+  --text-subtle: #6B6558;
+  --border: #2A2A4A;
+  --border-strong: #3A3A5A;
+  --accent: #E94560;
+  --accent-soft: rgba(233, 69, 96, 0.1);
+  --accent-border: rgba(233, 69, 96, 0.3);
+  --gold: #C4A35A;
+  --gold-soft: rgba(196, 163, 90, 0.1);
+  --code-bg: #1F1F3A;
+  --blockquote-bg: rgba(196, 163, 90, 0.06);
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+html { font-size:16px; scroll-behavior:smooth; }
+body {
+  font-family:'Noto Sans KR',sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.7;
+  min-height:100vh;
+  transition: background-color .3s, color .3s;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+/* ── Sidebar ── */
+.sidebar {
+  width:280px;
+  height:100vh;
+  background:var(--bg-surface);
+  border-right:1px solid var(--border);
+  padding:1.5rem 0 2rem;
+  position:fixed;
+  top:0; left:0;
+  overflow-y:auto;
+  z-index:100;
+  transition:transform .3s, background-color .3s, border-color .3s;
+}
+.sidebar-header {
+  padding:0 1.2rem 1rem;
+  border-bottom:1px solid var(--border);
+  margin-bottom:.5rem;
+}
+.sidebar-title {
+  font-family:'JetBrains Mono',monospace;
+  font-size:1rem;
+  font-weight:700;
+  color:var(--accent);
+  letter-spacing:.08em;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  gap:.3rem;
+}
+.sidebar-title span.brackets { color:var(--gold); }
+.sidebar-subtitle {
+  font-size:.72rem;
+  color:var(--text-subtle);
+  font-family:'JetBrains Mono',monospace;
+  margin-top:.25rem;
+  letter-spacing:.05em;
+}
+
+/* Theme toggle */
+.theme-toggle {
+  display:flex;
+  align-items:center;
+  gap:.4rem;
+  padding:.4rem .7rem;
+  margin:.5rem 1rem;
+  background:var(--bg-elevated);
+  border:1px solid var(--border);
+  border-radius:6px;
+  cursor:pointer;
+  font-size:.75rem;
+  color:var(--text-muted);
+  font-family:'JetBrains Mono',monospace;
+  transition: all .2s;
+  width:calc(100% - 2rem);
+  justify-content:center;
+}
+.theme-toggle:hover {
+  background:var(--bg-hover);
+  color:var(--accent);
+}
+.theme-toggle .icon { font-size: 1rem; }
+
+/* Search */
+.search-box {
+  margin:.5rem 1rem 1rem;
+  position:relative;
+}
+.search-input {
+  width:100%;
+  padding:.5rem .7rem;
+  background:var(--bg-elevated);
+  border:1px solid var(--border);
+  border-radius:6px;
+  color:var(--text);
+  font-family:'Noto Sans KR',sans-serif;
+  font-size:.85rem;
+  outline:none;
+}
+.search-input:focus {
+  border-color:var(--accent);
+  background:var(--bg-surface);
+}
+.search-input::placeholder { color:var(--text-subtle); }
+.search-results {
+  display:none;
+  position:absolute;
+  top:calc(100% + 4px);
+  left:0; right:0;
+  background:var(--bg-surface);
+  border:1px solid var(--border);
+  border-radius:6px;
+  max-height:320px;
+  overflow-y:auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,.1);
+  z-index:150;
+}
+.search-results.open { display:block; }
+.search-result {
+  padding:.45rem .7rem;
+  border-bottom:1px solid var(--border);
+  cursor:pointer;
+  font-size:.82rem;
+  transition:background .15s;
+}
+.search-result:last-child { border-bottom:none; }
+.search-result:hover { background:var(--bg-hover); color:var(--accent); }
+.search-result .path {
+  font-size:.7rem;
+  color:var(--text-subtle);
+  display:block;
+  margin-top:.15rem;
+  font-family:'JetBrains Mono',monospace;
+}
+.search-empty {
+  padding:.8rem;
+  text-align:center;
+  color:var(--text-subtle);
+  font-size:.8rem;
+}
+
+.nav-section {
+  padding:.8rem 1.2rem .25rem;
+  font-family:'JetBrains Mono',monospace;
+  font-size:.68rem;
+  color:var(--text-subtle);
+  text-transform:uppercase;
+  letter-spacing:.12em;
+}
+.nav-link {
+  display:block;
+  padding:.3rem 1.2rem .3rem 1.5rem;
+  color:var(--text-muted);
+  text-decoration:none;
+  font-size:.86rem;
+  transition:all .15s;
+  border-left:2px solid transparent;
+}
+.nav-link:hover {
+  color:var(--text);
+  background:var(--accent-soft);
+  border-left-color:var(--accent);
+}
+.nav-link.active {
+  color:var(--accent);
+  background:var(--accent-soft);
+  border-left-color:var(--accent);
+  font-weight:500;
+}
+.nav-link.sub { padding-left:2.3rem; font-size:.8rem; }
+.nav-link.sub-sub { padding-left:3rem; font-size:.78rem; color:var(--text-subtle); }
+
+.nav-book { border-bottom:1px solid var(--border); }
+.nav-book summary {
+  padding:.55rem 1.2rem .4rem;
+  font-family:'JetBrains Mono',monospace;
+  font-size:.72rem;
+  color:var(--text-muted);
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  cursor:pointer;
+  list-style:none;
+  display:flex;
+  align-items:center;
+  gap:.4rem;
+  user-select:none;
+  font-weight:600;
+}
+.nav-book summary::-webkit-details-marker { display:none; }
+.nav-book summary::before {
+  content:'▸';
+  font-size:.7rem;
+  color:var(--text-subtle);
+  transition:transform .2s;
+  display:inline-block;
+}
+.nav-book[open] summary::before {
+  transform:rotate(90deg);
+  color:var(--accent);
+}
+.nav-book summary:hover { color:var(--accent); }
+.nav-book .nav-children { padding-bottom:.3rem; }
+
+.nav-part {
+  padding:.3rem 1.2rem .2rem 1.5rem;
+  font-size:.75rem;
+  font-weight:600;
+  color:var(--gold);
+  font-family:'JetBrains Mono',monospace;
+  letter-spacing:.03em;
+}
+.nav-subpart {
+  padding:.25rem 1.2rem .15rem 2.3rem;
+  font-size:.72rem;
+  font-weight:500;
+  color:var(--text-muted);
+  font-family:'JetBrains Mono',monospace;
+  letter-spacing:.02em;
+}
+
+/* ── Mobile toggle ── */
+.menu-toggle {
+  display:none;
+  position:fixed;
+  top:.8rem; left:.8rem;
+  z-index:200;
+  background:var(--bg-surface);
+  border:1px solid var(--border);
+  color:var(--accent);
+  font-size:1.3rem;
+  padding:.4rem .65rem;
+  cursor:pointer;
+  border-radius:6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.08);
+}
+
+/* ── Main ── */
+.main {
+  margin-left:280px;
+  min-height:100vh;
+  transition: margin-left .3s;
+}
+.topbar {
+  background:var(--bg-surface);
+  backdrop-filter: blur(8px);
+  border-bottom:1px solid var(--border);
+  padding:.6rem 2rem;
+  display:flex;
+  align-items:center;
+  gap:1rem;
+  position:sticky;
+  top:0;
+  z-index:50;
+}
+.breadcrumb {
+  font-family:'JetBrains Mono',monospace;
+  font-size:.8rem;
+  color:var(--text-subtle);
+  flex:1;
+}
+.breadcrumb a { color:var(--gold); text-decoration:none; }
+.breadcrumb a:hover { color:var(--accent); }
+
+.comment-btn {
+  padding:.35rem .7rem;
+  background:var(--accent-soft);
+  border:1px solid var(--accent-border);
+  color:var(--accent);
+  border-radius:5px;
+  font-size:.78rem;
+  font-family:'JetBrains Mono',monospace;
+  cursor:pointer;
+  text-decoration:none;
+  transition:all .2s;
+}
+.comment-btn:hover {
+  background:var(--accent);
+  color:#fff;
+}
+
+.content-area {
+  max-width:1000px;
+  padding:2rem 2.5rem 4rem;
+}
+
+/* ── Markdown Rendered Styles ── */
+.content-area h1 {
+  font-size:2rem;
+  font-weight:700;
+  color:var(--text);
+  margin-bottom:.8rem;
+  padding-bottom:.5rem;
+  border-bottom:2px solid var(--accent);
+}
+.content-area h2 {
+  font-size:1.4rem;
+  font-weight:700;
+  color:var(--accent);
+  margin-top:2rem;
+  margin-bottom:.6rem;
+  padding-bottom:.3rem;
+  border-bottom:1px solid var(--accent-border);
+}
+.content-area h3 {
+  font-size:1.15rem;
+  color:var(--gold);
+  margin-top:1.5rem;
+  margin-bottom:.4rem;
+  font-weight:700;
+}
+.content-area h4 {
+  font-size:1rem;
+  color:var(--text);
+  margin-top:1.2rem;
+  margin-bottom:.4rem;
+  font-weight:700;
+}
+.content-area p { margin-bottom:.85rem; }
+.content-area a {
+  color:var(--accent);
+  text-decoration:none;
+  border-bottom:1px solid var(--accent-border);
+}
+.content-area a:hover { color:var(--gold); border-bottom-color:var(--gold); }
+.content-area strong { color:var(--text); font-weight:700; }
+.content-area em { color:var(--text-muted); }
+.content-area blockquote {
+  border-left:3px solid var(--gold);
+  padding:.8rem 1rem;
+  margin:.9rem 0;
+  background:var(--blockquote-bg);
+  color:var(--text-muted);
+  border-radius: 0 4px 4px 0;
+}
+.content-area blockquote strong { color:var(--text); }
+.content-area ul, .content-area ol { padding-left:1.5rem; margin-bottom:.85rem; }
+.content-area li { margin-bottom:.3rem; }
+.content-area code {
+  font-family:'JetBrains Mono',monospace;
+  font-size:.88em;
+  background:var(--code-bg);
+  padding:.15em .4em;
+  border-radius:3px;
+  color:var(--gold);
+}
+.content-area pre {
+  background:var(--bg-elevated);
+  border:1px solid var(--border);
+  border-radius:6px;
+  padding:1rem;
+  overflow-x:auto;
+  margin:.9rem 0;
+}
+.content-area pre code {
+  background:none;
+  padding:0;
+  font-size:.85rem;
+  color:var(--text);
+}
+.content-area .table-wrap {
+  overflow-x:auto;
+  margin:.9rem 0;
+  border-radius:6px;
+}
+.content-area table {
+  border-collapse:collapse;
+  font-size:.9rem;
+  width:max-content;
+  min-width:100%;
+}
+.content-area td, .content-area th { word-break:keep-all; }
+.content-area th {
+  background:var(--bg-elevated);
+  color:var(--gold);
+  font-weight:700;
+  padding:.5rem .7rem;
+  text-align:left;
+  border:1px solid var(--border);
+}
+.content-area td {
+  padding:.5rem .7rem;
+  border:1px solid var(--border);
+}
+.content-area tr:hover td { background:var(--accent-soft); }
+.content-area hr {
+  border:none;
+  border-top:1px solid var(--border);
+  margin:1.5rem 0;
+}
+.content-area img {
+  max-width:100%;
+  border-radius:6px;
+  display:block;
+  margin:1rem auto;
+}
+
+/* ── Hero (home page) ── */
+.hero {
+  background: linear-gradient(135deg, var(--accent-soft), var(--gold-soft));
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  text-align:center;
+  border: 1px solid var(--accent-border);
+}
+.hero h1 {
+  border:none;
+  font-size:2.2rem;
+  padding-bottom:0;
+  margin-bottom:.5rem;
+}
+.hero .subtitle {
+  font-family:'JetBrains Mono',monospace;
+  font-size:.9rem;
+  color:var(--text-muted);
+  margin-top:.3rem;
+}
+
+/* ── Footer ── */
+.footer {
+  text-align:center;
+  padding:1.5rem;
+  color:var(--text-subtle);
+  font-family:'JetBrains Mono',monospace;
+  font-size:.75rem;
+  border-top:1px solid var(--border);
+  margin-left:280px;
+  transition: margin-left .3s;
+}
+.footer a { color:var(--gold); text-decoration:none; }
+.footer a:hover { color:var(--accent); }
+
+/* ── Loading & Not Found ── */
+.loading { text-align:center; padding:4rem 2rem; color:var(--text-subtle); }
+.loading::after {
+  content:'';
+  display:inline-block;
+  width:20px; height:20px;
+  border:2px solid var(--border);
+  border-top-color:var(--accent);
+  border-radius:50%;
+  animation:spin .8s linear infinite;
+  margin-left:.5rem;
+  vertical-align:middle;
+}
+@keyframes spin { to { transform:rotate(360deg); } }
+.not-found { text-align:center; padding:4rem 2rem; }
+.not-found h2 { color:var(--accent); margin-bottom:1rem; }
+
+/* ── Comment Modal ── */
+.modal-overlay {
+  display:none;
+  position:fixed;
+  inset:0;
+  background: rgba(0,0,0,.5);
+  z-index:300;
+  align-items:center;
+  justify-content:center;
+  padding:1rem;
+}
+.modal-overlay.open { display:flex; }
+.modal {
+  background:var(--bg-surface);
+  border:1px solid var(--border);
+  border-radius:10px;
+  max-width:500px;
+  width:100%;
+  padding:1.5rem;
+  box-shadow: 0 10px 40px rgba(0,0,0,.2);
+}
+.modal h3 {
+  color:var(--accent);
+  margin-bottom:.5rem;
+  font-size:1.1rem;
+}
+.modal p {
+  font-size:.85rem;
+  color:var(--text-muted);
+  margin-bottom:1rem;
+}
+.modal textarea {
+  width:100%;
+  min-height:120px;
+  padding:.7rem;
+  background:var(--bg);
+  border:1px solid var(--border);
+  border-radius:6px;
+  color:var(--text);
+  font-family: inherit;
+  font-size:.9rem;
+  resize:vertical;
+  outline:none;
+}
+.modal textarea:focus { border-color:var(--accent); }
+.modal-actions {
+  display:flex;
+  gap:.5rem;
+  justify-content:flex-end;
+  margin-top:1rem;
+}
+.btn {
+  padding:.45rem .9rem;
+  border-radius:5px;
+  font-size:.85rem;
+  cursor:pointer;
+  border:1px solid var(--border);
+  background:var(--bg-elevated);
+  color:var(--text);
+  font-family:inherit;
+  transition:all .2s;
+}
+.btn:hover { background:var(--bg-hover); }
+.btn.primary {
+  background:var(--accent);
+  color:#fff;
+  border-color:var(--accent);
+}
+.btn.primary:hover { background:var(--gold); border-color:var(--gold); }
+
+/* ── Responsive ── */
+@media(max-width:900px) {
+  .sidebar { transform:translateX(-100%); }
+  .sidebar.open { transform:translateX(0); box-shadow: 4px 0 20px rgba(0,0,0,.15); }
+  .menu-toggle { display:block; }
+  .main { margin-left:0; }
+  .footer { margin-left:0; }
+  .topbar { padding-left:3.5rem; }
+  .content-area { padding:1.5rem 1.2rem 3rem; }
+  .hero { padding:1.5rem 1rem; }
+  .hero h1 { font-size:1.7rem; }
+}
+
+@media(max-width:500px) {
+  .content-area h1 { font-size:1.5rem; }
+  .content-area h2 { font-size:1.2rem; }
+  .content-area h3 { font-size:1.05rem; }
+}
+
+/* ── Selection & Scrollbar ── */
+::selection { background:var(--accent-soft); color:var(--accent); }
+::-webkit-scrollbar { width:8px; height:8px; }
+::-webkit-scrollbar-track { background:var(--bg); }
+::-webkit-scrollbar-thumb { background:var(--border); border-radius:4px; }
+::-webkit-scrollbar-thumb:hover { background:var(--border-strong); }
+
+/* Print */
+@media print {
+  .sidebar, .topbar, .menu-toggle, .footer { display:none; }
+  .main { margin-left:0; }
+  .content-area { max-width:none; padding:0; }
+}
+</style>
+</head>
+<body>
+
+<!-- Mobile menu toggle -->
+<button class="menu-toggle" onclick="document.querySelector('.sidebar').classList.toggle('open')" aria-label="메뉴">☰</button>
+
+<!-- Sidebar -->
+<nav class="sidebar">
+  <div class="sidebar-header">
+    <div class="sidebar-title" onclick="navigateTo('home')">
+      <span class="brackets">[</span>FEWK<span class="brackets">]</span> LOREBOOK
+    </div>
+    <div class="sidebar-subtitle">동방의 하얀 나라 · 제3판 샘플</div>
+  </div>
+
+  <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="테마 전환">
+    <span class="icon" id="themeIcon">🌙</span>
+    <span id="themeLabel">다크 모드</span>
+  </button>
+
+  <div class="search-box">
+    <input type="text" class="search-input" id="searchInput" placeholder="검색 (제목·용어)" aria-label="검색">
+    <div class="search-results" id="searchResults"></div>
+  </div>
+
+  <a class="nav-link" href="#home" data-page="home" style="border-top:1px solid var(--border);padding-top:.6rem;padding-bottom:.5rem;font-weight:500;color:var(--accent)">FEWK 소개·홈</a>
+  <a class="nav-link" href="#roadmap" data-page="roadmap" style="font-size:.82rem;">로드맵</a>
+  <a class="nav-link" href="#license" data-page="license" style="font-size:.82rem;border-bottom:1px solid var(--border);padding-bottom:.5rem;margin-bottom:.3rem;">라이선스 (FWOL)</a>
+
+  <!-- Navigation generated by JS -->
+  <div id="navMenu"></div>
+
+</nav>
+
+<!-- Main content -->
+<div class="main">
+  <div class="topbar">
+    <div class="breadcrumb" id="breadcrumb">
+      <a href="#home">FEWK</a>
+    </div>
+    <button class="comment-btn" onclick="openCommentModal()" title="편집자에게 한마디">💬 댓글</button>
+  </div>
+  <div class="content-area" id="content">
+    <div class="loading">로딩 중</div>
+  </div>
+</div>
+
+<footer class="footer">
+  FEWK LOREBOOK 제3판 샘플 &mdash;
+  Universe Designer 하얀용 WhtDrgon (김동은 Kim Dongeun) &mdash;
+  Since 2021.10.31 &mdash;
+  &copy; 2021–2026 Kim Dongeun (콘텐츠) &middot; "FEWK" &copy; MEJE Works Corp. (상표) &middot; 공식 관리 FEWK 거버넌스 <a href="mailto:FEWK@meje.kr">FEWK@meje.kr</a>
+</footer>
+
+<!-- Comment Modal -->
+<div class="modal-overlay" id="commentModal" onclick="if(event.target===this)closeCommentModal()">
+  <div class="modal">
+    <h3>편집자에게 한마디</h3>
+    <p>이 페이지를 읽으신 소감·오탈자·의견을 편집자에게 보내실 수 있습니다. "보내기"를 누르시면 기본 메일 앱이 열립니다.</p>
+    <textarea id="commentText" placeholder="여기에 남기실 내용을 적어주세요..."></textarea>
+    <div class="modal-actions">
+      <button class="btn" onclick="closeCommentModal()">취소</button>
+      <button class="btn primary" onclick="sendComment()">보내기</button>
+    </div>
+  </div>
+</div>
+
+<!-- Markdown parser -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<script>
+/* ═══════════════════════════════════════════════
+   FEWK LOREBOOK 3rd — Runtime
+   ═══════════════════════════════════════════════ */
+
+// ── Navigation structure ──
+const NAV = {
+  corerulebook: {
+    label: '코어 룰북 (Core Rulebook)',
+    prefix: 'corerulebook',
+    parts: [
+      { dir: '00_서문', label: '00 서문', items: [
+        { f: 'README', t: '목차' },
+        { f: '01_이_책에_대하여', t: '이 책에 대하여' },
+        { f: '02_TRPG란_무엇인가', t: 'TRPG란 무엇인가' },
+        { f: '03_FEWK_3판_읽는_법', t: 'FEWK 3판 읽는 법' },
+      ]},
+      { dir: '01_1부_게임기초', label: '1부. 게임 기초', items: [
+        { f: 'README', t: '목차' },
+        { f: '01_플레이어_GM_캐릭터', t: '플레이어·GM·캐릭터' },
+        { f: '02_주사위_3총사', t: '주사위 3총사' },
+        { f: '03_기본_판정_흐름', t: '기본 판정 흐름' },
+        { f: '04_세션_0', t: '세션 0' },
+      ]},
+      { dir: '02_2부_캐릭터', label: '2부. 캐릭터', items: [
+        { f: 'README', t: '목차' },
+        { f: '01_6_Prime_Stats', t: '6 Prime Stats' },
+        { f: '02_스탯_수치와_Grade_Die', t: '스탯과 Grade Die' },
+        { f: '03_스킬', t: '스킬' },
+        { f: '04_태그', t: '태그' },
+        { f: '05_인터렉션_3슬롯', t: '인터렉션 3슬롯' },
+        { f: '06_프리셋_G0_G8', t: '프리셋 G-0~G-8' },
+        { f: '07_BP_생체순도', t: 'BP 생체순도' },
+        { f: '08_생성_10단계', t: '생성 10단계' },
+        { f: '09_관계와_유대', t: '관계와 유대' },
+      ]},
+      { dir: '03_3부_판정과_행동', label: '3부. 판정과 행동', items: [
+        { f: 'README', t: '목차' },
+        { f: '01_Grade_Die_판정', t: 'Grade Die 판정' },
+        { f: '02_d100_판정', t: 'd100 판정' },
+        { f: '03_d6_Pool', t: 'd6 Pool' },
+        { f: '04_Position_x_Effect', t: 'Position × Effect' },
+        { f: '05_대립_저항_협상', t: '대립·저항·협상' },
+        { f: '06_수정치_순서_펌블', t: '수정치·펌블' },
+      ]},
+      { dir: '04_4부_전투', label: '4부. 전투', items: [
+        { f: 'README', t: '목차' },
+        { f: '01_3_Scale_개요', t: '3 Scale 개요' },
+        { f: '02_이니셔티브', t: '이니셔티브' },
+        { f: '03_전투_흐름_6단계', t: '전투 흐름 6단계' },
+        { f: '04_방어_피해_HP', t: '방어·피해·HP' },
+        { f: '05_무기_Tier', t: '무기 Tier' },
+        { f: '06_특수_공격_상태이상', t: '특수 공격·상태 이상' },
+        { f: '07_환경_수정치', t: '환경 수정치' },
+        { f: '08_도주_추격', t: '도주·추격' },
+        { f: '09_전투_종료', t: '전투 종료' },
+        { f: '10_중상_후유증', t: '중상·후유증' },
+      ]},
+      { dir: '05_5부_자원과_트랙', label: '5부. 자원과 트랙', items: [
+        { f: 'README', t: '목차' },
+        { f: '01_자원_5종_개요', t: '자원 5종 개요' },
+        { f: '02_운_토큰', t: '운 토큰' },
+        { f: '03_에고', t: '에고' },
+        { f: '04_장르자원_DSR', t: '장르자원 DSR' },
+        { f: '05_트라우마', t: '트라우마' },
+        { f: '06_4트랙_아키텍처', t: '4트랙 아키텍처' },
+        { f: '07_히트와_추적', t: '히트·추적' },
+      ]},
+      { dir: '06_6부_FEWK_고유규칙', label: '6부. FEWK 고유 규칙', items: [
+        { f: 'README', t: '목차' },
+        { f: '01_흑공_농도와_노출', t: '흑공 농도와 노출' },
+        { f: '02_신기_신단_돌칩', t: '신기·신단·돌칩' },
+        { f: '03_샤이닝_매팅_현화', t: '샤이닝·매팅·현화' },
+        { f: '04_코핀과_차원이동', t: '코핀과 차원이동' },
+        { f: '05_첫_차원_진입', t: '첫 차원 진입' },
+        { f: '06_파이오니아', t: '파이오니아' },
+        { f: '07_드랍아웃_진사', t: '드랍아웃·진사' },
+        { f: '08_인과율_패러독스', t: '인과율·패러독스' },
+        { f: '09_시간도보', t: '시간도보' },
+      ]},
+      { dir: '07_7부_장비', label: '7부. 장비', items: [
+        { f: 'README', t: '목차' },
+        { f: '01_무기_카탈로그', t: '무기 카탈로그' },
+        { f: '02_방어구_드론_군체', t: '방어구·드론·군체' },
+        { f: '03_임플란트', t: '임플란트' },
+        { f: '04_탄약_d6_Pool', t: '탄약·d6 Pool' },
+        { f: '05_차량', t: '차량' },
+        { f: '06_코핀과_동력셀', t: '코핀과 동력셀' },
+        { f: '07_계산도구_8종', t: '계산도구 8종' },
+      ]},
+      { dir: '08_8부_성장과_경력', label: '8부. 성장과 경력', items: [
+        { f: 'README', t: '목차' },
+        { f: '01_세션_포인트', t: '세션 포인트' },
+        { f: '02_스탯_Tier_승급', t: 'Tier 승급' },
+        { f: '03_스킬_인터렉션_성장', t: '스킬·인터렉션 성장' },
+        { f: '04_은퇴_드랍_진사', t: '은퇴·드랍·진사' },
+        { f: '05_후기_캠페인', t: '후기 캠페인' },
+      ]},
+      { dir: '09_9부_팀_플레이', label: '9부. 팀 플레이', items: [
+        { f: 'README', t: '목차' },
+        { f: '01_팀_판정', t: '팀 판정' },
+        { f: '02_재시도', t: '재시도' },
+        { f: '03_플래시백', t: '플래시백' },
+        { f: '04_PCvsPC_Downtime', t: 'PC vs PC·Downtime' },
+        { f: '05_팀_역할과_포지션', t: '팀 역할과 포지션' },
+        { f: '06_콘택트와_원거리_지원', t: '콘택트·원거리 지원' },
+      ]},
+      { dir: '10_10부_GM_가이드', label: '10부. GM 가이드', items: [
+        { f: 'README', t: '목차' },
+        { f: '01_세션_0_안전툴', t: '세션 0 안전툴' },
+        { f: '02_세션_5단계_구조', t: '세션 5단계' },
+        { f: '03_난이도_TN_조정', t: '난이도·TN 조정' },
+        { f: '04_NPC_운영', t: 'NPC 운영' },
+        { f: '05_드라마틱_서술', t: '드라마틱 서술' },
+        { f: '06_문제상황_대응', t: '문제상황 대응' },
+        { f: '07_캠페인_설계', t: '캠페인 설계' },
+        { f: '08_GM_운영_체크리스트', t: 'GM 운영 체크리스트' },
+        { f: '09_NPC_비밀_파일', t: 'NPC 비밀 파일' },
+        { f: '10_밸런스_위협등급', t: '밸런스·위협 등급' },
+        { f: '11_세션_로그와_기록', t: '세션 로그·기록' },
+        { f: '12_즉석_구역_생성', t: '즉석 구역 생성' },
+        { f: '13_정보_노출_매트릭스', t: '정보 노출 매트릭스' },
+        { f: '14_세력시계_위협시계', t: '세력 시계와 위협 시계' },
+      ]},
+      { dir: '11_11부_NPC_카탈로그', label: '11부. NPC 카탈로그', items: [
+        { f: 'README', t: '목차' },
+        { f: '01_D급_하수', t: 'D급 하수' },
+        { f: '02_C급_표준', t: 'C급 표준' },
+        { f: '03_B급_엘리트', t: 'B급 엘리트' },
+        { f: '04_A급_보스', t: 'A+급 보스' },
+        { f: '05_원전_서사_NPC', t: '원전 서사 NPC 25명' },
+        { f: '06_Scale_C_개체', t: 'Scale C 개체' },
+      ]},
+      { dir: '12_12부_시나리오_씨앗', label: '12부. 시나리오 씨앗', items: [
+        { f: 'README', t: '목차' },
+        { f: '01_도입_훅_6선', t: '도입 훅 6선' },
+        { f: '02_원샷_시나리오_3종', t: '원샷 시나리오 3종' },
+        { f: '03_이벤트_판정_테이블', t: '이벤트·판정 테이블' },
+        { f: '04_캠페인_아크', t: '캠페인 아크' },
+        { f: '05_입문_시나리오_신성의_카드', t: '입문 시나리오 「신성의 카드」' },
+        { f: '06_입문_시나리오_흑공의_저택', t: '입문 시나리오 「흑공의 저택」' },
+        { f: '07_랜덤_테이블_확장', t: '랜덤 테이블 확장' },
+      ]},
+      { dir: '13_13부_온라인_디지털', label: '13부. 온라인·디지털', items: [
+        { f: 'README', t: '목차' },
+        { f: '01_온라인_플레이_4양식', t: '온라인 플레이 4 양식' },
+        { f: '02_ORPG_플레이어', t: 'ORPG 플레이어' },
+        { f: '03_ORPG_GM', t: 'ORPG GM' },
+        { f: '04_커뮤플레이_진행자', t: '커뮤플레이 진행자' },
+        { f: '05_PBeM', t: 'PBeM' },
+        { f: '06_게시판_플레이', t: '게시판 플레이' },
+        { f: '07_비동기_공통원칙', t: '비동기 공통 원칙' },
+        { f: '08_Roll20_Foundry', t: 'Roll20·Foundry' },
+        { f: '09_매크로_YAML', t: '매크로·YAML' },
+        { f: '10_AI_병행', t: 'AI 병행' },
+      ]},
+      { dir: '14_부록', label: '14부. 부록', items: [
+        { f: 'README', t: '목차' },
+        { f: 'A_캐릭터시트', t: 'A. 캐릭터 시트' },
+        { f: 'B_치트시트', t: 'B. 치트 시트' },
+        { f: 'C_용어집', t: 'C. 용어집' },
+        { f: 'D_색인', t: 'D. 색인' },
+        { f: 'E_WorldBook_참조가이드', t: 'E. World Book 참조' },
+        { f: 'F_원전_레퍼런스_인덱스', t: 'F. 원전 레퍼런스' },
+        { f: 'G_타시스템_호환', t: 'G. 타 시스템 호환' },
+        { f: 'H_BGM_플레이리스트', t: 'H. BGM·플레이리스트' },
+        { f: 'I_일러스트_슬롯_가이드', t: 'I. 일러스트 슬롯 가이드' },
+        { f: 'J_Player_Handout', t: 'J. Player Handout' },
+      ]},
+    ]
+  },
+  worldbook: {
+    label: '월드 북 (World Book)',
+    prefix: 'worldbook',
+    parts: [
+      { dir: '00_서문', label: '00 서문', items: [
+        { f: 'README', t: '목차' },
+        { f: '01_여는글', t: '여는 글' },
+        { f: '02_본_책에_대하여', t: '본 책에 대하여' },
+        { f: '03_사용법', t: '사용법' },
+      ]},
+      { dir: '01_1부_세계톤', label: '1부. 세계 톤', items: [
+        { f: 'README', t: '목차' },
+        { f: '01_월드_소개', t: '월드 소개' },
+        { f: '02_무법천지의_질서', t: '무법천지의 질서' },
+        { f: '03_비빔밥_세계', t: '비빔밥 세계' },
+        { f: '04_크툴루와의_차이', t: '크툴루와의 차이' },
+      ]},
+      { dir: '02_2부_세계법칙', label: '2부. 세계 법칙', items: [
+        { f: 'README', t: '목차' },
+      ], subparts: [
+        { dir: '01_흑공', label: '흑공', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_흑공이란_무엇인가', t: '흑공이란 무엇인가' },
+          { f: '02_흑공의_용도', t: '흑공의 용도' },
+          { f: '03_흑공_농도와_통제', t: '흑공 농도와 통제' },
+        ]},
+        { dir: '02_신기', label: '신기', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_신기란_무엇인가', t: '신기란 무엇인가' },
+          { f: '02_신단', t: '신단' },
+          { f: '03_신기의_저장과_활용', t: '신기의 저장과 활용' },
+          { f: '04_오주사', t: '오주사' },
+        ]},
+        { dir: '03_인과율', label: '인과율', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_인과율이란', t: '인과율이란' },
+          { f: '02_패러독스', t: '패러독스' },
+          { f: '03_먹개비', t: '먹개비' },
+          { f: '04_자기중심_시간관', t: '자기중심 시간관' },
+          { f: '05_시간도보자', t: '시간도보자' },
+          { f: '06_시간의_두_공포', t: '시간의 두 공포' },
+        ]},
+        { dir: '04_바이트', label: '바이트', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_바이트란_무엇인가', t: '바이트란 무엇인가' },
+          { f: '02_가치의_7요소', t: '가치의 7요소' },
+          { f: '03_숫자_세기', t: '숫자 세기' },
+          { f: '04_바이트_단위와_화폐', t: '바이트 단위와 화폐' },
+        ]},
+        { dir: '05_현화', label: '현화', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_현화란_무엇인가', t: '현화란 무엇인가' },
+          { f: '02_샤이닝', t: '샤이닝' },
+          { f: '03_매팅', t: '매팅' },
+          { f: '04_기록자의_수집', t: '기록자의 수집' },
+        ]},
+        { dir: '06_계_개요', label: '계 개요', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_네_분류', t: '네 분류' },
+          { f: '02_인공계_예시', t: '인공계 예시' },
+          { f: '03_오지_차원계', t: '오지 차원계' },
+          { f: '04_차원_계층_구조', t: '차원 계층 구조' },
+        ]},
+        { dir: '07_핵심기술', label: '핵심 기술', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_메카트로닉스', t: '메카트로닉스' },
+          { f: '02_바이오트로닉스', t: '바이오트로닉스' },
+          { f: '03_와치엔진', t: '와치엔진' },
+          { f: '04_복제기', t: '복제기' },
+          { f: '05_동력_셀_체계', t: '동력 셀 체계' },
+          { f: '06_코핀과_차원이동', t: '코핀과 차원이동' },
+          { f: '07_계산도구_카탈로그', t: '계산도구 카탈로그' },
+        ]},
+      ]},
+      { dir: '03_3부_역사연대기', label: '3부. 역사·연대기', items: [
+        { f: 'README', t: '목차' },
+      ], subparts: [
+        { dir: '01_선사', label: '선사', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_동백국의_옛_시대', t: '동백국의 옛 시대' },
+          { f: '02_FHI와_서양의_그림자', t: 'FHI와 서양의 그림자' },
+        ]},
+        { dir: '02_검은_수평선', label: '검은 수평선', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_그날의_사건', t: '그날의 사건' },
+          { f: '02_대신단출과_동백국', t: '대신단출과 동백국' },
+        ]},
+        { dir: '03_개화기', label: '개화기', items: [
+          { f: '01_흑선의_시대', t: '흑선의 시대' },
+        ]},
+        { dir: '04_동쟁', label: '동쟁', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_진신단출', t: '진신단출' },
+          { f: '02_의병_봉기와_괴수대전', t: '의병 봉기와 괴수대전' },
+          { f: '03_4대_신수사', t: '4대 신수사' },
+          { f: '04_동쟁의_유산과_벙커', t: '동쟁의 유산과 벙커' },
+        ]},
+        { dir: '05_광제_망명', label: '광제 망명', items: [
+          { f: '01_왕조의_종말과_광제사직계', t: '왕조의 종말과 광제사직계' },
+        ]},
+        { dir: '06_대사만국시대', label: '대사만국시대', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_10대사국의_탄생', t: '10대사국의 탄생' },
+          { f: '02_현재_시대의_특징', t: '현재 시대의 특징' },
+        ]},
+        { dir: '07_연대표', label: '연대표', items: [
+          { f: '01_FEWK_역사_타임라인', t: 'FEWK 역사 타임라인' },
+        ]},
+        { dir: '08_미래의_그림자', label: '미래의 그림자', items: [
+          { f: '01_월풍_조짐', t: '월풍 조짐' },
+        ]},
+        { dir: '09_GM_가이드', label: 'GM 가이드', items: [
+          { f: '01_역사와_플레이', t: '역사와 플레이' },
+        ]},
+      ]},
+      { dir: '04_4부_지리', label: '4부. 지리', items: [
+        { f: 'README', t: '목차' },
+      ], subparts: [
+        { dir: '01_6구역_체계', label: '6구역 체계', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_6구역_개관', t: '6구역 개관' },
+          { f: '02_퍼스트_궁정구_살롱즈', t: '퍼스트 궁정구·살롱즈' },
+          { f: '03_비즈니스_자본구_힙스', t: '비즈니스 자본구·힙스' },
+          { f: '04_이코노미_서민구_노마드', t: '이코노미 서민구·노마드' },
+        ]},
+        { dir: '02_4대_도시', label: '4대 도시', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_서울', t: '서울' },
+          { f: '02_도울', t: '도울' },
+          { f: '03_나울', t: '나울' },
+          { f: '04_부울', t: '부울' },
+        ]},
+        { dir: '03_8도_지방', label: '8도 지방', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_퓨어로열', t: '퓨어로열' },
+          { f: '02_호올네트', t: '호올네트' },
+          { f: '03_리버힐', t: '리버힐' },
+          { f: '04_더블셀레브', t: '더블셀레브' },
+          { f: '05_파이브헌드레드', t: '파이브헌드레드' },
+          { f: '06_피스풀', t: '피스풀' },
+          { f: '07_솔트미러', t: '솔트미러' },
+          { f: '08_크로멜로', t: '크로멜로' },
+          { f: '09_제제', t: '제제' },
+        ]},
+        { dir: '04_바다', label: '바다', items: [
+          { f: '01_흑해_신해_원양', t: '흑해·신해·원양' },
+        ]},
+        { dir: '05_차원계_지리', label: '차원계 지리', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_차원계_개관', t: '차원계 개관' },
+          { f: '02_새우거리와_빅포레스트', t: '새우거리와 빅포레스트' },
+          { f: '03_플랫마운틴과_공단계', t: '플랫마운틴과 공단계' },
+          { f: '04_광제사직계와_벙커계', t: '광제사직계와 벙커계' },
+          { f: '05_구미성과_구남항', t: '구미성과 구남항' },
+          { f: '06_환락계와_기타', t: '환락계와 기타' },
+        ]},
+        { dir: '06_루쳄트레일로드', label: '루쳄트레일로드', items: [
+          { f: '01_4대_도시_연결_철도', t: '4대 도시 연결 철도' },
+        ]},
+      ]},
+      { dir: '05_5부_사회정치경제', label: '5부. 사회·정치·경제', items: [
+        { f: 'README', t: '목차' },
+      ], subparts: [
+        { dir: '01_대사국_체제', label: '대사국 체제', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_대사국_체제_개관', t: '대사국 체제 개관' },
+          { f: '02_10대사국_프로필', t: '10대사국 프로필' },
+        ]},
+        { dir: '02_기업', label: '기업', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_기업_체제_개관', t: '기업 체제 개관' },
+          { f: '02_기존_15사', t: '기존 15사' },
+          { f: '03_신생_8사', t: '신생 8사' },
+        ]},
+        { dir: '03_종교재단', label: '종교재단', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_워피스와_캐피탈피스', t: '워피스와 캐피탈피스' },
+          { f: '02_칼리코와_어머니_전쟁', t: '칼리코와 어머니 전쟁' },
+          { f: '03_기타_종교_세력', t: '기타 종교 세력' },
+        ]},
+        { dir: '04_화폐_경제', label: '화폐·경제', items: [
+          { f: '01_화폐전_체계와_사회', t: '화폐전 체계와 사회' },
+        ]},
+        { dir: '05_권력_지형', label: '권력 지형', items: [
+          { f: '01_인물_관계와_권력_맵', t: '인물 관계와 권력 맵' },
+        ]},
+        { dir: '06_제도_경제_용어', label: '제도·경제 용어', items: [
+          { f: '01_성인식_라이선스_결혼_자격', t: '성인식·라이선스·결혼 자격' },
+        ]},
+        { dir: '07_핵심_발명품_경제', label: '핵심 발명품 경제', items: [
+          { f: '01_와치엔진_복제기_코핀_게이트', t: '와치엔진·복제기·코핀·게이트' },
+        ]},
+        { dir: '08_국제기구', label: '국제기구', items: [
+          { f: '01_DCSA_FHI', t: 'DCSA·FHI' },
+        ]},
+      ]},
+      { dir: '06_6부_일상문화', label: '6부. 일상·문화', items: [
+        { f: 'README', t: '목차' },
+      ], subparts: [
+        { dir: '01_여섯아침', label: '여섯 아침', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_궁정구', t: '궁정구' },
+          { f: '02_살롱즈', t: '살롱즈' },
+          { f: '03_힙스', t: '힙스' },
+          { f: '04_자본구', t: '자본구' },
+          { f: '05_노마드', t: '노마드' },
+          { f: '06_서민구', t: '서민구' },
+        ]},
+        { dir: '02_임플란트_문화', label: '임플란트 문화', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_생체순도와_임플란트', t: '생체순도와 임플란트' },
+          { f: '02_성인식과_기업_제공', t: '성인식과 기업 제공' },
+          { f: '03_야메와_불법_개조', t: '야메와 불법 개조' },
+        ]},
+        { dir: '03_언어와_일상', label: '언어와 일상', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_호칭_체계', t: '호칭 체계' },
+          { f: '02_계층별_화법', t: '계층별 화법' },
+          { f: '03_완곡어와_은어', t: '완곡어와 은어' },
+        ]},
+        { dir: '04_음식과_의복', label: '음식과 의복', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_오얏_식문화', t: '오얏 식문화' },
+          { f: '02_계층별_식탁', t: '계층별 식탁' },
+          { f: '03_복장과_장신구', t: '복장과 장신구' },
+        ]},
+        { dir: '05_의례와_축제', label: '의례와 축제', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_DDOGG_이별과_성인식', t: 'DDOGG 이별과 성인식' },
+          { f: '02_결혼과_장례', t: '결혼과 장례' },
+          { f: '03_종교재단의_예배', t: '종교재단의 예배' },
+        ]},
+      ]},
+      { dir: '07_7부_러너생태', label: '7부. 러너 생태', items: [
+        { f: 'README', t: '목차' },
+      ], subparts: [
+        { dir: '01_러너란_누구인가', label: '러너란 누구인가', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_정의와_기원', t: '정의와 기원' },
+          { f: '02_분류와_사회적_위치', t: '분류와 사회적 위치' },
+          { f: '03_러너가_되는_길', t: '러너가 되는 길' },
+        ]},
+        { dir: '02_경제와_거점', label: '경제와 거점', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_러너전과_신용', t: '러너전과 신용' },
+          { f: '02_보수와_브로커', t: '보수와 브로커' },
+          { f: '03_카페와_클럽', t: '카페와 클럽' },
+        ]},
+        { dir: '03_임무의_지형', label: '임무의 지형', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_통상_임무와_서비스', t: '통상 임무와 서비스' },
+          { f: '02_나이트_러닝', t: '나이트 러닝' },
+          { f: '03_피지컬_러닝과_드랍_위험', t: '피지컬 러닝과 드랍 위험' },
+        ]},
+        { dir: '04_조직과_갱단', label: '조직과 갱단', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_솔로와_팀', t: '솔로와 팀' },
+          { f: '02_갱단의_지도', t: '갱단의 지도' },
+          { f: '03_신디케이트와_동맹', t: '신디케이트와 동맹' },
+        ]},
+        { dir: '05_장비와_기술', label: '장비와 기술', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_세_종류의_총', t: '세 종류의 총' },
+          { f: '02_오토바이와_이동수단', t: '오토바이와 이동수단' },
+          { f: '03_코핀과_임플란트', t: '코핀과 임플란트' },
+        ]},
+        { dir: '06_러너의_일생', label: '러너의 일생', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_신참에서_베테랑까지', t: '신참에서 베테랑까지' },
+          { f: '02_윤리와_신뢰', t: '윤리와 신뢰' },
+          { f: '03_은퇴_드랍_진사의_갈림길', t: '은퇴·드랍·진사의 갈림길' },
+        ]},
+      ]},
+      { dir: '08_8부_계도감', label: '8부. 계도감', items: [
+        { f: 'README', t: '목차' },
+      ], subparts: [
+        { dir: '01_계의_이해', label: '계의 이해', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_4분류', t: '4분류' },
+          { f: '02_바이트_밀도와_프랙탈', t: '바이트 밀도와 프랙탈' },
+          { f: '03_이동_비용과_경로', t: '이동 비용과 경로' },
+        ]},
+        { dir: '02_주요_인공계', label: '주요 인공계', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_공단계', t: '공단계' },
+          { f: '02_광제사직계', t: '광제사직계' },
+          { f: '03_플랫마운틴', t: '플랫마운틴' },
+          { f: '04_새우거리', t: '새우거리' },
+        ]},
+        { dir: '03_벙커계와_자연계', label: '벙커계와 자연계', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_벙커계', t: '벙커계' },
+          { f: '02_버그계', t: '버그계' },
+          { f: '03_재민월드와_언카날_밸리', t: '재민월드와 언카날 밸리' },
+        ]},
+        { dir: '04_오지_차원계', label: '오지 차원계', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_침묵의_바다', t: '침묵의 바다' },
+          { f: '02_뒤집힌_숲', t: '뒤집힌 숲' },
+          { f: '03_거울_도시', t: '거울 도시' },
+          { f: '04_뼈의_계', t: '뼈의 계' },
+          { f: '05_화원', t: '화원' },
+        ]},
+        { dir: '05_축적계와_기록자', label: '축적계와 기록자', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_네거티브_플레인과_축적계', t: '네거티브 플레인과 축적계' },
+          { f: '02_기록자', t: '기록자' },
+        ]},
+        { dir: '06_차원계의_위험', label: '차원계의 위험', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_매팅_샤이닝_디스인티저그레이트', t: '매팅·샤이닝·디스인티저그레이트' },
+          { f: '02_패러독스와_시간_왜곡', t: '패러독스와 시간 왜곡' },
+        ]},
+      ]},
+      { dir: '09_9부_존재도감', label: '9부. 존재도감', items: [
+        { f: 'README', t: '목차' },
+      ], subparts: [
+        { dir: '01_직업과_역할', label: '직업과 역할', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_수호사', t: '수호사' },
+          { f: '02_신사', t: '신사' },
+          { f: '03_흑사', t: '흑사' },
+          { f: '04_현물제조사', t: '현물제조사' },
+          { f: '05_최후의_연주자', t: '최후의 연주자' },
+        ]},
+        { dir: '02_비인간_존재', label: '비인간 존재', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_흑공존재와_먹개비', t: '흑공존재와 먹개비' },
+          { f: '02_미명존재', t: '미명존재' },
+          { f: '03_현화체', t: '현화체' },
+          { f: '04_인공존재와_변형인간', t: '인공존재와 변형인간' },
+        ]},
+        { dir: '03_4대_신수와_DDOGG', label: '4대 신수와 DDOGG', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_4대_신수', t: '4대 신수' },
+          { f: '02_DDOGG', t: 'DDOGG' },
+        ]},
+      ]},
+      { dir: '10_10부_세력도감', label: '10부. 세력도감', items: [
+        { f: 'README', t: '목차' },
+      ], subparts: [
+        { dir: '01_10대사국_카드', label: '10대사국 카드', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_2대_대령_미모', t: '2대: 대령·미모' },
+          { f: '02_3대_난초_하난초_로세아', t: '3대: 난초·하난초·로세아' },
+          { f: '03_중위하위_6국', t: '중위·하위 6국' },
+        ]},
+        { dir: '02_23기업_카드', label: '23기업 카드', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_기존_15사', t: '기존 15사' },
+          { f: '02_신생_8사', t: '신생 8사' },
+        ]},
+        { dir: '03_러너_길드와_갱단', label: '러너 길드와 갱단', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_러너_길드', t: '러너 길드' },
+          { f: '02_등급_체계', t: '등급 체계' },
+          { f: '03_갱단_상세', t: '갱단 상세' },
+        ]},
+        { dir: '04_종교재단_카드', label: '종교재단 카드', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_3대_재단과_뉴동백', t: '3대 재단과 뉴동백' },
+        ]},
+        { dir: '05_주요_작전_연표', label: '주요 작전 연표', items: [
+          { f: 'README', t: '목차' },
+          { f: '01_주요_작전_연표', t: '주요 작전 연표' },
+        ]},
+      ]},
+      { dir: '12_부록', label: '부록', items: [
+        { f: 'README', t: '목차' },
+        { f: '01_지도집', t: '01 지도집' },
+        { f: '02_연대기_총람', t: '02 연대기 총람' },
+        { f: '03_NPC_미니_카드', t: '03 NPC 미니 카드' },
+        { f: '04_용어집', t: '04 용어집' },
+        { f: '05_색인', t: '05 색인' },
+      ]},
+    ]
+  }
+};
+
+// ── Build navigation menu ──
+function buildNav() {
+  const menu = document.getElementById('navMenu');
+  let html = '';
+
+  for (const bookKey of Object.keys(NAV)) {
+    const book = NAV[bookKey];
+    html += `<details class="nav-book">`;
+    html += `<summary>${book.label}</summary>`;
+    html += `<div class="nav-children">`;
+
+    for (const part of book.parts) {
+      const hasItems = part.items && part.items.length > 0;
+      const hasSubparts = part.subparts && part.subparts.length > 0;
+      if (!hasItems && !hasSubparts) continue;
+
+      html += `<div class="nav-part">${part.label}</div>`;
+
+      if (hasItems) {
+        for (const item of part.items) {
+          const page = `${book.prefix}/${part.dir}/${item.f}`;
+          html += `<a class="nav-link sub" href="#${page}" data-page="${page}">${item.t}</a>`;
+        }
+      }
+
+      if (hasSubparts) {
+        for (const subpart of part.subparts) {
+          html += `<div class="nav-subpart">${subpart.label}</div>`;
+          for (const item of subpart.items) {
+            const page = `${book.prefix}/${part.dir}/${subpart.dir}/${item.f}`;
+            html += `<a class="nav-link sub-sub" href="#${page}" data-page="${page}">${item.t}</a>`;
+          }
+        }
+      }
+    }
+
+    html += `</div></details>`;
+  }
+
+  menu.innerHTML = html;
+}
+
+// ── Theme ──
+function applyTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+  localStorage.setItem('fewk-theme', theme);
+  const icon = document.getElementById('themeIcon');
+  const label = document.getElementById('themeLabel');
+  if (theme === 'dark') {
+    icon.textContent = '☀️';
+    label.textContent = '라이트 모드';
+  } else {
+    icon.textContent = '🌙';
+    label.textContent = '다크 모드';
+  }
+}
+function toggleTheme() {
+  const cur = document.documentElement.getAttribute('data-theme') || 'light';
+  applyTheme(cur === 'light' ? 'dark' : 'light');
+}
+// Initial
+(function() {
+  const saved = localStorage.getItem('fewk-theme');
+  const prefers = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  applyTheme(saved || (prefers ? 'dark' : 'light'));
+})();
+
+// ── Markdown rendering ──
+function convertWikilinks(md) {
+  md = md.replace(/\[\[([^\]]*?)\]\]/g, function(m) { return m.replace(/\\\|/g, '|'); });
+  md = md.replace(/\[\[([^|\]]+)\|([^\]]+)\]\]/g, function(_, p, t) { return '[' + t.trim() + '](#' + p.trim() + ')'; });
+  md = md.replace(/\[\[([^\]]+)\]\]/g, function(_, p) { return '[' + p.trim() + '](#' + p.trim() + ')'; });
+  return md;
+}
+
+// 상대 경로 `.md` 링크를 해시 라우팅으로 변환
+function rewriteLinks(containerEl, currentPage) {
+  const curParts = currentPage.split('/');
+  curParts.pop(); // 현재 파일 제외, 폴더 남김
+  const curDir = curParts.join('/');
+
+  containerEl.querySelectorAll('a').forEach(function(a) {
+    const href = a.getAttribute('href');
+    if (!href) return;
+
+    // 외부 링크 유지
+    if (/^(https?:|mailto:)/.test(href)) {
+      a.setAttribute('target', '_blank');
+      a.setAttribute('rel', 'noopener');
+      return;
+    }
+
+    // 이미 해시 링크
+    if (href.startsWith('#')) {
+      a.addEventListener('click', function(e) {
+        e.preventDefault();
+        navigateTo(href.substring(1));
+      });
+      return;
+    }
+
+    // 상대 경로 .md 링크 → 해시 라우팅
+    if (href.endsWith('.md') || href.includes('.md#') || /\.\.\//.test(href)) {
+      // 원본 Core Rulebook·World Book 참조 링크는 무시 (로컬 파일 없음)
+      // 대신 코어룰북 내부 링크만 처리
+      let resolved = href.replace(/^\.\//, '');
+      // 부모 디렉토리 처리
+      let parts = curDir.split('/').filter(Boolean);
+      const target = resolved.split('/');
+      for (let i = 0; i < target.length; i++) {
+        if (target[i] === '..') parts.pop();
+        else if (target[i] === '.') continue;
+        else parts.push(target[i]);
+      }
+      // 외부 책 링크(Core Rulebook 외부) 처리
+      if (parts[0] !== 'corerulebook' && parts[0] !== 'worldbook') {
+        // World Book 외부 참조 등 — 해당 파일이 변환된 위치 추정
+        // 예: ../../[3판%20FEWK%20World%20Book]/... → worldbook/...
+        const full = parts.join('/');
+        const wbMatch = full.match(/\[3판\s*FEWK\s*World\s*Book\]\/(.+)/);
+        if (wbMatch) {
+          parts = ['worldbook'].concat(wbMatch[1].split('/'));
+        } else {
+          // 링크 변환 불가 — 클릭 비활성화
+          a.style.opacity = '0.6';
+          a.style.cursor = 'not-allowed';
+          a.addEventListener('click', function(e) { e.preventDefault(); });
+          return;
+        }
+      }
+      let page = parts.join('/').replace(/\.md$/, '');
+      // 폴더만 가리키면 README 추가
+      if (page.endsWith('/')) page += 'README';
+
+      a.setAttribute('href', '#' + page);
+      a.addEventListener('click', function(e) {
+        e.preventDefault();
+        navigateTo(page);
+      });
+    }
+  });
+}
+
+// ── Load and render a page ──
+async function loadPage(page) {
+  const content = document.getElementById('content');
+  const breadcrumb = document.getElementById('breadcrumb');
+  content.innerHTML = '<div class="loading">로딩 중</div>';
+
+  // 하드코딩된 최상위 페이지 (home, roadmap, license)
+  const TOP_PAGES = {
+    'home': 'content/home.md',
+    'roadmap': 'content/roadmap.md',
+    'license': 'content/license.md'
+  };
+
+  let url;
+  if (TOP_PAGES[page]) {
+    url = TOP_PAGES[page];
+  } else {
+    url = 'content/' + page + '.md';
+  }
+
+  // Breadcrumb
+  const parts = page.split('/');
+  let bc = '<a href="#home">FEWK</a>';
+  if (page === 'home') bc += ' / 홈';
+  else if (page === 'roadmap') bc += ' / 로드맵';
+  else if (page === 'license') bc += ' / 라이선스';
+  else if (parts[0] === 'corerulebook') bc += ' / 코어 룰북';
+  else if (parts[0] === 'worldbook') bc += ' / 월드 북';
+  if (parts.length > 1) bc += ' / ' + parts[parts.length - 1].replace(/^\d+_/, '').replace(/_/g, ' ');
+  breadcrumb.innerHTML = bc;
+
+  // Highlight active nav
+  document.querySelectorAll('.nav-link').forEach(function(el) {
+    el.classList.toggle('active', el.dataset.page === page);
+  });
+  document.querySelectorAll('.nav-book').forEach(function(det) {
+    const hasActive = det.querySelector('.nav-link.active');
+    if (hasActive) det.open = true;
+  });
+
+  try {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(res.status);
+    let md = await res.text();
+    md = convertWikilinks(md);
+    content.innerHTML = marked.parse(md);
+
+    // Wrap tables
+    content.querySelectorAll('table').forEach(function(t) {
+      const w = document.createElement('div');
+      w.className = 'table-wrap';
+      t.parentNode.insertBefore(w, t);
+      w.appendChild(t);
+    });
+
+    // Rewrite internal links
+    rewriteLinks(content, page);
+
+    window.scrollTo(0, 0);
+  } catch (e) {
+    content.innerHTML =
+      '<div class="not-found">' +
+      '<h2>페이지를 찾을 수 없습니다</h2>' +
+      '<p>' + page + '</p>' +
+      '<p><a href="#home">홈으로 돌아가기</a></p>' +
+      '</div>';
+  }
+
+  document.querySelector('.sidebar').classList.remove('open');
+}
+
+function navigateTo(page) { window.location.hash = page; }
+
+// ── Search (client-side simple text match) ──
+// 데이터 구조: 모든 NAV 항목 평탄화
+const SEARCH_INDEX = [];
+function buildSearchIndex() {
+  // 최상위
+  SEARCH_INDEX.push({ t: 'FEWK 소개·홈', p: 'home' });
+  SEARCH_INDEX.push({ t: '로드맵', p: 'roadmap' });
+  SEARCH_INDEX.push({ t: '라이선스 FWOL', p: 'license' });
+
+  for (const bookKey of Object.keys(NAV)) {
+    const book = NAV[bookKey];
+    for (const part of book.parts) {
+      SEARCH_INDEX.push({ t: book.label + ' ' + part.label, p: book.prefix + '/' + part.dir + '/README', part: part.label });
+      for (const item of part.items) {
+        SEARCH_INDEX.push({
+          t: item.t,
+          p: book.prefix + '/' + part.dir + '/' + item.f,
+          part: part.label,
+          book: book.label
+        });
+      }
+    }
+  }
+}
+buildSearchIndex();
+
+function runSearch(q) {
+  const results = document.getElementById('searchResults');
+  q = q.trim().toLowerCase();
+  if (!q) { results.classList.remove('open'); return; }
+
+  const matches = SEARCH_INDEX.filter(function(item) {
+    return item.t.toLowerCase().includes(q) || (item.part && item.part.toLowerCase().includes(q));
+  }).slice(0, 20);
+
+  if (matches.length === 0) {
+    results.innerHTML = '<div class="search-empty">결과 없음</div>';
+  } else {
+    results.innerHTML = matches.map(function(m) {
+      return '<div class="search-result" data-page="' + m.p + '">' +
+        m.t +
+        (m.book ? '<span class="path">' + m.book + ' · ' + m.part + '</span>' : '') +
+        '</div>';
+    }).join('');
+    results.querySelectorAll('.search-result').forEach(function(el) {
+      el.addEventListener('click', function() {
+        navigateTo(el.dataset.page);
+        document.getElementById('searchInput').value = '';
+        results.classList.remove('open');
+      });
+    });
+  }
+  results.classList.add('open');
+}
+
+// ── Comment Modal (mailto) ──
+function openCommentModal() {
+  document.getElementById('commentModal').classList.add('open');
+  setTimeout(function() { document.getElementById('commentText').focus(); }, 100);
+}
+function closeCommentModal() {
+  document.getElementById('commentModal').classList.remove('open');
+  document.getElementById('commentText').value = '';
+}
+function sendComment() {
+  const text = document.getElementById('commentText').value.trim();
+  if (!text) { alert('내용을 입력해주세요.'); return; }
+  const page = window.location.hash.substring(1) || 'home';
+  const subject = encodeURIComponent('[FEWK Book 피드백] ' + page);
+  const body = encodeURIComponent(
+    '[페이지] ' + page + '\n' +
+    '[URL] ' + window.location.href + '\n' +
+    '[시각] ' + new Date().toISOString() + '\n\n' +
+    '----- 의견 -----\n' +
+    text + '\n\n' +
+    '-- FEWK 룰북 샘플 피드백 --'
+  );
+  window.location.href = 'mailto:FEWK@meje.kr?subject=' + subject + '&body=' + body;
+  closeCommentModal();
+}
+
+// ── Hash routing ──
+window.addEventListener('hashchange', function() {
+  const page = window.location.hash.substring(1) || 'home';
+  loadPage(page);
+});
+
+// ── Init ──
+(function init() {
+  buildNav();
+
+  // Search listeners
+  const si = document.getElementById('searchInput');
+  si.addEventListener('input', function() { runSearch(this.value); });
+  si.addEventListener('focus', function() { if (this.value) runSearch(this.value); });
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.search-box')) {
+      document.getElementById('searchResults').classList.remove('open');
+    }
+  });
+
+  // Escape closes modal
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeCommentModal();
+  });
+
+  // Initial load
+  const page = window.location.hash.substring(1) || 'home';
+  loadPage(page);
+})();
+</script>
+
+</body>
+</html>

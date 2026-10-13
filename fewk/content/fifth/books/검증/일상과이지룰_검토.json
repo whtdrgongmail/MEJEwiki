@@ -1,0 +1,116 @@
+{
+  "id": "FEWK-DAILY-READER-01",
+  "date": "2026-10-05",
+  "source_ids": [
+    "SRC-249"
+  ],
+  "scope": "자본구의아침1개3180문자 전문/원전3주제·위키12항목 전문과 기존통근비결정 대조. 이지룰13,662문자의 생성/기능·판정/전투/회복/IO/커뮤/선택규칙을 보존하며 반복상세안내를 코어·시트참조로 정리. 다른문화16개/오지4개 미집계. 실제 독자/플레이 시험 아님",
+  "sources": [
+    {
+      "path": "_FEWK 설정자료용/업로드 자료/원본_Core 100여개 원고원본.txt",
+      "sha256": "6a1c18b7188cc1fc0f13dc38e9ac158bd081ab821276ecd265747bd7d21d53af",
+      "scope": "원본0015/0016/0063 각 주제 전문. 대형원고 전체 의미검토 아님",
+      "whole_document_reviewed": false
+    },
+    {
+      "path": "_FEWK 설정자료용/업로드 자료/__wiki onepage.txt",
+      "sha256": "dad0d6e63a5304bfead70966d69fca8e12e2b1ffd296eb525b466617b935bba8",
+      "scope": "위키 제로기준58/83/84/282/283/296/335/454/455/519/782/783 각 항목 전문. 힙스 분석 제안과 원래정의·노마드경계의 확장시설을 구분",
+      "whole_document_reviewed": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/01_여섯아침/04_자본구.md",
+      "sha256": "0a299c0e4ed679826a0e3ebecf2531b1ae61463681f96dac8711d0ec4fd65249",
+      "whole_document_read": true,
+      "whole_setting_verified": false,
+      "chars": 3180
+    }
+  ],
+  "original_raw_topics_whole_read_this_pass": [
+    "0015",
+    "0016",
+    "0063"
+  ],
+  "original_wiki_topic_indices_whole_read_this_pass": [
+    58,
+    83,
+    84,
+    282,
+    283,
+    296,
+    335,
+    454,
+    455,
+    519,
+    782,
+    783
+  ],
+  "previous_S07_commute_decision_retained": true,
+  "directly_related_novels_whole_read_this_pass": [],
+  "conflicts": [
+    "전체3180문자·원본0015/0016/0063·위키12항목 전체와 기존S07의 코핀통근 맥락 대조. 기업UI/주거지원/코핀근무/이탈생활 소재를 선택캠페인으로 보존. 자본구=전원사원/개인코핀/회사출생~장례·고정시간/KPI/식비/4+1경비·전원탈회사러너/고가뉴오더/유일DDOGG서식 정정.20일×1~2=20~40 계산과 전역평균 강제 구분. 통합인터랙션·몸/지급/PC감정 유지."
+  ],
+  "versions": {
+    "core": "v0.25",
+    "easy": "P v0.19",
+    "world": "v0.31",
+    "sheet": "v0.25",
+    "design": "v0.49"
+  },
+  "world_chapters": 74,
+  "sheet_sections": 30,
+  "new_mechanical_parameter_values": [],
+  "new_universal_stats": [],
+  "all_capital_residents_are_lifelong_one_company_employees": false,
+  "old_optional_company_life_setting_preserved": true,
+  "every_capital_worker_has_private_coffin": false,
+  "all_company_currency_is_worthless_outside": false,
+  "20_days_times_1_to_2_equals_20_to_40": true,
+  "20_day_calendar_is_universal": false,
+  "easy_original_chars": 13662,
+  "easy_current_chars": 7916,
+  "easy_previous_archive": "검증/이전/이지룰_P_v0.18_기록.json",
+  "easy_rules_changed": false,
+  "unified_interaction_placed_in_creation": true,
+  "reader_flow": [
+    "인물/기원·스킬과인터랙션",
+    "인물/몸·차원시트",
+    "단일백분율",
+    "일반플레이3종",
+    "커뮤/IC와OOC",
+    "스페셜4범주와타롯"
+  ],
+  "pending_culture_source_ids": [
+    "SRC-246",
+    "SRC-247",
+    "SRC-248",
+    "SRC-250",
+    "SRC-251",
+    "SRC-252",
+    "SRC-257",
+    "SRC-258",
+    "SRC-259",
+    "SRC-260",
+    "SRC-261",
+    "SRC-262",
+    "SRC-263",
+    "SRC-264",
+    "SRC-268",
+    "SRC-269"
+  ],
+  "whole_semantic_review_complete": false,
+  "unread_documents_counted": false,
+  "actual_participant_reading": false,
+  "actual_participant_playtest": false,
+  "actual_async_community_test": false,
+  "pending_baseline_content_preservation": {
+    "artifact": "3.1판_참고원고_기준선.json",
+    "baseline_matched_count": 65,
+    "whole_document_reads_this_step": 0,
+    "semantic_reviews_completed_this_step": 0,
+    "current_worktree_revalidation_pending": true,
+    "cached_text_not_matching_baseline": [
+      "SRC-354"
+    ]
+  }
+}

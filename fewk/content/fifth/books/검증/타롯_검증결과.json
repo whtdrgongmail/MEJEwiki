@@ -1,0 +1,576 @@
+{
+  "profile": "TAR-P-02",
+  "date": "2026-10-05",
+  "checks_passed": 62,
+  "checks": [
+    "deck 52: unique IDs",
+    "deck 52: four equal suits",
+    "deck 52: ranks continuous",
+    "deck 52: shared no replacement",
+    "deck 52: legal ordered choice",
+    "deck 52: duplicate submission rejected",
+    "deck 52: opponent card rejected",
+    "deck 52: extra cards rejected",
+    "deck 52: fewer cards rejected",
+    "deck 56: unique IDs",
+    "deck 56: four equal suits",
+    "deck 56: ranks continuous",
+    "deck 56: shared no replacement",
+    "deck 56: legal ordered choice",
+    "deck 56: duplicate submission rejected",
+    "deck 56: opponent card rejected",
+    "deck 56: extra cards rejected",
+    "deck 56: fewer cards rejected",
+    "52 range rejects King14",
+    "bonus T1=0",
+    "bonus T19=0",
+    "bonus T20=1",
+    "bonus T39=1",
+    "bonus T40=2",
+    "bonus T59=2",
+    "bonus T60=3",
+    "bonus T79=3",
+    "bonus T80=4",
+    "bonus T99=4",
+    "all 1..99 targets covered",
+    "each nonclamped +20 raises bonus one",
+    "help T70+20 => T90 b4, once",
+    "help ceiling T90+20 => T99 b4",
+    "invalid final T0 rejected",
+    "invalid final T100 rejected",
+    "invalid final T-1 rejected",
+    "printed example scores",
+    "printed example final tie and max15 seconds",
+    "tie no fourth exchange",
+    "one-zero is win",
+    "two-zero ends on second exchange",
+    "win effect once, unused third remains",
+    "both miss concept absent from cards: tied values hold",
+    "before first exchange interrupt has no actions resolved",
+    "interrupt after one tie no goal effect",
+    "completed exchange retained on interrupt",
+    "retreat after first tie skips remaining orders",
+    "retreat keeps already resolved loss",
+    "win cannot be retrospectively withdrawn",
+    "early-stop outcomes match independent full-comparison oracle",
+    "ordering can change full winner",
+    "36 sealed top-three ordering pairs",
+    "3600 sealed 5P3 choice pairs",
+    "larger replacement never harms against fixed order",
+    "two-exchange win consumes10 sec and2 mains",
+    "three-exchange max15 sec, support has three turns",
+    "no main attack in addition to submitted exchange",
+    "long residence clock at15 seconds one shared interval",
+    "no new persistent personality resources",
+    "no user test claim",
+    "not original PF reproduction",
+    "30 complete fixed-policy samples, 300000 duels"
+  ],
+  "independent_oracle_cases": 1764,
+  "exact_example_top_three_orders": {
+    "A": 24,
+    "B": 12
+  },
+  "exact_example_all_three_choices": {
+    "B": 1932,
+    "A": 1668
+  },
+  "fixed_opponent_monotonic_replacements": 10800,
+  "simulation_seed": 20261005,
+  "whole_duel_simulations": [
+    {
+      "deck": 56,
+      "T_A": 50,
+      "T_B": 50,
+      "policies": [
+        "random_three",
+        "random_three"
+      ],
+      "duels": 10000,
+      "counts": {
+        "B": 4569,
+        "A": 4700,
+        "hold": 731
+      },
+      "mean_exchanges": 2.5549
+    },
+    {
+      "deck": 56,
+      "T_A": 50,
+      "T_B": 50,
+      "policies": [
+        "top_desc",
+        "top_desc"
+      ],
+      "duels": 10000,
+      "counts": {
+        "hold": 726,
+        "A": 4671,
+        "B": 4603
+      },
+      "mean_exchanges": 2.3965
+    },
+    {
+      "deck": 56,
+      "T_A": 50,
+      "T_B": 50,
+      "policies": [
+        "top_shuffle",
+        "top_shuffle"
+      ],
+      "duels": 10000,
+      "counts": {
+        "hold": 854,
+        "A": 4623,
+        "B": 4523
+      },
+      "mean_exchanges": 2.5225
+    },
+    {
+      "deck": 56,
+      "T_A": 50,
+      "T_B": 50,
+      "policies": [
+        "top_middle_first",
+        "top_desc"
+      ],
+      "duels": 10000,
+      "counts": {
+        "A": 4649,
+        "B": 4566,
+        "hold": 785
+      },
+      "mean_exchanges": 2.6238
+    },
+    {
+      "deck": 56,
+      "T_A": 50,
+      "T_B": 50,
+      "policies": [
+        "top_asc",
+        "top_desc"
+      ],
+      "duels": 10000,
+      "counts": {
+        "B": 4552,
+        "A": 4600,
+        "hold": 848
+      },
+      "mean_exchanges": 2.4746
+    },
+    {
+      "deck": 56,
+      "T_A": 70,
+      "T_B": 50,
+      "policies": [
+        "random_three",
+        "random_three"
+      ],
+      "duels": 10000,
+      "counts": {
+        "A": 5505,
+        "B": 3614,
+        "hold": 881
+      },
+      "mean_exchanges": 2.5594
+    },
+    {
+      "deck": 56,
+      "T_A": 70,
+      "T_B": 50,
+      "policies": [
+        "top_desc",
+        "top_desc"
+      ],
+      "duels": 10000,
+      "counts": {
+        "A": 5866,
+        "hold": 835,
+        "B": 3299
+      },
+      "mean_exchanges": 2.3882
+    },
+    {
+      "deck": 56,
+      "T_A": 70,
+      "T_B": 50,
+      "policies": [
+        "top_shuffle",
+        "top_shuffle"
+      ],
+      "duels": 10000,
+      "counts": {
+        "hold": 972,
+        "A": 5667,
+        "B": 3361
+      },
+      "mean_exchanges": 2.5257
+    },
+    {
+      "deck": 56,
+      "T_A": 70,
+      "T_B": 50,
+      "policies": [
+        "top_middle_first",
+        "top_desc"
+      ],
+      "duels": 10000,
+      "counts": {
+        "A": 5648,
+        "B": 3412,
+        "hold": 940
+      },
+      "mean_exchanges": 2.6261
+    },
+    {
+      "deck": 56,
+      "T_A": 70,
+      "T_B": 50,
+      "policies": [
+        "top_asc",
+        "top_desc"
+      ],
+      "duels": 10000,
+      "counts": {
+        "hold": 1064,
+        "A": 5470,
+        "B": 3466
+      },
+      "mean_exchanges": 2.554
+    },
+    {
+      "deck": 56,
+      "T_A": 90,
+      "T_B": 50,
+      "policies": [
+        "random_three",
+        "random_three"
+      ],
+      "duels": 10000,
+      "counts": {
+        "B": 2811,
+        "A": 6403,
+        "hold": 786
+      },
+      "mean_exchanges": 2.5385
+    },
+    {
+      "deck": 56,
+      "T_A": 90,
+      "T_B": 50,
+      "policies": [
+        "top_desc",
+        "top_desc"
+      ],
+      "duels": 10000,
+      "counts": {
+        "A": 7119,
+        "B": 2213,
+        "hold": 668
+      },
+      "mean_exchanges": 2.3169
+    },
+    {
+      "deck": 56,
+      "T_A": 90,
+      "T_B": 50,
+      "policies": [
+        "top_shuffle",
+        "top_shuffle"
+      ],
+      "duels": 10000,
+      "counts": {
+        "A": 6866,
+        "hold": 792,
+        "B": 2342
+      },
+      "mean_exchanges": 2.4746
+    },
+    {
+      "deck": 56,
+      "T_A": 90,
+      "T_B": 50,
+      "policies": [
+        "top_middle_first",
+        "top_desc"
+      ],
+      "duels": 10000,
+      "counts": {
+        "A": 6801,
+        "hold": 836,
+        "B": 2363
+      },
+      "mean_exchanges": 2.5514
+    },
+    {
+      "deck": 56,
+      "T_A": 90,
+      "T_B": 50,
+      "policies": [
+        "top_asc",
+        "top_desc"
+      ],
+      "duels": 10000,
+      "counts": {
+        "A": 6562,
+        "hold": 943,
+        "B": 2495
+      },
+      "mean_exchanges": 2.5915
+    },
+    {
+      "deck": 52,
+      "T_A": 50,
+      "T_B": 50,
+      "policies": [
+        "random_three",
+        "random_three"
+      ],
+      "duels": 10000,
+      "counts": {
+        "B": 4669,
+        "A": 4611,
+        "hold": 720
+      },
+      "mean_exchanges": 2.5508
+    },
+    {
+      "deck": 52,
+      "T_A": 50,
+      "T_B": 50,
+      "policies": [
+        "top_desc",
+        "top_desc"
+      ],
+      "duels": 10000,
+      "counts": {
+        "A": 4572,
+        "B": 4657,
+        "hold": 771
+      },
+      "mean_exchanges": 2.401
+    },
+    {
+      "deck": 52,
+      "T_A": 50,
+      "T_B": 50,
+      "policies": [
+        "top_shuffle",
+        "top_shuffle"
+      ],
+      "duels": 10000,
+      "counts": {
+        "A": 4545,
+        "B": 4568,
+        "hold": 887
+      },
+      "mean_exchanges": 2.5301
+    },
+    {
+      "deck": 52,
+      "T_A": 50,
+      "T_B": 50,
+      "policies": [
+        "top_middle_first",
+        "top_desc"
+      ],
+      "duels": 10000,
+      "counts": {
+        "A": 4522,
+        "B": 4639,
+        "hold": 839
+      },
+      "mean_exchanges": 2.6205
+    },
+    {
+      "deck": 52,
+      "T_A": 50,
+      "T_B": 50,
+      "policies": [
+        "top_asc",
+        "top_desc"
+      ],
+      "duels": 10000,
+      "counts": {
+        "A": 4526,
+        "B": 4621,
+        "hold": 853
+      },
+      "mean_exchanges": 2.4705
+    },
+    {
+      "deck": 52,
+      "T_A": 70,
+      "T_B": 50,
+      "policies": [
+        "random_three",
+        "random_three"
+      ],
+      "duels": 10000,
+      "counts": {
+        "B": 3566,
+        "hold": 909,
+        "A": 5525
+      },
+      "mean_exchanges": 2.5619
+    },
+    {
+      "deck": 52,
+      "T_A": 70,
+      "T_B": 50,
+      "policies": [
+        "top_desc",
+        "top_desc"
+      ],
+      "duels": 10000,
+      "counts": {
+        "A": 5851,
+        "hold": 858,
+        "B": 3291
+      },
+      "mean_exchanges": 2.3878
+    },
+    {
+      "deck": 52,
+      "T_A": 70,
+      "T_B": 50,
+      "policies": [
+        "top_shuffle",
+        "top_shuffle"
+      ],
+      "duels": 10000,
+      "counts": {
+        "A": 5663,
+        "hold": 1012,
+        "B": 3325
+      },
+      "mean_exchanges": 2.5225
+    },
+    {
+      "deck": 52,
+      "T_A": 70,
+      "T_B": 50,
+      "policies": [
+        "top_middle_first",
+        "top_desc"
+      ],
+      "duels": 10000,
+      "counts": {
+        "A": 5603,
+        "hold": 1017,
+        "B": 3380
+      },
+      "mean_exchanges": 2.6227
+    },
+    {
+      "deck": 52,
+      "T_A": 70,
+      "T_B": 50,
+      "policies": [
+        "top_asc",
+        "top_desc"
+      ],
+      "duels": 10000,
+      "counts": {
+        "A": 5406,
+        "hold": 1166,
+        "B": 3428
+      },
+      "mean_exchanges": 2.5565
+    },
+    {
+      "deck": 52,
+      "T_A": 90,
+      "T_B": 50,
+      "policies": [
+        "random_three",
+        "random_three"
+      ],
+      "duels": 10000,
+      "counts": {
+        "A": 6569,
+        "hold": 755,
+        "B": 2676
+      },
+      "mean_exchanges": 2.5278
+    },
+    {
+      "deck": 52,
+      "T_A": 90,
+      "T_B": 50,
+      "policies": [
+        "top_desc",
+        "top_desc"
+      ],
+      "duels": 10000,
+      "counts": {
+        "A": 7227,
+        "B": 2175,
+        "hold": 598
+      },
+      "mean_exchanges": 2.3127
+    },
+    {
+      "deck": 52,
+      "T_A": 90,
+      "T_B": 50,
+      "policies": [
+        "top_shuffle",
+        "top_shuffle"
+      ],
+      "duels": 10000,
+      "counts": {
+        "A": 6886,
+        "B": 2259,
+        "hold": 855
+      },
+      "mean_exchanges": 2.479
+    },
+    {
+      "deck": 52,
+      "T_A": 90,
+      "T_B": 50,
+      "policies": [
+        "top_middle_first",
+        "top_desc"
+      ],
+      "duels": 10000,
+      "counts": {
+        "A": 6888,
+        "B": 2263,
+        "hold": 849
+      },
+      "mean_exchanges": 2.5407
+    },
+    {
+      "deck": 52,
+      "T_A": 90,
+      "T_B": 50,
+      "policies": [
+        "top_asc",
+        "top_desc"
+      ],
+      "duels": 10000,
+      "counts": {
+        "A": 6613,
+        "B": 2395,
+        "hold": 992
+      },
+      "mean_exchanges": 2.5921
+    }
+  ],
+  "total_simulated_duels": 300000,
+  "claims": {
+    "actual_participant_playtest": false,
+    "optimal_strategy_proven": false,
+    "adaptive_sequential_strategy_tested": false,
+    "same_win_probability_as_percentile": false,
+    "paradise_fleet_original_rules_compared": false,
+    "enough_card_selection_depth_for_release": false
+  },
+  "artifacts_sha256": {
+    "02_타롯_해킹과_지능전_초안.md": "1613f14e485eb4f075cfb1805266afe05cf8db16fa5f11f165b8850ca9ad41e4",
+    "검증/타롯_프로필.json": "3ad67f7e112174f73c4fb84613ff7a3c0008934458873544134c298cd0ff1e65",
+    "검증/타롯_검증.py": "7c9e9fde23da51e93a5256fbb148a5bbeabb9b18a44fb46966833aabf08fc01b"
+  }
+}

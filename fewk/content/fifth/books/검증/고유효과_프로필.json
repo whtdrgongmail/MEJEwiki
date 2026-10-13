@@ -1,0 +1,279 @@
+{
+  "id": "FEWK-INTERACTIONS-01",
+  "date": "2026-10-05",
+  "status": "new_declared_test_rules_not_canon_numeric_constants",
+  "engine": "P-FEWK-0.2",
+  "intro": "P-INTRO-01",
+  "new_universal_stats": [],
+  "mandatory_power_skill_function_slots": false,
+  "actual_participant_playtest": false,
+  "all_ability_and_exposure_specs_complete": false,
+  "unified_action_term": "인터랙션",
+  "matting_shining_use": "character_creation_origin_not_runtime_skill_or_track",
+  "rhythm_filler_default_role": "NPC profession; allowed PC maps to observation interaction",
+  "sensing": {
+    "id": "BIO-RHYTHM-TEST",
+    "source": "Core0037",
+    "skill": "관찰",
+    "target": 70,
+    "action_rounds": 1,
+    "round_seconds": 5,
+    "warning_seconds": 300,
+    "direction_degrees": 60,
+    "minimum_report_baseline_m": 20,
+    "requires_awakened_person": true,
+    "requires_supporting_body": true,
+    "gives_exact_coordinates": false,
+    "failure_confirms_safe": false
+  },
+  "repair": {
+    "id": "SINDAN-LINK-TEST",
+    "source": "Core0023/0067",
+    "skill": "공학",
+    "target": 70,
+    "work_seconds": 300,
+    "round_seconds": 5,
+    "part_cost_at_start": 1,
+    "learned_connection_skill_required": true,
+    "new_stone_carving_allowed": false,
+    "supply_is_separate": true
+  },
+  "storage": {
+    "id": "SIN-STORAGE-TEST",
+    "source": "Core0023/0067",
+    "capacity": 2,
+    "initial_body_amount": 1,
+    "initial_supply": 2,
+    "transfer_seconds": 30,
+    "round_seconds": 5,
+    "transfer_amount": 1,
+    "output_seconds": 5,
+    "output_amount": 1,
+    "lamp_seconds_per_output": 1800,
+    "lamp_capacity_seconds": 3600,
+    "follows": "body",
+    "heals_hp_or_ego": false
+  },
+  "marking": {
+    "id": "FEWK-MARK-01",
+    "date": "2026-10-06",
+    "status": "NEW 원전 모티프를 쓰는 네 도안의 시험 규격",
+    "source_topics": [
+      "0065",
+      "0068",
+      "0074"
+    ],
+    "source_evidence": "이전설계_통합검토.json / marking_source_preparation",
+    "all_original_marking_functions_complete": false,
+    "all_markings_are_percentage_bonuses": false,
+    "requires_learned_recipe_and_compatible_medium": true,
+    "formation_tracks_added": false,
+    "additional_person_stats": [],
+    "reference_clock": "이 시험 캠페인의 공통IC초;양쪽차원1:1;OOC대기0",
+    "preparation": {
+      "skill": "공학",
+      "seconds": 300,
+      "round_seconds": 5,
+      "kit_cost_at_job_start": 1,
+      "safe_prepared_work_requires_roll": false,
+      "uncertain_work_target": 50,
+      "paused_job_retains_progress": true,
+      "job_id_commits_once": true,
+      "lifetime_seconds_after_completion": 600
+    },
+    "activation": {
+      "applies_to": [
+        "travel",
+        "summon",
+        "seal"
+      ],
+      "main_actions": 1,
+      "seconds": 5,
+      "known_validity_required_through_completion": true,
+      "invalid_before_start_consumes": 0,
+      "spent_after_valid_start_even_if_blocked": true,
+      "body_damage_ego_or_dropout_automatic": false
+    },
+    "boost": {
+      "id": "MARK-BOOST-01",
+      "medium": "안정화흑공 도안/시술받은 몸",
+      "skill": "운동",
+      "situation_points": 20,
+      "stacks_with_advantage": false,
+      "base_skill_changes": false,
+      "follows_body_id": true,
+      "stored_body_active": false,
+      "copy_to_another_body": false
+    },
+    "travel": {
+      "id": "MARK-IO-01",
+      "medium": "오주사 이동도안/같은 물질계 호환 몸",
+      "charges": 1,
+      "origin": "MARK-A",
+      "destination": "MARK-B",
+      "io_family": "IO-MARK-TEST",
+      "movement_type": "same_body_transfer",
+      "target_new_body": false,
+      "requires_route_permission_and_arrival_support": true,
+      "prohibited_reentry_blocks": true,
+      "HP_inventory_and_person_preserved": true,
+      "prepared_return": "MARK-B의별도지원귀환로;도안두번째무료충전아님"
+    },
+    "summon": {
+      "id": "MARK-CALL-01",
+      "medium": "오주사 황지",
+      "charges": 1,
+      "skill_if_actual_obstacle": "공학",
+      "target_body": "B-S1",
+      "same_realm_only": true,
+      "max_range_m": 20,
+      "requires_sight_and_empty_supported_destination": true,
+      "target_actual_acceptance_required": true,
+      "target_reactions": 1,
+      "target_main_actions_reset": false,
+      "makes_copy": false
+    },
+    "seal": {
+      "id": "MARK-SEAL-01",
+      "medium": "오주사 황지",
+      "charges": 1,
+      "target_body": "B-S1",
+      "target_kind": "이 시험의도안에 반응하도록 준비한 신수 S-M1",
+      "caster_skill": "격투",
+      "caster_target": 50,
+      "contact_range_m": 1,
+      "ordinary_melee_defense": true,
+      "target_defense": 50,
+      "duration_seconds": 60,
+      "end_no_later_than_mark_expiry": true,
+      "max_targets": 1,
+      "boundary_radius_m": 1,
+      "blocks_movement_outside_only": true,
+      "blocks_projectile_lines": false,
+      "damage_on_success": 0,
+      "glyph_HP": 1,
+      "glyph_armor": 0,
+      "escape_main_actions": 1,
+      "escape_seconds": 5,
+      "escape_skill_choices": [
+        "운동",
+        "격투"
+      ],
+      "glyph_escape_resistance": 50,
+      "escape_comparison_consumes_caster_reaction": false,
+      "body_change_affects_person_or_other_body": false,
+      "leave_realm_or_destroy_target_ends": true,
+      "overlapping_seals_extend": false
+    },
+    "story_scene": {
+      "id": "MARK-NIGHT-01",
+      "artist": "P-M1",
+      "runner": "P-M2",
+      "local_shinsu": "S-M1",
+      "source_author_characters_are_not_new_NPCs": true,
+      "actual_participant_playtest": false
+    }
+  },
+  "body_compatibility_case": {
+    "status": "NEW approved starting character and local bodies; not universal IO capacity or formation reward",
+    "scope": "세 기존 기능의 사용 조건과 독립 저장 출력만; 진입/구성·정비 작업 스케줄러·감지 물리 구현 아님",
+    "person_id": "P-U1",
+    "io": "IO-COF-TEST",
+    "active_body": "B-U1",
+    "now": 0,
+    "return_route_online": true,
+    "person": {
+      "skills": {
+        "격투": 50,
+        "사격": 50,
+        "운동": 10,
+        "은밀": 10,
+        "관찰": 70,
+        "조사": 10,
+        "해킹": 30,
+        "공학": 70,
+        "의학": 30,
+        "교섭": 30,
+        "생활": 50,
+        "지식": 30
+      },
+      "learned": [
+        "BIO-RHYTHM-TEST",
+        "SINDAN-LINK-TEST",
+        "SIN-STORAGE-TEST"
+      ],
+      "awakened_sensing_allowed": true,
+      "formation_history": "샤이닝으로 감각을 얻은 신규 인물의 생성 이력; 같은 이력의 전원 지급 규격 아님",
+      "main": 1
+    },
+    "bodies": {
+      "B-U1": {
+        "person_id": "P-U1",
+        "realm": "TEST-COF",
+        "hp": 5,
+        "supported": [
+          "BIO-RHYTHM-TEST",
+          "SINDAN-LINK-TEST",
+          "SIN-STORAGE-TEST"
+        ],
+        "stored_energy": 1,
+        "storage_capacity": 2,
+        "ammo": 3,
+        "shield": 0,
+        "treated_since_full_recovery": true
+      },
+      "B-U2": {
+        "person_id": "P-U1",
+        "realm": "TEST-COF-B",
+        "hp": 8,
+        "supported": [
+          "SINDAN-LINK-TEST"
+        ],
+        "stored_energy": 0,
+        "storage_capacity": 0,
+        "ammo": 0,
+        "shield": 1,
+        "treated_since_full_recovery": false
+      }
+    },
+    "realms": {
+      "TEST-COF": {
+        "supported": [
+          "BIO-RHYTHM-TEST",
+          "SINDAN-LINK-TEST",
+          "SIN-STORAGE-TEST"
+        ]
+      },
+      "TEST-COF-B": {
+        "supported": [
+          "BIO-RHYTHM-TEST",
+          "SINDAN-LINK-TEST",
+          "SIN-STORAGE-TEST"
+        ]
+      }
+    },
+    "tools": {
+      "KIT-U1": {
+        "held_by": "B-U1",
+        "realm": "TEST-COF",
+        "connection_tools": true,
+        "parts": 1,
+        "accessible": true
+      }
+    },
+    "output_target": {
+      "id": "LAMP-U1",
+      "realm": "TEST-COF",
+      "seconds": 0,
+      "capacity_seconds": 3600,
+      "compatible": true,
+      "contact_body": "B-U1"
+    },
+    "body_entry_and_storage_prepared_separately": true,
+    "same_io_grants_all_features": false,
+    "return_route_is_output_power_source": false,
+    "legal_restrictions_are_physical_disable_switch": false,
+    "all_formation_results_or_implants_covered": false,
+    "actual_participant_playtest": false
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "format": "FEWK-ONLINE-SNAPSHOT-01",
+  "rules": "P-FEWK-0.2",
+  "status": "NEW입문인물/부분정비의예시·실제참가자기록아님",
+  "state_version": 24,
+  "person": {
+    "id": "P-ON-01",
+    "name": "가온(신규캠페인인물)",
+    "skills": {
+      "격투": 10,
+      "사격": 10,
+      "운동": 30,
+      "은밀": 30,
+      "관찰": 50,
+      "조사": 50,
+      "해킹": 10,
+      "공학": 30,
+      "의학": 30,
+      "교섭": 70,
+      "생활": 70,
+      "지식": 50
+    },
+    "ego": 6,
+    "ego_max": 10,
+    "realm_bans": [
+      "REMOTE-OLD"
+    ],
+    "active_body": "B1",
+    "original_body": "B0"
+  },
+  "bodies": [
+    {
+      "id": "B0",
+      "realm": "물질계",
+      "HP": 9,
+      "HP_max": 12,
+      "ammo": 0,
+      "shield_charge": 0,
+      "armor": 0,
+      "stored": false
+    },
+    {
+      "id": "B1",
+      "realm": "WORKSHOP-01(신규캠페인)",
+      "HP": 5,
+      "HP_max": 12,
+      "ammo": 4,
+      "shield_charge": 1,
+      "armor": 1,
+      "stored": false
+    }
+  ],
+  "interactions": [
+    {
+      "name": "공방 정비",
+      "skill": "공학",
+      "origin": "학습한 기술",
+      "body": "B1",
+      "conditions": [
+        "실제공구/접근/동의",
+        "PART-01",
+        "지원IO"
+      ],
+      "effect": "해당조립물기능수리",
+      "time_seconds": 300
+    }
+  ],
+  "scene": {
+    "id": "ONLINE-WORKSHOP-01",
+    "IC_seconds": 120,
+    "parts": [],
+    "spent": [
+      "PART-01"
+    ],
+    "job": {
+      "seconds": 120,
+      "running": true
+    },
+    "contacts": [
+      "N-OWNER",
+      "N-NEIGHBOUR"
+    ],
+    "contacts_registration_is_not_IC_message": true,
+    "completed_events": [
+      "S",
+      "A",
+      "B",
+      "P"
+    ],
+    "pending_events": [
+      "NEXT-MEAL-PROPOSAL"
+    ],
+    "held": true,
+    "participants": "새캠페인예시의담당범위",
+    "public_reader_equals_PC_knowledge": false
+  },
+  "IO": {
+    "id": "IO-ON-01",
+    "status": "NEW공방캠페인의기설정IO기록·세계공통규격아님",
+    "pioneer_type": "신성인공계IO",
+    "original_body": "B0",
+    "local_body": "B1",
+    "entry_state": "현지몸으로기존진입완료",
+    "exit_storage": "사용한몸/도구의실제상태와해당IO보관규약을참조"
+  },
+  "backup_note": "현재24를보관한것이며과거기록으로현재손상/소모를복구하는기능아님"
+}

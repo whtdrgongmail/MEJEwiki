@@ -1,0 +1,51 @@
+{
+  "id": "FEWK-SCENE-01",
+  "date": "2026-10-05",
+  "engine": "P-FEWK-0.2",
+  "status": "new_worksheet_protocol_examples_not_a_VTT_or_full_community_platform",
+  "new_universal_stats": [],
+  "default_luck_DSR_trauma_and_four_tracks": false,
+  "pending_submission_is_IC_action_start": false,
+  "action_start_consumes_declared_resources": true,
+  "OOC_wait_advances_IC_seconds": false,
+  "session_boundary_resets_resources": false,
+  "feelings_are_owner_authored": true,
+  "duplicate_event_application_allowed": false,
+  "stale_state_commit_allowed": false,
+  "correction_creates_new_monotonic_version": true,
+  "correction_scope_is_explicit": true,
+  "dependent_events_must_be_included_in_correction": true,
+  "unrelated_events_survive_correction": true,
+  "faction_knowledge_needs_source_and_actual_transmission": true,
+  "dropout_clears_faction_knowledge": false,
+  "new_body_clears_faction_knowledge": false,
+  "work_example": {
+    "start_version": 20,
+    "initial_parts": [
+      "PART-01"
+    ],
+    "total_seconds": 300,
+    "first_seconds": 120,
+    "remaining_seconds": 180,
+    "start_event": "WORK-START-01",
+    "progress_event": "WORK-PROGRESS-01",
+    "completion_event": "WORK-COMPLETE-01"
+  },
+  "evidence_example": {
+    "event": "DELIVERY-01",
+    "guard_source": "CAM-01",
+    "permit_source": "RECEIPT-01",
+    "guard_initial_knows": [
+      "local_appearance",
+      "box_id"
+    ],
+    "workshop_initial_knows": [
+      "issuer",
+      "export_permission"
+    ],
+    "physical_identity_known": false,
+    "other_dimension_location_known": false
+  },
+  "actual_participant_playtest": false,
+  "actual_async_community_test": false
+}

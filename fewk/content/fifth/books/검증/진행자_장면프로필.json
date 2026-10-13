@@ -1,0 +1,60 @@
+{
+  "id": "FEWK-GM-01",
+  "date": "2026-10-05",
+  "engine": "P-FEWK-0.2",
+  "status": "new_approved_workshop_example_not_full_campaign_or_NPC_catalogue",
+  "new_universal_stats": [],
+  "mandatory_five_stage_climax": false,
+  "OOC_wait_or_session_count_advances_IC_clock": false,
+  "long_description_grants_new_actions_or_shields": false,
+  "private_operating_note_is_PC_evidence": false,
+  "early_legitimate_information_acquisition_is_kept": true,
+  "suspension_forces_NPC_or_Dropout": false,
+  "followup": {
+    "event": "FOLLOWUP-01",
+    "source": "CAM-01",
+    "deadline_IC_seconds": 300,
+    "first_elapsed_seconds": 120,
+    "remaining_seconds": 180,
+    "sender_person": "P-G1",
+    "sender_body": "B-G1",
+    "main_actions": 1,
+    "message_seconds": 5,
+    "requires_unconfirmed_permission": true,
+    "requires_actual_local_sender_and_route": true,
+    "effect": "request_confirmation_only",
+    "automatic_HP_Ego_capture_or_Dropout": false,
+    "same_event_sent_twice": false
+  },
+  "knowledge": {
+    "guard_initial": [
+      "local_appearance",
+      "box_id"
+    ],
+    "workshop_receipt": [
+      "issuer",
+      "export_permission"
+    ],
+    "physical_identity_inferred_from_video": false,
+    "all_other_factions_know_after_one_PC_receives": false,
+    "public_reader_log_equals_IC_transmission": false
+  },
+  "clue_paths": {
+    "required_goal": "correct_export_suspicion",
+    "base_paths": [
+      "approved_workshop_receipt",
+      "actual_contact_with_issuer"
+    ],
+    "optional_risky_path": "locked_extra_terminal",
+    "optional_path_failure_removes_base_clues": false,
+    "permission_evidence": [
+      "RECEIPT-01",
+      "ISSUER-CONFIRM-01"
+    ],
+    "confirmed_permission_clears_video_and_other_issues": false
+  },
+  "all_GM_online_and_information_topics_verified": false,
+  "full_encounter_balance_verified": false,
+  "actual_participant_playtest": false,
+  "actual_async_community_test": false
+}

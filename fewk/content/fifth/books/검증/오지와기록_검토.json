@@ -1,0 +1,205 @@
+{
+  "id": "FEWK-FRONTIER-RECORDS-01",
+  "date": "2026-10-05",
+  "source_ids": [
+    "SRC-304",
+    "SRC-305",
+    "SRC-306",
+    "SRC-307",
+    "SRC-308",
+    "SRC-309",
+    "SRC-314",
+    "SRC-315",
+    "SRC-316",
+    "SRC-319",
+    "SRC-320"
+  ],
+  "scope": "벙커/버그/재민·언카날·선택오지2개 제안/축적/기록자/안내11개 전문과 원전7주제·위키15항목 대조. 구판원전없는제안을 선택소재로 보존; 미출력4개/관련소설전체·실제참가자 완료아님",
+  "sources": [
+    {
+      "path": "_FEWK 설정자료용/업로드 자료/원본_Core 100여개 원고원본.txt",
+      "sha256": "6a1c18b7188cc1fc0f13dc38e9ac158bd081ab821276ecd265747bd7d21d53af",
+      "scope": "원본0020/0071/0078/0087/0095/0103/0105 각 주제 전문.0017 추가읽기는 이번이관판단근거로 합산안함. 대형파일전권/중복재수록 검토완료 아님",
+      "whole_document_reviewed": false
+    },
+    {
+      "path": "_FEWK 설정자료용/업로드 자료/__wiki onepage.txt",
+      "sha256": "dad0d6e63a5304bfead70966d69fca8e12e2b1ffd296eb525b466617b935bba8",
+      "scope": "위키 제로기준 인덱스25/100/239/240/423/433/434/481/482/533/606/652/732/733/1066 각 항목 전문. 협업작품회고와 초기정의·후속위키를 구분",
+      "whole_document_reviewed": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/03_벙커계와_자연계/01_벙커계.md",
+      "sha256": "474f8e622d7fc0e17100fabbc00799779757fd578389c737c3bde48d8a32bcd5",
+      "whole_document_read": true,
+      "whole_setting_verified": false,
+      "chars": 3209
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/03_벙커계와_자연계/02_버그계.md",
+      "sha256": "228bd6f9b3c2880e66fca570d70d21c24b541e1cc5776dc5a1ac073312d0bb13",
+      "whole_document_read": true,
+      "whole_setting_verified": false,
+      "chars": 2041
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/03_벙커계와_자연계/03_재민월드와_언카날_밸리.md",
+      "sha256": "d6369a9d55a3716804fc295aa7a144676ac6c8d684976c1dfe34f8c67b25075f",
+      "whole_document_read": true,
+      "whole_setting_verified": false,
+      "chars": 3181
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/03_벙커계와_자연계/README.md",
+      "sha256": "b1f19a74fbb3e6650d1dbcab59b2c8b42b4ae85e8ddfd0c425f46224e7eb3b20",
+      "whole_document_read": true,
+      "whole_setting_verified": false,
+      "chars": 721
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/04_오지_차원계/01_침묵의_바다.md",
+      "sha256": "da9fffe602bfcc9d2d6215f7a4478297d6f94d4d6a5ec0ba55b33449495ee693",
+      "whole_document_read": true,
+      "whole_setting_verified": false,
+      "chars": 2044
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/04_오지_차원계/02_뒤집힌_숲.md",
+      "sha256": "36d8bad0a7b805d48690deff06e0b2d233ae13d26fc80efd3718b125ab0bc40c",
+      "whole_document_read": true,
+      "whole_setting_verified": false,
+      "chars": 1523
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/05_축적계와_기록자/01_네거티브_플레인과_축적계.md",
+      "sha256": "37ca2415df017646339e3db6564ac1f83a384efafd5d38bab4a6f509bcc31ade",
+      "whole_document_read": true,
+      "whole_setting_verified": false,
+      "chars": 2762
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/05_축적계와_기록자/02_기록자.md",
+      "sha256": "0d1fe007ebaa46c36efb450ec2710868a324b8584460e0c520b423792d5017dc",
+      "whole_document_read": true,
+      "whole_setting_verified": false,
+      "chars": 3222
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/05_축적계와_기록자/README.md",
+      "sha256": "1fd63cdb3df3488e1383a38238f2663d21b5254061f56d1aa970878b6dc1f473",
+      "whole_document_read": true,
+      "whole_setting_verified": false,
+      "chars": 674
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/06_차원계의_위험/README.md",
+      "sha256": "695ece2967af33034ebea3979132023d0144c127ea4eb4e05214f1092ea217ea",
+      "whole_document_read": true,
+      "whole_setting_verified": false,
+      "chars": 688
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/README.md",
+      "sha256": "71c421a31491561715916cfda2e8399c5fb093d3b5ffae528eb75915c038c728",
+      "whole_document_read": true,
+      "whole_setting_verified": false,
+      "chars": 2456
+    }
+  ],
+  "original_raw_topics_whole_read_this_pass": [
+    "0020",
+    "0071",
+    "0078",
+    "0087",
+    "0095",
+    "0103",
+    "0105"
+  ],
+  "additional_original_raw_topics_whole_read_not_used": [
+    "0017"
+  ],
+  "original_wiki_topic_indices_whole_read_this_pass": [
+    25,
+    100,
+    239,
+    240,
+    423,
+    433,
+    434,
+    481,
+    482,
+    533,
+    606,
+    652,
+    732,
+    733,
+    1066
+  ],
+  "conflicts": [
+    "0020/위키240의 비원 벙커돗자리·최대번호5000/같은계와 실제 폐쇄출입/예외문·379학생/토리/레일터널 유지. 정확5000개·모든지하지점쉬운통행·이화시설/가격/군사/노출등급 일괄보장 불승계. 미래제조는 위키 후속서술이며 원본0020 제조연대확정 아님.",
+    "위키239의 홀로국 개척·곤충정글·만월고무/엑토플라즘원료·벌목장/개척지 유지. 위키434의 흑공정제부산물과 제조공정 연결은 미확정으로 기록.0.8G35~45℃·고정기지/회차/무장/생존별점은 공통원전 수치로 안이관.",
+    "0095/위키533·652·1066과0087/0103/0105를 대조. 재민은 무산자/무료개인계·여러회사 의지30중 신성킴/첫네이티브·금지산맥/맥도웰매입주장·추방뒤붕괴. 코핀매각/고객센터는 추정. 부유한제민·30모두킴/진행중안정리조트·모든자녀무료서비스 정정. 언카날 착취/자의식/실제기억전송 유지, 혼백복제/고정환경/윤리별점/자동PC정신벌점 불승계.",
+    "벙커/버그/재민/언카날 안내 전체 대조. 조성된개인계/환락계를 자연계라는 목차만으로 재분류안함. 최대번호vs현존전체수·공통계vs자유연결 구분.",
+    "침묵의바다 기존캠페인 제안으로 보존·새 도입 두접근/실제기능/지급/귀환에 연결. 고정24h/강제판단변경/저중력낙하무해·전전투투사체불능/가상인터뷰를 공통원전·실제참가자증거로 안이관.",
+    "역전숲 기존캠페인 제안으로 보존·성장방향/지도불일치 두접근과 실제몸/도구 지원. 뇌네=모든인과율표준화·전원매팅/영구검은피부와캠페인실패/강제감정 불승계.",
+    "위키25/606/732로 물질1:1좌표·짧은거리/초기아공간·네거티브별칭/실제게이트·인접트랜스와논쟁 유지. 별개네거티브우주·무한확장·모든드랍영혼보관/무장치전원입장·무료플라잉·전세계감시 불승계. 종교부류의 생체융합/어머니 차이는 기존65장과 분리.",
+    "위키100은 달작가글뚜레 협업작품 회고의 기록자.사라 서명. 구판기록자는 선택NPC직업/연구·수집역할로 보존하고 실제자료/관측/권한과인터랙션에 연결. 공식커뮤니티합의·전지/중립종족·광제기관/모든혼백보관·기억질환 보편설정은 작품서명근거로 정사화안함.",
+    "축적계/기록자 목차의 독립우주·영혼창고·전지관측 연결 정정. 실제경로와 출처/선택역할에 안내. World72의 잘못된55장상세참조를74장으로 정정.",
+    "위험README를 실제사건/대응과 연결. 매팅생성기원을 일률노출50%트랙으로 안바꾸며,0078티로리20년첫붕괴/지원귀환과 현재시간이동 원인·시험범위 보존. 모든붕괴불귀환/드랍사망 불승계.",
+    "도감전체README의 원본0080 축약과 소재목록·개별환경지원 경계를 구분. 선택오지제안/가상인터뷰/별점·시간/정신수치를 원전자료나 실제테스트로 합산안함. 미출력4개는 의미검토 대기 유지."
+  ],
+  "versions": {
+    "core": "v0.25",
+    "world": "v0.30",
+    "sheet": "v0.25",
+    "design": "v0.48"
+  },
+  "world_chapters": 74,
+  "sheet_sections": 30,
+  "new_mechanical_parameter_values": [],
+  "new_universal_stats": [],
+  "pending_read_not_counted": [
+    "SRC-310",
+    "SRC-311",
+    "SRC-312",
+    "SRC-313"
+  ],
+  "directly_related_novels_whole_read_this_pass": [],
+  "all_bunkers_have_open_connected_roads": false,
+  "maximum_bunker_number_is_total_inventory": false,
+  "Jemin_originally_wealthy": false,
+  "Jemin_thirty_services_are_all_Kim": false,
+  "Jemin_sealed_coffin_sale_is_confirmed_transaction": false,
+  "Kimmin_free_vending_is_universal_PC_ability": false,
+  "ectoplasm_manufacturing_chain_and_yield_resolved": false,
+  "optional_frontier_proposals_preserved": [
+    "침묵의 바다",
+    "역전 숲"
+  ],
+  "unmatched_proposals_proven_absent_from_all_IP": false,
+  "recorder_Sara_signature_proves_omniscient_world_institution": false,
+  "recorder_optional_NPC_role_preserved": true,
+  "compressed_and_negative_are_confirmed_two_separate_universes": false,
+  "all_dropout_souls_stored_in_negative": false,
+  "creation_origin_job_and_interaction_distinguished": true,
+  "same_local_combat_and_interaction_engine": true,
+  "PC_emotion_and_memory_owned_by_participant": true,
+  "whole_semantic_review_complete": false,
+  "unread_documents_counted": false,
+  "actual_participant_reading": false,
+  "actual_participant_playtest": false,
+  "actual_async_community_test": false,
+  "later_baseline_whole_read_source_ids": [
+    "SRC-310",
+    "SRC-311",
+    "SRC-312",
+    "SRC-313"
+  ],
+  "later_baseline_review_record": "일상과오지_기준선검토.json",
+  "current_worktree_hash_still_pending_ids": [
+    "SRC-310",
+    "SRC-311",
+    "SRC-312",
+    "SRC-313"
+  ]
+}

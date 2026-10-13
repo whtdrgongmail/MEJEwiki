@@ -1,0 +1,97 @@
+{
+  "id": "FEWK-RUNNER-IDENTITY-01",
+  "date": "2026-10-05",
+  "source_ids": [
+    "SRC-270",
+    "SRC-271",
+    "SRC-272",
+    "SRC-273",
+    "SRC-274",
+    "SRC-275"
+  ],
+  "scope": "러너 정의/분류/진입경로/README·신용/보수6개 전체·원본7주제/위키25항목 전체와 단일 백분율/삶/직능/템플릿/몸/IO 대조. 주변 거점/임무/조직·관련소설은 미집계",
+  "sources": [
+    {
+      "path": "_FEWK 설정자료용/업로드 자료/원본_Core 100여개 원고원본.txt",
+      "sha256": "6a1c18b7188cc1fc0f13dc38e9ac158bd081ab821276ecd265747bd7d21d53af",
+      "scope": "원본0005/0049/0055/0069/0073/0076/0093 각 주제 전체. 후반 중복을 독립 근거로 합산하지 않음",
+      "whole_document_reviewed": false
+    },
+    {
+      "path": "_FEWK 설정자료용/업로드 자료/__wiki onepage.txt",
+      "sha256": "dad0d6e63a5304bfead70966d69fca8e12e2b1ffd296eb525b466617b935bba8",
+      "scope": "위키69/71/72/141~145/174/175/372/556/611/613/644~647/658/679/699/720/770/780/1090 각 항목 전체. 중복 재수록과 이전 RULE게임화 숫자는 독립 정사/현행 규칙과 구분",
+      "whole_document_reviewed": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/01_러너란_누구인가/01_정의와_기원.md",
+      "sha256": "2696c693e28939296ad93ab9a74cd6f37b6f76a1be51bb17d01b6aac52b759eb",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/01_러너란_누구인가/02_분류와_사회적_위치.md",
+      "sha256": "d746c6ed5d5e05c2404234bb62dfe79d2fadfac714973c3c2238710d648e0b7d",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/01_러너란_누구인가/03_러너가_되는_길.md",
+      "sha256": "abb520fd0f70e3f67eae3f664bd71e02a5a443b2df72d942a690ecb6140b8d50",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/01_러너란_누구인가/README.md",
+      "sha256": "45334458ea71dc315d46d93d64295066c0e4e75418ca709f891c794f10820e0d",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/02_경제와_거점/01_러너전과_신용.md",
+      "sha256": "58d2b1205c442572929849cc4c4b06ebbb8992d92767659f7fcaee11de3a2c0a",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/02_경제와_거점/02_보수와_브로커.md",
+      "sha256": "fa7b394c27225d28e8edce68aec543f7cb303b8ad3b787b24c2490f30ab1840e",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    }
+  ],
+  "conflicts": [
+    "러너 정의/기원 본문 전체 읽고 원본0073/0005/0049/0055/0069/0093 및 위키 러너/러너전/길드/카페·직능/템플릿25항목 전체와 대조. 교수·신사·흑사/예술의 생업 겸업과 같은 문제해결자 개념 유지. 원본0073의 예술 보너스카드와 대부분아티스트 설명은 실제 확보.",
+    "구판이 추가한3필수자격/모든러너2~3전문·공식시민권부재/세금·수평직전파운더즈의 첫 대중진입과 한세기/다이브후유증 은퇴·단아6개월 경력 발언을 원전의 공통법/실제 인물로 승계하지 않음. 현재39장 역사·직업과 실행 기능/경로·자료권한을 따로 확인.",
+    "러너전 발행/순위는 실제 길드가 담보로 관리하는 신용이며 전역 명성/자동신분수치·자기발행한돈 무제한생성 아님. 템플릿은 신분/자격/직능/월드/몸 기능의 세계내 기록; RULE1090의6능력치18/16/14/12/10/8·시작지/라이프패스 제한 및 클래스레벨 증가를 새 공통필수로 이관하지 않음.",
+    "나이트는 의뢰/법적조건 선택, 피지컬은 실제본체/돌아갈곳없는자 공격의 구분. 원본0049 황도의배관추적/들꽃보육원·게임으로착각한아이/벙커29·사업고민은사건과그인물추정, 모든아동공격불가/일괄DDOGG피해법이나PC감정으로 강제하지 않음. 신호보수/기담사 샘플수집/저주실물화는 각 출처와 기능 범위를 남김.",
+    "분류/사회위치 본문 전체를 원본0073 및 위키 직능/클래스/러너/템플릿과 대조. 교수·신사·흑사·예술가의 복합역할은 유지하며 강원로가문/숫자상흑사희소·신사와배타영역/예술직접정찰보너스를 일반조건으로 승계하지 않음.",
+    "나이트는 합법/불법을 가리지 않는 선택 특성이며 단일 불법직업/비윤리성·자동냉소화법/짧은수명·식스센스로세아갱단연계는 현재 원전 미확인. 모든러너 시민등록부재/보험·퇴직금전역배제/지원단절 법률을 승계하지 않고 실제 자격/관계당국의 효력 확인.",
+    "러너 진입경로 본문 전체를 원본0073/0069·위키 직업/템플릿과 대조. 기업이탈·거리학습·거점연결·예술후원은 새로운 캐릭터 출발점으로 유지, 모든인물의 통계/자동진로와 구분.",
+    "30대/노마드오얏3/교육과라이선스일괄부재·기업화폐일괄급락·소화가치코스카우트한과거·크리스클럽실질리더/가스판촉공연데뷔는 현재 근거 미확보. 모자관계는60장 원전 범위 보존. 출신에 따른 공통숙련 보너스/의무블랙리스트·평생소속/정해진냉소·네경로최빈통계는 불승계.",
+    "러너정의부README 전체. 공유문제해결자/정보·직업/개인선택 연결은68장에 이관. 파운더즈기원 시기·진입경로와 분류의 앞선 구판소개는 독립증거로 합산하지 않음. 전체 직업/활동/관련소설 완료 아님.",
+    "러너전/신용 본문 전체와 원본0073·위키141 전체를 대조. 활동/신용담보·발행처순위·기업보유/의뢰수락노력 유지. 무규제/무기록·전시장불가/100발행80수령·드랍1회일주일환율동요/전카페실시간감시망·즉시환전·길드발행2종 법률은 원전 보편 근거 미확보.",
+    "발행 신용을 전역평판능력치나 자기돈무한생성으로 이관하지 않고 실제 발행자/사용범위/가격·받은 정보/교환 기록. 식품오얏/지급표기/자사화폐와 같은 소유를 중복 안 함. 드랍아웃 금지가 전역신용상실/경제퇴출을 자동 만들지 않음.",
+    "보수/브로커 본문 전체·원본0005/0076 전체 대조. 렌드는 야메 겸 위험임무 브로커·급전러너단골/보편드랍율 미정, 씨씨/제로원 결혼/클럽계획과 실제혼합화폐입금 유지.",
+    "보수수십/수백/수천/수만 등급·2~3년경력·수수료15~30%·모든구두카페계약블랙리스트·3단계지급/가족보상·미래의뢰거절권 표준법·렌드오얏결정흉터/4번가사무실/25년발언/12주게시판은 구판추가이며 현원전 미확보. 명시 금액/지급/실제결과를 쓰고 드랍금지를 죽음/삶종료로 합치지 않음."
+  ],
+  "versions": {
+    "core": "v0.24",
+    "world": "v0.26",
+    "sheet": "v0.24",
+    "design": "v0.44"
+  },
+  "world_chapters": 68,
+  "sheet_sections": 29,
+  "new_mechanical_parameter_values": [],
+  "new_universal_stats": [],
+  "class_level_is_required": false,
+  "runner_currency_is_global_reputation_stat": false,
+  "OOC_sheet_visibility_is_IC_knowledge": false,
+  "unread_documents_counted": false,
+  "directly_related_novels_whole_read_this_pass": [],
+  "actual_participant_reading": false,
+  "actual_participant_playtest": false,
+  "actual_async_community_test": false,
+  "read_delay_resolved": true
+}

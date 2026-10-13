@@ -1,0 +1,178 @@
+{
+  "date": "2026-10-07",
+  "common_engine": "P-FEWK-0.2",
+  "status": "신규 캠페인 시험값; 원전 전체 IO/무기 성능 아님",
+  "profiles": {
+    "CAMP-SAE-TEST": {
+      "io": "IO-SAE-TEST",
+      "lineage_reference": "새우거리의 구형 야전요새/준비개체; 정식 파이오니아 타입명 미확정",
+      "body": {
+        "id": "B-SLOT-07",
+        "owner": "REG-SAE-TEST",
+        "controller": null,
+        "hp": 9,
+        "hp_max": 12,
+        "resistance": 50,
+        "move_m": 10,
+        "armor": 0,
+        "shield": 1,
+        "treated_since_full_recovery": false
+      },
+      "persistent_skill_bonus": 0,
+      "handoff": "authorized_safe_terminal_outside_combat",
+      "multiple_simultaneous_controllers": false,
+      "reset_body_on_handoff": false
+    },
+    "CAMP-ORC-TEST": {
+      "realm_id": "ORC-TEST",
+      "play_zone_id": "PLAY-ZONE-01",
+      "io": "IO-ORC-TEST",
+      "physical_values": "P-INTRO-01 trial 1g/time1:1",
+      "import_external_gear": false,
+      "base_body_id": "B-O0",
+      "local_body_id": "B-O1",
+      "local_weapon": {
+        "id": "LOCAL-O-M1",
+        "skill": "격투",
+        "reach_m": 1,
+        "damage": 6,
+        "ammo": null,
+        "type": "melee",
+        "permission": "authorized_local_loan"
+      },
+      "armor_provided": 0,
+      "shield_provided": 0,
+      "violation": "repeat_explicit_weapon_threat_after_warning_in_play_zone",
+      "consequence": "person_reentry_ban_ORC-TEST",
+      "automatic_base_damage": 0,
+      "automatic_ego_loss": 0,
+      "automatic_return": false,
+      "other_realm_rights_affected": false
+    },
+    "CAMP-COF-TEST": {
+      "realm_id": "TEST-COF",
+      "io": "IO-COF-TEST",
+      "lineage_status": "new_test_profile_not_formal_pioneer_name",
+      "person_id": "P-C1",
+      "base_body_id": "B-C0",
+      "coffin_id": "CF-C0",
+      "original_location": "DEPOT-C",
+      "local_body_id": "B-C1",
+      "support_id": "SUP-C",
+      "base_hp": 12,
+      "new_body_hp": 12,
+      "construction_batches": 2,
+      "first_entry_ampoules": 1,
+      "construction_batch_cost": 1,
+      "first_entry_ampoule_cost": 1,
+      "recall_batch_cost": 1,
+      "stored_body_slot_count": 1,
+      "entry_requirements": [
+        "charted",
+        "compatible",
+        "brain_updated",
+        "permission",
+        "base_capable"
+      ],
+      "exit_requirements": [
+        "link",
+        "receiver_ready"
+      ],
+      "voluntary_exit_needs_capable_local_body": true,
+      "hp0_assisted_exit_requires_actual_support": true,
+      "original_exit_clear_not_a_return_requirement": true,
+      "return_targets_current_base_location": true,
+      "return_action_main": 1,
+      "exit_body_mode": "data_store_preserve_state",
+      "recovered_construction_batches": 0,
+      "automatic_skill_growth": 0,
+      "automatic_base_hp_loss": 0,
+      "automatic_ego_loss": 0,
+      "automatic_reentry_ban": false,
+      "snapshot_example": {
+        "hp": 5,
+        "ammo": 3,
+        "shield": 0,
+        "treated_since_full_recovery": true
+      },
+      "prices_not_defined": true,
+      "initial_local_body": {
+        "hp": 12,
+        "ammo": 12,
+        "shield": 2,
+        "treated_since_full_recovery": false
+      },
+      "paradox_standard_management": "declared standard synchronization/support included; no separate perentry charactertrack in this test; actual lineage physics unverified",
+      "base_alive": true,
+      "route_online": true,
+      "receiver_enabled": true,
+      "base_hp0_is_automatic_death": false,
+      "dead_base_can_receive": false,
+      "receiver_restore_heals_base": false,
+      "dead_base_automatically_destroys_local": false,
+      "support_operator": {
+        "id": "SUP-C",
+        "person_id": "P-SUP-C",
+        "body_id": "B-SUP-C",
+        "location": "DEPOT-C",
+        "alive": true,
+        "capable": true,
+        "authorized": true,
+        "connected": true,
+        "main_remaining": 1
+      },
+      "support_action_main": 1,
+      "support_action_charged_only_for_successful_hp0_return": true,
+      "same_person_inactive_base_is_not_an_independent_support_operator": true,
+      "voluntary_return_caller_action_budget": "common main-action rules; worksheet models receiver state and assisted operator budget only",
+      "compatible_destinations": {
+        "TEST-COF": {
+          "io": "IO-COF-TEST",
+          "local_body_id": "B-C1",
+          "charted": true,
+          "compatible": true,
+          "brain_updated": true,
+          "permission": true,
+          "initial_local_body": {
+            "hp": 12,
+            "ammo": 12,
+            "shield": 2,
+            "treated_since_full_recovery": false
+          }
+        },
+        "TEST-COF-B": {
+          "io": "IO-COF-TEST",
+          "local_body_id": "B-C2",
+          "charted": true,
+          "compatible": true,
+          "brain_updated": true,
+          "permission": true,
+          "initial_local_body": {
+            "hp": 12,
+            "ammo": 0,
+            "shield": 1,
+            "treated_since_full_recovery": false
+          }
+        }
+      },
+      "two_realm_prepared_case": {
+        "construction_batches": 4,
+        "first_entry_ampoules": 2,
+        "stored_body_slot_count": 2,
+        "route": [
+          "TEST-COF",
+          "TEST-COF-B",
+          "TEST-COF",
+          "TEST-COF-B"
+        ],
+        "additional_capacity_explicitly_prepared": true,
+        "new_formal_pioneer_type": false,
+        "gear_automatically_transferred": false,
+        "personal_first_visit_is_per_realm": true,
+        "dropout_ban_is_person_and_named_realm": true
+      }
+    }
+  },
+  "actual_participant_playtest": false,
+  "full_world_profiles_verified": false
+}

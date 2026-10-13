@@ -1,0 +1,95 @@
+{
+  "id": "FEWK-PUBLICATION-SAMPLE-01",
+  "date": "2026-10-07",
+  "pages": 7,
+  "pdf_path_relative_to_fifth": "출간샘플/FEWK5_대표지면_시안.pdf",
+  "pdf_sha256": "9d03c3d3ed9663e5c9841a4dfe4188ca038bad4409c6185f6381b0e098ed0716",
+  "input_book_hashes": {
+    "10_CoreRulebook.md": "35f2e23d9053cbad8a1d9da0cd5da024da029d6c5302df25448f6b0166f18ca0",
+    "11_WorldLorebook.md": "b2dcf6fec513d4c7ff7ae90c50eedfc756a3d3ebe9260e348872965749bf756a"
+  },
+  "fonts": [
+    {
+      "name": "NanumGothic-Regular.ttf",
+      "sha256": "cf050025dcce823de644153981ff8b171d5b78d7d0ddd6e3c9f39e814fad3564"
+    },
+    {
+      "name": "NanumGothic-Bold.ttf",
+      "sha256": "c2b3913902193593a9f86fef6ebef3d016490bddb0e52e91d732a477578bbc57"
+    }
+  ],
+  "automated_page_bounds": [
+    {
+      "page": 1,
+      "text_characters": 1008,
+      "out_of_page_spans": [],
+      "text_overlap_pairs": []
+    },
+    {
+      "page": 2,
+      "text_characters": 965,
+      "out_of_page_spans": [],
+      "text_overlap_pairs": []
+    },
+    {
+      "page": 3,
+      "text_characters": 1271,
+      "out_of_page_spans": [],
+      "text_overlap_pairs": []
+    },
+    {
+      "page": 4,
+      "text_characters": 927,
+      "out_of_page_spans": [],
+      "text_overlap_pairs": []
+    },
+    {
+      "page": 5,
+      "text_characters": 846,
+      "out_of_page_spans": [],
+      "text_overlap_pairs": []
+    },
+    {
+      "page": 6,
+      "text_characters": 1068,
+      "out_of_page_spans": [],
+      "text_overlap_pairs": []
+    },
+    {
+      "page": 7,
+      "text_characters": 622,
+      "out_of_page_spans": [],
+      "text_overlap_pairs": []
+    }
+  ],
+  "visual_pages_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "final_layout_complete": false,
+  "actual_participant_reading": false,
+  "remote_publication_performed": false,
+  "visual_review_scope": "작성자가 최종 렌더7쪽의 제목/표/지도/한글·수학기호/겹침·잘림을 확인. 전권 조판/실제 독자 시험 아님",
+  "visual_fixes": [
+    "지도 흐름 높이를 확보해 제목/본문 중첩 수정",
+    "글꼴에 없는 수학 마이너스를 ASCII 기호로 치환"
+  ],
+  "renderer_sha256": "9ac92f4e81ae0aa76dec74862b8ef35eb4a3c2674a1fd45681e56872b22fd022",
+  "page_png_sha256": {
+    "page_01.png": "2c1e5f55859fd0d776a7c3f6d0f9cf44129ef213a7a0d01f2ed4d2142cf3adc0",
+    "page_02.png": "a419422bdeaa9b403b783f99ca0c66bb86ebfdde1fe692b37682c26ed374404c",
+    "page_03.png": "a686a1d6bae1ebf28c753a47105713256626317f903a7579a091a481cf821dbd",
+    "page_04.png": "543e25cc4e7be236b017a3e2d280930e9ba0cb58037a3d35d220bd020ed5add5",
+    "page_05.png": "50852a150540ab5f6669a6fb3a9bf723e8490f1785033d4bf497726d69de33cd",
+    "page_06.png": "6b8764aba3c10368b16bd8ef24770147b9e7d7f5f32d3a623f190e81633a0461",
+    "page_07.png": "f3d7a4875374f36490e05a8407c36e5ba2336b34e974158043c311f17d73eb8c"
+  },
+  "source_revision_is_historical_after_reader_finalization": true,
+  "source_hash_snapshot": "이전/독자편집전_20261007.json",
+  "current_manuscript_layout_preview": false
+}

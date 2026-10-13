@@ -1,0 +1,207 @@
+{
+  "id": "FEWK-LORE-20261009",
+  "date": "2026-10-09",
+  "status": "author_confirmed_content_integrated_pending_answers",
+  "before_snapshot": "세계관보강_20261009_반영전.json",
+  "author_basis": [
+    "current conversation 2026-10-09",
+    "/Users/whtdrgon/.codex/attachments/d2f15308-613c-4de3-b8bc-fdf8bf99b2d7/붙여넣은 텍스트.txt"
+  ],
+  "input_hashes": {
+    "00_제5판_설계기준.md": "683b6fed32b8a1a00a2b3be2834c167157551fd37c9e17b9d88ce25bb9a59375",
+    "01_텀블벅_이지룰_초안.md": "80e43245243f9994a75bb08841ac549ee80e47588a63b22028ee2bba28db1fa5",
+    "02_타롯_해킹과_지능전_초안.md": "1613f14e485eb4f075cfb1805266afe05cf8db16fa5f11f165b8850ca9ad41e4",
+    "10_CoreRulebook.md": "7676f851d5b46acc55a77ee69962196e71226ccef5d8d2c939281531723a9ef4",
+    "11_WorldLorebook.md": "7a1f0a2c099ba84ce7f190361cfa1c8282ac12e6c39787e126a5fea65275a2ea",
+    "12_룰시트와캐릭터시트.md": "ae322c199c7c9fb636b84c06a81052899ce80d3c459888ae332a14bd1a420ff6",
+    "13_입문시나리오.md": "e4c269c4af7494360330974ac52baaf6c6aeff24f42f35f8892b11b6fda8d0da",
+    "14_레디메이드_러너.md": "abf0ff117466d8c6d89570658ebe1ff0fc02415cbb0488d3a316be3440494dc9",
+    "15_표준튜터리얼_시나리오.md": "3a85aaafc96d32796bc37601ff3762fd58b174d8b5b03b7bcaffe60a39721022"
+  },
+  "output_hashes": {
+    "00_제5판_설계기준.md": "c02383eb831d4367b68994e664b3ebdbdbb5dc2176898c8d859d6ea323818e17",
+    "01_텀블벅_이지룰_초안.md": "80e43245243f9994a75bb08841ac549ee80e47588a63b22028ee2bba28db1fa5",
+    "02_타롯_해킹과_지능전_초안.md": "1613f14e485eb4f075cfb1805266afe05cf8db16fa5f11f165b8850ca9ad41e4",
+    "10_CoreRulebook.md": "7676f851d5b46acc55a77ee69962196e71226ccef5d8d2c939281531723a9ef4",
+    "11_WorldLorebook.md": "51d14426a7b426eafd6f45b61aa63fea738fe001ca90b679ed1def91af433837",
+    "12_룰시트와캐릭터시트.md": "ae322c199c7c9fb636b84c06a81052899ce80d3c459888ae332a14bd1a420ff6",
+    "13_입문시나리오.md": "e4c269c4af7494360330974ac52baaf6c6aeff24f42f35f8892b11b6fda8d0da",
+    "14_레디메이드_러너.md": "abf0ff117466d8c6d89570658ebe1ff0fc02415cbb0488d3a316be3440494dc9",
+    "15_표준튜터리얼_시나리오.md": "3a85aaafc96d32796bc37601ff3762fd58b174d8b5b03b7bcaffe60a39721022"
+  },
+  "changed_files": [
+    "[5판_FEWK]/11_WorldLorebook.md",
+    "[5판_FEWK]/00_제5판_설계기준.md",
+    "00_최신본_기준.md",
+    "01_작업계획.md"
+  ],
+  "world_version": "1.01",
+  "core_version": "0.49",
+  "changes": [
+    {
+      "chapter": 3,
+      "change": "통상 코핀 연결과 독립 의지체의 구분"
+    },
+    {
+      "chapter": 18,
+      "change": "차원 기본 단위·개척 범위·만진 표기와 질량 환산 미결 경계"
+    },
+    {
+      "chapter": 20,
+      "change": "서민 화폐 오얏·오얏전과 직업별 다중 화폐"
+    },
+    {
+      "chapter": 21,
+      "change": "Tenebrae·창조 원질·상상력의 정밀도와 산업적 설계"
+    },
+    {
+      "chapter": 21,
+      "change": "수평선위원회의 상위계 실험과 어비스 분출의 인과"
+    },
+    {
+      "chapter": 21,
+      "change": "위험 관리가 만드는 희소성과 정제 산업의 비용"
+    },
+    {
+      "chapter": 22,
+      "change": "엑토플라즈마의 휘발·차원 이동·육체 구성과 백공 별칭"
+    },
+    {
+      "chapter": 31,
+      "change": "BP의 공공 선언과 바이트 가치·인과율 계산기의 사회적 역할"
+    },
+    {
+      "chapter": 32,
+      "change": "무보증 유상 유지·특수 직종의 선행 이식·퇴사 어댑터와 액골"
+    },
+    {
+      "chapter": 39,
+      "change": "검은 수평선 사건의 실험 원인과 연대 미결 경계"
+    },
+    {
+      "chapter": 43,
+      "change": "출발 세계의 보존과 여행자의 새 인과·귀환 충돌"
+    },
+    {
+      "chapter": 44,
+      "change": "세린의 달 인과율과 물질계 대지모신 신앙"
+    },
+    {
+      "chapter": 57,
+      "change": "흑공말통의 현대 산업 사용을 지우던 단정 정정"
+    },
+    {
+      "chapter": 65,
+      "change": "생체 질서체·어머니의 의지와 세계 붕괴·일반 인공계와의 차이"
+    },
+    {
+      "chapter": 71,
+      "change": "사망 기록·강제 재진입·자연법칙적 오류 보정의 위험"
+    },
+    {
+      "chapter": 72,
+      "change": "자연 공백 분기·코드·최초 현지화 비용으로 인공계 정의 갱신"
+    },
+    {
+      "chapter": 72,
+      "change": "새 차원 기본 단위와 기존 질량·혼백 예시의 경계 일치"
+    },
+    {
+      "chapter": 73,
+      "change": "엑토플라즈마의 흑공 정제 계통 확정과 만월 고무 역할 미결"
+    },
+    {
+      "chapter": 74,
+      "change": "의지체 생성·기업 노동·중복·사망 전파·원본 사망 후 생존과 소문"
+    }
+  ],
+  "base_engine_changed": false,
+  "game_numeric_profiles_changed": false,
+  "new_social_proposals_are_canon": false,
+  "pending_author_questions": [
+    "basic_byte_unit_and_mass_mapping",
+    "baseline_present_and_epoch",
+    "mother_birth_and_will_loss_boundary",
+    "confirmed_local_death_vs_normal_exit",
+    "full_moon_rubber_manufacturing_role"
+  ],
+  "intentional_unknowns": [
+    "paradox magnitude when a surviving will-being returns to the deceased original material world"
+  ],
+  "unconfirmed_rumors": [
+    "identity relabeling to evade duplicate-will paradox"
+  ],
+  "previous_completion_records_preserved": true,
+  "human_tests_performed": false,
+  "final_layout_performed": false,
+  "verification": {
+    "status": "current_document_structure_and_preservation_passed",
+    "checked_documents": 11,
+    "local_file_links_checked": 706,
+    "named_anchor_links_checked": 776,
+    "missing_file_links": [],
+    "missing_named_anchors": [],
+    "markdown_fences": [
+      {
+        "path": "00_최신본_기준.md",
+        "balanced": true
+      },
+      {
+        "path": "01_작업계획.md",
+        "balanced": true
+      },
+      {
+        "path": "[5판_FEWK]/00_제5판_설계기준.md",
+        "balanced": true
+      },
+      {
+        "path": "[5판_FEWK]/01_텀블벅_이지룰_초안.md",
+        "balanced": true
+      },
+      {
+        "path": "[5판_FEWK]/02_타롯_해킹과_지능전_초안.md",
+        "balanced": true
+      },
+      {
+        "path": "[5판_FEWK]/10_CoreRulebook.md",
+        "balanced": true
+      },
+      {
+        "path": "[5판_FEWK]/11_WorldLorebook.md",
+        "balanced": true
+      },
+      {
+        "path": "[5판_FEWK]/12_룰시트와캐릭터시트.md",
+        "balanced": true
+      },
+      {
+        "path": "[5판_FEWK]/13_입문시나리오.md",
+        "balanced": true
+      },
+      {
+        "path": "[5판_FEWK]/14_레디메이드_러너.md",
+        "balanced": true
+      },
+      {
+        "path": "[5판_FEWK]/15_표준튜터리얼_시나리오.md",
+        "balanced": true
+      }
+    ],
+    "before_snapshot_hashes_verified": 11,
+    "current_reader_hashes_verified": 9,
+    "unchanged_reader_artifacts": [
+      "01_텀블벅_이지룰_초안.md",
+      "02_타롯_해킹과_지능전_초안.md",
+      "10_CoreRulebook.md",
+      "12_룰시트와캐릭터시트.md",
+      "13_입문시나리오.md",
+      "14_레디메이드_러너.md",
+      "15_표준튜터리얼_시나리오.md"
+    ],
+    "numbered_world_chapters_preserved": 77,
+    "previous_world_named_anchors_preserved": 113,
+    "historical_cached_test_results_not_reused_for_new_lore": true,
+    "rules_numeric_suite_rerun": false,
+    "verification_basis": "existing structure validator readonly link/fence checks plus current hashes and preserved input text"
+  }
+}

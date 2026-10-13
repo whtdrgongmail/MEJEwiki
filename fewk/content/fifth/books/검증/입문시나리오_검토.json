@@ -1,0 +1,1020 @@
+{
+  "id": "STORY-CARD-01",
+  "date": "2026-10-07",
+  "engine": "P-FEWK-0.2",
+  "profile": "P-INTRO-01",
+  "manuscript": "../13_입문시나리오.md",
+  "scope": "작성자가 절차/권한/원전-창작 경계·좌표/예산을 대조한 편집 검토, 참가자 결과 아님",
+  "new_creation": [
+    "케이티의 새 의뢰/카드 내용 가설",
+    "열람계/IO 계보 가정",
+    "윤서/강문·복도/보수/보관 권한"
+  ],
+  "walkthroughs": [
+    {
+      "route": "정상 승인 최소자료",
+      "checks": "최초단서/진입/권한충족전송은 무판정",
+      "result": "COPY-VISIT/RECEIPT 수신, 기본+완수 보수 총6오얏, B1잔량보관"
+    },
+    {
+      "route": "추가전문 접속실패",
+      "checks": "해킹 대립 또는 타롯 중 하나",
+      "result": "추가전문 차단; 기존허가사본 유지, 협상/철수 가능, 자동정신피해/드랍아웃 없음"
+    },
+    {
+      "route": "전투/귀환",
+      "checks": "공통 근접/총격·지정방호/행동·구조지원",
+      "result": "주요이동+추가10m은 공격불가; 방호라운드1회;HP0 구조 실제지원필요; 저장잔량 유지"
+    }
+  ],
+  "math_examples": {
+    "three_PC_full_reward_oyat": 6,
+    "two_P_shots_both_hit_same_guard_damage_after_first_block": 3,
+    "powered_melee_after_armor_damage": 5,
+    "ordinary_move_plus_main_move_m": 20,
+    "hacking_batch_max_seconds": 15,
+    "novel002_repayment_minus_interest": 30
+  },
+  "position_fix": "기본 방문 원격단말 x0, 서버x30; 경비20/22. 선택경로 실제위치는 봉쇄로 리셋하지 않음",
+  "actual_participant_reading": false,
+  "actual_participant_playtest": false,
+  "full_encounter_balance_verified": false,
+  "related_novel001_read": true,
+  "remaining": [
+    "017의촬영몸/시각·현재몸ID와노인/0089의연결은후속근거확인",
+    "서명자/실제보관몸·당사자동의의후속조사규격",
+    "지도/문장 독자 편집",
+    "실제 초보/커뮤·역할·재미/시간/전투시험"
+  ],
+  "artifacts_sha256": {
+    "13_입문시나리오.md": "e4c269c4af7494360330974ac52baaf6c6aeff24f42f35f8892b11b6fda8d0da",
+    "10_CoreRulebook.md": "7676f851d5b46acc55a77ee69962196e71226ccef5d8d2c939281531723a9ef4",
+    "검증/입문_프로필.json": "24fb4b594346497662f09dd9d3ffd99c79fa3ea098fdeb360ce54956727d6a3f",
+    "11_WorldLorebook.md": "7a1f0a2c099ba84ce7f190361cfa1c8282ac12e6c39787e126a5fea65275a2ea"
+  },
+  "version": "0.5",
+  "related_novel001_sha256": "8b35ca228c9bb0223798f5b0d8060af8404df8fa1cd6e69f685858cbbee9efb3",
+  "related_novel001_full_setting_verified": false,
+  "novel001_used_motifs": [
+    "영상속자신/017",
+    "실험실을가리키는숫자열",
+    "다른몸/정보·증언동기"
+  ],
+  "physical_meeting": "물질계 새우건물 신규대기실. 케이티 정상귀환/PC 본체B0, 열람계는B0에서 별도진입",
+  "core_transport_regression": {
+    "date": "2026-10-05",
+    "core_version": "0.12",
+    "existing_scenario_and_intro_profile_hashes_unchanged": true,
+    "road_rules_used_in_this_scenario": false,
+    "checks": [
+      "same shared shield/damage",
+      "same main/movement budget",
+      "same TAR-P-02 exchange time"
+    ],
+    "previous_three_editorial_walkthroughs_are_not_new_participant_tests": true,
+    "actual_participant_playtest": false
+  },
+  "core_scene_regression": {
+    "date": "2026-10-05",
+    "core_version": "0.13",
+    "existing_scenario_and_intro_profile_hashes_unchanged": true,
+    "shared_damage_movement_tarot_time_smoke_checks": 5,
+    "scenario_events_not_rewritten": true,
+    "previous_editorial_walkthroughs_are_not_new_participant_tests": true,
+    "actual_participant_playtest": false
+  },
+  "core_team_regression": {
+    "date": "2026-10-05",
+    "core_version": "0.14",
+    "existing_scenario_and_intro_profile_hashes_unchanged": true,
+    "shared_damage_movement_tarot_time_smoke_checks": 5,
+    "new_team_worksheet_not_full_scenario_replay": true,
+    "previous_editorial_walkthroughs_are_not_new_participant_tests": true,
+    "actual_participant_playtest": false
+  },
+  "core_GM_regression": {
+    "date": "2026-10-05",
+    "core_version": "0.15",
+    "existing_scenario_and_intro_profile_hashes_unchanged": true,
+    "shared_damage_movement_tarot_time_smoke_checks": 5,
+    "new_GM_case_not_full_scenario_or_human_replay": true,
+    "previous_editorial_walkthroughs_are_not_new_participant_tests": true,
+    "actual_participant_playtest": false
+  },
+  "core_NPC_regression": {
+    "date": "2026-10-06",
+    "core_version": "0.33",
+    "before_sha256": "a9d96748210d75d1bf089bf1af11f621cb406869f639e942314d82dcfef22af6",
+    "after_sha256": "908d6712b94787a544e956e6de7d38617741c21193977961d907534c86f6ed98",
+    "named_samples_added": 3,
+    "intro_body_and_default_numeric_rules_changed": false,
+    "actual_participant_playtest": false
+  },
+  "core_online_regression": {
+    "date": "2026-10-05",
+    "core_version": "0.17",
+    "existing_scenario_and_intro_profile_hashes_unchanged": true,
+    "shared_damage_movement_tarot_time_smoke_checks": 5,
+    "new_online_case_not_full_scenario_or_human_replay": true,
+    "previous_editorial_walkthroughs_are_not_new_participant_tests": true,
+    "actual_participant_playtest": false
+  },
+  "scenario_tools_regression": {
+    "date": "2026-10-05",
+    "core_version": "0.18",
+    "prior_original_main_story_text_sha256": "7194cf6558e208c08ee4f035f264e0293dc84e2ee9ea0ee74fada862af789cd9",
+    "original_main_story_prefix_verified": true,
+    "intro_profile_hash_unchanged": true,
+    "new_hooks": 6,
+    "new_short_scenarios": 3,
+    "new_inspiration_tables": 2,
+    "limited_checks_passed": 74,
+    "shared_damage_movement_tarot_time_smoke_checks": 5,
+    "original_three_editorial_walkthroughs_are_not_new_participant_tests": true,
+    "full_encounter_balance_verified": false,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false
+  },
+  "appendix_reference_regression": {
+    "date": "2026-10-05",
+    "core_version": "0.19",
+    "intro_version": "0.4",
+    "original_main_story_text_verified_ignoring_version_and_new_appendix_anchor": true,
+    "new_intro_content_change": "navigation anchor only",
+    "new_Core_handout_texts": 5,
+    "reference_checks_passed": 63,
+    "shared_damage_movement_tarot_time_smoke_checks": 5,
+    "original_three_editorial_walkthroughs_are_not_new_participant_tests": true,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false
+  },
+  "core_local_effects_computation_regression": {
+    "date": "2026-10-05",
+    "core_version": "0.20",
+    "existing_scenario_and_intro_profile_hashes_unchanged": true,
+    "shared_damage_movement_tarot_time_smoke_checks": 5,
+    "new_local_effects_not_full_scenario_or_human_replay": true,
+    "previous_editorial_walkthroughs_are_not_new_participant_tests": true,
+    "actual_participant_playtest": false
+  },
+  "whole_read_scope_correction": {
+    "date": "2026-10-05",
+    "focused_reviews": 358,
+    "whole_read_confirmed": 358,
+    "focused_recheck_required": 0,
+    "pending_semantic_review": 0,
+    "intro_body_and_profile_changed": false,
+    "actual_participant_reading": false,
+    "whole_read_evidence_gap_rechecks_completed": 47,
+    "current_worktree_hash_revalidation_pending_count": 65
+  },
+  "core_time_travel_regression": {
+    "date": "2026-10-05",
+    "core_version": "0.21",
+    "original_intro_body_changed": false,
+    "declared_temporal_examples_are_not_actual_intro_or_human_tests": true,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false,
+    "actual_async_community_test": false
+  },
+  "profession_lore_regression": {
+    "date": "2026-10-05",
+    "core_version": "0.22",
+    "World_chapters": 64,
+    "original_intro_body_changed": false,
+    "new_mechanical_parameter_values": [],
+    "NPC_templates_unchanged": true,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false
+  },
+  "institutions_lore_regression": {
+    "date": "2026-10-05",
+    "core_version": "0.23",
+    "World_chapters": 67,
+    "original_intro_body_changed": false,
+    "new_mechanical_parameter_values": [],
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false
+  },
+  "runner_identity_regression": {
+    "core_version": "0.24",
+    "world_chapters": 68,
+    "original_intro_body_changed": false,
+    "new_mechanical_parameter_values": [],
+    "actual_participant_playtest": false
+  },
+  "hub_mission_regression": {
+    "core_version": "0.25",
+    "world_chapters": 70,
+    "original_intro_body_changed": false,
+    "new_mechanical_parameter_values": [],
+    "actual_participant_playtest": false
+  },
+  "runner_life_regression": {
+    "core_version": "0.25",
+    "world_chapters": 71,
+    "original_intro_body_changed": false,
+    "new_mechanical_parameter_values": [],
+    "actual_participant_playtest": false
+  },
+  "realm_catalog_regression": {
+    "core_version": "0.25",
+    "world_chapters": 72,
+    "original_intro_body_changed": false,
+    "new_mechanical_parameter_values": [],
+    "actual_participant_playtest": false
+  },
+  "frontier_records_regression": {
+    "core_version": "0.25",
+    "world_chapters": 74,
+    "original_intro_body_changed": false,
+    "new_mechanical_parameter_values": [],
+    "actual_participant_playtest": false
+  },
+  "daily_easy_regression": {
+    "core_version": "0.25",
+    "easy_version": "P0.19",
+    "world_version": "0.31",
+    "world_chapters": 74,
+    "original_intro_body_changed": false,
+    "new_mechanical_parameter_values": [],
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false
+  },
+  "daily_frontier_baseline_regression": {
+    "core_version": "0.25",
+    "world_version": "0.32",
+    "world_chapters": 74,
+    "original_intro_body_changed": false,
+    "new_mechanical_parameter_values": [],
+    "current_worktree_hash_revalidation_pending_count": 20,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false
+  },
+  "introduction_dimension_regression": {
+    "core_version": "0.25",
+    "world_version": "0.33",
+    "world_chapters": 74,
+    "original_intro_body_changed": false,
+    "new_mechanical_parameter_values": [],
+    "current_worktree_hash_revalidation_pending_count": 36,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false
+  },
+  "being_catalog_regression": {
+    "world_version": "0.34",
+    "world_chapters": 75,
+    "original_intro_body_changed": false,
+    "new_mechanical_parameter_values": [],
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false,
+    "native_and_settled_residence_separated": true
+  },
+  "factions_operations_regression": {
+    "id": "FEWK-FACTIONS-OPERATIONS-01",
+    "world_version": "v0.35",
+    "world_chapters": 76,
+    "new_numeric_parameters": [],
+    "intro_story_changed": false,
+    "actual_participant_playtest": false
+  },
+  "world_appendix_regression": {
+    "id": "FEWK-WORLD-APPENDIX-01",
+    "world_version": "v0.36",
+    "world_chapters": 77,
+    "new_numeric_parameters": [],
+    "intro_story_changed": false,
+    "actual_participant_playtest": false
+  },
+  "marking_addition_scope": "기존 입문 시나리오/기본 수치와 STORY-CARD-01 본문을 바꾸지 않고 고유 도안 절을 추가. 이 해시 갱신은 실제 참가자 검증이 아님",
+  "vessel_addition_scope": "기존입문본문/수치와STORY-CARD-01을바꾸지않고선박절을추가. 실제참가자검증이아님",
+  "reader_example_regression": {
+    "date": "2026-10-06",
+    "core_version": "0.30",
+    "previous_core_version": "0.29",
+    "previous_core_sha256": "e48be003814c832bfbb00664013c90f1aa6161c616d7da5b2172d2b789055bf0",
+    "previous_core_recovered_byte_identical_after_removing_new_example_and_version": true,
+    "intro_body_and_profile_hashes_unchanged": true,
+    "checks_passed": 6,
+    "checks": [
+      "같은 라운드의 첫 권총 적중은 지정 방호",
+      "둘째 권총 적중 피해3",
+      "접촉 근접 피해5",
+      "이동20m는 주요 행동 소비",
+      "세 교환은 현지15초",
+      "새 설명 예시의 목표값70과 성공"
+    ],
+    "scope": "입문 본문과 프로필의 해시 불변 및 기존 공통 방호·피해·이동·교환 시간과 새 설명 예시 대조. 전체 시나리오 재연이나 참가자 시험이 아님",
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false,
+    "actual_async_community_test": false
+  },
+  "core_glossary_editorial_correction": {
+    "date": "2026-10-06",
+    "core_version": "0.30",
+    "before_sha256": "e870d32c98dd4b17801cb28056dd407c3d6795a796fe24cfc08c3525f346826b",
+    "after_sha256": "0daf22726c7803119e612d26963e614cafd010e7a4e32b86503525031ffa10a6",
+    "change": "찾아보기의 스킬과 인터랙션 항목 구분",
+    "only_glossary_row_changed": true,
+    "scenario_and_numeric_rules_changed": false,
+    "actual_participant_playtest": false
+  },
+  "core_dropout_precondition_correction": {
+    "date": "2026-10-06",
+    "core_version": "0.31",
+    "before_sha256": "0daf22726c7803119e612d26963e614cafd010e7a4e32b86503525031ffa10a6",
+    "after_sha256": "a6e2c4659330c52267afcb6495c87e6c406aedfdfd6c28cabc72bf9ef52227d4",
+    "change": "SPL-DROP-TEST의 활성 현지 몸/접근과 반복 결행 조건",
+    "intro_body_and_numeric_rules_changed": false,
+    "actual_participant_playtest": false
+  },
+  "core_weapon_regression": {
+    "date": "2026-10-06",
+    "core_version": "0.32",
+    "before_sha256": "a6e2c4659330c52267afcb6495c87e6c406aedfdfd6c28cabc72bf9ef52227d4",
+    "after_sha256": "a9d96748210d75d1bf089bf1af11f621cb406869f639e942314d82dcfef22af6",
+    "new_optional_model": "V-SUPPRESS-01",
+    "intro_body_and_default_numeric_rules_changed": false,
+    "actual_participant_playtest": false
+  },
+  "core_large_facility_regression": {
+    "date": "2026-10-06",
+    "core_version": "0.34",
+    "before_sha256": "908d6712b94787a544e956e6de7d38617741c21193977961d907534c86f6ed98",
+    "after_sha256": "25a19c4c02305b5bec6e228be5d23f7495f96ed9cbc116a3564f42ca26889a98",
+    "new_optional_model": "PLANT-STOP-01",
+    "intro_body_and_default_numeric_rules_changed": false,
+    "actual_participant_playtest": false
+  },
+  "core_term_guide_regression": {
+    "date": "2026-10-06",
+    "core_version": "0.35",
+    "before_sha256": "25a19c4c02305b5bec6e228be5d23f7495f96ed9cbc116a3564f42ca26889a98",
+    "after_sha256": "228c172f81d5dd74439a9edf3d1da8df5500b2be5fd3ee810282dc9a9610e880",
+    "intro_body_and_default_numeric_rules_changed": false,
+    "new_term_roles_and_reader_guide_written": true,
+    "actual_participant_playtest": false
+  },
+  "core_framework_foundation_regression": {
+    "Core": "v0.36",
+    "scope": "같은몸/방법/실제조건에서 설명상세도만 바꿔도 같은판정이라는 본문 설명을 보강했다. 입문시나리오/프로필/수치/원전모티프는 변경하지 않았다. 입력이변경된공통검증19종은다시실행했으며 참가자검증과구분한다.",
+    "same_common_percentile_engine": true,
+    "new_mechanical_parameters": [],
+    "actual_participant_playtest": false
+  },
+  "core_character_combat_regression": {
+    "Core": "v0.37",
+    "scope": "지도단위/실제거리/시간을구분하는독자설명 보강. 기존입문/프로필/백분율/수치는유지하며 동일몸/개인예산으로이어간다. 실제참가자검증은별도다.",
+    "new_mechanical_parameters": [],
+    "old_100point_build_rewritten": false,
+    "actual_participant_playtest": false
+  },
+  "core_resource_growth_regression": {
+    "Core": "v0.38",
+    "scope": "성장/새인터랙션·조달/정비·관계와약속·실제회복/존재유지의각근거/적용시점을한결산에남기는독자설명보강. 기존입문사건/프로필/백분율/수치는유지하고참가자증거와구분한다.",
+    "new_mechanical_parameters": [],
+    "old_100point_build_rewritten": false,
+    "actual_participant_playtest": false
+  },
+  "core_team_NPC_session_regression": {
+    "Core": "v0.39",
+    "scope": "NPC대화의부탁/합의/실제실행과정보·권한·현재몸/시간을같은절차로보이는독자설명보강. 기존입문사건/프로필/백분율/수치는유지하고실제참가자증거와구분한다.",
+    "new_mechanical_parameters": [],
+    "old_100point_build_rewritten": false,
+    "actual_participant_playtest": false
+  },
+  "core_rulesheet_compatibility_regression": {
+    "Core": "v0.40",
+    "scope": "차원룰시트/확장규격의출처/버전·환경/지원몸/장비·IO/인계/보관과공통판정/상태를같이확인하는독자설명및좋은성공명칭통일. 기존입문사건/프로필/백분율/수치는유지하고참가자증거와구분한다.",
+    "new_mechanical_parameters": [],
+    "old_100point_build_rewritten": false,
+    "actual_participant_playtest": false
+  },
+  "world_relationship_chronology_regression": {
+    "World": "v0.63",
+    "scope": "혈연·이름 계승·목격과 후속 사건·미결 시점을 구분하는 독자 안내를 보강하고 기존 입문 사건·프로필·백분율·수치는 유지한다. 원전·위키 대조와 실제 참가자 증거를 구분한다.",
+    "new_mechanical_parameters": [],
+    "old_100point_build_rewritten": false,
+    "actual_participant_playtest": false
+  },
+  "world_catalog_reader_regression": {
+    "World": "v0.64",
+    "scope": "사람/오토바이의 이름·선박 소속/직책의 시점·차원의 명칭/출입과 팬의 이름 계승을 기존 본문으로 찾는 안내를 추가한다. 기존 입문 사건/프로필/백분율/수치와 참가자 미검증 경계를 유지한다.",
+    "new_mechanical_parameter_values": [],
+    "old_100point_build_rewritten": false,
+    "actual_participant_playtest": false
+  },
+  "world_life_uncertainty_reader_regression": {
+    "World": "v0.65",
+    "scope": "공동 생활의 보수/지출·몸/장치의 사용·선물/이름/기록 인계와 익명/미상/변경명을 분리하고 선택 가능한 카페 공연/기타 정비 장면을 보강한다. 기존 입문 사건/프로필/백분율/수치와 실제 참가자 미검증은 유지한다.",
+    "new_mechanical_parameter_values": [],
+    "old_100point_build_rewritten": false,
+    "actual_participant_playtest": false
+  },
+  "world_encyclopedia_scene_glossary_reader_regression": {
+    "World": "v0.66",
+    "scope": "감각/실제 몸/정보 경로와 형성/직업/인터랙션/스킬·선택 가능한 공방 도구 인계 장면. 기존 엔진/입문 규격은 유지하며 실제 참가자 검증을 주장하지 않는다.",
+    "new_mechanical_parameter_values": [],
+    "actual_participant_playtest": false
+  },
+  "world_address_nuance_motif_reader_regression": {
+    "World": "v0.67",
+    "scope": "거점의 호칭/직책/선호·실제 전달정보/동의와 선물/노동흔적을 구분하며 정상 인계/공연의 결말을 보강한다. 기존 엔진/입문 규격·실제 참가자 미검증을 유지한다.",
+    "new_mechanical_parameter_values": [],
+    "actual_participant_playtest": false
+  },
+  "world_letters_narrator_translation_readme_reader_regression": {
+    "World": "v0.68",
+    "scope": "동행의대화와 실제문서의정보/주장/권한을분리한메모 예. 기존엔진/입문규격과실제참가자미검증은유지하며소설024/100을재작성하지 않는다.",
+    "new_mechanical_parameter_values": [],
+    "actual_participant_playtest": false
+  },
+  "world_protagonist_supernatural_profiles_reader_regression": {
+    "World": "v0.69",
+    "scope": "DDOGG좌석/상영 약속·인물 요약을 현재 몸/직업/숙련·인터랙션에 연결. 기존엔진/입문규격과 실제참가자미검증을 유지한다.",
+    "new_mechanical_parameter_values": [],
+    "actual_participant_playtest": false
+  },
+  "vessel_technical_handover_review": {
+    "Core": "v0.41",
+    "World": "v0.70",
+    "scope": "선박기술의출처/공급·같은작업상태/현재담당숙련과정비/인계시간을분리.입문규격/공통엔진과실제참가자미검증유지.",
+    "actual_participant_playtest": false
+  },
+  "world_foundational_chronology_regression": {
+    "World": "v0.71",
+    "history_and_current_scene_elapsed_separated": true,
+    "new_mechanical_parameter_values": [],
+    "actual_participant_playtest": false
+  },
+  "world_foundational_intentions_regression": {
+    "World": "v0.72",
+    "life_and_information_and_combat_and_special_use_same_engine": true,
+    "new_mechanical_parameter_values": [],
+    "actual_participant_playtest": false
+  },
+  "world_foundational_outline_regression": {
+    "World": "v0.73",
+    "recorded_speech_and_observation_and_identity_separated": true,
+    "new_mechanical_parameter_values": [],
+    "actual_participant_playtest": false
+  },
+  "world_foundational_prose_regression": {
+    "World": "v0.74",
+    "case_narrators_and_primary_endings_separated": true,
+    "profession_interaction_skill_roles_preserved": true,
+    "new_mechanical_parameter_values": [],
+    "actual_participant_playtest": false
+  },
+  "world_foundational_laws_regression": {
+    "World": "v0.75",
+    "source_observation_unaccepted_testimony_and_later_interpretation_separated": true,
+    "new_mechanical_parameter_values": [],
+    "actual_participant_playtest": false
+  },
+  "world_foundational_stage_regression": {
+    "World": "v0.76",
+    "formation_profession_interaction_and_two_body_story_distinguished": true,
+    "new_mechanical_parameter_values": [],
+    "actual_participant_playtest": false
+  },
+  "world_foundational_chronicle_regression": {
+    "World": "v0.77",
+    "technology_creation_diffusion_and_date_variants_distinguished": true,
+    "new_mechanical_parameter_values": [],
+    "actual_participant_playtest": false
+  },
+  "world_foundational_personnel_regression": {
+    "World": "v0.78",
+    "formation_profession_interaction_skill_distinguished": true,
+    "wiki_interaction_scope_preserved": true,
+    "new_mechanical_parameter_values": [],
+    "actual_participant_playtest": false
+  },
+  "world_foundational_constituent_regression": {
+    "World": "v0.79",
+    "processor_component_and_guard_device_comparison_distinguished": true,
+    "yaksha_origin_and_specific_installed_count_distinguished": true,
+    "new_mechanical_parameter_values": [],
+    "actual_participant_playtest": false
+  },
+  "world_foundational_appendix_regression": {
+    "whole_documents_read": 1,
+    "major_sections": 21,
+    "glossary_entry_occurrences": 484,
+    "primary_topics_whole_rechecked": 9,
+    "wiki_topics_whole_rechecked": 9,
+    "map_text_guides": 3,
+    "actual_complete_map_images_delivered": 0,
+    "document5_whole_review_complete": true,
+    "all_six_versioned_plans_whole_reviewed": true,
+    "all_glossary_entry_provenance_verified": false,
+    "all_glossary_entries_distinct_canonical_terms": false,
+    "new_related_novels_whole_read": 0,
+    "new_mechanical_parameter_values": [],
+    "current_engine_changed": false,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false,
+    "actual_async_community_test": false,
+    "document5_prefix_lines_reviewed": 2374,
+    "document5_suffix_lines_pending": 0,
+    "foundational_candidates_cumulative_whole_reviews": 7,
+    "foundational_candidates_semantic_pending": 1
+  },
+  "world_core_time_order_regression": {
+    "whole_documents_read": 2,
+    "logical_data_rows": 111,
+    "columns": 7,
+    "era_separator_rows": 8,
+    "episode_body_rows": 103,
+    "editorial_note_rows": 87,
+    "expanded_passage_count": 2,
+    "substantive_body_reused_topic_count": 91,
+    "substantive_body_new_whole_topic_count": 12,
+    "foundational_candidates_cumulative_whole_reviews": 8,
+    "foundational_candidates_semantic_pending": 0,
+    "new_related_novels_whole_read": 0,
+    "new_mechanical_parameter_values": [],
+    "all_primary_topic_facts_independently_verified": false,
+    "current_engine_changed": false,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false,
+    "actual_async_community_test": false,
+    "primary_container_whole_read": true,
+    "primary_unique_topics": 105,
+    "primary_topic_occurrences": 210,
+    "all_105_topics_have_substantive_body": false,
+    "pending_world_decisions": [
+      "원본0041의 비석형 빅포레스트/새우거리와 위키의 실제 물질계거리 공간 대응. 현재 안내는 위키의 두장소 모델이며 사용자 선택 질문 대기."
+    ]
+  },
+  "world_mobius_night_shift_regression": {
+    "novel083_whole_read": true,
+    "current_world": "v0.82",
+    "source": "이전설계_통합검토.json",
+    "body_container_and_coffin_distinguished": true,
+    "same_profession_interaction_and_percentile": true,
+    "all_related_novels_reviewed": false,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false
+  },
+  "world_noene_family_regression": {
+    "World": "v0.83",
+    "related_novels_whole_read": [
+      "021",
+      "092"
+    ],
+    "same_profession_interaction_skill_and_body": true,
+    "real_memory_and_chosen_relationship_distinguished": true,
+    "all_related_novels_reviewed": false,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false
+  },
+  "world_ghost_cafe_regression": {
+    "World": "v0.84",
+    "novel094_whole_read": true,
+    "primary0084_and_novel_adaptation_distinguished": true,
+    "same_profession_interaction_skill_body_and_residence": true,
+    "appearance_repair_is_body_healing_or_resurrection": false,
+    "all_related_novels_reviewed": false,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false
+  },
+  "core_coffin_receiver_regression": {
+    "date": "2026-10-07",
+    "Core": "0.45",
+    "Sheet": "0.40",
+    "existing_scenario_events_unchanged": true,
+    "scope": "공통 코핀 수신 조건/지원자 예산 설명과 모델 보강; 기존 입문 세 경로를 새 참가자 플레이로 재분류하지 않음",
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false,
+    "actual_async_community_test": false
+  },
+  "identity_evidence_review": {
+    "record": "이전설계_통합검토.json",
+    "Intro": "v0.5",
+    "World": "v0.85",
+    "novel001_whole_rechecked": true,
+    "source_notes_and_glossary_read": true,
+    "original_topics_rechecked": 6,
+    "wiki_topics_rechecked": 11,
+    "issues_reviewed": 15,
+    "identity_canon_answer_fixed": false,
+    "handouts_written": [
+      "STATEMENT-K-01",
+      "COPY-VISIT-01",
+      "COPY-RECEIPT-01",
+      "COPY-CONTRACT-01"
+    ],
+    "same_actions_time_resources_rewards": true,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false,
+    "actual_async_community_test": false
+  },
+  "reader_navigation_regression": {
+    "Core": "v0.46",
+    "World": "v0.86",
+    "Sheet": "v0.41",
+    "Intro": "v0.5",
+    "scenario_events_unchanged": true,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false
+  },
+  "compatible_io_regression": {
+    "Core": "v0.47",
+    "World": "v0.87",
+    "Sheet": "v0.42",
+    "Intro": "v0.5",
+    "scenario_events_unchanged": true,
+    "two_realm_io_example_is_participant_play": false
+  },
+  "interaction_body_regression": {
+    "Core": "v0.48",
+    "World": "v0.88",
+    "Sheet": "v0.43",
+    "Intro": "v0.5",
+    "scenario_events_unchanged": true,
+    "new_case_is_actual_participant_play": false
+  },
+  "debt_story_and_corpus_regression": {
+    "Core": "v0.48",
+    "World": "v0.89",
+    "Sheet": "v0.43",
+    "Intro": "v0.5",
+    "scenario_events_unchanged": true,
+    "all_numbered_related_novel_settings_verified": false
+  },
+  "reader_start_and_human_trial_preparation": {
+    "id": "READER-START-TRIALS-20261007",
+    "date": "2026-10-07",
+    "versions": {
+      "Design": "v1.26",
+      "Core": "v0.48",
+      "World": "v0.89",
+      "Sheet": "v0.44",
+      "Easy": "P v0.31",
+      "Intro": "v0.5",
+      "Tarot": "v0.3"
+    },
+    "start_sheet_anchor": "fewk-first-scene-sheet",
+    "human_protocol_anchor": "fewk-human-trials",
+    "sheet_numbered_sections_preserved": 32,
+    "start_sheet_is_same_person_body_primary_record": true,
+    "presets_reused_from": "입문_프로필.json:character.presets",
+    "preset_names": [
+      "현장 러너",
+      "자료 러너",
+      "생활 중개자"
+    ],
+    "skill_names": [
+      "격투",
+      "사격",
+      "운동",
+      "은밀",
+      "관찰",
+      "조사",
+      "해킹",
+      "공학",
+      "의학",
+      "교섭",
+      "생활",
+      "지식"
+    ],
+    "independent_reading_tasks": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5"
+    ],
+    "reading_numeric_answer": {
+      "prepared": 70,
+      "situation": -20,
+      "target": 50,
+      "good_limit": 25,
+      "exceptional_limit": 10,
+      "roll": 25,
+      "level": "좋은 성공"
+    },
+    "human_trial_modes": [
+      "R",
+      "P",
+      "A",
+      "T"
+    ],
+    "unplayed_routes_not_counted": true,
+    "actual_vs_rehearsed_async_distinguished": true,
+    "tarot_percentile_comparison_is_separate_scene": true,
+    "core_intro_story_events_unchanged": true,
+    "new_mechanical_parameter_values": [],
+    "artifacts_sha256": {
+      "01_텀블벅_이지룰_초안.md": "80e43245243f9994a75bb08841ac549ee80e47588a63b22028ee2bba28db1fa5",
+      "12_룰시트와캐릭터시트.md": "ae322c199c7c9fb636b84c06a81052899ce80d3c459888ae332a14bd1a420ff6",
+      "10_CoreRulebook.md": "7676f851d5b46acc55a77ee69962196e71226ccef5d8d2c939281531723a9ef4",
+      "13_입문시나리오.md": "e4c269c4af7494360330974ac52baaf6c6aeff24f42f35f8892b11b6fda8d0da",
+      "02_타롯_해킹과_지능전_초안.md": "1613f14e485eb4f075cfb1805266afe05cf8db16fa5f11f165b8850ca9ad41e4"
+    },
+    "participant_evidence_received": [],
+    "all_reader_and_playtest_issues_resolved": false,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false,
+    "actual_async_community_test": false,
+    "verification": {
+      "changed_input_verifier_suites_passed": 18,
+      "package_documents": 9,
+      "local_links": 501,
+      "missing_file_or_named_anchor_links": 0,
+      "preset_skill_cells_checked": 36,
+      "human_trial_preparation_modes": 4,
+      "actual_trial_evidence_received": 0,
+      "current_reference_hashes_verified": 358,
+      "current_numbered_novel_hashes_verified": 18,
+      "full_current_worktree_revalidation_complete": true,
+      "audit_mode": "package_and_available_original_sources",
+      "actual_participant_playtest": false
+    },
+    "current_compatibility_versions": {
+      "Core": "0.49",
+      "World": "1.00",
+      "Design": "1.38"
+    },
+    "artifacts_before_runner_expansion": {
+      "01_텀블벅_이지룰_초안.md": "64e798908ead1ff2efa5b0495234553d811469aa07088df449ab6acf0381e313",
+      "12_룰시트와캐릭터시트.md": "7bb4c5008ba8c32e0e23d9a57d4f6950b817b9d61a1f0123252fc7cb02ab5055",
+      "10_CoreRulebook.md": "5691fdbed5dd2f705f8ac14fdd6919abf49b79277c58073a90c0b187cc09dfe9",
+      "13_입문시나리오.md": "67eba73f6907090fd8c65bafac8caf68b23fec9d7e2009ec42458fec6db59abf",
+      "02_타롯_해킹과_지능전_초안.md": "1613f14e485eb4f075cfb1805266afe05cf8db16fa5f11f165b8850ca9ad41e4"
+    },
+    "current_support_review": {
+      "date": "2026-10-08",
+      "record": "러너와튜터리얼_대조.json",
+      "actual_participant_test_performed": false
+    }
+  },
+  "world_uploaded_author_note_regression": {
+    "World": "v0.90",
+    "Design": "v1.27",
+    "new_whole_documents": 2,
+    "issues": 10,
+    "outline_top_sections": 11,
+    "same_scene_actions_and_intro_events": true,
+    "same_percentile_engine": true,
+    "short_scenes_do_not_reset_person_body_records": true,
+    "human_dice_is_not_d6_engine_or_auto_undo": true,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false,
+    "world_sha256": "ea24d0e379b9274afc223d6d2b5efbd4fade53dc766eac62c06a19e3971d53c2"
+  },
+  "world_keyword_prefix_regression": {
+    "World": "v0.91",
+    "Design": "v1.28",
+    "reviewed_data_rows": 250,
+    "remaining_data_rows": 734,
+    "issues": 18,
+    "reader_distinctions": 8,
+    "same_scene_actions_and_intro_events": true,
+    "same_percentile_engine": true,
+    "whole_keyword_table_reviewed": false,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false,
+    "world_sha256": "93a40d25898a4c69282db607bc4fdf5bbc63de19b6a9bdfb72a1ff4961c2d741"
+  },
+  "world_keyword_middle_regression": {
+    "World": "v0.92",
+    "Design": "v1.29",
+    "reviewed_prefix_data_rows": 500,
+    "remaining_data_rows": 484,
+    "new_issues": 18,
+    "cumulative_issues": 36,
+    "reader_distinctions": 16,
+    "same_scene_actions_and_intro_events": true,
+    "same_percentile_engine": true,
+    "whole_keyword_table_reviewed": false,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false,
+    "world_sha256": "ea7efdafff64993760423f21a3d91c70c3ef1523ecfe33d4cb14565dac5b5052"
+  },
+  "world_keyword_full_regression": {
+    "World": "v0.93",
+    "Design": "v1.30",
+    "reviewed_data_rows": 984,
+    "remaining_data_rows": 0,
+    "new_issues": 24,
+    "cumulative_issues": 60,
+    "reader_distinctions": 24,
+    "same_scene_actions_and_intro_events": true,
+    "same_percentile_engine": true,
+    "whole_keyword_table_reviewed": true,
+    "foreign_language_translation_quality_verified": false,
+    "all_individual_facts_canon_verified": false,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false,
+    "world_sha256": "3c89f75ca6cf3a9137a611e86ed9ca21fc266f8b03afd4cba416f5d973736708"
+  },
+  "world_core_basic_editorial_regression": {
+    "World": "v0.94",
+    "Design": "v1.31",
+    "core_basic_topics_matched": 105,
+    "first_draft_comments_read": 21,
+    "first_draft_selected_contexts_read": 16,
+    "whole_first_draft_read": false,
+    "same_scene_actions_and_intro_events": true,
+    "same_percentile_engine": true,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false,
+    "world_sha256": "a0810e455a51e931ddbe4e2b18f3f42de63b8d16f57980d5006dfeb169805492"
+  },
+  "world_first_draft_prefix_regression": {
+    "World": "v0.95",
+    "Design": "v1.32",
+    "prefix_lines_read": [
+      1,
+      500
+    ],
+    "major_parts": 15,
+    "focused_issues": 20,
+    "mission_hooks_read": 19,
+    "cumulative_distinct_physical_lines_read": 567,
+    "remaining_not_whole_read_lines": 3155,
+    "whole_first_draft_read": false,
+    "same_scene_actions_and_intro_events": true,
+    "same_percentile_engine": true,
+    "new_scene_is_canon_continuation": false,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false,
+    "world_sha256": "be23db395a5f04e801ce3e80bd506f8c81425870573423d2112f8d342f1735ed"
+  },
+  "world_first_draft_middle_regression": {
+    "World": "v0.96",
+    "Design": "v1.33",
+    "part_lines_read": [
+      501,
+      1030
+    ],
+    "major_parts": 24,
+    "new_focused_issues": 24,
+    "cumulative_focused_issues": 44,
+    "cumulative_continuous_prefix_lines": [
+      1,
+      1030
+    ],
+    "cumulative_distinct_physical_lines_read": 1088,
+    "remaining_not_whole_read_lines": 2634,
+    "whole_first_draft_read": false,
+    "same_scene_actions_and_intro_events": true,
+    "same_percentile_engine": true,
+    "all_storage_or_imagery_profiles_complete": false,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false,
+    "world_sha256": "4a6a96b727288a8b5ffbafd1e19a22e8bd85e2029aaa8b36cbde0349f2d0e4c9"
+  },
+  "world_first_draft_market_region_regression": {
+    "World": "v0.97",
+    "Design": "v1.34",
+    "part_lines_read": [
+      1031,
+      1791
+    ],
+    "major_parts": 36,
+    "new_focused_issues": 36,
+    "cumulative_focused_issues": 80,
+    "cumulative_continuous_prefix_lines": [
+      1,
+      1791
+    ],
+    "cumulative_distinct_physical_lines_read": 1837,
+    "remaining_not_whole_read_lines": 1885,
+    "whole_first_draft_read": false,
+    "same_scene_actions_and_intro_events": true,
+    "same_percentile_engine": true,
+    "all_market_equipment_region_profiles_complete": false,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false,
+    "world_sha256": "e418d2b560552b4d5376b0165f7a6d9cfb6e9c3d0ad7780816dea6f65bcddf55"
+  },
+  "world_first_draft_history_dimension_regression": {
+    "World": "v0.98",
+    "Design": "v1.35",
+    "part_lines_read": [
+      1792,
+      2447
+    ],
+    "major_parts": 47,
+    "new_focused_issues": 47,
+    "cumulative_focused_issues": 127,
+    "cumulative_continuous_prefix_lines": [
+      1,
+      2447
+    ],
+    "cumulative_distinct_physical_lines_read": 2472,
+    "remaining_not_whole_read_lines": 1250,
+    "calendar_arithmetic_cases": 3,
+    "whole_first_draft_read": false,
+    "same_scene_actions_and_intro_events": true,
+    "same_percentile_engine": true,
+    "all_history_dimension_existence_profiles_complete": false,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false,
+    "world_sha256": "d3cc9073fc8f45ffa05878f95f07dba0a646dffb05f9f919e12d583365cd8a2f"
+  },
+  "world_first_draft_full_regression": {
+    "World": "v0.99",
+    "Design": "v1.36",
+    "part_lines_read": [
+      2448,
+      3700
+    ],
+    "major_parts": 69,
+    "new_focused_issues": 69,
+    "cumulative_focused_issues": 196,
+    "cumulative_continuous_prefix_lines": [
+      1,
+      3722
+    ],
+    "cumulative_distinct_physical_lines_read": 3722,
+    "remaining_not_whole_read_lines": 0,
+    "new_distinct_physical_lines_read": 1250,
+    "whole_first_draft_read": true,
+    "whole_first_draft_bounded_semantic_review_complete": true,
+    "all_individual_facts_canon_verified": false,
+    "all_specific_use_profiles_complete": false,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false,
+    "actual_async_community_test": false,
+    "same_scene_actions_and_intro_events": true,
+    "same_percentile_engine": true,
+    "world_sha256": "36455bd394ece0e312f7975335a9a6ca77d7282c54568b23c4257e6f4089fd6b"
+  },
+  "product_content_compatibility_regression": {
+    "date": "2026-10-07",
+    "Core": "0.49",
+    "World": "1.00",
+    "Design": "1.38",
+    "previous_artifacts_sha256": {
+      "13_입문시나리오.md": "93a07994e91205c73d299906e62402a1cd631d801fceac0edd9f3411de57dd5d",
+      "10_CoreRulebook.md": "a82fdb59d797c8778ca610658ac9a6805aa8e2ac913055051775adebf8901b8b",
+      "검증/입문_프로필.json": "24fb4b594346497662f09dd9d3ffd99c79fa3ea098fdeb360ce54956727d6a3f",
+      "11_WorldLorebook.md": "36455bd394ece0e312f7975335a9a6ca77d7282c54568b23c4257e6f4089fd6b"
+    },
+    "previous_preparation_artifacts_sha256": {
+      "01_텀블벅_이지룰_초안.md": "fbad8468b8e860ed119833cd56f8675213d0faead5abb655817e6c51ab27f7c9",
+      "12_룰시트와캐릭터시트.md": "6f445eaa30a1638192ce2b0f8d0f085d2fac8f5d3f2387bc8e4fae4da6a87a28",
+      "10_CoreRulebook.md": "a82fdb59d797c8778ca610658ac9a6805aa8e2ac913055051775adebf8901b8b",
+      "13_입문시나리오.md": "93a07994e91205c73d299906e62402a1cd631d801fceac0edd9f3411de57dd5d",
+      "02_타롯_해킹과_지능전_초안.md": "9a2c4063b54ef9a937947670df43b2e934b317b91d43b85d570cbed04c808ef7"
+    },
+    "existing_scenario_profile_sheet_and_tarot_unchanged": true,
+    "easy_only_current_core_version_pointer_changed": true,
+    "changed_input_verifier_suites_passed": 20,
+    "default_campaign_checks_passed": 71,
+    "new_C1_prices_and_IO_do_not_override_existing_intro_contract": true,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false,
+    "actual_async_community_test": false
+  },
+  "reader_finalization_previous_hashes": {
+    "13_입문시나리오.md": "93a07994e91205c73d299906e62402a1cd631d801fceac0edd9f3411de57dd5d",
+    "10_CoreRulebook.md": "35f2e23d9053cbad8a1d9da0cd5da024da029d6c5302df25448f6b0166f18ca0",
+    "검증/입문_프로필.json": "24fb4b594346497662f09dd9d3ffd99c79fa3ea098fdeb360ce54956727d6a3f",
+    "11_WorldLorebook.md": "b2dcf6fec513d4c7ff7ae90c50eedfc756a3d3ebe9260e348872965749bf756a"
+  },
+  "reader_finalization_previous_trial_material_hashes": {
+    "01_텀블벅_이지룰_초안.md": "c1f54a80cf7798852c46281989b93453f378e691fecaa75f4692517ed4b8496e",
+    "12_룰시트와캐릭터시트.md": "6f445eaa30a1638192ce2b0f8d0f085d2fac8f5d3f2387bc8e4fae4da6a87a28",
+    "10_CoreRulebook.md": "35f2e23d9053cbad8a1d9da0cd5da024da029d6c5302df25448f6b0166f18ca0",
+    "13_입문시나리오.md": "93a07994e91205c73d299906e62402a1cd631d801fceac0edd9f3411de57dd5d",
+    "02_타롯_해킹과_지능전_초안.md": "9a2c4063b54ef9a937947670df43b2e934b317b91d43b85d570cbed04c808ef7"
+  },
+  "reader_finalization": {
+    "record": "독자편집_대조.json",
+    "same_core_engine": true,
+    "growth_per_person_clarified": true,
+    "S1_tarot_security_and_exit_written": true,
+    "actual_participant_reading": false,
+    "actual_participant_playtest": false
+  },
+  "artifacts_before_runner_expansion": {
+    "13_입문시나리오.md": "67eba73f6907090fd8c65bafac8caf68b23fec9d7e2009ec42458fec6db59abf",
+    "10_CoreRulebook.md": "5691fdbed5dd2f705f8ac14fdd6919abf49b79277c58073a90c0b187cc09dfe9",
+    "검증/입문_프로필.json": "24fb4b594346497662f09dd9d3ffd99c79fa3ea098fdeb360ce54956727d6a3f",
+    "11_WorldLorebook.md": "bc5d74a6ab52147de44911c06697978c5bf2f0c2a01687eb7a1892d942138f4a"
+  },
+  "current_artifact_review": {
+    "date": "2026-10-08",
+    "record": "캐릭터와시나리오북_편집.json",
+    "scope": "기존 입문 사건/수치는 유지·Core 인물 절/World68장/시트6절에 완성PC와 시나리오북 편성. 기존 진행 준비와 현재 원고 참조 대조."
+  },
+  "artifacts_before_character_book_editing": {
+    "13_입문시나리오.md": "e4c269c4af7494360330974ac52baaf6c6aeff24f42f35f8892b11b6fda8d0da",
+    "10_CoreRulebook.md": "da43ec4382007f0c34ed1171168b55451e6a1f564ad80b1c53405241e99b9495",
+    "검증/입문_프로필.json": "24fb4b594346497662f09dd9d3ffd99c79fa3ea098fdeb360ce54956727d6a3f",
+    "11_WorldLorebook.md": "be4539744a7284f80080227a83df7a63b713a700084c1498f412735a779a4e6e"
+  },
+  "trial_materials_before_character_book_editing": {
+    "01_텀블벅_이지룰_초안.md": "80e43245243f9994a75bb08841ac549ee80e47588a63b22028ee2bba28db1fa5",
+    "12_룰시트와캐릭터시트.md": "784499bd7d9c5d4ba8675eabcb16db6e22005f63a807cc886a7b210191e1b79b",
+    "10_CoreRulebook.md": "da43ec4382007f0c34ed1171168b55451e6a1f564ad80b1c53405241e99b9495",
+    "13_입문시나리오.md": "e4c269c4af7494360330974ac52baaf6c6aeff24f42f35f8892b11b6fda8d0da",
+    "02_타롯_해킹과_지능전_초안.md": "1613f14e485eb4f075cfb1805266afe05cf8db16fa5f11f165b8850ca9ad41e4"
+  }
+}

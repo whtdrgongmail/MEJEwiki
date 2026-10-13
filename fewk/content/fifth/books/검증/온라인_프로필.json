@@ -1,0 +1,60 @@
+{
+  "id": "FEWK-ONLINE-01",
+  "date": "2026-10-05",
+  "engine": "P-FEWK-0.2",
+  "status": "NEW공방/기록처리예·실제참가자/운영서비스아님",
+  "source_indices": [
+    106,
+    107,
+    108,
+    110,
+    111,
+    113,
+    114,
+    115,
+    116
+  ],
+  "modes": [
+    "실시간",
+    "커뮤",
+    "메일",
+    "게시판"
+  ],
+  "new_universal_stats": [],
+  "active_body_and_one_person_learning_preserved": true,
+  "post_count_or_OOC_wait_advances_IC": false,
+  "absence_automatically_NPC_or_Dropout": false,
+  "platform_change_heals_or_refills": false,
+  "proposed_actions_grant_extra_budget": false,
+  "feelings_are_owner_authored": true,
+  "shared_state_example": {
+    "start_version": 20,
+    "start_event": "S",
+    "start_cost_part": "PART-01",
+    "competing_contacts": [
+      "A",
+      "B"
+    ],
+    "contacts_already_known_before_registration": true,
+    "contact_registration_is_not_IC_message": true,
+    "contact_base_version": 21,
+    "first_contact_next_version": 22,
+    "rebased_second_contact_next_version": 23,
+    "partial_seconds": 120,
+    "partial_version": 24,
+    "completion_seconds": 300,
+    "remaining_seconds": 180,
+    "OOC_wait_seconds": 604800,
+    "partial_HP_Ego_ammo": [
+      5,
+      6,
+      4
+    ]
+  },
+  "digital_format": "FEWK-ONLINE-SNAPSHOT-01",
+  "production_VTT_or_bot_verified": false,
+  "external_YAML_or_VTT_import_verified": false,
+  "all_online_community_concurrency_verified": false,
+  "actual_participant_playtest": false,
+  "actual_async_community_test": false
+}

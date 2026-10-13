@@ -1,0 +1,22 @@
+{
+  "id": "FEWK-DISTRICT-C1-VERIFY",
+  "checks_passed": 71,
+  "budget_scenarios_checked": 6,
+  "catalog_items": 20,
+  "starting_kits": 3,
+  "income_oyat": 12,
+  "expenses_oyat": 9,
+  "remaining_oyat": 3,
+  "engine": "P-FEWK-0.2",
+  "actual_participant_playtest": false,
+  "balance_confirmed": false,
+  "artifacts_sha256": {
+    "10_CoreRulebook.md": "7676f851d5b46acc55a77ee69962196e71226ccef5d8d2c939281531723a9ef4",
+    "11_WorldLorebook.md": "7a1f0a2c099ba84ce7f190361cfa1c8282ac12e6c39787e126a5fea65275a2ea",
+    "검증/기본캠페인_프로필.json": "01e2157f5250e21dea7fcb6ff55f6297c5ed145b3120f11adae9204671672171",
+    "검증/기본캠페인_검증.py": "4dae37a948e197f273838dca8b836f14c6baa6b60ce3b8428c039780e67e4479",
+    "검증/일반플레이_검증.py": "d23e6363f1ca28beddf8b7cd9c24839c2ba0ea66eada525295b4663e6b493585",
+    "검증/백분율_코어검증.py": "7213dd8fc5650ec402271ed0f2920bc1c250586bf88472234a23aa82423a95c8",
+    "검증/입문_프로필.json": "24fb4b594346497662f09dd9d3ffd99c79fa3ea098fdeb360ce54956727d6a3f"
+  }
+}

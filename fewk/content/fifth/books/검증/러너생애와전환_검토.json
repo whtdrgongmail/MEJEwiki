@@ -1,0 +1,113 @@
+{
+  "id": "FEWK-RUNNER-LIFE-01",
+  "date": "2026-10-05",
+  "source_ids": [
+    "SRC-289",
+    "SRC-290",
+    "SRC-291",
+    "SRC-292",
+    "SRC-293",
+    "SRC-294"
+  ],
+  "scope": "러너생애/윤리/은퇴와장비/전체7부 안내6개 전체·원본0009/0050/0080/0086 각 주제 전체 및 기존0073/0078·0054/002 관련검토를 집중 대조. 전권/모든인물/실제참가자 완료 아님",
+  "sources": [
+    {
+      "path": "_FEWK 설정자료용/업로드 자료/원본_Core 100여개 원고원본.txt",
+      "sha256": "6a1c18b7188cc1fc0f13dc38e9ac158bd081ab821276ecd265747bd7d21d53af",
+      "scope": "이번 원본0009/0050/0080/0086 각 주제 전체 읽기. 기존0073/0078과0054 검토를 재참조, 중복재수록/대형파일전권을 독립완료로 합산 안 함",
+      "whole_document_reviewed": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/05_장비와_기술/README.md",
+      "sha256": "e752ba8b0e47072f3322b299bb277ce86953fd4d92326748164fd0f450fb7ca5",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/06_러너의_일생/01_신참에서_베테랑까지.md",
+      "sha256": "a7d2d2eeeb39516d2ad207453c4a7f36f326a00bc2698bd07701289042d39048",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/06_러너의_일생/02_윤리와_신뢰.md",
+      "sha256": "0cce9076ef36d595fb3ef9bf52bc2a49a35b1bcf99906c8b1af3631ca8c9369d",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/06_러너의_일생/03_은퇴_드랍_진사의_갈림길.md",
+      "sha256": "bf7f1d5a9adeee66f0a938ea48290080b60ae2fa71941e6689f1aa0609cc75f8",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/06_러너의_일생/README.md",
+      "sha256": "6547d4b6b81a86aa4dc000ad638a3e527ac420fa5f303fe719cd05553d91c554",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/README.md",
+      "sha256": "e6dfc098c57da45109709fbf21288902721088070df6da982f7efeafff9f23b4",
+      "whole_document_read": true,
+      "whole_setting_verified": false
+    }
+  ],
+  "original_raw_topics_whole_read_this_pass": [
+    "0009",
+    "0050",
+    "0080",
+    "0086"
+  ],
+  "conflicts": [
+    [
+      "장비/기술README 전체 읽어 총/오토바이/코핀/임플란트 실제 기능·장소 연결. 모든러너네필수도구/코핀자가소유·3종총필수/단계별장비업그레이드 안 붙임. 이전장비 검토와68~71장 생업/경력에 대응."
+    ],
+    [
+      "신참/베테랑 본문 전체와0078 실제티로리경력·0009/0086페이·0050내리 대조. 새로운경험/전문화·단골/동료/삶의전환 유지.",
+      "신참1~2년/중견3~10년/베테랑10년·자동3총/개인코핀/수입/냉소체/노화은퇴·종교재단관측계약 설명은 전역법으로 승계하지 않음. 티로리20년은0078 실제기록, 임무는 종교계괴물퇴치 뒤 종말관측과귀환/지원이며 별도보고서임무 아닌 것 정정."
+    ],
+    [
+      "윤리/신뢰 본문 전체와 실제지급/거점/IC수신 경로 대조. 약속/보호정보/추천·지원 등 실제인물관계와사건 유지.",
+      "모든러너무시민권/노동보호·사회보험없음, 전역카페블랙리스트/환율/의료·코핀차단/자동원상회복불가·두긴급문구강제보수/불명예·같은야메평생비밀·자동처형/PC애도 강제를 원전공통정의나새능력치로 안 이관."
+    ],
+    [
+      "은퇴/드랍/진사 본문 전체 및0009/0086실제페이·0080오크계추방과사용자현행드랍아웃 대조. 스스로일줄이기/전업/인계/실제지원과기억소재 유지.",
+      "물질계미귀환실종=드랍아웃 정정, 지정차원재진입금지 보존. 자동장례/전역혼백탐색의부재증명/유품소각/후견연금·지속트라우마/노화감점·페이32년차/은퇴1년전/22년전3명사망대사는 출처미확정.",
+      "0009 실패누적수호사→0086 전향뒤임무착실히성공러너의 명시를 유지, 둘의정확한날짜/연속과정 미확정. 페이를항상모든임무실패자연은퇴로단정안함. 해당0009의수호사필요조건은개별의뢰조건이며모든팀필수역할슬롯 아님."
+    ],
+    [
+      "러너일생README 전체를 경력/전환·생활지속으로 대응. 모든경력10~30년·수백의뢰/총둘/몸하나/드랍이종착지라는공통경력모형 안승계. 사용자드랍아웃·인물숙련/현재몸/전업/동일인물상태 보존."
+    ],
+    [
+      "7부README 전체와 실제원본0050초보환영 전문 대조. 내리의신전사/정보장사겸업·고급해독장치실패와지마국귀족학생육성의뢰 유지.",
+      "모든러너공적경로밖/3종총이름·평생비밀야메 및 나이트=은밀/피지컬=폭력만이라는폐쇄분류 안승계. 실제본체/귀환없는네이티브 대상 구분 유지. 전체7부통독권장/1시간소요는 현행독자검증시간으로 승계하지 않음."
+    ]
+  ],
+  "versions": {
+    "core": "v0.25",
+    "world": "v0.28",
+    "sheet": "v0.25",
+    "design": "v0.46"
+  },
+  "world_chapters": 71,
+  "sheet_sections": 30,
+  "new_mechanical_parameter_values": [],
+  "new_universal_stats": [],
+  "new_mandatory_job_slots": false,
+  "Pei_failed_guardian_and_successful_runner_distinguished": true,
+  "Pei_exact_career_dates_and_32years_confirmed": false,
+  "all_Night_and_Physical_are_fixed_job_levels": false,
+  "all_runner_ages_income_weapons_and_retirement_stages_fixed": false,
+  "all_cafe_blacklists_or_legal_exclusion_confirmed": false,
+  "help_phrase_automatically_forces_support_and_rewards": false,
+  "absence_of_signal_proves_all_realm_extinction": false,
+  "dropout_means_only_named_realm_reentry_ban": true,
+  "directly_related_novels_whole_read_this_pass": [],
+  "previous_related_novel002_review_retained": true,
+  "unread_documents_counted": false,
+  "actual_participant_reading": false,
+  "actual_participant_playtest": false,
+  "actual_async_community_test": false
+}

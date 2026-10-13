@@ -1,3 +1,21 @@
+# FEWKbooks — 제5판
+
+현재 독서기는 **제5판 Core·World 및 지원 문서 8종**을 제공합니다. 2026-10-10 원고 마감 묶음이며, 조판·실제 참가자 플레이테스트 완료판은 아닙니다.
+
+- 기본 독서기: `index.html`
+- 구판 독서기와 기존 주소: `third-edition.html` 및 기존 `#corerulebook/...`, `#worldbook/...` 경로
+- 현재 원고·검증 자료: `content/fifth/`
+- 파일별 원본 SHA-256: `content/fifth/manifest.json`
+- 갱신: `python scripts/sync_fifth.py --source "<제5판 원고 폴더>"`
+
+원고 원본과 구판 파일은 덮어쓰지 않습니다. 삽화 원본·진행 중인 이미지 교체·PDF 도록은 이번 텍스트 동기화에 포함하지 않습니다. 검증 자료의 오래된 완료·대기 기록은 해당 시점의 이력으로 읽습니다.
+
+로컬 확인: `python -m http.server 8080` 후 `http://localhost:8080/`.
+
+아래는 기존 저장소 소개·라이선스 기록입니다.
+
+---
+
 # FEWKbooks
 
 **FEWK; Far East White Kingdom** — Universe Setting Project since 2021.10.31 by Universe Designer **WhtDrgon** (Kim Dongeun).

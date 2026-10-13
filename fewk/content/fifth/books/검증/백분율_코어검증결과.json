@@ -1,0 +1,174 @@
+{
+  "date": "2026-10-05",
+  "version": "P-FEWK-0.2",
+  "scope": "Core v0.10의 P-FEWK v0.2 단일 대립 판정 정의·작성 예시와 구판 숙련 비용 검산",
+  "core_sha256": "7676f851d5b46acc55a77ee69962196e71226ccef5d8d2c939281531723a9ef4",
+  "scalar_rolls_checked": 9900,
+  "opposed_pairs_checked": 80000,
+  "cases": [
+    {
+      "targets": [
+        1,
+        1
+      ],
+      "ordinary_single_success_percent": 1,
+      "contest_win_percent": 0.99,
+      "contest_loss_percent": 0.99,
+      "contest_hold_percent": 98.02,
+      "defended_attack_hit_percent": 0.99,
+      "crosscheck": "10,000쌍 전수 열거와 성공 수준 분포 곱의 독립 대조"
+    },
+    {
+      "targets": [
+        30,
+        30
+      ],
+      "ordinary_single_success_percent": 30,
+      "contest_win_percent": 25.35,
+      "contest_loss_percent": 25.35,
+      "contest_hold_percent": 49.3,
+      "defended_attack_hit_percent": 25.35,
+      "crosscheck": "10,000쌍 전수 열거와 성공 수준 분포 곱의 독립 대조"
+    },
+    {
+      "targets": [
+        50,
+        50
+      ],
+      "ordinary_single_success_percent": 50,
+      "contest_win_percent": 37.25,
+      "contest_loss_percent": 37.25,
+      "contest_hold_percent": 25.5,
+      "defended_attack_hit_percent": 37.25,
+      "crosscheck": "10,000쌍 전수 열거와 성공 수준 분포 곱의 독립 대조"
+    },
+    {
+      "targets": [
+        70,
+        50
+      ],
+      "ordinary_single_success_percent": 70,
+      "contest_win_percent": 59.15,
+      "contest_loss_percent": 25.85,
+      "contest_hold_percent": 15.0,
+      "defended_attack_hit_percent": 59.15,
+      "crosscheck": "10,000쌍 전수 열거와 성공 수준 분포 곱의 독립 대조"
+    },
+    {
+      "targets": [
+        90,
+        30
+      ],
+      "ordinary_single_success_percent": 90,
+      "contest_win_percent": 81.63,
+      "contest_loss_percent": 11.37,
+      "contest_hold_percent": 7.0,
+      "defended_attack_hit_percent": 81.63,
+      "crosscheck": "10,000쌍 전수 열거와 성공 수준 분포 곱의 독립 대조"
+    },
+    {
+      "targets": [
+        50,
+        70
+      ],
+      "ordinary_single_success_percent": 50,
+      "contest_win_percent": 25.85,
+      "contest_loss_percent": 59.15,
+      "contest_hold_percent": 15.0,
+      "defended_attack_hit_percent": 25.85,
+      "crosscheck": "10,000쌍 전수 열거와 성공 수준 분포 곱의 독립 대조"
+    },
+    {
+      "targets": [
+        99,
+        99
+      ],
+      "ordinary_single_success_percent": 99,
+      "contest_win_percent": 49.5,
+      "contest_loss_percent": 49.5,
+      "contest_hold_percent": 1.0,
+      "defended_attack_hit_percent": 49.5,
+      "crosscheck": "10,000쌍 전수 열거와 성공 수준 분포 곱의 독립 대조"
+    },
+    {
+      "targets": [
+        1,
+        99
+      ],
+      "ordinary_single_success_percent": 1,
+      "contest_win_percent": 0.01,
+      "contest_loss_percent": 99.0,
+      "contest_hold_percent": 0.99,
+      "defended_attack_hit_percent": 0.01,
+      "crosscheck": "10,000쌍 전수 열거와 성공 수준 분포 곱의 독립 대조"
+    }
+  ],
+  "legacy_skill_cost_checks": [
+    {
+      "name": "표준 러너",
+      "levels": [
+        4,
+        3,
+        4,
+        3,
+        2,
+        1
+      ],
+      "old_claim_p": 17,
+      "cumulative_skill_p": 36,
+      "same_as_level_sum_error": true
+    },
+    {
+      "name": "전담 해커",
+      "levels": [
+        6,
+        4,
+        4,
+        3,
+        1,
+        2
+      ],
+      "old_claim_p": 20,
+      "cumulative_skill_p": 51,
+      "same_as_level_sum_error": true
+    },
+    {
+      "name": "사회 공작원",
+      "levels": [
+        5,
+        5,
+        4,
+        3,
+        3,
+        2
+      ],
+      "old_claim_p": 22,
+      "cumulative_skill_p": 55,
+      "same_as_level_sum_error": true
+    },
+    {
+      "name": "전담 신사",
+      "levels": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        2
+      ],
+      "old_claim_p": 22,
+      "cumulative_skill_p": 58,
+      "same_as_level_sum_error": true
+    }
+  ],
+  "old_A_results_used_as_P_results": false,
+  "actual_participant_playtest": false,
+  "complete_physical_combat_balance_tested": false,
+  "notes": [
+    "각 독립 d100 결과를 균등하게 가정한 수학 검산이다.",
+    "일반 경쟁과 방어 대립의 성공/동률 비교가 같은 절차다. 방어 성공이 자동 반격을 주지는 않는다.",
+    "목표가 확률로 읽힌다는 것은 일반 단일 성공 기준이다. 대립 승률이나 실제 캠페인 성공률을 의미하지 않는다.",
+    "상황±20과 성공 수준·대립 규약은 신규 FEWK 구현이다.",
+    "무료 재굴림·추가 반응·별도의 무기/거리/피해 척도는 이 파일에서 시험하지 않았다."
+  ]
+}

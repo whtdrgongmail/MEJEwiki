@@ -1,0 +1,1022 @@
+{
+  "date": "2026-10-04",
+  "scope": "제안된 일반 판정·카드 단일 교환·구 Grade Die 및 FitD 분포·시험 방호·접근/엄폐/반격 모형의 검산",
+  "not_verified": [
+    "실제 플레이",
+    "5장 손패 선택·순서 전략·최대 3교환의 전체 승률",
+    "타롯 미학·재미·비동기 사용성",
+    "장기거주 에고 고정 수치",
+    "개척·플라잉·모든 캠페인 IO의 완성"
+  ],
+  "d100_single": {
+    "10": {
+      "counts": {
+        "fail": 90,
+        "success": 5,
+        "great": 5
+      },
+      "overall_success_probability": 0.1
+    },
+    "30": {
+      "counts": {
+        "fail": 70,
+        "success": 15,
+        "great": 15
+      },
+      "overall_success_probability": 0.3
+    },
+    "50": {
+      "counts": {
+        "fail": 50,
+        "success": 25,
+        "great": 25
+      },
+      "overall_success_probability": 0.5
+    },
+    "70": {
+      "counts": {
+        "fail": 30,
+        "success": 35,
+        "great": 35
+      },
+      "overall_success_probability": 0.7
+    },
+    "90": {
+      "counts": {
+        "fail": 10,
+        "success": 45,
+        "great": 45
+      },
+      "overall_success_probability": 0.9
+    }
+  },
+  "d100_opposed": [
+    {
+      "targets": [
+        30,
+        30
+      ],
+      "ordered_roll_pairs": 10000,
+      "counts": {
+        "a": 2535,
+        "b": 2535,
+        "hold": 4930
+      },
+      "probabilities": {
+        "a": 0.2535,
+        "b": 0.2535,
+        "hold": 0.493
+      }
+    },
+    {
+      "targets": [
+        50,
+        50
+      ],
+      "ordered_roll_pairs": 10000,
+      "counts": {
+        "a": 3725,
+        "b": 3725,
+        "hold": 2550
+      },
+      "probabilities": {
+        "a": 0.3725,
+        "b": 0.3725,
+        "hold": 0.255
+      }
+    },
+    {
+      "targets": [
+        70,
+        50
+      ],
+      "ordered_roll_pairs": 10000,
+      "counts": {
+        "a": 5725,
+        "b": 2725,
+        "hold": 1550
+      },
+      "probabilities": {
+        "a": 0.5725,
+        "b": 0.2725,
+        "hold": 0.155
+      }
+    },
+    {
+      "targets": [
+        90,
+        30
+      ],
+      "ordered_roll_pairs": 10000,
+      "counts": {
+        "a": 8535,
+        "b": 735,
+        "hold": 730
+      },
+      "probabilities": {
+        "a": 0.8535,
+        "b": 0.0735,
+        "hold": 0.073
+      }
+    }
+  ],
+  "card_decks": {
+    "56": {
+      "unique_cards": 56,
+      "one_exchange_uniform_card_model": {
+        "0": {
+          "ordered_distinct_pairs": 3080,
+          "counts": {
+            "a": 1456,
+            "b": 1456,
+            "hold": 168
+          },
+          "probabilities": {
+            "a": 0.4727272727272727,
+            "b": 0.4727272727272727,
+            "hold": 0.05454545454545454
+          }
+        },
+        "1": {
+          "ordered_distinct_pairs": 3080,
+          "counts": {
+            "a": 1624,
+            "b": 1248,
+            "hold": 208
+          },
+          "probabilities": {
+            "a": 0.5272727272727272,
+            "b": 0.4051948051948052,
+            "hold": 0.06753246753246753
+          }
+        },
+        "2": {
+          "ordered_distinct_pairs": 3080,
+          "counts": {
+            "a": 1832,
+            "b": 1056,
+            "hold": 192
+          },
+          "probabilities": {
+            "a": 0.5948051948051948,
+            "b": 0.34285714285714286,
+            "hold": 0.06233766233766234
+          }
+        }
+      }
+    },
+    "52": {
+      "unique_cards": 52,
+      "one_exchange_uniform_card_model": {
+        "0": {
+          "ordered_distinct_pairs": 2652,
+          "counts": {
+            "a": 1248,
+            "b": 1248,
+            "hold": 156
+          },
+          "probabilities": {
+            "a": 0.47058823529411764,
+            "b": 0.47058823529411764,
+            "hold": 0.058823529411764705
+          }
+        },
+        "1": {
+          "ordered_distinct_pairs": 2652,
+          "counts": {
+            "a": 1404,
+            "b": 1056,
+            "hold": 192
+          },
+          "probabilities": {
+            "a": 0.5294117647058824,
+            "b": 0.39819004524886875,
+            "hold": 0.07239819004524888
+          }
+        },
+        "2": {
+          "ordered_distinct_pairs": 2652,
+          "counts": {
+            "a": 1596,
+            "b": 880,
+            "hold": 176
+          },
+          "probabilities": {
+            "a": 0.6018099547511312,
+            "b": 0.33182503770739064,
+            "hold": 0.06636500754147813
+          }
+        }
+      }
+    }
+  },
+  "engine_comparison": {
+    "scope": "구 Grade Die 수치 설명과 공통 판정 후보의 수학적 대조",
+    "independent_checks": [
+      {
+        "dice": "4d4",
+        "method": "유계 정수 합의 포함배제식",
+        "matched": true
+      },
+      {
+        "dice": "5d8",
+        "method": "유계 정수 합의 포함배제식",
+        "matched": true
+      },
+      {
+        "dice": "9d12",
+        "method": "유계 정수 합의 포함배제식",
+        "matched": true
+      },
+      {
+        "dice": "4d4 Ace",
+        "method": "첫 두 번 눈의 전수 열거. 2회 최대 눈 이후는 최소 합으로 이미 TN10 이상",
+        "matched": true
+      }
+    ],
+    "grade_die": [
+      {
+        "dice": "4d4",
+        "target": 10,
+        "modifiers": 0,
+        "source_claimed_success": 0.5,
+        "without_explosion": {
+          "fraction": "75/128",
+          "probability": 0.5859375
+        },
+        "with_explosion": {
+          "fraction": "185/256",
+          "probability": 0.72265625
+        },
+        "unexploded_mean": 10.0,
+        "exploded_mean": 13.333333333333334
+      },
+      {
+        "dice": "5d8",
+        "target": 25,
+        "modifiers": 0,
+        "source_claimed_success": 0.5,
+        "without_explosion": {
+          "fraction": "1443/4096",
+          "probability": 0.352294921875
+        },
+        "with_explosion": {
+          "fraction": "130677/262144",
+          "probability": 0.4984931945800781
+        },
+        "unexploded_mean": 22.5,
+        "exploded_mean": 25.714285714285715
+      },
+      {
+        "dice": "9d12",
+        "target": 60,
+        "modifiers": 0,
+        "source_claimed_success": 0.5,
+        "without_explosion": {
+          "fraction": "4906831/10616832",
+          "probability": 0.46217468638478976
+        },
+        "with_explosion": {
+          "fraction": "2312711286301/3962711310336",
+          "probability": 0.5836184130468248
+        },
+        "unexploded_mean": 58.5,
+        "exploded_mean": 63.81818181818182
+      }
+    ],
+    "fitd_highest_d6": {
+      "1": {
+        "1_to_3": 0.5,
+        "4_or_5": 0.3333333333333333,
+        "at_least_one_6_including_criticals": 0.16666666666666666
+      },
+      "2": {
+        "1_to_3": 0.25,
+        "4_or_5": 0.4444444444444444,
+        "at_least_one_6_including_criticals": 0.3055555555555556
+      },
+      "3": {
+        "1_to_3": 0.125,
+        "4_or_5": 0.4537037037037037,
+        "at_least_one_6_including_criticals": 0.4212962962962963
+      }
+    },
+    "budget_crosscheck_only_no_100p_rewrite": {
+      "six_stats_mean_6_minimum_cost": 120,
+      "all_six_stats_at_6_cost": 120,
+      "all_six_stats_at_8_cost": 198,
+      "skills_and_other_purchases_included": false
+    },
+    "limits": [
+      "확률은 외부 룰의 재미·사용성·전체 적합도 점수가 아님",
+      "FitD 분포는 6/4~5/1~3만 묶고 위치·효과·저항·스트레스는 비교하지 않음",
+      "Grade Die는 수정치 없는 표준 성공 판정이며 대립·크리티컬 해석은 미검증"
+    ]
+  },
+  "combat_defense": {
+    "scope": "EASY-COMBAT-02 시험 수치와 방호 방식의 수학적 비교",
+    "fixture": {
+      "engine": "d100 prototype A opposed margin",
+      "attack_target": 70,
+      "defense_target": 50,
+      "local_hp": 4,
+      "armor": 1,
+      "gun_damage": 2,
+      "melee_damage": 3,
+      "typed_shield_charges": 2,
+      "typed_interceptions_per_exchange": 1,
+      "in_combat_recharge": false
+    },
+    "attack_win_probability": 0.5725,
+    "attack_win_fraction": "229/400",
+    "constant_additive_reduction": {
+      "reduction": 1,
+      "gun_hp_damage_per_hit": 0,
+      "hits_to_disable": null,
+      "problem": "이 시험값에서는 사격이 계속 HP를 줄이지 못함"
+    },
+    "finite_interception": {
+      "matching_gun_confirmed_hits_to_disable": 6,
+      "nonmatching_gun_confirmed_hits_to_disable": 4,
+      "melee_confirmed_hits_to_disable": 2,
+      "one_attack_per_exchange_expected_attempts_matching_gun": 10.480349344978166,
+      "one_attack_per_exchange_expected_attempts_nonmatching_gun": 6.986899563318778,
+      "one_attack_per_exchange_expected_attempts_melee_before_approach": 3.493449781659389,
+      "two_independent_matching_shooters_expected_hp_damage_first_exchange": 0.32775625,
+      "two_independent_matching_shooters_both_hit_probability": 0.32775625,
+      "two_independent_matching_shooters_any_hit_charge_consumption_probability": 0.81724375
+    },
+    "limits": [
+      "HP 판정·차단 소모만 계산. 실제 승률·재미·반반 활용은 미검증",
+      "기대 시도 수는 고정 명중 확률·행동마다 독립·1회 공격/교환·정비 없음·적 반격/이동 없음의 비교값",
+      "근접 기대 시도 수에는 접근 행동·접근 중 피격·사선 확보·목표 수행 시간이 없음",
+      "둘 이상의 공격은 서로 다른 인물의 행동을 소비. 한 인물의 자동 추가 공격을 뜻하지 않음",
+      "부품 가격·셀 소모·원전 장치 성능으로 환산하지 않음"
+    ],
+    "independent_checks": [
+      "성공/실패 사각영역과 성공 여유 삼각영역의 별도 계수로 명중 확률 확인",
+      "2인 교환의 4가지 명중 조합을 가중합해 기대 피해 확인"
+    ]
+  },
+  "combat_encounters": {
+    "scope": "EASY-COMBAT-03 거리/엄폐/이동/적 행동을 포함한 유한 상태 시험",
+    "model": "exact absorbing-state recursion with Fraction probabilities; independent seeded d100 simulation",
+    "scenes": [
+      {
+        "scene": "close_cover",
+        "conditions": {
+          "pc_attack": 60,
+          "pc_first": true,
+          "pc_shield": 0,
+          "enemy_shield": 2,
+          "approach": 1,
+          "pc_cover": true,
+          "route_cover": true,
+          "enemy_melee": false,
+          "enemy_shield_type": "projectile"
+        },
+        "fixed_policies": {
+          "projectile": {
+            "opponent_disabled_first_probability": 0.5981146151168454,
+            "probability_fraction": "4094356987834004999194633181681741977020558000/6845438791082119559927697283823705140233682069",
+            "expected_exchanges": 10.731510544650995,
+            "pc_hp_conditional_on_win": 1.9777412249965112,
+            "states_solved": 34,
+            "independent_simulation_check": {
+              "seed": 2601004,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.5973,
+              "mean_exchanges": 10.69695
+            }
+          },
+          "laser": {
+            "opponent_disabled_first_probability": 0.8418888946832523,
+            "probability_fraction": "375847218792404268507870819083838000/446433277794703521849414989330614909",
+            "expected_exchanges": 7.929036216069988,
+            "pc_hp_conditional_on_win": 2.410974960559562,
+            "states_solved": 24,
+            "independent_simulation_check": {
+              "seed": 2601004,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.8376,
+              "mean_exchanges": 7.91175
+            }
+          },
+          "melee": {
+            "opponent_disabled_first_probability": 0.9633718975111981,
+            "probability_fraction": "21192831989906487328866199/21998598925977227584441399",
+            "expected_exchanges": 4.420306208685236,
+            "pc_hp_conditional_on_win": 2.815415288835684,
+            "states_solved": 15,
+            "independent_simulation_check": {
+              "seed": 2601004,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.96185,
+              "mean_exchanges": 4.41805
+            }
+          }
+        }
+      },
+      {
+        "scene": "open_approach",
+        "conditions": {
+          "pc_attack": 70,
+          "pc_first": true,
+          "pc_shield": 0,
+          "enemy_shield": 2,
+          "approach": 2,
+          "pc_cover": false,
+          "route_cover": false,
+          "enemy_melee": false,
+          "enemy_shield_type": "projectile"
+        },
+        "fixed_policies": {
+          "projectile": {
+            "opponent_disabled_first_probability": 0.5330735080995553,
+            "probability_fraction": "2203424324149145490564658393200512342382510400/4133434302530824750835767193822848859427351319",
+            "expected_exchanges": 8.645707322693204,
+            "pc_hp_conditional_on_win": 1.834726147901556,
+            "states_solved": 34,
+            "independent_simulation_check": {
+              "seed": 2601005,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.5382,
+              "mean_exchanges": 8.6427
+            }
+          },
+          "laser": {
+            "opponent_disabled_first_probability": 0.8249942540771592,
+            "probability_fraction": "248773407216941610467493315465774400/301545624090703780456421649111685159",
+            "expected_exchanges": 6.519287540887646,
+            "pc_hp_conditional_on_win": 2.2774410141374974,
+            "states_solved": 24,
+            "independent_simulation_check": {
+              "seed": 2601005,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.82705,
+              "mean_exchanges": 6.51285
+            }
+          },
+          "melee": {
+            "opponent_disabled_first_probability": 0.9307556414667502,
+            "probability_fraction": "20475320054717696589721399/21998598925977227584441399",
+            "expected_exchanges": 5.351061850151986,
+            "pc_hp_conditional_on_win": 2.528521807889383,
+            "states_solved": 17,
+            "independent_simulation_check": {
+              "seed": 2601005,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.9262,
+              "mean_exchanges": 5.3714
+            }
+          }
+        }
+      },
+      {
+        "scene": "long_approach",
+        "conditions": {
+          "pc_attack": 60,
+          "pc_first": true,
+          "pc_shield": 0,
+          "enemy_shield": 2,
+          "approach": 3,
+          "pc_cover": false,
+          "route_cover": false,
+          "enemy_melee": false,
+          "enemy_shield_type": "projectile"
+        },
+        "fixed_policies": {
+          "projectile": {
+            "opponent_disabled_first_probability": 0.3791454775690845,
+            "probability_fraction": "699333395846215702135574921750125908213614400/1844498846010340184676610648845669221560361759",
+            "expected_exchanges": 9.353008081697643,
+            "pc_hp_conditional_on_win": 1.7334670168717925,
+            "states_solved": 34,
+            "independent_simulation_check": {
+              "seed": 2601006,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.3784,
+              "mean_exchanges": 9.3519
+            }
+          },
+          "laser": {
+            "opponent_disabled_first_probability": 0.7047395124679394,
+            "probability_fraction": "113454812739375572865983180829806400/160988295295188173656918322678995679",
+            "expected_exchanges": 7.417942544485841,
+            "pc_hp_conditional_on_win": 2.127497953566979,
+            "states_solved": 24,
+            "independent_simulation_check": {
+              "seed": 2601006,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.70285,
+              "mean_exchanges": 7.4275
+            }
+          },
+          "melee": {
+            "opponent_disabled_first_probability": 0.8764703037125859,
+            "probability_fraction": "19281118681902626880441399/21998598925977227584441399",
+            "expected_exchanges": 6.227532153864572,
+            "pc_hp_conditional_on_win": 2.289557846190801,
+            "states_solved": 20,
+            "independent_simulation_check": {
+              "seed": 2601006,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.8784,
+              "mean_exchanges": 6.2326
+            }
+          }
+        }
+      },
+      {
+        "scene": "enemy_melee_counter",
+        "conditions": {
+          "pc_attack": 70,
+          "pc_first": true,
+          "pc_shield": 0,
+          "enemy_shield": 2,
+          "approach": 2,
+          "pc_cover": false,
+          "route_cover": false,
+          "enemy_melee": true,
+          "enemy_shield_type": "projectile"
+        },
+        "fixed_policies": {
+          "projectile": {
+            "opponent_disabled_first_probability": 0.5330735080995553,
+            "probability_fraction": "2203424324149145490564658393200512342382510400/4133434302530824750835767193822848859427351319",
+            "expected_exchanges": 8.645707322693204,
+            "pc_hp_conditional_on_win": 1.834726147901556,
+            "states_solved": 34,
+            "independent_simulation_check": {
+              "seed": 2601007,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.5313,
+              "mean_exchanges": 8.65415
+            }
+          },
+          "laser": {
+            "opponent_disabled_first_probability": 0.8249942540771592,
+            "probability_fraction": "248773407216941610467493315465774400/301545624090703780456421649111685159",
+            "expected_exchanges": 6.519287540887646,
+            "pc_hp_conditional_on_win": 2.2774410141374974,
+            "states_solved": 24,
+            "independent_simulation_check": {
+              "seed": 2601007,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.8263,
+              "mean_exchanges": 6.5194
+            }
+          },
+          "melee": {
+            "opponent_disabled_first_probability": 0.632084532345088,
+            "probability_fraction": "1014406856476839/1604859484084039",
+            "expected_exchanges": 4.6572963632805395,
+            "pc_hp_conditional_on_win": 2.390132364178368,
+            "states_solved": 17,
+            "independent_simulation_check": {
+              "seed": 2601007,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.6365,
+              "mean_exchanges": 4.67605
+            }
+          }
+        }
+      },
+      {
+        "scene": "protected_approach",
+        "conditions": {
+          "pc_attack": 70,
+          "pc_first": true,
+          "pc_shield": 2,
+          "enemy_shield": 2,
+          "approach": 2,
+          "pc_cover": false,
+          "route_cover": false,
+          "enemy_melee": false,
+          "enemy_shield_type": "projectile"
+        },
+        "fixed_policies": {
+          "projectile": {
+            "opponent_disabled_first_probability": 0.8636111849466215,
+            "probability_fraction": "48931362217506347908852513706483821589499430256804869600/56659018630624526935412037074609043869116117908373615879",
+            "expected_exchanges": 10.06558651100537,
+            "pc_hp_conditional_on_win": 2.8163975934096617,
+            "states_solved": 48,
+            "independent_simulation_check": {
+              "seed": 2601008,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.86215,
+              "mean_exchanges": 10.05335
+            }
+          },
+          "laser": {
+            "opponent_disabled_first_probability": 0.9742744770627667,
+            "probability_fraction": "4027099543571520941028312843626582974270405600/4133434302530824750835767193822848859427351319",
+            "expected_exchanges": 6.927010742750629,
+            "pc_hp_conditional_on_win": 3.4405010201850423,
+            "states_solved": 34,
+            "independent_simulation_check": {
+              "seed": 2601008,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.97495,
+              "mean_exchanges": 6.91795
+            }
+          },
+          "melee": {
+            "opponent_disabled_first_probability": 0.9945931794542331,
+            "probability_fraction": "299915221014884072671092732760165159/301545624090703780456421649111685159",
+            "expected_exchanges": 5.48299030475548,
+            "pc_hp_conditional_on_win": 3.710476848606927,
+            "states_solved": 23,
+            "independent_simulation_check": {
+              "seed": 2601008,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.99415,
+              "mean_exchanges": 5.4784
+            }
+          }
+        }
+      },
+      {
+        "scene": "enemy_laser_shield",
+        "conditions": {
+          "pc_attack": 70,
+          "pc_first": true,
+          "pc_shield": 0,
+          "enemy_shield": 2,
+          "approach": 2,
+          "pc_cover": false,
+          "route_cover": false,
+          "enemy_melee": false,
+          "enemy_shield_type": "laser"
+        },
+        "fixed_policies": {
+          "projectile": {
+            "opponent_disabled_first_probability": 0.8249942540771592,
+            "probability_fraction": "248773407216941610467493315465774400/301545624090703780456421649111685159",
+            "expected_exchanges": 6.519287540887646,
+            "pc_hp_conditional_on_win": 2.2774410141374974,
+            "states_solved": 24,
+            "independent_simulation_check": {
+              "seed": 2601009,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.8272,
+              "mean_exchanges": 6.5247
+            }
+          },
+          "laser": {
+            "opponent_disabled_first_probability": 0.5330735080995553,
+            "probability_fraction": "2203424324149145490564658393200512342382510400/4133434302530824750835767193822848859427351319",
+            "expected_exchanges": 8.645707322693204,
+            "pc_hp_conditional_on_win": 1.834726147901556,
+            "states_solved": 34,
+            "independent_simulation_check": {
+              "seed": 2601009,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.532,
+              "mean_exchanges": 8.6712
+            }
+          },
+          "melee": {
+            "opponent_disabled_first_probability": 0.9307556414667502,
+            "probability_fraction": "20475320054717696589721399/21998598925977227584441399",
+            "expected_exchanges": 5.351061850151986,
+            "pc_hp_conditional_on_win": 2.528521807889383,
+            "states_solved": 17,
+            "independent_simulation_check": {
+              "seed": 2601009,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.93025,
+              "mean_exchanges": 5.36365
+            }
+          }
+        }
+      },
+      {
+        "scene": "enemy_both_shields",
+        "conditions": {
+          "pc_attack": 70,
+          "pc_first": true,
+          "pc_shield": 0,
+          "enemy_shield": 2,
+          "approach": 2,
+          "pc_cover": false,
+          "route_cover": false,
+          "enemy_melee": false,
+          "enemy_shield_type": "both"
+        },
+        "fixed_policies": {
+          "projectile": {
+            "opponent_disabled_first_probability": 0.5330735080995553,
+            "probability_fraction": "2203424324149145490564658393200512342382510400/4133434302530824750835767193822848859427351319",
+            "expected_exchanges": 8.645707322693204,
+            "pc_hp_conditional_on_win": 1.834726147901556,
+            "states_solved": 34,
+            "independent_simulation_check": {
+              "seed": 2601010,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.5338,
+              "mean_exchanges": 8.62575
+            }
+          },
+          "laser": {
+            "opponent_disabled_first_probability": 0.5330735080995553,
+            "probability_fraction": "2203424324149145490564658393200512342382510400/4133434302530824750835767193822848859427351319",
+            "expected_exchanges": 8.645707322693204,
+            "pc_hp_conditional_on_win": 1.834726147901556,
+            "states_solved": 34,
+            "independent_simulation_check": {
+              "seed": 2601010,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.5338,
+              "mean_exchanges": 8.62575
+            }
+          },
+          "melee": {
+            "opponent_disabled_first_probability": 0.9307556414667502,
+            "probability_fraction": "20475320054717696589721399/21998598925977227584441399",
+            "expected_exchanges": 5.351061850151986,
+            "pc_hp_conditional_on_win": 2.528521807889383,
+            "states_solved": 17,
+            "independent_simulation_check": {
+              "seed": 2601010,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.92985,
+              "mean_exchanges": 5.3465
+            }
+          }
+        }
+      },
+      {
+        "scene": "enemy_first",
+        "conditions": {
+          "pc_attack": 70,
+          "pc_first": false,
+          "pc_shield": 0,
+          "enemy_shield": 2,
+          "approach": 2,
+          "pc_cover": false,
+          "route_cover": false,
+          "enemy_melee": false,
+          "enemy_shield_type": "projectile"
+        },
+        "fixed_policies": {
+          "projectile": {
+            "opponent_disabled_first_probability": 0.4481081801053015,
+            "probability_fraction": "1852225722891914199208599555369253203280657719/4133434302530824750835767193822848859427351319",
+            "expected_exchanges": 8.645707322693204,
+            "pc_hp_conditional_on_win": 1.7394773336063896,
+            "states_solved": 34,
+            "independent_simulation_check": {
+              "seed": 2601011,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.45435,
+              "mean_exchanges": 8.66505
+            }
+          },
+          "laser": {
+            "opponent_disabled_first_probability": 0.7498512571498542,
+            "probability_fraction": "226114365312451602603609255286998759/301545624090703780456421649111685159",
+            "expected_exchanges": 6.519287540887646,
+            "pc_hp_conditional_on_win": 2.0958361755540564,
+            "states_solved": 24,
+            "independent_simulation_check": {
+              "seed": 2601011,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.75355,
+              "mean_exchanges": 6.52995
+            }
+          },
+          "melee": {
+            "opponent_disabled_first_probability": 0.8764703037125859,
+            "probability_fraction": "19281118681902626880441399/21998598925977227584441399",
+            "expected_exchanges": 5.351061850151986,
+            "pc_hp_conditional_on_win": 2.289557846190801,
+            "states_solved": 17,
+            "independent_simulation_check": {
+              "seed": 2601011,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.87515,
+              "mean_exchanges": 5.3562
+            }
+          }
+        }
+      },
+      {
+        "scene": "movement_favorable",
+        "conditions": {
+          "pc_attack": 70,
+          "pc_first": true,
+          "pc_shield": 0,
+          "enemy_shield": 2,
+          "approach": 1,
+          "pc_cover": false,
+          "route_cover": false,
+          "enemy_melee": false,
+          "enemy_shield_type": "projectile"
+        },
+        "fixed_policies": {
+          "projectile": {
+            "opponent_disabled_first_probability": 0.5330735080995553,
+            "probability_fraction": "2203424324149145490564658393200512342382510400/4133434302530824750835767193822848859427351319",
+            "expected_exchanges": 8.645707322693204,
+            "pc_hp_conditional_on_win": 1.834726147901556,
+            "states_solved": 34,
+            "independent_simulation_check": {
+              "seed": 2601012,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.5295,
+              "mean_exchanges": 8.6039
+            }
+          },
+          "laser": {
+            "opponent_disabled_first_probability": 0.8249942540771592,
+            "probability_fraction": "248773407216941610467493315465774400/301545624090703780456421649111685159",
+            "expected_exchanges": 6.519287540887646,
+            "pc_hp_conditional_on_win": 2.2774410141374974,
+            "states_solved": 24,
+            "independent_simulation_check": {
+              "seed": 2601012,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.81795,
+              "mean_exchanges": 6.4924
+            }
+          },
+          "melee": {
+            "opponent_disabled_first_probability": 0.9633718975111981,
+            "probability_fraction": "21192831989906487328866199/21998598925977227584441399",
+            "expected_exchanges": 4.420306208685236,
+            "pc_hp_conditional_on_win": 2.815415288835684,
+            "states_solved": 15,
+            "independent_simulation_check": {
+              "seed": 2601012,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.9603,
+              "mean_exchanges": 4.42895
+            }
+          }
+        }
+      },
+      {
+        "scene": "movement_hindered",
+        "conditions": {
+          "pc_attack": 70,
+          "pc_first": true,
+          "pc_shield": 0,
+          "enemy_shield": 2,
+          "approach": 3,
+          "pc_cover": false,
+          "route_cover": false,
+          "enemy_melee": false,
+          "enemy_shield_type": "projectile"
+        },
+        "fixed_policies": {
+          "projectile": {
+            "opponent_disabled_first_probability": 0.5330735080995553,
+            "probability_fraction": "2203424324149145490564658393200512342382510400/4133434302530824750835767193822848859427351319",
+            "expected_exchanges": 8.645707322693204,
+            "pc_hp_conditional_on_win": 1.834726147901556,
+            "states_solved": 34,
+            "independent_simulation_check": {
+              "seed": 2601013,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.53055,
+              "mean_exchanges": 8.62985
+            }
+          },
+          "laser": {
+            "opponent_disabled_first_probability": 0.8249942540771592,
+            "probability_fraction": "248773407216941610467493315465774400/301545624090703780456421649111685159",
+            "expected_exchanges": 6.519287540887646,
+            "pc_hp_conditional_on_win": 2.2774410141374974,
+            "states_solved": 24,
+            "independent_simulation_check": {
+              "seed": 2601013,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.82155,
+              "mean_exchanges": 6.50825
+            }
+          },
+          "melee": {
+            "opponent_disabled_first_probability": 0.8764703037125859,
+            "probability_fraction": "19281118681902626880441399/21998598925977227584441399",
+            "expected_exchanges": 6.227532153864572,
+            "pc_hp_conditional_on_win": 2.289557846190801,
+            "states_solved": 20,
+            "independent_simulation_check": {
+              "seed": 2601013,
+              "trials": 20000,
+              "opponent_disabled_first_probability": 0.8728,
+              "mean_exchanges": 6.22175
+            }
+          }
+        }
+      }
+    ],
+    "approach_sensitivity": [
+      {
+        "approach_actions": 1,
+        "opponent_disabled_first_probability": 0.9633718975111981,
+        "probability_fraction": "21192831989906487328866199/21998598925977227584441399",
+        "expected_exchanges": 4.420306208685236,
+        "pc_hp_conditional_on_win": 2.815415288835684,
+        "states_solved": 15
+      },
+      {
+        "approach_actions": 2,
+        "opponent_disabled_first_probability": 0.9307556414667502,
+        "probability_fraction": "20475320054717696589721399/21998598925977227584441399",
+        "expected_exchanges": 5.351061850151986,
+        "pc_hp_conditional_on_win": 2.528521807889383,
+        "states_solved": 17
+      },
+      {
+        "approach_actions": 3,
+        "opponent_disabled_first_probability": 0.8764703037125859,
+        "probability_fraction": "19281118681902626880441399/21998598925977227584441399",
+        "expected_exchanges": 6.227532153864572,
+        "pc_hp_conditional_on_win": 2.289557846190801,
+        "states_solved": 20
+      },
+      {
+        "approach_actions": 4,
+        "opponent_disabled_first_probability": 0.8009724329948265,
+        "probability_fraction": "17620271304217355584441399/21998598925977227584441399",
+        "expected_exchanges": 7.028504586859398,
+        "pc_hp_conditional_on_win": 2.097755432609626,
+        "states_solved": 24
+      },
+      {
+        "approach_actions": 5,
+        "opponent_disabled_first_probability": 0.7102738653332019,
+        "probability_fraction": "400000765211357964271559234513058201/563164132505017026161699814400000000",
+        "expected_exchanges": 7.738778452192601,
+        "pc_hp_conditional_on_win": 1.9455622807501285,
+        "states_solved": 29
+      },
+      {
+        "approach_actions": 6,
+        "opponent_disabled_first_probability": 0.6123922360667852,
+        "probability_fraction": "34487734237735865793577150233277908551/56316413250501702616169981440000000000",
+        "expected_exchanges": 8.351170688259385,
+        "pc_hp_conditional_on_win": 1.8244924751730642,
+        "states_solved": 34,
+        "independent_simulation_check": {
+          "seed": 2601110,
+          "trials": 20000,
+          "opponent_disabled_first_probability": 0.6049,
+          "mean_exchanges": 8.33775
+        }
+      },
+      {
+        "approach_actions": 7,
+        "opponent_disabled_first_probability": 0.5147880552390304,
+        "probability_fraction": "4638562696842132708208700483267268257361/9010626120080272418587197030400000000000",
+        "expected_exchanges": 8.865958743498416,
+        "pc_hp_conditional_on_win": 1.7272912795354272,
+        "states_solved": 39
+      },
+      {
+        "approach_actions": 8,
+        "opponent_disabled_first_probability": 0.42311612076937266,
+        "probability_fraction": "762508233926309672044281954667159990453651/1802125224016054483717439406080000000000000",
+        "expected_exchanges": 9.28907486426779,
+        "pc_hp_conditional_on_win": 1.6483190637564658,
+        "states_solved": 44,
+        "independent_simulation_check": {
+          "seed": 2601112,
+          "trials": 20000,
+          "opponent_disabled_first_probability": 0.43205,
+          "mean_exchanges": 9.3268
+        }
+      }
+    ],
+    "cross_checks": {
+      "mirrored_equal_combat_pc_first": 0.5290212844011506,
+      "mirrored_equal_combat_pc_last": 0.4709787155988494,
+      "sum": 1.0,
+      "more_exposed_approach_actions_never_improve_melee_result": true
+    },
+    "assumptions": [
+      "인물당 교환에 행동1회·선후행 고정·활동 불가자는 남은 행동 없음",
+      "양쪽 현지 HP4/장갑1, PC 공격70/방어50, 적 공격50/방어50. 상황에 따라 사격 목표−10",
+      "PC 근접 피해3/총격 피해2. 적은 총격 피해2, 근접 대응 장면만 근접 피해3",
+      "PC 방호는 프로젝타일. 적의 방호 유형은 장면별 지정. 저장2·적중 시 소비·전투 중 충전 없음",
+      "접근은 지정된 1~3행동으로 완료. 길이 이미 확보되어 추가 기동/등반 판정 없음",
+      "위험은 적의 정상 행동으로만 처리. 이동 실패 피해나 무료 기회 공격을 추가하지 않음",
+      "접촉 도달 이동에 근접 공격을 공짜로 포함하지 않음",
+      "커버 보정은 사격 공격값에만 한 번 적용, 근접은 접촉 후 공격70",
+      "이동/방호/공격 선택은 고정 정책. 우열은 정책·장면 조건에 종속"
+    ],
+    "not_included": [
+      "실제 참가자·재미·운영 시간",
+      "다인 팀·최적 전략·중간 유형 전환·도주·자료 확보 목표",
+      "실물 방호 성능·장비 가격·완전 엄폐·사선 차단·탄약 고갈·전투 중 재장전",
+      "뛰어난 성공의 부가 효과·강제 제압·무장 해제·임플란트·치료",
+      "R/G/Grade Die/FitD의 실제 전투·타롯·자아/본체 특수 피해"
+    ],
+    "no_contact_path": "접촉 경로가 없는 표적은 근접 정책의 비교 대상에서 제외. 자동 접근 성공으로 처리하지 않음",
+    "actual_playtest": false
+  },
+  "interpretation": "카드는 공통 덱의 서로 다른 두 장을 균등 추출한 단일 교환 모델. 실제 손패에서 선택한 카드 분포가 아니므로 전체 대결 승률로 사용하지 않는다. 카드 보너스 구간은 백분율 숙련 차이를 보존하지 않는다."
+}

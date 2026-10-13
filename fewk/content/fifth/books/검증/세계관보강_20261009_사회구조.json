@@ -1,0 +1,198 @@
+{
+  "id": "FEWK-LORE-20261009-SOCIETY",
+  "date": "2026-10-09",
+  "status": "author_answers_integrated_social_structure_proposals_ready_for_discussion",
+  "before_snapshot": "세계관보강_20261009_사회구조_반영전.json",
+  "previous_record": "세계관보강_20261009_추가답변.json",
+  "input_hashes": {
+    "00_제5판_설계기준.md": "e0dc6c45734e937dc8d95874c70641f67a4b5fd0d894ee2efeec1ae51b00198e",
+    "01_텀블벅_이지룰_초안.md": "72f0f7a9c2fe6cc408884caaeae21ec563b179a256e84d4c58aaa84ccd7ad5cb",
+    "02_타롯_해킹과_지능전_초안.md": "1613f14e485eb4f075cfb1805266afe05cf8db16fa5f11f165b8850ca9ad41e4",
+    "10_CoreRulebook.md": "f3283c101901df609339f92632f119757f575f09879fff1cfe5d1a2d42fc8ee6",
+    "11_WorldLorebook.md": "60b386497ae19e9afe89d26a3900a9eddabe96c6184a6028c47dc7a425a25e60",
+    "12_룰시트와캐릭터시트.md": "09709b927df08c515da3b7c2f512a42f6a9206e9e7e072da9b75a253cf5eb160",
+    "13_입문시나리오.md": "e4c269c4af7494360330974ac52baaf6c6aeff24f42f35f8892b11b6fda8d0da",
+    "14_레디메이드_러너.md": "abf0ff117466d8c6d89570658ebe1ff0fc02415cbb0488d3a316be3440494dc9",
+    "15_표준튜터리얼_시나리오.md": "3a85aaafc96d32796bc37601ff3762fd58b174d8b5b03b7bcaffe60a39721022"
+  },
+  "output_hashes": {
+    "00_제5판_설계기준.md": "6455245974971666e89a2015a36d402fefaa8d1adaeafa5561b83cfd6ee1a918",
+    "01_텀블벅_이지룰_초안.md": "72f0f7a9c2fe6cc408884caaeae21ec563b179a256e84d4c58aaa84ccd7ad5cb",
+    "02_타롯_해킹과_지능전_초안.md": "1613f14e485eb4f075cfb1805266afe05cf8db16fa5f11f165b8850ca9ad41e4",
+    "10_CoreRulebook.md": "b6c1992a9280533408003e51c5063802eaffb098b0febc60869f026e86327baa",
+    "11_WorldLorebook.md": "325885c8b451b3dd09fe8a3fa9557fbdd77076ea17ea4a406420dbbbd85d13ba",
+    "12_룰시트와캐릭터시트.md": "d48276e573608547697331fa6f5c38eb21a076292a402ed2d2b97dc64eb9767c",
+    "13_입문시나리오.md": "e4c269c4af7494360330974ac52baaf6c6aeff24f42f35f8892b11b6fda8d0da",
+    "14_레디메이드_러너.md": "abf0ff117466d8c6d89570658ebe1ff0fc02415cbb0488d3a316be3440494dc9",
+    "15_표준튜터리얼_시나리오.md": "3a85aaafc96d32796bc37601ff3762fd58b174d8b5b03b7bcaffe60a39721022"
+  },
+  "changed_files": [
+    "00_제5판_설계기준.md",
+    "10_CoreRulebook.md",
+    "11_WorldLorebook.md",
+    "12_룰시트와캐릭터시트.md",
+    "../00_최신본_기준.md",
+    "../01_작업계획.md"
+  ],
+  "world_version": "v1.03",
+  "core_numeric_version": "v0.49",
+  "design_version": "v1.41",
+  "changes": [
+    {
+      "file": "11_WorldLorebook.md",
+      "change": "로어 현재 판본 갱신"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 3,
+      "change": "통상 러너의 본체 사망과 구성 방식별 잔여 지속"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 9,
+      "change": "에고 소진과 본체 사망의 연결, 오래된 정의 정정"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 22,
+      "change": "통상 안전 회수와 사용자 해제·고장 유형"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": null,
+      "change": "작가 답변 완료와 사회 구조 검토로 초점 이동"
+    },
+    {
+      "file": "10_CoreRulebook.md",
+      "chapter": null,
+      "change": "본체 사망 뒤 현지 몸의 통제·지속과 귀환 대상 구분"
+    },
+    {
+      "file": "10_CoreRulebook.md",
+      "chapter": null,
+      "change": "기존 수신 고장 사례의 범위와 통상 안전 회수"
+    },
+    {
+      "file": "10_CoreRulebook.md",
+      "change": "드랍아웃 절의 코핀 고장 처리 답변 반영"
+    },
+    {
+      "file": "12_룰시트와캐릭터시트.md",
+      "change": "IO 시트의 안전장치와 본체 사망 지속 조건"
+    },
+    {
+      "file": "00_제5판_설계기준.md",
+      "change": "설계 기준 현재 판본"
+    },
+    {
+      "file": "00_제5판_설계기준.md",
+      "change": "서두 현재 로어 판본"
+    },
+    {
+      "file": "00_제5판_설계기준.md",
+      "change": "설계 검토 현재 로어 판본"
+    },
+    {
+      "file": "00_제5판_설계기준.md",
+      "change": "생존/안전장치 질문을 답변 완료로 전환"
+    },
+    {
+      "file": "00_제5판_설계기준.md",
+      "change": "현재 검증 기록 연결"
+    },
+    {
+      "file": "00_제5판_설계기준.md",
+      "change": "사회 구조 8축·큰 현안3개·일상 문화·우선순위 제안"
+    }
+  ],
+  "new_author_answers": [
+    "ordinary_runner_local_persistence_depends_on_body_construction_after_original_death_with_Ego_exhaustion",
+    "coffin_typical_safety_recall_may_be_disabled_or_fail_by_fault_type"
+  ],
+  "pending_basic_author_questions": [],
+  "social_review_axes": 8,
+  "proposed_major_conflicts": 3,
+  "new_social_proposals_are_global_canon": false,
+  "dice_engine_changed": false,
+  "game_numeric_profiles_changed": false,
+  "new_universal_death_delay_or_recall_success_rate": false,
+  "intentional_unknowns": [
+    "childbirth_exception_and_possible_world_inheritance",
+    "paradox_magnitude_for_independent_will_return_to_dead_original_realm"
+  ],
+  "human_tests_performed": false,
+  "final_layout_performed": false,
+  "protected_historical_record_hashes": {
+    "세계관보강_20261009_추가답변.json": "fab16e69af9ae4b91c9cd7bd42400b4e0c74de551ff4b4882906f5b961d89140",
+    "세계관보강_20261009_추가답변_반영전.json": "a463aa92850dabb7e44428eee8e1bdfd314cd84b7f1ab891ffa7838903a49b3e",
+    "세계관보강_20261009.json": "8b37f92abf9055c78b406666fe9f30167c77ec1a794e3ea0cb8b98cd2e4daa66",
+    "세계관보강_20261009_반영전.json": "ee83465a898bad4916818c8f7f5446ea46946b5d70db8fb606eaaf93600038d4",
+    "캐릭터와시나리오북_편집.json": "5afd0f8ad74e214b0a1ad575aec107217fb871d0f496496a007729fdee815e15",
+    "완료_관문.json": "f031ce076e7de35488953bdc37a14aeee7a0dd7326538fb9a2d431cd418d0c26"
+  },
+  "verification": {
+    "status": "current_structure_hash_preservation_and_targeted_content_review_passed",
+    "checked_documents": 11,
+    "local_file_links_checked": 706,
+    "named_anchor_links_checked": 777,
+    "missing_file_links": [],
+    "missing_named_anchors": [],
+    "markdown_fences_balanced": true,
+    "before_snapshot_hashes_verified": 11,
+    "current_reader_hashes_verified": 9,
+    "historical_records_unchanged": [
+      "세계관보강_20261009_추가답변.json",
+      "세계관보강_20261009_추가답변_반영전.json",
+      "세계관보강_20261009.json",
+      "세계관보강_20261009_반영전.json",
+      "캐릭터와시나리오북_편집.json",
+      "완료_관문.json"
+    ],
+    "unchanged_reader_artifacts": [
+      "01_텀블벅_이지룰_초안.md",
+      "02_타롯_해킹과_지능전_초안.md",
+      "13_입문시나리오.md",
+      "14_레디메이드_러너.md",
+      "15_표준튜터리얼_시나리오.md"
+    ],
+    "previous_named_anchors_preserved": true,
+    "numbered_world_chapters_preserved": 77,
+    "targeted_content_review": [
+      {
+        "item": "본체 사망과 일시 지속/에고 소진",
+        "passed": true
+      },
+      {
+        "item": "대체로 안전 회수·사용자 해제",
+        "passed": true
+      },
+      {
+        "item": "기존 고장 사례에 회수 실패 조건 명시",
+        "passed": true
+      },
+      {
+        "item": "IO 양식의 안전/지속 기록",
+        "passed": true
+      },
+      {
+        "item": "초기 질문 답변 완료",
+        "passed": true
+      },
+      {
+        "item": "사회 보강안 지위",
+        "passed": true
+      },
+      {
+        "item": "사회 갈등3개",
+        "passed": true
+      },
+      {
+        "item": "기본 캠페인 월풍 이전",
+        "passed": true
+      }
+    ],
+    "new_proposals_presented_as_global_canon": false,
+    "rules_numeric_suite_rerun": false,
+    "historical_cached_results_relabelled_as_current": false
+  }
+}

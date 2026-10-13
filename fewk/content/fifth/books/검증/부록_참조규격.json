@@ -1,0 +1,336 @@
+{
+  "id": "FEWK-REFERENCE-01",
+  "date": "2026-10-05",
+  "engine": "P-FEWK-0.2",
+  "status": "현재원고의빠른참조/찾기/자료예·조판/실제독해시험전",
+  "source_indices": [
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128
+  ],
+  "references": [
+    {
+      "id": "fewk-percent",
+      "file": "10_CoreRulebook.md",
+      "heading": "### 3. 백분율 판정",
+      "terms": "백분율·성공 수준",
+      "definition": "숙련과 현재 조건으로 정한 목표 이하가 성공이다. 00은100이며 같은 판정으로 기술·대화·싸움을 처리한다."
+    },
+    {
+      "id": "fewk-make",
+      "file": "10_CoreRulebook.md",
+      "heading": "### 8. 인물 만들기 — 먼저 삶을, 다음에 쓸 몸을",
+      "terms": "캐릭터 메이킹",
+      "definition": "살아온 일·목표·배운 숙련과 사용할 몸을 준비한다. 육체 기원과 습득한 행동을 구분한다."
+    },
+    {
+      "id": "fewk-interaction",
+      "file": "10_CoreRulebook.md",
+      "heading": "### 인터랙션 — 사용할 행동을 한 규격으로 정리하기",
+      "terms": "인터랙션·스킬·능력·현화·기술·기능",
+      "definition": "사용할 행동의 통합 항목. 참조 숙련·실제 몸/도구·조건/비용·대상/결과를 적는다. 능력·기술·임플란트 기능은 획득/매체 차이다."
+    },
+    {
+      "id": "fewk-io",
+      "file": "10_CoreRulebook.md",
+      "heading": "### 코핀의 준비와 귀환 — 같은 몸의 상태를 이어가기",
+      "terms": "IO·진입·귀환·보관",
+      "definition": "본체 상태·진입 방법/조건·현지 몸의 신규/이전/구성과 종료 보관을 정한다. 캠페인의 파이오니아/현지화 계보를 참조한다."
+    },
+    {
+      "id": "fewk-import",
+      "file": "10_CoreRulebook.md",
+      "heading": "### A.1 임포트·익스포트 — 무엇을 어디에 남기는가",
+      "terms": "임포트·익스포트·반입·반출",
+      "definition": "사람/몸의 IO와 물건/자료의 실제 출입·권한·용량·도착본을 각각 기록한다."
+    },
+    {
+      "id": "fewk-combat",
+      "file": "10_CoreRulebook.md",
+      "heading": "### A.2 현지 전투 — 사선, 접촉, 장비, 목적",
+      "terms": "전투·근접·사격·HP·P/L방호",
+      "definition": "현지 환경과 실제 몸/장비의 같은 전투. 사선/거리·접촉·행동/탄약·장치/장갑과 현재 몸 손상을 기록한다."
+    },
+    {
+      "id": "fewk-life",
+      "file": "10_CoreRulebook.md",
+      "heading": "### A.3 거주 — 직장, 만남, 거점, 다음 이야기",
+      "terms": "거주·교섭·생활·관계",
+      "definition": "일·만남·거처·약속을 플레이한다. 사랑·동의·타 PC 감정은 참가자가 정한다."
+    },
+    {
+      "id": "fewk-frontier",
+      "file": "10_CoreRulebook.md",
+      "heading": "### B.1 미개척·오지 — 돌아와서 길을 남기는 탐사",
+      "terms": "개척·오지·특수 IO·파이오니아",
+      "definition": "기본 IO로 해결되지 않는 진입/구조·최초 현지화와 귀환 조건을 준비하는 스페셜."
+    },
+    {
+      "id": "fewk-residence",
+      "file": "10_CoreRulebook.md",
+      "heading": "### B.2 장기거주 — 에고, 체류, 지원과 의존",
+      "terms": "장기거주·에고",
+      "definition": "계층/방식과 실제 현지 시간에 따른 존재의 부담·지원/회복을 다룬다. 에고는 감정·정신질환 점수가 아니다."
+    },
+    {
+      "id": "fewk-flying",
+      "file": "10_CoreRulebook.md",
+      "heading": "### B.3 플라잉 — 다른 계에서 한 번 더 러닝하기",
+      "terms": "플라잉·플라이어",
+      "definition": "현지 몸에서 다른 계로 다시 이동한다. 한 인물의 에고·연결 경로와 각 몸의 상태를 따로 기록한다."
+    },
+    {
+      "id": "fewk-dropout",
+      "file": "10_CoreRulebook.md",
+      "heading": "### B.4 드랍아웃 — 그곳으로 돌아가지 않는 작전",
+      "terms": "드랍아웃·자폭",
+      "definition": "지정 계 재진입 금지. 현재 몸의 손상·물건·귀환 조건을 따로 확인하며 자폭을 감수하는 작전도 준비할 수 있다."
+    },
+    {
+      "id": "fewk-gm",
+      "file": "10_CoreRulebook.md",
+      "heading": "## 진행자를 위한 장면 준비와 캠페인 운영",
+      "terms": "진행자·정보·세력·조우",
+      "definition": "실제 장소/수단·단서 두 경로·결과/철수와 다음 생활을 준비한다. 운영 메모와 PC가 얻은 사실은 구분한다."
+    },
+    {
+      "id": "fewk-npc",
+      "file": "10_CoreRulebook.md",
+      "heading": "## NPC와 큰 존재를 준비하기",
+      "terms": "NPC·큰 존재·현상",
+      "definition": "직업/삶·알고 있는 것과 실제 몸·수단/행동을 연결한다. 크기가 무료 행동 수를 만들지 않는다."
+    },
+    {
+      "id": "fewk-online",
+      "file": "10_CoreRulebook.md",
+      "heading": "## 온라인과 커뮤에서 이어가기",
+      "terms": "커뮤·IC·OOC·게시·병행 로그·정정",
+      "definition": "IC는 인물과 현지의 시간/행동, OOC는 참가자의 대화/게시 대기다. 공유 상태·담당·의존 사건과 현재 버전을 이어간다."
+    },
+    {
+      "id": "fewk-scenario",
+      "file": "10_CoreRulebook.md",
+      "heading": "## 시나리오와 캠페인을 준비하기",
+      "terms": "시나리오·도입·캠페인",
+      "definition": "목표·실제 수단·두 접근·시간/철수와 후속 생활을 준비한다. 무작위 준비 후보는 PC 상태를 자동 변경하지 않는다."
+    },
+    {
+      "id": "fewk-style",
+      "file": "11_WorldLorebook.md",
+      "heading": "## 45. 여섯 스타일 — 같은 거리에서 다른 삶을 알아보기",
+      "terms": "여섯 스타일·살롱즈·궁정구·힙스·자본구·노마드·서민구",
+      "definition": "소득·소비·취향이 섞인 도시 생활을 읽는 틀. 출신을 고정 능력치나 인간적 우열로 만들지 않는다."
+    },
+    {
+      "id": "fewk-black",
+      "file": "11_WorldLorebook.md",
+      "heading": "## 21. 흑공 — 무엇에 반응하고 누가 다루는가",
+      "terms": "흑공·흑사",
+      "definition": "반응·조작의 조건과 실제 누출/노출을 확인한다. 모든 인물에게 자동 정신 피해를 주는 전역 트랙은 아니다."
+    },
+    {
+      "id": "fewk-coffin",
+      "file": "11_WorldLorebook.md",
+      "heading": "## 22. 코핀 — 돌아올 몸과 돌아올 자리",
+      "terms": "코핀·뇌네·엑토플라즈마",
+      "definition": "본체를 남기고 현지 몸을 구성/전송·귀환하는 장치와 기술의 맥락. 실제 구획/지원·IO를 함께 본다."
+    },
+    {
+      "id": "fewk-byte",
+      "file": "11_WorldLorebook.md",
+      "heading": "## 18. 바이트 — 세계를 기록하고 옮기는 단위",
+      "terms": "바이트·정보/실물·혼백가치",
+      "definition": "대상/계층·표기/측정 단위와 실제 저장/반출을 구분한다. 저차원 저장 가능성이 무료 복제/치료나 인물의 가격을 뜻하지 않는다."
+    },
+    {
+      "id": "fewk-causal",
+      "file": "11_WorldLorebook.md",
+      "heading": "## 23. 인과율과 패러독스 — 관리되는 왕복과 모순의 대가",
+      "terms": "인과율·패러독스·먹개비",
+      "definition": "관리된 정상 왕복과 실제 모순/구체 위험을 구분한다. 누적10이나 표의100만으로 자동 먹개비/드랍아웃을 만들지 않는다."
+    },
+    {
+      "id": "fewk-origin",
+      "file": "11_WorldLorebook.md",
+      "heading": "## 24. 현화·샤이닝·매팅·기연 — 무엇이 어떻게 바뀌는가",
+      "terms": "샤이닝·매팅·기연",
+      "definition": "생성의 기원·각성/변형과 현재 사용 행동을 구분한다. 샤이닝/매팅을 매 장면마다 채우는 필수 트랙으로 두지 않는다."
+    },
+    {
+      "id": "fewk-shindan",
+      "file": "11_WorldLorebook.md",
+      "heading": "## 25. 신단·돌칩·오주사 — 주황빛 골조와 오래된 동력",
+      "terms": "신기·신단·신단출·돌칩·오주사",
+      "definition": "신단과 저장체·골조/조작의 관계. 원전 사건과 새 장치의 사용 조건/잔량을 구분한다."
+    },
+    {
+      "id": "fewk-body",
+      "file": "11_WorldLorebook.md",
+      "heading": "## 27. 생체와 공학 — 바꾸는 몸, 남는 숙련",
+      "terms": "BP·생체순도·임플란트",
+      "definition": "몸의 구성/기술·호환과 배운 숙련을 따로 본다. BP는 인간성·호감·에고 손실률이 아니다."
+    },
+    {
+      "id": "fewk-cell",
+      "file": "11_WorldLorebook.md",
+      "heading": "## 28. 셀과 호환 — 같은 잔량, 다른 접속부",
+      "terms": "셀·동력·호환",
+      "definition": "동력 잔량과 접속/변환 조건. 바이트 용량·연산 처리량과 같은 자원이 아니다."
+    },
+    {
+      "id": "fewk-compute",
+      "file": "11_WorldLorebook.md",
+      "heading": "## 29. 계산도구 — 전자컴퓨터의 자리에 있는 것들",
+      "terms": "계산도구·연산",
+      "definition": "세계의 계산 장치와 실제 작업/처리 수단. 모든 도구를 코어 INT나 별도 해킹 엔진으로 바꾸지 않는다."
+    },
+    {
+      "id": "fewk-currency",
+      "file": "11_WorldLorebook.md",
+      "heading": "## 20. 오얏과 화폐전 — 식사와 거래가 같은 손에 있다",
+      "terms": "오얏·화폐전·광전",
+      "definition": "화폐의 유통·재료/저장 가치·실제 거래를 구분한다. 개별 계약을 세계 공통 원화/골드 환율로 확정하지 않는다."
+    },
+    {
+      "id": "fewk-timewalk",
+      "file": "11_WorldLorebook.md",
+      "heading": "## 43. 시간도보 — 몸을 유지하며 다른 때를 만나다",
+      "terms": "시간도보·루쳄트레일로드",
+      "definition": "몸을 유지하는 다른 때의 여행. 커뮤 로그 정정/되돌림이나 플라잉과 같은 기능이 아니다."
+    },
+    {
+      "id": "fewk-gumi",
+      "file": "11_WorldLorebook.md",
+      "heading": "## 55. 구미성과 구남항 — 살던 곳을 잃는 대가는 같지 않다",
+      "terms": "구미성·구남항·더 파운더즈",
+      "definition": "살던 주민의 생활과 러너의 출입·재진입 금지를 구분한다. 원전/위키 후속과 새 전투 빌드를 구분한다."
+    },
+    {
+      "id": "fewk-maria",
+      "file": "11_WorldLorebook.md",
+      "heading": "## 60. 크리스와 마리아 — 명성과 가족, 한 대의 오토바이",
+      "terms": "크리스·마리아",
+      "definition": "창작 인물의 생업/가족·클럽의 후속을 자료 지위와 함께 읽는다. 파운더즈 소통은 현재 전투 수장과 별개다."
+    },
+    {
+      "id": "fewk-suduk",
+      "file": "11_WorldLorebook.md",
+      "heading": "## 61. 티로리와 수덕 — 살아 돌아오는 일과 남는 계약",
+      "terms": "티로리·수덕·리듬필러",
+      "definition": "생업·배운 수단과 현재 몸을 연결한다. 리듬필러는 직업/허용한 전문 숙련이며 모든 인물의 필수 능력치가 아니다."
+    },
+    {
+      "id": "fewk-sheets",
+      "file": "12_룰시트와캐릭터시트.md",
+      "heading": "## 1. 인물 시트 — 어떤 사람인가",
+      "terms": "인물 시트·몸 시트·룰시트",
+      "definition": "한 인물의 삶/배운 숙련, 각 몸의 HP/장비와 계의 환경/IO를 겹쳐 사용한다."
+    },
+    {
+      "id": "fewk-state",
+      "file": "12_룰시트와캐릭터시트.md",
+      "heading": "## 5. 장면·상태 변경 시트",
+      "terms": "상태 변경·부분 작업·보류",
+      "definition": "의도 제출과 실제 확정/비용·IC 진행을 구분해 현재 상태를 이어간다."
+    },
+    {
+      "id": "fewk-intro",
+      "file": "13_입문시나리오.md",
+      "heading": "## 다음 장면을 위한 시나리오 도구",
+      "terms": "짧은 시나리오·생활 촉발 표",
+      "definition": "여섯 도입·세 신규 시나리오와 두 준비표. 원전 확정 후속이나 실제 참가자 시간/균형 시험으로 표시하지 않는다."
+    }
+  ],
+  "quick_reference": {
+    "die_range": [
+      1,
+      100
+    ],
+    "printed00_value": 100,
+    "skill_allocation": [
+      70,
+      70,
+      50,
+      50,
+      50,
+      30,
+      30,
+      30,
+      30,
+      10,
+      10,
+      10
+    ],
+    "start_skill_total": 440,
+    "situation_points": 20,
+    "skill_max_growth": 95,
+    "round_seconds": 5,
+    "main": 1,
+    "reaction": 1,
+    "base_move_m": 10,
+    "extra_move_m": 10,
+    "melee_range_m": 1,
+    "body_HP_example": 12,
+    "handgun_damage": 4,
+    "powered_melee_damage": 6,
+    "armor_example": 1,
+    "personal_shield_charges_example": 2,
+    "shield_blocks_per_body_round": 1,
+    "sample_target": 70,
+    "sample_extreme_max": 14,
+    "sample_hard_max": 35
+  },
+  "handouts": [
+    "HO-S1-REQUEST",
+    "HO-S1-RECEIPT",
+    "HO-S2-BOOKING",
+    "HO-S3-RECEIPT",
+    "HO-S3-THREAD"
+  ],
+  "new_universal_stats": [],
+  "all_World_people_and_terms_verified": false,
+  "old_line_numbers_globally_verified": false,
+  "external_system_conversions_verified": false,
+  "page_numbers_final": false,
+  "all_illustrations_complete": false,
+  "actual_participant_reading": false,
+  "actual_participant_playtest": false,
+  "reader_topic_routes": {
+    "scope_heading": "### 비슷한 이름을 다른 삶과 행동으로 읽기",
+    "scope_end_heading": "### 원전 번호와 다음 이야기를 함께 읽기",
+    "routes": [
+      {
+        "label": "직업",
+        "id": "fewk-world-62",
+        "heading": "## 62. 직업 — 자격과 생업, 그 사람이 할 수 있는 일",
+        "required_text": "직업",
+        "previous_wrong_id": "fewk-world-57"
+      },
+      {
+        "label": "뇌네",
+        "id": "fewk-noene",
+        "heading": "### 뇌네 — 다른 세계의 정보를 이해하는 조정",
+        "required_text": "### 뇌네 — 다른 세계의 정보를 이해하는 조정",
+        "previous_wrong_id": "fewk-world-26"
+      },
+      {
+        "label": "축적계",
+        "id": "fewk-world-74",
+        "heading": "## 74. 축적계·의지·기록자 — 무엇을 옮겼고 누가 기억하는가",
+        "required_text": "### 축적계와 네거티브 플레인 — 실제로 연결된 경로",
+        "previous_wrong_id": "fewk-world-24"
+      }
+    ],
+    "all_appendix_link_meanings_verified": false,
+    "actual_participant_reading": false
+  }
+}

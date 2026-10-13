@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-05",
+  "id": "P-INTRO-01",
+  "status": "신규 FEWK 입문 구현·참가자 시험 전",
+  "common_engine": "P-FEWK-0.2",
+  "source": "../10_CoreRulebook.md",
+  "character": {
+    "skills": [
+      "격투",
+      "사격",
+      "운동",
+      "은밀",
+      "관찰",
+      "조사",
+      "해킹",
+      "공학",
+      "의학",
+      "교섭",
+      "생활",
+      "지식"
+    ],
+    "allocation": [
+      70,
+      70,
+      50,
+      50,
+      50,
+      30,
+      30,
+      30,
+      30,
+      10,
+      10,
+      10
+    ],
+    "presets": {
+      "현장 러너": [
+        70,
+        70,
+        50,
+        50,
+        50,
+        30,
+        10,
+        30,
+        30,
+        30,
+        10,
+        10
+      ],
+      "자료 러너": [
+        30,
+        30,
+        10,
+        30,
+        50,
+        70,
+        70,
+        50,
+        10,
+        30,
+        10,
+        50
+      ],
+      "생활 중개자": [
+        10,
+        10,
+        30,
+        30,
+        50,
+        50,
+        10,
+        30,
+        30,
+        70,
+        70,
+        50
+      ]
+    },
+    "growth_per_story": 5,
+    "growth_cap": 95
+  },
+  "body": {
+    "hp_max": 12,
+    "move_m": 10,
+    "resistance": 50,
+    "round_seconds": 5,
+    "main_per_round": 1,
+    "reaction_per_round": 1,
+    "armor": 1
+  },
+  "weapons": {
+    "맨손": {
+      "damage": 2,
+      "type": "근접",
+      "normal_range_m": 1,
+      "max_range_m": 1,
+      "capacity": null
+    },
+    "동력 근접 도구": {
+      "damage": 6,
+      "type": "근접",
+      "normal_range_m": 1,
+      "max_range_m": 1,
+      "capacity": null
+    },
+    "권총": {
+      "damage": 4,
+      "type": "프로젝타일",
+      "normal_range_m": 30,
+      "max_range_m": 60,
+      "capacity": 12
+    },
+    "카빈": {
+      "damage": 5,
+      "type": "프로젝타일",
+      "normal_range_m": 60,
+      "max_range_m": 120,
+      "capacity": 12
+    },
+    "레이저 단말": {
+      "damage": 4,
+      "type": "레이저",
+      "normal_range_m": 30,
+      "max_range_m": 60,
+      "capacity": 6
+    }
+  },
+  "shield": {
+    "types": [
+      "프로젝타일",
+      "레이저"
+    ],
+    "shared_charge_max": 2,
+    "blocks_per_body_per_round": 1,
+    "recharge_pack_cost": 1,
+    "recharge_main_cost": 1
+  },
+  "healing": {
+    "first_aid_wounded": 2,
+    "first_aid_zero": 1,
+    "first_aid_effects_until_full": 1,
+    "rest_hours": 6,
+    "recovery_window_hours": 24,
+    "rest_heal": 2,
+    "clinic_heal": 4,
+    "clinic_zero": 1,
+    "rest_clinic_shared_limit": 1,
+    "storage_passive_heal": 0
+  },
+  "actual_participant_playtest": false,
+  "canonical_gear_stats_imported": false
+}

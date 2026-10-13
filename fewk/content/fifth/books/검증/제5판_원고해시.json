@@ -1,0 +1,2157 @@
+{
+  "date": "2026-10-04",
+  "baseline": "../3.1판_참고원고_기준선.json",
+  "scope": "참고 원고358개 현재 읽기·해시 대조; 의미 검수와 별도",
+  "files": [
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/00_서문/01_이_책에_대하여.md",
+      "sha256": "bf89293030dd6540fc3648b766ada48b931738644ca31037cfb98d9d5e2d2f79",
+      "bytes": 6672,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/00_서문/02_TRPG란_무엇인가.md",
+      "sha256": "ba193135d20250791e30a14b07228740db0ea622a9e696be20619884f8898a0f",
+      "bytes": 4933,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/00_서문/03_FEWK_3판_읽는_법.md",
+      "sha256": "d77ad162d6f6acab3e69f813059a786076c53e462933db70f4ed1c2e333d10bc",
+      "bytes": 4975,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/00_서문/README.md",
+      "sha256": "841e3d85e4e1abcdaf07d39464b9fd126a0f620011516c1e2fec2d9d8e71a670",
+      "bytes": 3042,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/01_1부_게임기초/01_플레이어_GM_캐릭터.md",
+      "sha256": "ca36fc15fc37a00974b460af0cfb031fcbaed2c19e09916b37a00c76b9c98224",
+      "bytes": 7564,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/01_1부_게임기초/02_주사위_3총사.md",
+      "sha256": "9fedee63338943b18d6484b9280f9e7b959a7a9df48412e58464e5d11ccd5bcf",
+      "bytes": 8325,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/01_1부_게임기초/03_기본_판정_흐름.md",
+      "sha256": "9fb167056b4647d23a6d73f1c925f3485ab271e40b5427cba9425baf109acc19",
+      "bytes": 6563,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/01_1부_게임기초/04_세션_0.md",
+      "sha256": "66db5a56b004f23625c1b8ad43a329733af3f3e0357c3fdf9012772f75d51a19",
+      "bytes": 8323,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/01_1부_게임기초/README.md",
+      "sha256": "a24d9febaf1c68cba52d2c4e70f7ebecb727cc6846c4994ab5f75f4c33499221",
+      "bytes": 4823,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/02_2부_캐릭터/01_6_Prime_Stats.md",
+      "sha256": "8c6d90e4db59b10a6b3e935188552d297d8e403c3726f5a6890d2670478eb01b",
+      "bytes": 8491,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/02_2부_캐릭터/02_스탯_수치와_Grade_Die.md",
+      "sha256": "a74c7a754b51c5a7ed7b27f1cdd4eba78143230266f3f2d24c0c26fd44dc641b",
+      "bytes": 6078,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/02_2부_캐릭터/03_스킬.md",
+      "sha256": "5eabd8042793161050a20b284d47b0125074286a49fddce7cebe765beb01ca66",
+      "bytes": 5257,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/02_2부_캐릭터/04_태그.md",
+      "sha256": "faf52699e3d20ed4aa4f2e8309888bd2bb349273805583957dfe55a7952b8c90",
+      "bytes": 6940,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/02_2부_캐릭터/05_인터렉션_3슬롯.md",
+      "sha256": "4a883d2f1246eb763fe5b3f257330bd24365b17558306e1e5650c0ea0c10f23e",
+      "bytes": 6393,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/02_2부_캐릭터/06_프리셋_G0_G8.md",
+      "sha256": "973d43557bf86479e4362e5d736cc52ea4cf120c07589352086d6f41c1d43822",
+      "bytes": 7852,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/02_2부_캐릭터/07_BP_생체순도.md",
+      "sha256": "f252da4fcd097030b6adbb1e7e263a7670cd223a4cbfb4c233e399792eac153a",
+      "bytes": 7185,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/02_2부_캐릭터/08_생성_10단계.md",
+      "sha256": "8f6d879e5d696c86e06e4026304323075d6964aa0afa0844a7dda7610257de70",
+      "bytes": 8130,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/02_2부_캐릭터/09_관계와_유대.md",
+      "sha256": "80885d15622b2078daa2f8d25fb57a5f211d5de89af9a9be3b78eb959c9b6422",
+      "bytes": 7049,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/02_2부_캐릭터/README.md",
+      "sha256": "282427e3e935d56acc5652abf856d0a514f988d607d55f15eb825a8d27ce16b9",
+      "bytes": 4872,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/03_3부_판정과_행동/01_Grade_Die_판정.md",
+      "sha256": "3f662b0ca0a7283a9958dea3b89231da7f83fa5e5f6e389e5221cee3acfd57d1",
+      "bytes": 8131,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/03_3부_판정과_행동/02_d100_판정.md",
+      "sha256": "310a31aff00300b8e3a1382a0a4a500d6cfd57e9647bfa622a55725992371fc3",
+      "bytes": 6445,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/03_3부_판정과_행동/03_d6_Pool.md",
+      "sha256": "8af5fb5ecce793cf2e4d5e561f3da36e8e7ea10bc0de5d2ec4a075665c521390",
+      "bytes": 5860,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/03_3부_판정과_행동/04_Position_x_Effect.md",
+      "sha256": "e32bb759b57caa4df9421322c2908926c439917633036a28e66ecfc91686e296",
+      "bytes": 7557,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/03_3부_판정과_행동/05_대립_저항_협상.md",
+      "sha256": "2f85a0edc06172d64a96c34d9a98f70736de35f541c8dbb0b35c4e429ede03ce",
+      "bytes": 6502,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/03_3부_판정과_행동/06_수정치_순서_펌블.md",
+      "sha256": "cd9a6335afe0c4c4aa696920c2e068c9247b6712060e6f7396addce14d382fca",
+      "bytes": 6324,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/03_3부_판정과_행동/README.md",
+      "sha256": "e13e5fe271da0f61da4f17bc189236aa3674bbda6fcfef8f4c9aee68eeaf9188",
+      "bytes": 4470,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/04_4부_전투/01_3_Scale_개요.md",
+      "sha256": "5b17f6ba04a2ee14602cb356f0c5f18e653b951ce428a5cd7e3b8aa610b23546",
+      "bytes": 3808,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/04_4부_전투/02_이니셔티브.md",
+      "sha256": "29a2f89bae8dff24d7d77f5e9aa21d355c6133d8f8d25d460b63eae0c0622135",
+      "bytes": 2634,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/04_4부_전투/03_전투_흐름_6단계.md",
+      "sha256": "860dd34bd99b8334d70aeacbb645e3d3289bf0085e67aaa7efb4df3a6d0b0591",
+      "bytes": 4107,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/04_4부_전투/04_방어_피해_HP.md",
+      "sha256": "bc3cc90ee2b59ddb8378d37691e8a81ffb46e719e14efdba8408c6dee9a88236",
+      "bytes": 5037,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/04_4부_전투/05_무기_Tier.md",
+      "sha256": "ed780910c834e42287d4af4d68a547723d536b7b64d656b9636a8575decfe67b",
+      "bytes": 3374,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/04_4부_전투/06_특수_공격_상태이상.md",
+      "sha256": "aa7668709f84e1ef3081c80814c960cb3b4378b19d11cb489cb5db049434d184",
+      "bytes": 3992,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/04_4부_전투/07_환경_수정치.md",
+      "sha256": "4b0b33e745fff86010dce280f46b778d14d84d12246fc8f712ff4b88ff0dc13e",
+      "bytes": 3919,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/04_4부_전투/08_도주_추격.md",
+      "sha256": "4c8d8bfcb7a902938462a0cab078501b2dff5163145ac4f70e0aae7d5b21c9fb",
+      "bytes": 3725,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/04_4부_전투/09_전투_종료.md",
+      "sha256": "72daa150c912cdf5a109e12c07ee3c9fefd19d89e9f0529d74d8af1565ad274c",
+      "bytes": 4166,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/04_4부_전투/10_중상_후유증.md",
+      "sha256": "1b61ec11c854710f0d35997b6157bcfb8f02796549c9529ca61b5aabd36ca5f0",
+      "bytes": 4877,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/04_4부_전투/README.md",
+      "sha256": "ae1ee896a9853d13ed8de94ea3310bcc3039b5b7201d9d84c0366c564c633b51",
+      "bytes": 5256,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/05_5부_자원과_트랙/01_자원_5종_개요.md",
+      "sha256": "0c4533f7368be9be7cefa0469095bc6bc9ff57a38c7d340924851833d8fab681",
+      "bytes": 3816,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/05_5부_자원과_트랙/02_운_토큰.md",
+      "sha256": "cc90042af69ac08dd7febd8e731b13b1519d1f2b961cce2bf36acd471070ce99",
+      "bytes": 5291,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/05_5부_자원과_트랙/03_에고.md",
+      "sha256": "3574e48d57727328ecaef0ed61f23b9ebdea4031254c9f95716f3b8f0fb06977",
+      "bytes": 5847,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/05_5부_자원과_트랙/04_장르자원_DSR.md",
+      "sha256": "44cbe9811f446550f60a34080f6e6831b508ef28cb0b21d9ab723d5281d30331",
+      "bytes": 5802,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/05_5부_자원과_트랙/05_트라우마.md",
+      "sha256": "2eddfd9a3e03351375a3de9a8fe920892145e90c30ab9fe9d1cba23cb99353a4",
+      "bytes": 5989,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/05_5부_자원과_트랙/06_4트랙_아키텍처.md",
+      "sha256": "021cf00eadacad9c2a221ac0b88e5c367e5f8a186eb939cd6ee59ae1f1b53c08",
+      "bytes": 7258,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/05_5부_자원과_트랙/07_히트와_추적.md",
+      "sha256": "809ad6ccae4994cf473960388726e2f0b88066ba60aea43fe5aa23ac320dda18",
+      "bytes": 5884,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/05_5부_자원과_트랙/README.md",
+      "sha256": "7fccabc32930ffefdf7bbf42db6676947f982922f60da5abf770aa1454498d31",
+      "bytes": 4975,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/06_6부_FEWK_고유규칙/01_흑공_농도와_노출.md",
+      "sha256": "c1736e65009469c270feb0c22199b204dd252148d43eded9120eaa76c96072b0",
+      "bytes": 5795,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/06_6부_FEWK_고유규칙/02_신기_신단_돌칩.md",
+      "sha256": "25e5714202293e02489c0ab997267d2e2a564673f1a2100170fff9c272e52087",
+      "bytes": 4920,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/06_6부_FEWK_고유규칙/03_샤이닝_매팅_현화.md",
+      "sha256": "6a76ecec9158522262f1020640eb6d2a8ba5e75fca5514af21b392a0db1d9b8f",
+      "bytes": 5680,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/06_6부_FEWK_고유규칙/04_코핀과_차원이동.md",
+      "sha256": "fd20944daf34c9fed7a86b75505d0a4959b528f870595a85117161ed5615cd36",
+      "bytes": 5544,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/06_6부_FEWK_고유규칙/05_첫_차원_진입.md",
+      "sha256": "146c87c0d2ab417d32d20ea35cf02ba9c1fb755bdb36efd9f8f7c91bd8e02681",
+      "bytes": 5271,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/06_6부_FEWK_고유규칙/06_파이오니아.md",
+      "sha256": "df39a2e2d10889d6eaf2cbcdccd3a3d899c0cd632807484f5db6fb218aeb0405",
+      "bytes": 5916,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/06_6부_FEWK_고유규칙/07_드랍아웃_진사.md",
+      "sha256": "0cd4829f9e6fe45c8615042d8a80ced05e4ee218adec45add9f1e482edbe19c0",
+      "bytes": 5806,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/06_6부_FEWK_고유규칙/08_인과율_패러독스.md",
+      "sha256": "4e2a89919ee5c4e1869599aee83fc50d6e5fd46596fa151eb1604ae6103545f5",
+      "bytes": 5137,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/06_6부_FEWK_고유규칙/09_시간도보.md",
+      "sha256": "67ccfb2dda8222b93de986fcca3c0da38c9f48830ba8efd8ec058c297036aebd",
+      "bytes": 6861,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/06_6부_FEWK_고유규칙/README.md",
+      "sha256": "d3325a79c67559876d0940b0b1eb3bb64bb6227479e04a4e92ea618b3858a67e",
+      "bytes": 6375,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/07_7부_장비/01_무기_카탈로그.md",
+      "sha256": "ccaf1d3233f49b44d463496d6db7faa0e788a0da75b14be62f4695ba855a5604",
+      "bytes": 5937,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/07_7부_장비/02_방어구_드론_군체.md",
+      "sha256": "15e5224c24935b2c7a8d21ff8e60b555bebc761aa5793c0ce028647f8b15d43b",
+      "bytes": 3973,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/07_7부_장비/03_임플란트.md",
+      "sha256": "fe73278d1fc34911d16ed4fa2988971af30b5cd44380cd5c1489eae0dd82e25e",
+      "bytes": 5794,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/07_7부_장비/04_탄약_d6_Pool.md",
+      "sha256": "834cf246c810e186e49028f42930b5d7505b5a0680996136d5d90dd974412a2c",
+      "bytes": 3232,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/07_7부_장비/05_차량.md",
+      "sha256": "4a7af47404dbab8931b69526ccfda3f0c2b26438e20fadac61d4a0040f35187b",
+      "bytes": 4054,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/07_7부_장비/06_코핀과_동력셀.md",
+      "sha256": "1d7873abbd96c1eda62f9ba37a239aec89afc365301b2ec80bdc0371a5932857",
+      "bytes": 4269,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/07_7부_장비/07_계산도구_8종.md",
+      "sha256": "50c6157dc1e4410b3454d8e653b5c9a0a4303033046ad0bc1c094f48beb9762e",
+      "bytes": 4200,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/07_7부_장비/README.md",
+      "sha256": "0bbe8437006caef068465ab6cb95319941f014b88c7c4ac8c342e30a5d829fd6",
+      "bytes": 6619,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/08_8부_성장과_경력/01_세션_포인트.md",
+      "sha256": "f9b7bd3bd5c1efe88b61e5c6e89d17f4f2f6592ffc889a027374dccb1db44cb8",
+      "bytes": 2705,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/08_8부_성장과_경력/02_스탯_Tier_승급.md",
+      "sha256": "7cae29bf2e58e314bdb5e7302f8dd2311e788abc26d5d70ce476c1c7d405572c",
+      "bytes": 3403,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/08_8부_성장과_경력/03_스킬_인터렉션_성장.md",
+      "sha256": "da77523d46f3afc65eed9263a32b692f68ff965eb9e4a1655367f63932d50ac1",
+      "bytes": 3661,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/08_8부_성장과_경력/04_은퇴_드랍_진사.md",
+      "sha256": "78d7474b7c5f8168869a5e617e33cea24c25f57e9be1ed46f98d27dada323a7b",
+      "bytes": 6199,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/08_8부_성장과_경력/05_후기_캠페인.md",
+      "sha256": "c1399e7e2cf8ae56aa184fa6e5d5ef5481c9a1a686d20964243403f80d7bb19c",
+      "bytes": 4220,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/08_8부_성장과_경력/README.md",
+      "sha256": "ea9683d0a356ec2fe92952959cca0cde57043c8fbdad6ff46ebb0227a3d75765",
+      "bytes": 4750,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/09_9부_팀_플레이/01_팀_판정.md",
+      "sha256": "44f274633323781d97b1b8b15065f67c17599318903b875c44f26ca2c6d0efb2",
+      "bytes": 3117,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/09_9부_팀_플레이/02_재시도.md",
+      "sha256": "b9221a21a447f8ed6648000ba0dcdf90e3221675cd5062271d4f5915d60c02f0",
+      "bytes": 2612,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/09_9부_팀_플레이/03_플래시백.md",
+      "sha256": "fcdecd15fb8327b413d1a3cfe0aa39b0640ec88b8b351337cb71c5dae595069d",
+      "bytes": 3819,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/09_9부_팀_플레이/04_PCvsPC_Downtime.md",
+      "sha256": "925ab841c4ffd5afc0c02dd479e9c685def5e64ec625063f86dea8891aa5d68b",
+      "bytes": 4810,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/09_9부_팀_플레이/05_팀_역할과_포지션.md",
+      "sha256": "e2f5dfd2ecf07eff75b35fa36b9507eaee8f50e22589d3faa543f67c5c36633f",
+      "bytes": 4468,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/09_9부_팀_플레이/06_콘택트와_원거리_지원.md",
+      "sha256": "b2108889d8e2c2b845f37340037f67b5036e79c5118d2880c3590b688e85ccd0",
+      "bytes": 4401,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/09_9부_팀_플레이/README.md",
+      "sha256": "17b5cf737f8b0890d38c6b6c88e609a22d107fb93d28c00a78fa06d7bd0e7918",
+      "bytes": 5121,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/10_10부_GM_가이드/01_세션_0_안전툴.md",
+      "sha256": "2158f9475b203780b9f02390defff7c4a3eeff76b2d315a0affd929702464b9c",
+      "bytes": 5756,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/10_10부_GM_가이드/02_세션_5단계_구조.md",
+      "sha256": "5e445ba9f44748dcb1acb7c8e032ac8fdd9a1c9bcc10d9ca3cc21cb05f6f9389",
+      "bytes": 3720,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/10_10부_GM_가이드/03_난이도_TN_조정.md",
+      "sha256": "e548b3e189baeba8c652167d9a912190edaa07f0dfe983aab83717c44b73cd10",
+      "bytes": 2739,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/10_10부_GM_가이드/04_NPC_운영.md",
+      "sha256": "9329eabc81ca3d8dfe64c8d0ca39edd01db7a9c8b110fd6093ce859649c89700",
+      "bytes": 3862,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/10_10부_GM_가이드/05_드라마틱_서술.md",
+      "sha256": "b8abb85cfc2ff3fcc151d49111d651e0a6fb4c3066730c018a75e1af74386841",
+      "bytes": 4974,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/10_10부_GM_가이드/06_문제상황_대응.md",
+      "sha256": "955811f7f3da4fed8ab2b536752f434265483839b1c103d0a3cd142c3670f1ff",
+      "bytes": 3990,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/10_10부_GM_가이드/07_캠페인_설계.md",
+      "sha256": "af085f9451b6d56322af9d91509ee89e09830aa9f678107b7afe63746c1eaf40",
+      "bytes": 4484,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/10_10부_GM_가이드/08_GM_운영_체크리스트.md",
+      "sha256": "41e2c4d9130ffdb52f980a6565678b21bc46003d0a025b75a48393380bae5a0c",
+      "bytes": 3735,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/10_10부_GM_가이드/09_NPC_비밀_파일.md",
+      "sha256": "9c61e5dc6395fc63ba9b96eafef2bf71d921c6404a8126df252ab7ca28ec254e",
+      "bytes": 5126,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/10_10부_GM_가이드/10_밸런스_위협등급.md",
+      "sha256": "caa5c21507f6a27c20054af7f5c0a1d3becb0ad0fa5c64b14fb9bb6c8517559a",
+      "bytes": 4483,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/10_10부_GM_가이드/11_세션_로그와_기록.md",
+      "sha256": "c7ed1886a7bdf016a8ddb3c9f62ff143482a3fcbfb2f652ef2bffb1fe702013d",
+      "bytes": 4721,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/10_10부_GM_가이드/12_즉석_구역_생성.md",
+      "sha256": "5d1a1fc48f916d74c831231fc801c114b23d02143a48fafde035e715d353c1b8",
+      "bytes": 5667,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/10_10부_GM_가이드/13_정보_노출_매트릭스.md",
+      "sha256": "7b7e5be3789c61fd66713d38077d67b0cca2fc55f6bc209e716327b5b278250a",
+      "bytes": 11136,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/10_10부_GM_가이드/14_세력시계_위협시계.md",
+      "sha256": "8f6cb3ee24c613cddf7adb8a34deca42e8e96f17881e8bd248ece2f17b58c18c",
+      "bytes": 9910,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/10_10부_GM_가이드/README.md",
+      "sha256": "7fa19e61a67bbb81af0fb6fcc2df1ea3422cef6727f63b9ea669fe1c1d2e6936",
+      "bytes": 5980,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/11_11부_NPC_카탈로그/01_D급_하수.md",
+      "sha256": "34ed7243d5330af06470854c9f4880c10abdf79a23a8e75a1bd96c3b243eec35",
+      "bytes": 3426,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/11_11부_NPC_카탈로그/02_C급_표준.md",
+      "sha256": "3c9092fbc61e1d358fb7a132e4fbb9f5d7ce8f2bfef8f232dccb1e8afabea99d",
+      "bytes": 3634,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/11_11부_NPC_카탈로그/03_B급_엘리트.md",
+      "sha256": "c9e22285c86ad6d248cd4f305370b8cfdc78fa4d40b785f0ca7663763aab86b1",
+      "bytes": 3590,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/11_11부_NPC_카탈로그/04_A급_보스.md",
+      "sha256": "c491d53b0b4d5d1da039e35c96cb221656856fbd57bb4faeac6e129c4cbcd828",
+      "bytes": 5363,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/11_11부_NPC_카탈로그/05_원전_서사_NPC.md",
+      "sha256": "808ecc3b3269f55774823cfb60fd89b2459eeeb378ee5dbfdb22a93217e66cea",
+      "bytes": 18671,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/11_11부_NPC_카탈로그/06_Scale_C_개체.md",
+      "sha256": "42f3d050d87b99968fdc96ca3d22f06c03547475dc232ead270d8232bc6e1ad1",
+      "bytes": 4408,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/11_11부_NPC_카탈로그/README.md",
+      "sha256": "d6991386d1cb7f5e6684a849ac422ae692f7c747b0a70fea00d03b87a556b05e",
+      "bytes": 5279,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/12_12부_시나리오_씨앗/01_도입_훅_6선.md",
+      "sha256": "01d4316e9b1e7e1f07d2524debc01297f5312d156cd1ec23e04d66886783f33d",
+      "bytes": 5638,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/12_12부_시나리오_씨앗/02_원샷_시나리오_3종.md",
+      "sha256": "614ec95883fba2f4a583deeb81cc147a9fdb6dc7eedb4a06645426538068d5d8",
+      "bytes": 4779,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/12_12부_시나리오_씨앗/03_이벤트_판정_테이블.md",
+      "sha256": "d27d32d5fa9f82aab068748eba018716905977ab86aee5f3c28d6d1916b92194",
+      "bytes": 4499,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/12_12부_시나리오_씨앗/04_캠페인_아크.md",
+      "sha256": "e6a677c8d203714d8c1da344c3b84d2acbadb2b19cd16531998e33f1eb12f8ea",
+      "bytes": 5532,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/12_12부_시나리오_씨앗/05_입문_시나리오_신성의_카드.md",
+      "sha256": "fee81e109116759dd12845c5a50ab9d47d12d46a78aef59bced014acb187b945",
+      "bytes": 5791,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/12_12부_시나리오_씨앗/06_입문_시나리오_흑공의_저택.md",
+      "sha256": "fdd2ff512f24cdaf24718acee497698b3538125a8d5672f0eaa4a9e054e67002",
+      "bytes": 6166,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/12_12부_시나리오_씨앗/07_랜덤_테이블_확장.md",
+      "sha256": "d60f2e84a6388f812f5b938da1aac8688a140e07d0b48eb1100e12af183cef63",
+      "bytes": 14477,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/12_12부_시나리오_씨앗/README.md",
+      "sha256": "d34a62ca156081cd91a8aefe10d66f06913ad5905ff7a70aa94fa58a5fd8a33f",
+      "bytes": 5464,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/13_13부_온라인_디지털/01_온라인_플레이_4양식.md",
+      "sha256": "d78503d319019708d21a5ba7f986d44ad193682a8fc2c9dc43c90b5751cdc8e7",
+      "bytes": 4386,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/13_13부_온라인_디지털/02_ORPG_플레이어.md",
+      "sha256": "a677a134cc43ce712e0f5cc6d61057047b84b234ba3f99aad6b69936d84643df",
+      "bytes": 4134,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/13_13부_온라인_디지털/03_ORPG_GM.md",
+      "sha256": "cdaf728c2b632eb327454dd92dd871f04a66fb2316115e3f668245fdb902bb18",
+      "bytes": 3628,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/13_13부_온라인_디지털/04_커뮤플레이_진행자.md",
+      "sha256": "d0ff03582f8b9af5d0b534c788361efa7b792a0590f736d5e1f9fe4dc87e9e55",
+      "bytes": 4616,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/13_13부_온라인_디지털/05_PBeM.md",
+      "sha256": "f3c27ec9b853a226bb1fda36c37f320ac700b4f2c0ed9f042848535b82da9fac",
+      "bytes": 5217,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/13_13부_온라인_디지털/06_게시판_플레이.md",
+      "sha256": "a3abfc09eae3c46e9acc51861ff787e7023039c8caa53a53dd6bfbef351bc5ba",
+      "bytes": 4051,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/13_13부_온라인_디지털/07_비동기_공통원칙.md",
+      "sha256": "51d15b805ac454d24f06928c333922c379780f2ba9188b9da69a04f89875f810",
+      "bytes": 4594,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/13_13부_온라인_디지털/08_Roll20_Foundry.md",
+      "sha256": "db379c8708dd9b069f3b5b54a34a572e16d170388c0f5abdda80d60de7f7cca6",
+      "bytes": 2927,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/13_13부_온라인_디지털/09_매크로_YAML.md",
+      "sha256": "bc40841c9ff8dff7647c651483ea76e0df6708c6efeba8157b040be29e6571d9",
+      "bytes": 4077,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/13_13부_온라인_디지털/10_AI_병행.md",
+      "sha256": "5b7345fbfc9f2d02a5aeeea0f95d2b2fac0b74453477161da564970e40ed364d",
+      "bytes": 4303,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/13_13부_온라인_디지털/README.md",
+      "sha256": "aac451ea52d40303a46f3d041926ca6a7d753ce2fb3e146ff86a7d3beff970eb",
+      "bytes": 5335,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/14_부록/A_캐릭터시트.md",
+      "sha256": "4352224387dfd46df56d0eead31daf76f6e4a39dbbcf9eaa962682878e5eeb00",
+      "bytes": 4496,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/14_부록/B_치트시트.md",
+      "sha256": "bfd560dce911390037e0de6ce5d13e2a401b88404a07d18361421152685a89a3",
+      "bytes": 5542,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/14_부록/C_용어집.md",
+      "sha256": "41a77a12ecbf63645781dfcc305865b4c4eac9683c03a5e316013c1ec6572244",
+      "bytes": 11377,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/14_부록/D_색인.md",
+      "sha256": "16b709a3801a5177b0d87d44aa0824ecd7b365c55d3456fddd881de05e89459a",
+      "bytes": 6144,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/14_부록/E_WorldBook_참조가이드.md",
+      "sha256": "cee1152a829c9772e88f431796b6c9c134093037dadbb579d355dbdc407538dc",
+      "bytes": 5058,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/14_부록/F_원전_레퍼런스_인덱스.md",
+      "sha256": "b3109ec10a50a14c7a4110680e931ed473abbfef4b3c190ccd1173a1bcb9c35e",
+      "bytes": 6094,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/14_부록/G_타시스템_호환.md",
+      "sha256": "2f9c58adf7dea4020e47c2d3dcc07a02300a87aa93b638ff806adc27ddd38560",
+      "bytes": 16633,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/14_부록/H_BGM_플레이리스트.md",
+      "sha256": "a6a1692b52bf7deee13578d01e6d8ebb856bb25aeccb58a6056c8b64105f61f3",
+      "bytes": 9874,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/14_부록/I_일러스트_슬롯_가이드.md",
+      "sha256": "868de9bc5da4ee142f6bbfa25a69fe26736a41dfe3fb883bf83aef2ff84bc13f",
+      "bytes": 9410,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/14_부록/J_Player_Handout.md",
+      "sha256": "0496e759b62493e25b17da4ffa29bd00dcdbaea9325a251f24e05a88f8a1d32e",
+      "bytes": 12961,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/14_부록/README.md",
+      "sha256": "1c6c595d9d8043b7a0357f83a17e282cb64658d8d8779dcdad9053f0a4dfa639",
+      "bytes": 4439,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/corerulebook/README.md",
+      "sha256": "67622e83ec2a6c9bfed969f9a5265372a72becfc1d920893b7b498d508fe8d60",
+      "bytes": 4492,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/00_서문/01_여는글.md",
+      "sha256": "21e03ac3750d8dbd62d8e51fc852fce08f942bd4328008cb6f38cd19ac6de3be",
+      "bytes": 2290,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/00_서문/02_본_책에_대하여.md",
+      "sha256": "2e76b0f8e67dcb912863debfe0d1c90890a10435c6e4bc42ced13578483d0a6a",
+      "bytes": 5453,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/00_서문/03_사용법.md",
+      "sha256": "400f3abcca966981e23293894d23295e4c3a62f14d700614935ab6dca98ef4d0",
+      "bytes": 4926,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/00_서문/README.md",
+      "sha256": "bf4fbd054e2501b8ea900bc5031ef7a74b18566d196d2cff1bb802e5dbc1cc33",
+      "bytes": 2610,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/01_1부_세계톤/01_월드_소개.md",
+      "sha256": "1ee166192e5ae16ffdc88f71631b9499f28406f5a3f56330a5046374a1c14a58",
+      "bytes": 7571,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/01_1부_세계톤/02_무법천지의_질서.md",
+      "sha256": "9629187abe29ca86a51004d89a73ce0603becb6585b85d79283ff74a98d05f32",
+      "bytes": 6485,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/01_1부_세계톤/03_비빔밥_세계.md",
+      "sha256": "dc7903db5bd5b4291ddba7f666ad16546d376c7651da66faa05c9baae33c01ba",
+      "bytes": 6958,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/01_1부_세계톤/04_크툴루와의_차이.md",
+      "sha256": "24a38a624c4b489898d7b5bbe559d0357dc55dbc04d68a4c356b8b55bd8d9ac0",
+      "bytes": 7602,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/01_1부_세계톤/README.md",
+      "sha256": "bed3afdd63f35d39a5450bb75c25d4ad32e5ed31168e23b2bb167609b25a82e8",
+      "bytes": 4397,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/01_흑공/01_흑공이란_무엇인가.md",
+      "sha256": "0d8fdc1ab0c538569167434aeb83f55339efb54d3685f8dd67274c979ee37b1a",
+      "bytes": 12299,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/01_흑공/02_흑공의_용도.md",
+      "sha256": "e25e4cd12b271bceedf56de737713ac69ae07592597ac2431f7a9149094c7b17",
+      "bytes": 10635,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/01_흑공/03_흑공_농도와_통제.md",
+      "sha256": "a353b85ef109f651f4c87d4c398d4ec090acbdd68595c7bcbe95e00e72968f08",
+      "bytes": 10691,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/01_흑공/README.md",
+      "sha256": "c1675ed60eff4dd5dbfaa781d391ef417f15bcbfef33e1325bdc8a6b0c045c35",
+      "bytes": 897,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/02_신기/01_신기란_무엇인가.md",
+      "sha256": "217dab65fb5a01528321d197ead0e93762fb03d2f0cb12526a5379eb849db943",
+      "bytes": 9064,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/02_신기/02_신단.md",
+      "sha256": "2139ef1c37947e0cabde1a4d22a9e933fd493f931142d4b4a6d57a58c2f2cf09",
+      "bytes": 10301,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/02_신기/03_신기의_저장과_활용.md",
+      "sha256": "e9b85422a4abe0fcce698f6db93f8460bbd056082b65bdd8334f01a104f0f83d",
+      "bytes": 9558,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/02_신기/04_오주사.md",
+      "sha256": "11aaec77fb46f22a4f9bd41b954b826b610c5633f11df0aba96669502976b804",
+      "bytes": 9394,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/02_신기/README.md",
+      "sha256": "bbb73416a057ee563b8498568f306ddb4126d710cba7a75731008c258a9e76c3",
+      "bytes": 916,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/03_인과율/01_인과율이란.md",
+      "sha256": "01b00beddfbec9e63113e15a739d98edcade0b02465fdc6f78b0953ac8d18975",
+      "bytes": 10113,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/03_인과율/02_패러독스.md",
+      "sha256": "6b9338cccaceee7f140cba140f2b9aed9a3bcd0c0924e0285f91342b739ad8fc",
+      "bytes": 9642,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/03_인과율/03_먹개비.md",
+      "sha256": "1cf40727af2576a208dfcdcacebc581f8079c87ff9f65b52cb3f4dad6025850d",
+      "bytes": 10003,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/03_인과율/04_자기중심_시간관.md",
+      "sha256": "8e148a50f24bd05c747b82745f924ba4b034dd100a958e8b8e6899a6271ae981",
+      "bytes": 7791,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/03_인과율/05_시간도보자.md",
+      "sha256": "8ea351e63ba72856fe6bb4c326607367cc9aab66582ed870c857210f7793e93a",
+      "bytes": 9272,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/03_인과율/06_시간의_두_공포.md",
+      "sha256": "78bca192ab924f0d68b1b9c28e79412848daae2a28735fa288371fecc01ff6f0",
+      "bytes": 10070,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/03_인과율/README.md",
+      "sha256": "3153244870a21b7b7e43dbf08296223a0ebd794501dc55fbd027aea50699a4ab",
+      "bytes": 1252,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/04_바이트/01_바이트란_무엇인가.md",
+      "sha256": "7822c887bf37122dd2a75bb52819f30f027dee4c00ae93ef1e33c001a1a50c0e",
+      "bytes": 9403,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/04_바이트/02_가치의_7요소.md",
+      "sha256": "2d641e6adebb68d792e5e78e1935ea117c7c9fc560a05b3cd31bb327206090cc",
+      "bytes": 12717,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/04_바이트/03_숫자_세기.md",
+      "sha256": "87d7eda20bb7298c26292ce966a1b403b24fe6fd65cd7607f08de9fe3b35a2ba",
+      "bytes": 14165,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/04_바이트/04_바이트_단위와_화폐.md",
+      "sha256": "59eb4c81efb8dc6e724b33ff597b9fb81a585b2c49189ba9b74965088b5ff90b",
+      "bytes": 19384,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/04_바이트/README.md",
+      "sha256": "f28a633336b1071766fe255b7030060279ac4cbc317f01505c50d2d2dd0b3d10",
+      "bytes": 976,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/05_현화/01_현화란_무엇인가.md",
+      "sha256": "d921f0554730912e1c00a73ad65b5b3a10320a98b2175b3949e6eaf60d59d550",
+      "bytes": 11281,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/05_현화/02_샤이닝.md",
+      "sha256": "9381a420a4617d35193ea3a77ee016a2689b57f632758eb0b5c936590e36a4cd",
+      "bytes": 11310,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/05_현화/03_매팅.md",
+      "sha256": "21427b0e933e5f286367d1b9970b4dfbed0b78a315207b905ce0f092487336fe",
+      "bytes": 10827,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/05_현화/04_기록자의_수집.md",
+      "sha256": "cff2a9f1fd977acc7246c12d5b3ee0e0d13b0c0736d11907e60c44b419f8a8d0",
+      "bytes": 12770,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/05_현화/README.md",
+      "sha256": "0936230eadd5ec0dbd6a119c9529aa4b8959e075de152d65de516368ecd76bcd",
+      "bytes": 1194,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/06_계_개요/01_네_분류.md",
+      "sha256": "060ee8a0caf68600074bae0e75e53c090493de256a44891a3d2917998ca2f494",
+      "bytes": 11350,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/06_계_개요/02_인공계_예시.md",
+      "sha256": "fa81e14addf9ed509542370aecbdd2ce410afaaa5d87b7c95e44e6b9b04c7d3f",
+      "bytes": 13132,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/06_계_개요/03_오지_차원계.md",
+      "sha256": "5bb4b3f2fab1ae8f14bcb0c11712a7630f3bd2a064588b6f3f1d0e13bb95b0df",
+      "bytes": 9428,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/06_계_개요/04_차원_계층_구조.md",
+      "sha256": "a503071cb8dabcc85b982dae4b397f38c2eab744f263008b3b28a2698e1262af",
+      "bytes": 9261,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/06_계_개요/README.md",
+      "sha256": "f73ce0ca0cdb118dc3cb33d470b332fa9937aefa7d7f4ac4924f9837efbefd43",
+      "bytes": 974,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/07_핵심기술/01_메카트로닉스.md",
+      "sha256": "1127ef575718f8c9f84faf0aa2b43f7a1dd9949fdbd64004f78e82a93111731c",
+      "bytes": 10551,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/07_핵심기술/02_바이오트로닉스.md",
+      "sha256": "e08f6c89f224c4d62499eaf45db01fd6de01fd47581d3ed500d52d8c5bff1091",
+      "bytes": 12221,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/07_핵심기술/03_와치엔진.md",
+      "sha256": "67559264af3edba8c915566697ca09fac0e714f66cd5a9de0cd1fed1439e42a2",
+      "bytes": 10599,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/07_핵심기술/04_복제기.md",
+      "sha256": "0208a53e469d1253746d9ab3da117f7781309fb013916ed8e1f97413ee785aa4",
+      "bytes": 11278,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/07_핵심기술/05_동력_셀_체계.md",
+      "sha256": "52a2520bcb5906d0f32849a55c325389b8a9c6395e6d768154f9f617cb32305f",
+      "bytes": 11007,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/07_핵심기술/06_코핀과_차원이동.md",
+      "sha256": "b6e9cb0cde090c28106ec923c1c7086fa6a084f6a0836c51dac2e3a928a032db",
+      "bytes": 17924,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/07_핵심기술/07_계산도구_카탈로그.md",
+      "sha256": "761e15dc4695ec556752f3ca6b9e0165efd2eb6e4136c4c24540ef6a221d8b27",
+      "bytes": 12051,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/07_핵심기술/README.md",
+      "sha256": "b6002ca42f3d47d53eac5a9e0cd94286861798b923e10d9f0a017a9266abe7fe",
+      "bytes": 1359,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/02_2부_세계법칙/README.md",
+      "sha256": "e57bb16282ecb4b62cac304ade12721c35c488a13b492de73c7660f8705f353a",
+      "bytes": 5931,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/03_3부_역사연대기/01_선사/01_동백국의_옛_시대.md",
+      "sha256": "d4add4dd14ec55f30c5d031f25e1004f973de67dea73cadbb2ff274d0306e03d",
+      "bytes": 8587,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/03_3부_역사연대기/01_선사/02_FHI와_서양의_그림자.md",
+      "sha256": "adcfad2d4ba49d5789515a72b333a39749224f9a7ca418072c3b1a915923f9e3",
+      "bytes": 9504,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/03_3부_역사연대기/01_선사/README.md",
+      "sha256": "164be19d5353c6537fe4da080532a7621d5b7a4d701e291702fee598ad8680c4",
+      "bytes": 682,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/03_3부_역사연대기/02_검은_수평선/01_그날의_사건.md",
+      "sha256": "9c167c267270ff169b4f9d39699c76f16fe0f036045c043c27b26c86b7770e9c",
+      "bytes": 12191,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/03_3부_역사연대기/02_검은_수평선/02_대신단출과_동백국.md",
+      "sha256": "93621eca351b592680cef7d0606ad483e78a0a86bf419c65591bf5b99f57516b",
+      "bytes": 8342,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/03_3부_역사연대기/02_검은_수평선/README.md",
+      "sha256": "d2b66540968b28dce7ad149e425ab0900aa5df5cd01b6845a3ee14b605f097fc",
+      "bytes": 518,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/03_3부_역사연대기/03_개화기/01_흑선의_시대.md",
+      "sha256": "765c60e3084a0912018c85949dbf8bb6bda1d600e5a223a35d386acec8a3633b",
+      "bytes": 9257,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/03_3부_역사연대기/04_동쟁/01_진신단출.md",
+      "sha256": "a4ec9a897fd9517af7a066db74743c9334c9e49122f557ef22f4e23b52358400",
+      "bytes": 8729,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/03_3부_역사연대기/04_동쟁/02_의병_봉기와_괴수대전.md",
+      "sha256": "fdb0f018a3661348288119bcbb5fc9f6d05fd59ca034fc1b06dcd72dd343eaa5",
+      "bytes": 10137,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/03_3부_역사연대기/04_동쟁/03_4대_신수사.md",
+      "sha256": "7c24fed37baf59c4d75482e1744af51267b6ce97cce4f7fc8b788408d6095dda",
+      "bytes": 11662,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/03_3부_역사연대기/04_동쟁/04_동쟁의_유산과_벙커.md",
+      "sha256": "bce235d2a1985016e2157168275fad5a50ab29ca66679f3bb4d28caa1532e941",
+      "bytes": 11502,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/03_3부_역사연대기/04_동쟁/README.md",
+      "sha256": "82e13ba51efc47eed9f8793d2ad1487e3bbda2c4a5734c1a39f9275eceb24433",
+      "bytes": 817,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/03_3부_역사연대기/05_광제_망명/01_왕조의_종말과_광제사직계.md",
+      "sha256": "c7dee58ef5bab80b1e82b5bdcb371c7151841b83d343fd79c14c11171df10f37",
+      "bytes": 11992,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/03_3부_역사연대기/06_대사만국시대/01_10대사국의_탄생.md",
+      "sha256": "af712316b1b11f85ecd8d3e2578ecad8a1dfe6ba053a5fe04c8e6dd62e3dd1fb",
+      "bytes": 9709,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/03_3부_역사연대기/06_대사만국시대/02_현재_시대의_특징.md",
+      "sha256": "c18320aee4a379e400e84434b75c67dcd898b97d1d034edd593ecb9659d07378",
+      "bytes": 12358,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/03_3부_역사연대기/06_대사만국시대/README.md",
+      "sha256": "1133fe13a891969de9187af9a392f1f0f905599c7e6067047702b5cfc7ab4c77",
+      "bytes": 466,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/03_3부_역사연대기/07_연대표/01_FEWK_역사_타임라인.md",
+      "sha256": "2781107a77fd5735515e444eefdde04e69470f3c2c8c9f6101ff7300d567cedc",
+      "bytes": 9909,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/03_3부_역사연대기/08_미래의_그림자/01_월풍_조짐.md",
+      "sha256": "0693eab9e69bccec023cd3c924fe902eb73f240334b55050affa02087095c9a3",
+      "bytes": 15433,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/03_3부_역사연대기/09_GM_가이드/01_역사와_플레이.md",
+      "sha256": "baef7337521e1147afa288e589178d1b4c2860e03d8528524e695bd322716aaa",
+      "bytes": 11841,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/03_3부_역사연대기/README.md",
+      "sha256": "1ad6e8c07a33fdb609d3307d6c1c6e3d2d9c8c64533c8c11671fe70157b9f129",
+      "bytes": 4978,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/01_6구역_체계/01_6구역_개관.md",
+      "sha256": "46d32d0816b01148c9cd42db8edc09ddebb6c2dfe41eb51a4f9668f6a83ed2c6",
+      "bytes": 9882,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/01_6구역_체계/02_퍼스트_궁정구_살롱즈.md",
+      "sha256": "483b67036f3b7313801b7ae4b9fab005ee67b852cb19cb3b1c7d4e32f417deb9",
+      "bytes": 8386,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/01_6구역_체계/03_비즈니스_자본구_힙스.md",
+      "sha256": "ed1b2458f881fb157134c0cb25f26e039caaf9e7cd504ade1512d19bd824f286",
+      "bytes": 8655,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/01_6구역_체계/04_이코노미_서민구_노마드.md",
+      "sha256": "8031ac88c37d262aba90a74e6259aafaa39a6d8a33a498e2d0f06445431b1693",
+      "bytes": 8991,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/01_6구역_체계/README.md",
+      "sha256": "1f7ac8a4b44272b8f171af11524423255a8aaf1a3cc661ac193d7f5b307c3d4d",
+      "bytes": 1120,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/02_4대_도시/01_서울.md",
+      "sha256": "87ce46f8b1181a3b91d46dc162d60b7f724a2a8cba9995a43b631264f0ec5185",
+      "bytes": 8216,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/02_4대_도시/02_도울.md",
+      "sha256": "afa24c74eb5d758864d272e3ac8c7bc52fd37e0e95563dad1d569c119fa60528",
+      "bytes": 9260,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/02_4대_도시/03_나울.md",
+      "sha256": "5de29327e485367de9c78ba7bc3c41eaa0d113fdcedf2b7c1aff0a24cb1c772c",
+      "bytes": 8538,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/02_4대_도시/04_부울.md",
+      "sha256": "740f02993d50f4b932c541257b6f4c96caa27d8975512f7665236898ec8a0282",
+      "bytes": 8334,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/02_4대_도시/README.md",
+      "sha256": "9b8fb20f44897c9082ae9ae872fdb7d091dd101d3e785351cc7de0ebec6485af",
+      "bytes": 648,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/03_8도_지방/01_퓨어로열.md",
+      "sha256": "e8e16f6fbb43f9aaed3b2a5bc33a62d4a30e771d9eef1ff92f068dde5a8072f1",
+      "bytes": 6532,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/03_8도_지방/02_호올네트.md",
+      "sha256": "01e5409f565f8c8f012e4b76f604355a9f9cfe4b88d324f64ebc4b2fae9cdf1c",
+      "bytes": 6506,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/03_8도_지방/03_리버힐.md",
+      "sha256": "ca31fe24c0989cb6ae5e333a4999cd143fdc56b11978a82bff1b47d36929b408",
+      "bytes": 6464,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/03_8도_지방/04_더블셀레브.md",
+      "sha256": "b5b85685e5d26282707e873a1c8f421ea6641ed20c2ee2e6f3b03dc7ca1ef875",
+      "bytes": 6388,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/03_8도_지방/05_파이브헌드레드.md",
+      "sha256": "b2d2be707382dd2845950b947fc906b0cca7e3863609081f545ced32f762090f",
+      "bytes": 6715,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/03_8도_지방/06_피스풀.md",
+      "sha256": "08cd97b51281d4b8f37e40545d5d91c1031342243af2737a5147ef06af2785c2",
+      "bytes": 6630,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/03_8도_지방/07_솔트미러.md",
+      "sha256": "27b216e2a379e584629afc8f30498ba9b436f7f23b03d0f5fc89125632b4c57d",
+      "bytes": 7292,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/03_8도_지방/08_크로멜로.md",
+      "sha256": "0f108782a3850e384c11dac5907268552abd39978b2b9e263215149c4c84bb1b",
+      "bytes": 7019,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/03_8도_지방/09_제제.md",
+      "sha256": "cb72b13f7321cfc34c25d4efd8a6e4fbb84987ce2295363fe39f2079e2d40fbe",
+      "bytes": 7288,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/03_8도_지방/README.md",
+      "sha256": "c1d17f98f1dcb4e602fa7121e4c87f9328a78fbdcd09be863af8b76b76fae891",
+      "bytes": 1815,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/04_바다/01_흑해_신해_원양.md",
+      "sha256": "6e546ff52d474e2ea027d7c8c97d07ef4f971c3d3e353f4cb663b92c78800f3f",
+      "bytes": 9263,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/05_차원계_지리/01_차원계_개관.md",
+      "sha256": "796b32adedecb931c399257ed4d06c9d80702c0cf320cb5d155db6644439ebf3",
+      "bytes": 7932,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/05_차원계_지리/02_새우거리와_빅포레스트.md",
+      "sha256": "d159b13b09c3fa6b7f2a02ac7d7b81b22db15ecf9d40c5eeb24c3b0983ba5169",
+      "bytes": 9084,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/05_차원계_지리/03_플랫마운틴과_공단계.md",
+      "sha256": "3262240ee4e08bda9005ef7731a54ac84e7a35db15070a69b6db6709efb07194",
+      "bytes": 8408,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/05_차원계_지리/04_광제사직계와_벙커계.md",
+      "sha256": "bbc6c5189d62f356b1f32fd419f2f9860f1577d740f47881e3f5b66a26a7fe10",
+      "bytes": 9181,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/05_차원계_지리/05_구미성과_구남항.md",
+      "sha256": "652850be5026c8d17466deb3a606a6b4dcfd00a473c0247692d080ff2c67862b",
+      "bytes": 8164,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/05_차원계_지리/06_환락계와_기타.md",
+      "sha256": "d26246850cd506566c5ae1361fe4301704f0f591cbeeb97655ddf088e39320c4",
+      "bytes": 9924,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/05_차원계_지리/README.md",
+      "sha256": "6aa111d8c7faa2305382106021751114eaa851bd9b3697a833e070833a853b62",
+      "bytes": 1017,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/06_루쳄트레일로드/01_4대_도시_연결_철도.md",
+      "sha256": "3ca4011295ee4409b3f59e10da0001c68c9000954721b3ff0fed0ccefa780018",
+      "bytes": 14828,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/04_4부_지리/README.md",
+      "sha256": "91ecee85880ae2fb5abc14f43b87e7f867fa7ba447e6efb56310d4e5851bdf3f",
+      "bytes": 4383,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/01_대사국_체제/01_대사국_체제_개관.md",
+      "sha256": "472ccf7fb7a63cac628adc5815ccb08e52c781e8507ebaa6ffaf09557826e1fb",
+      "bytes": 10671,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/01_대사국_체제/02_10대사국_프로필.md",
+      "sha256": "6e199c51fa718b1c1d53395a8514e4a0173d354861f46ebf23da21cb8566b1a0",
+      "bytes": 9754,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/01_대사국_체제/README.md",
+      "sha256": "a5ca74221f9e8e3e0cd861e7fdfd73f404c3ae0ee4ae1c946f138801d991205f",
+      "bytes": 639,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/02_기업/01_기업_체제_개관.md",
+      "sha256": "4b6821ed06d9e27508f4bea5eb45ad3ebedc952d3f5d47edd43c4ad292532b2f",
+      "bytes": 8446,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/02_기업/02_기존_15사.md",
+      "sha256": "6ed51f8ec18ecf79caa586a445733b5f6db3ed2ff9163d46631d5a488d1e5e41",
+      "bytes": 7963,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/02_기업/03_신생_8사.md",
+      "sha256": "c7866abd16892bc7d9e04e203f8fde82dbaa8cbf24812788dab4aaaf8c14cc88",
+      "bytes": 6166,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/02_기업/README.md",
+      "sha256": "f7804f2071690b6c5cce7fd8e33bb34639ce1417fe19ca554172791904be1935",
+      "bytes": 569,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/03_종교재단/01_워피스와_캐피탈피스.md",
+      "sha256": "ebb6dbafc647b62efefb45cbdcc9c37e7df062639f9b5763e0339c4fe47ab040",
+      "bytes": 9433,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/03_종교재단/02_칼리코와_어머니_전쟁.md",
+      "sha256": "8492568de4b7bbfc4ca6a15eafd8ca8b41d08f02a939ed4d0126688ce0da1c26",
+      "bytes": 9864,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/03_종교재단/03_기타_종교_세력.md",
+      "sha256": "655486223f9f1f3aba7e5753ad1c5e7bd39d070defc6c3c9e82357c39e383104",
+      "bytes": 6929,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/03_종교재단/README.md",
+      "sha256": "860c2c1ee3e0f931f5f145c040c1b0a81894a87261c5474c1ada2732a5c1a26c",
+      "bytes": 800,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/04_화폐_경제/01_화폐전_체계와_사회.md",
+      "sha256": "d91508ecf8c62351faad6f0197752aefa22aaee9a7f6ea26b85cee6c733e3cce",
+      "bytes": 11509,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/05_권력_지형/01_인물_관계와_권력_맵.md",
+      "sha256": "b060ec657b1fe37997ef147d2881b72df0e072db7e7f66fb4d3a00e390db27a4",
+      "bytes": 7924,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/06_제도_경제_용어/01_성인식_라이선스_결혼_자격.md",
+      "sha256": "05642ef6380c1c1267c3f2221ea4e52f9bd601cba940319092a33730f8ab5c78",
+      "bytes": 9047,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/07_핵심_발명품_경제/01_와치엔진_복제기_코핀_게이트.md",
+      "sha256": "0d1503b73a05665390ec0b26f24830ed7b26c0797459c9459c11cec0a4f60ea1",
+      "bytes": 9118,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/08_국제기구/01_DCSA_FHI.md",
+      "sha256": "f2eeeac9039f060967bd035e544c9f10eef47bc90e4c1f4af9047844cd68d434",
+      "bytes": 9648,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/05_5부_사회정치경제/README.md",
+      "sha256": "ed4f59b0ef4ed89b1b1b5408deb65523027a17a84d5442084429bdb42063269d",
+      "bytes": 4714,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/01_여섯아침/01_궁정구.md",
+      "sha256": "33c5ad117639514194d31ac9729ff6bd56e3c08319477c2d412d2ee19cfd706b",
+      "bytes": 7005,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/01_여섯아침/02_살롱즈.md",
+      "sha256": "e3507b177a1816ad9a4d14aa640ee057fef76f9e9f231ff747e92051d1689e36",
+      "bytes": 6212,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/01_여섯아침/03_힙스.md",
+      "sha256": "8bfbaf0a8db74735d5eafddfc12da32691197db34eedce4fc9265587f97793b8",
+      "bytes": 6680,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/01_여섯아침/04_자본구.md",
+      "sha256": "0a299c0e4ed679826a0e3ebecf2531b1ae61463681f96dac8711d0ec4fd65249",
+      "bytes": 7175,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/01_여섯아침/05_노마드.md",
+      "sha256": "c10fce53e69effc3d4cc2f7d1cc740101968af682b8e359b8a78825c00f5979d",
+      "bytes": 6980,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/01_여섯아침/06_서민구.md",
+      "sha256": "581c3d2e420878479cd94fde2c32bedb51b4daea9be176bc634548cbe4773f01",
+      "bytes": 7630,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/01_여섯아침/README.md",
+      "sha256": "06dcaa9734494a7f83c96f7161e736d36c456596a0e5ea7038b9a67f5014d06e",
+      "bytes": 1907,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/02_임플란트_문화/01_생체순도와_임플란트.md",
+      "sha256": "c1cbdd7922730c62fd02a77bd813cd383a32e3dd7e42c96b08bb14c9b9ef57f4",
+      "bytes": 8884,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/02_임플란트_문화/02_성인식과_기업_제공.md",
+      "sha256": "8a5b13ae4cf1778533123cd7bf788a6ddb58f72c393a8cacd774b7ede3cd11bd",
+      "bytes": 7801,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/02_임플란트_문화/03_야메와_불법_개조.md",
+      "sha256": "964d66c23f7545c03ab4517d7b3160715f1c848757f92c1a7ea240cbb720b204",
+      "bytes": 8369,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/02_임플란트_문화/README.md",
+      "sha256": "1b7eb54c4ed23c8e76afdc0c031c4842231eb5fa4514328581e104f18062c989",
+      "bytes": 1911,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/03_언어와_일상/01_호칭_체계.md",
+      "sha256": "6477f7ad00c9557c301274a9440e0c6c22b8366a4c5abbd98744a74e902c4695",
+      "bytes": 8087,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/03_언어와_일상/02_계층별_화법.md",
+      "sha256": "9ea7cbe10456d39b84ed70a30a24c139e399af60e65a28981e6c10a70bb5161b",
+      "bytes": 8269,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/03_언어와_일상/03_완곡어와_은어.md",
+      "sha256": "775ddad7f1714414b474a440da3e268bfc8d01005fe24e0d71529aed32ef9e14",
+      "bytes": 8688,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/03_언어와_일상/README.md",
+      "sha256": "d4dc4d0c5dc3083e207feeec5b012ef7b32e35680aa07158a52d4c0e1984358e",
+      "bytes": 1543,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/04_음식과_의복/01_오얏_식문화.md",
+      "sha256": "bd1eafc9b52217cb184b20020c937b1a14e2e769515ba462300817e6e6ffffa6",
+      "bytes": 8364,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/04_음식과_의복/02_계층별_식탁.md",
+      "sha256": "db09e62fe9378eacc5f0a0bcf7c1868af466b95955467a0ee58e798192852fae",
+      "bytes": 9110,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/04_음식과_의복/03_복장과_장신구.md",
+      "sha256": "81294fff4af36bbe2580a2d302db21e3dae1b61a52a8f5be4ee7fded3e37102f",
+      "bytes": 11473,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/04_음식과_의복/README.md",
+      "sha256": "c2ead1e9e7136006bf9597d1c64939d42b83e90e46cab99623bcf153e19e36d1",
+      "bytes": 1430,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/05_의례와_축제/01_DDOGG_이별과_성인식.md",
+      "sha256": "cd4aa23c5abc9e925cb0128a10c0931226f7f3d50d47d01bad6537291711d92d",
+      "bytes": 9669,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/05_의례와_축제/02_결혼과_장례.md",
+      "sha256": "75596da670a07e99d0e7904a94edecb538cdecf8c2b8afc777d0f4eb04372c3f",
+      "bytes": 10756,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/05_의례와_축제/03_종교재단의_예배.md",
+      "sha256": "a47cb8bda1b42a51b8eeafab07dc54984985b0da0fe7e9faa989f8beba4ba235",
+      "bytes": 9461,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/05_의례와_축제/README.md",
+      "sha256": "25404b3c41de6640911cabfa6d1b7034cdff1496aa99b3d194ab345ff71ea21f",
+      "bytes": 1719,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/06_6부_일상문화/README.md",
+      "sha256": "e7e221e9d46615419dc5a6b3deffdc03dc91c0fcd5617a29c2997401f941384a",
+      "bytes": 5111,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/01_러너란_누구인가/01_정의와_기원.md",
+      "sha256": "2696c693e28939296ad93ab9a74cd6f37b6f76a1be51bb17d01b6aac52b759eb",
+      "bytes": 7264,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/01_러너란_누구인가/02_분류와_사회적_위치.md",
+      "sha256": "d746c6ed5d5e05c2404234bb62dfe79d2fadfac714973c3c2238710d648e0b7d",
+      "bytes": 7821,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/01_러너란_누구인가/03_러너가_되는_길.md",
+      "sha256": "abb520fd0f70e3f67eae3f664bd71e02a5a443b2df72d942a690ecb6140b8d50",
+      "bytes": 8319,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/01_러너란_누구인가/README.md",
+      "sha256": "45334458ea71dc315d46d93d64295066c0e4e75418ca709f891c794f10820e0d",
+      "bytes": 1335,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/02_경제와_거점/01_러너전과_신용.md",
+      "sha256": "58d2b1205c442572929849cc4c4b06ebbb8992d92767659f7fcaee11de3a2c0a",
+      "bytes": 6818,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/02_경제와_거점/02_보수와_브로커.md",
+      "sha256": "fa7b394c27225d28e8edce68aec543f7cb303b8ad3b787b24c2490f30ab1840e",
+      "bytes": 9087,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/02_경제와_거점/03_카페와_클럽.md",
+      "sha256": "e4caf6fe21259029e1840705316ff6942483a5bd1cf184d4609fc52045c735c4",
+      "bytes": 9455,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/02_경제와_거점/README.md",
+      "sha256": "269624790134c0244e8269e2cb99c064091a23e46bd6a9a32282131e119ca090",
+      "bytes": 1332,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/03_임무의_지형/01_통상_임무와_서비스.md",
+      "sha256": "811bb8d53edbb0e70e6a2ac0bfdd47e54c06701e6600bcd36cc80462e420ed40",
+      "bytes": 8474,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/03_임무의_지형/02_나이트_러닝.md",
+      "sha256": "88a9c58b37b810d9de52edc4fb18c43199d0724266f8e42911f1a689db2488b1",
+      "bytes": 9631,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/03_임무의_지형/03_피지컬_러닝과_드랍_위험.md",
+      "sha256": "27e322abb6870851fb655308da153024634054f58140185a07d84bbe60e1480a",
+      "bytes": 9058,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/03_임무의_지형/README.md",
+      "sha256": "c7196384176ab81ee7f462e26aee0c9ec6f1f9dad4c7ea8ea12fdbae9b29691c",
+      "bytes": 1293,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/04_조직과_갱단/01_솔로와_팀.md",
+      "sha256": "dfacd984e4f4f1ea107ebb71d2a9ba4242e3847e08f5635579ba5fa923fb41b1",
+      "bytes": 7985,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/04_조직과_갱단/02_갱단의_지도.md",
+      "sha256": "a794e4a99b9522ef736df131eb451f7b2b822e867027ec77e994427c25f74509",
+      "bytes": 8357,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/04_조직과_갱단/03_신디케이트와_동맹.md",
+      "sha256": "de8eef698e99992dc675f48c36acbaa9b90d4a4397bb606dacb3e163951fc2bd",
+      "bytes": 9097,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/04_조직과_갱단/README.md",
+      "sha256": "174812f3f846479f9c79dba93f8d66577f0515eeed34c26dca1918915444780d",
+      "bytes": 1371,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/05_장비와_기술/01_세_종류의_총.md",
+      "sha256": "07550414258670fa26cfc5744d1853388dd34a9b7b8d0fc2f3abf8f8ef73a2fd",
+      "bytes": 7552,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/05_장비와_기술/02_오토바이와_이동수단.md",
+      "sha256": "f13ea074a918dcc03e54f288cc8fe0de6227aeeabd86daffae11b25bddeede37",
+      "bytes": 8390,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/05_장비와_기술/03_코핀과_임플란트.md",
+      "sha256": "eaf7696fdffc5886fe2c3711a5159ef0d7924dc6cac993d8cd67a5a259ff5d69",
+      "bytes": 9408,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/05_장비와_기술/README.md",
+      "sha256": "e752ba8b0e47072f3322b299bb277ce86953fd4d92326748164fd0f450fb7ca5",
+      "bytes": 1173,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/06_러너의_일생/01_신참에서_베테랑까지.md",
+      "sha256": "a7d2d2eeeb39516d2ad207453c4a7f36f326a00bc2698bd07701289042d39048",
+      "bytes": 9123,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/06_러너의_일생/02_윤리와_신뢰.md",
+      "sha256": "0cce9076ef36d595fb3ef9bf52bc2a49a35b1bcf99906c8b1af3631ca8c9369d",
+      "bytes": 8939,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/06_러너의_일생/03_은퇴_드랍_진사의_갈림길.md",
+      "sha256": "bf7f1d5a9adeee66f0a938ea48290080b60ae2fa71941e6689f1aa0609cc75f8",
+      "bytes": 9857,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/06_러너의_일생/README.md",
+      "sha256": "6547d4b6b81a86aa4dc000ad638a3e527ac420fa5f303fe719cd05553d91c554",
+      "bytes": 1341,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/07_7부_러너생태/README.md",
+      "sha256": "e6dfc098c57da45109709fbf21288902721088070df6da982f7efeafff9f23b4",
+      "bytes": 5360,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/01_계의_이해/01_4분류.md",
+      "sha256": "0b41902cdab224374e930e711eb5c73327144d421e0d7c12a9b0aa68c94c651b",
+      "bytes": 6164,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/01_계의_이해/02_바이트_밀도와_프랙탈.md",
+      "sha256": "b04c9583400199d9a33a9576813e0ef97a144f979c27ecbffae8d52028af0ddc",
+      "bytes": 6655,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/01_계의_이해/03_이동_비용과_경로.md",
+      "sha256": "6352b366d7abf47c73d35728f57c93275adb568be67110015ad484d1b9cbad27",
+      "bytes": 6949,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/01_계의_이해/README.md",
+      "sha256": "eb9ff5dba3b8c85beaded3d2ffd4ae27ce50b36c2f8042190fbc21cdb210007b",
+      "bytes": 1323,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/02_주요_인공계/01_공단계.md",
+      "sha256": "f91c956850e65e0c5db6437a5d67a185c4c935b792e35185a28d9fc1527cc6bd",
+      "bytes": 7492,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/02_주요_인공계/02_광제사직계.md",
+      "sha256": "39069a203189fbd75a2b7192ff678dcffa386161e931f280d5b5a20ec0b00864",
+      "bytes": 7165,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/02_주요_인공계/03_플랫마운틴.md",
+      "sha256": "4494363c7007c1beb0ef0d322dd8f756d0596d83e5ea20ebbd0c57a576158056",
+      "bytes": 6746,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/02_주요_인공계/04_새우거리.md",
+      "sha256": "f55ac0f42e78bc6b7024dae4b60d174b113683b7b2104500d9a998693f28b9c4",
+      "bytes": 6336,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/02_주요_인공계/README.md",
+      "sha256": "68520c096b6e0f513d32ce76cf56b0226292d5a39c4b919f199b44ef5418da60",
+      "bytes": 1500,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/03_벙커계와_자연계/01_벙커계.md",
+      "sha256": "474f8e622d7fc0e17100fabbc00799779757fd578389c737c3bde48d8a32bcd5",
+      "bytes": 7018,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/03_벙커계와_자연계/02_버그계.md",
+      "sha256": "228bd6f9b3c2880e66fca570d70d21c24b541e1cc5776dc5a1ac073312d0bb13",
+      "bytes": 4377,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/03_벙커계와_자연계/03_재민월드와_언카날_밸리.md",
+      "sha256": "d6369a9d55a3716804fc295aa7a144676ac6c8d684976c1dfe34f8c67b25075f",
+      "bytes": 6945,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/03_벙커계와_자연계/README.md",
+      "sha256": "b1f19a74fbb3e6650d1dbcab59b2c8b42b4ae85e8ddfd0c425f46224e7eb3b20",
+      "bytes": 1403,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/04_오지_차원계/01_침묵의_바다.md",
+      "sha256": "da9fffe602bfcc9d2d6215f7a4478297d6f94d4d6a5ec0ba55b33449495ee693",
+      "bytes": 4338,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/04_오지_차원계/02_뒤집힌_숲.md",
+      "sha256": "36d8bad0a7b805d48690deff06e0b2d233ae13d26fc80efd3718b125ab0bc40c",
+      "bytes": 3182,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/04_오지_차원계/03_거울_도시.md",
+      "sha256": "7dd2822ba20fdf13deac31108e3f77394d7e8d74e563063c9f101a9dd3213ecc",
+      "bytes": 3424,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/04_오지_차원계/04_뼈의_계.md",
+      "sha256": "4af862fdcc926a1736f43f13584a925acc4f589d47dab92614acecdf8656ff81",
+      "bytes": 3709,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/04_오지_차원계/05_화원.md",
+      "sha256": "4c20eba771e508e45eaaebc4599614d047643c8e6a7e81ba495b882db217a02c",
+      "bytes": 4495,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/04_오지_차원계/README.md",
+      "sha256": "5916bb0bd491d30adfa5d8d48ea36472266e32d2c7ffcc95a108993c44f5a93b",
+      "bytes": 1945,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/05_축적계와_기록자/01_네거티브_플레인과_축적계.md",
+      "sha256": "37ca2415df017646339e3db6564ac1f83a384efafd5d38bab4a6f509bcc31ade",
+      "bytes": 6172,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/05_축적계와_기록자/02_기록자.md",
+      "sha256": "0d1fe007ebaa46c36efb450ec2710868a324b8584460e0c520b423792d5017dc",
+      "bytes": 7247,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/05_축적계와_기록자/README.md",
+      "sha256": "1fd63cdb3df3488e1383a38238f2663d21b5254061f56d1aa970878b6dc1f473",
+      "bytes": 1302,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/06_차원계의_위험/01_매팅_샤이닝_디스인티저그레이트.md",
+      "sha256": "176f599c2f3ab679b91de35502a684893d7a14de8bce91f494738d7674a51eb2",
+      "bytes": 7448,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/06_차원계의_위험/02_패러독스와_시간_왜곡.md",
+      "sha256": "c23d31032c66270b05301277a40a4ed3dc7d3476a476c15cd686b67ef1c677c3",
+      "bytes": 8025,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/06_차원계의_위험/README.md",
+      "sha256": "695ece2967af33034ebea3979132023d0144c127ea4eb4e05214f1092ea217ea",
+      "bytes": 1370,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/08_8부_계도감/README.md",
+      "sha256": "71c421a31491561715916cfda2e8399c5fb093d3b5ffae528eb75915c038c728",
+      "bytes": 5168,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/09_9부_존재도감/01_직업과_역할/01_수호사.md",
+      "sha256": "dbe3132cfc528522c699415eab9102f66d693056c29b0c1928550eb79cd2b4d0",
+      "bytes": 4689,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/09_9부_존재도감/01_직업과_역할/02_신사.md",
+      "sha256": "3470cb8a67609a029ee154d9a62275cf2d3f25e713e90f8e003c91242bd63983",
+      "bytes": 4532,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/09_9부_존재도감/01_직업과_역할/03_흑사.md",
+      "sha256": "0705e56c3fcfa0ba871c078b60a62867567fa11efc048f66b421b25c581688a2",
+      "bytes": 5263,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/09_9부_존재도감/01_직업과_역할/04_현물제조사.md",
+      "sha256": "4e6ba5fed25dafc4d1a40d35cd76a976aded7e49d39b0890b2628ed347626f82",
+      "bytes": 5390,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/09_9부_존재도감/01_직업과_역할/05_최후의_연주자.md",
+      "sha256": "91d945ce8c2a70e6e0be6e1d09a9b6f198e2cd2c8e98d1a57a7caddfe6f050ec",
+      "bytes": 5283,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/09_9부_존재도감/01_직업과_역할/README.md",
+      "sha256": "af5ae782d790bba7ce9cffe69679579dc92570feabb560b225a653e79cc69532",
+      "bytes": 1300,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/09_9부_존재도감/02_비인간_존재/01_흑공존재와_먹개비.md",
+      "sha256": "53f232b3ba944ba156d8dfd56fc7d3225066d5d7b183e9c5a2ff21e4bf8f38df",
+      "bytes": 4041,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/09_9부_존재도감/02_비인간_존재/02_미명존재.md",
+      "sha256": "a0e3cc166610402135487f5851c97ed96d8fea9a45a591f0deddd8c23ee9f42d",
+      "bytes": 4171,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/09_9부_존재도감/02_비인간_존재/03_현화체.md",
+      "sha256": "33f215ae790c9fdf90343141394b905a5707e0571f6f840c0f4bf3cf3f21a24c",
+      "bytes": 4902,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/09_9부_존재도감/02_비인간_존재/04_인공존재와_변형인간.md",
+      "sha256": "ba69da09d55dec81063e62ad4a915b87b6b09c47282c404194cfe5627458995b",
+      "bytes": 6681,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/09_9부_존재도감/02_비인간_존재/README.md",
+      "sha256": "a8485c42cb79add84a0983b807efa2539d1876fab93850a698b6085da622bc71",
+      "bytes": 1223,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/09_9부_존재도감/03_4대_신수와_DDOGG/01_4대_신수.md",
+      "sha256": "e13776af28eee1519c404e4e404a6eb2082a33662aa723e33f183926bf142e19",
+      "bytes": 6386,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/09_9부_존재도감/03_4대_신수와_DDOGG/02_DDOGG.md",
+      "sha256": "abac387659854ec4fd27ef36da327345b689b7a05dc40ffefa920f6f6c7e934d",
+      "bytes": 6791,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/09_9부_존재도감/03_4대_신수와_DDOGG/README.md",
+      "sha256": "a7095b0090962b65b5d42f570f72f6ffef531ae88c2e4cbe76682a7c85d103aa",
+      "bytes": 1074,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/09_9부_존재도감/README.md",
+      "sha256": "b3ea0c411562b38ad79521ebc16f866a75b8e8bc2ea10159d4f030680922c63e",
+      "bytes": 5722,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/10_10부_세력도감/01_10대사국_카드/01_2대_대령_미모.md",
+      "sha256": "0898c902d25385a8e1a8b3389418f90186348981e90a31a5f43d1e374e8961e8",
+      "bytes": 9927,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/10_10부_세력도감/01_10대사국_카드/02_3대_난초_하난초_로세아.md",
+      "sha256": "045247aeccc1abc27860e91b8f5791951c8f6716e240724d36752813cfae713b",
+      "bytes": 4936,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/10_10부_세력도감/01_10대사국_카드/03_중위하위_6국.md",
+      "sha256": "8dacc76c51501337e75266488a16a3e8b36a1cd374ebae56f5c4f11cbc2b968e",
+      "bytes": 4832,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/10_10부_세력도감/01_10대사국_카드/README.md",
+      "sha256": "cd1b84f3ed93f45a356087c5dad015842fd704406f2a73e1b033205f9c34dbfc",
+      "bytes": 1126,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/10_10부_세력도감/02_23기업_카드/01_기존_15사.md",
+      "sha256": "e560300e090197d3aa0b6ede31bf66ea740488c8e4a1479abb2b353bf2feba69",
+      "bytes": 6214,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/10_10부_세력도감/02_23기업_카드/02_신생_8사.md",
+      "sha256": "fadd37fc221b6d28caae2304894e764f6f8b96f95f817f63861c21ec773b5a66",
+      "bytes": 5862,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/10_10부_세력도감/02_23기업_카드/README.md",
+      "sha256": "8f3199a379956cc74c07de8ce46e99ce2a16d407ee1aae03cef1d2d7bd6566aa",
+      "bytes": 985,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/10_10부_세력도감/03_러너_길드와_갱단/01_러너_길드.md",
+      "sha256": "b19575a9c20919db60e4eade3fe5bf34c7870e8e3fc42d8af4ae0669707066ec",
+      "bytes": 5344,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/10_10부_세력도감/03_러너_길드와_갱단/02_등급_체계.md",
+      "sha256": "cf0289e890e9cf788766f56567b5b20b8a9ef59dd7f674c5384e8047049e4ece",
+      "bytes": 5285,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/10_10부_세력도감/03_러너_길드와_갱단/03_갱단_상세.md",
+      "sha256": "c860c608bdd3891ba64ee1a7585f095e2b82499befc307f5cdfe84cc3093323a",
+      "bytes": 5962,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/10_10부_세력도감/03_러너_길드와_갱단/README.md",
+      "sha256": "53e978931e93b1a7446e7274fa38e0256b3494e2092afc52e607b072f1ddb6a6",
+      "bytes": 924,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/10_10부_세력도감/04_종교재단_카드/01_3대_재단과_뉴동백.md",
+      "sha256": "6303b92816f6b260e2eb7faa652ab20594b2f090587dcd725d804ea52c6aaedb",
+      "bytes": 6746,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/10_10부_세력도감/04_종교재단_카드/README.md",
+      "sha256": "f87a91028229c362cc1f6aedf463d3bb40c1e84add2b679cb91f86ac4e6527a9",
+      "bytes": 772,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/10_10부_세력도감/05_주요_작전_연표/01_주요_작전_연표.md",
+      "sha256": "7de7e266c9d12bd41f609bbd59250f355751a06e02780f479ee99e6b5507ee90",
+      "bytes": 7272,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/10_10부_세력도감/05_주요_작전_연표/README.md",
+      "sha256": "3cf225f7f97f65106ea4d9daa5723806f038172d204478dc6273fd27b4ff7c9c",
+      "bytes": 779,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/10_10부_세력도감/README.md",
+      "sha256": "f5ec362e37a7214b3b155ea8b2438eb7d4f37765dd6ab571bdf2065cdd91a9ba",
+      "bytes": 5008,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/12_부록/01_지도집.md",
+      "sha256": "18289e233b1be8145cd472c7d15bb8ba739bd9e2337117ec2b7eeb2bd04bc3e9",
+      "bytes": 3183,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/12_부록/02_연대기_총람.md",
+      "sha256": "9b0f1016380885b44df2f619c51c8bae9b3da71723e370d65abe85f4a9ba66be",
+      "bytes": 3961,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/12_부록/03_NPC_미니_카드.md",
+      "sha256": "664734672c12eeaba810698d8bac0247ff4ce137e6eec445be33100ab11ffce5",
+      "bytes": 5227,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/12_부록/04_용어집.md",
+      "sha256": "66db4e7e65427358e3e390f82bb92d4b503b7a79c27aabe6ad6fbf3d900321a0",
+      "bytes": 12030,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/12_부록/05_색인.md",
+      "sha256": "9e2a1a6a264527bcda6fc2eb5160778705478945860658e4bcf1ded2927c9b3e",
+      "bytes": 6288,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/12_부록/README.md",
+      "sha256": "32a143c632d9751258434f45c139ada28be0798b695d09324beb6417c36767d3",
+      "bytes": 3063,
+      "baseline_matches": true
+    },
+    {
+      "path": "_ClaudeCode_Git_FEWK/FEWKbooks/content/worldbook/README.md",
+      "sha256": "23b9fa0a91fdeacdc0e535a579a4ccd3aa3086e71990ff4bca5440f33a5e9a10",
+      "bytes": 4809,
+      "baseline_matches": true
+    }
+  ],
+  "retry_completed": true,
+  "observed_date": "2026-10-05"
+}

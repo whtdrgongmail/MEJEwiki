@@ -1,0 +1,63 @@
+{
+  "id": "FEWK-IMPLANT-01",
+  "engine": "P-FEWK-0.2",
+  "unified_action_term": "인터랙션",
+  "new_universal_stats": [],
+  "creation_origin_tracks": false,
+  "all_implants_and_medicine_complete": false,
+  "actual_participant_playtest": false,
+  "comm": {
+    "id": "BODY-COMM-01",
+    "person": "P-C1",
+    "installed_body": "B-C0",
+    "local_body": "B-C1",
+    "installed_device": "COMM-01",
+    "external_device": "TERM-01",
+    "supported_network": "NET-C",
+    "main_actions": 1,
+    "seconds": 5,
+    "reply_forced": false,
+    "cross_dimension_network_default": false
+  },
+  "repair": {
+    "id": "COMM-REPAIR-01",
+    "skill": "공학",
+    "target": 50,
+    "work_seconds": 300,
+    "part_cost_on_start": 1,
+    "restores": "existing_external_service_connection_only",
+    "changes_hp_bp_ego_account": false,
+    "unsafe_roll_once_on_completion": true
+  },
+  "date": "2026-10-06",
+  "clinical_service": {
+    "id": "IMPLANT-SERVICE-C1",
+    "status": "NEW비핵심보조장치/한종류기반/지정지원작업",
+    "skill": "의학",
+    "modes": [
+      "install",
+      "replace",
+      "remove",
+      "framework"
+    ],
+    "work_seconds": 21600,
+    "kit_cost_on_start": 1,
+    "failed_uncertain_procedure_direct_HP_damage": 2,
+    "failure_uses_armor_or_P_L_shields": false,
+    "successful_installation_heals_HP": false,
+    "procedure_seconds_are_rest_or_HP_treatment": false,
+    "BP_formula_from_item_count_or_price": false,
+    "BP_after_requires_prepared_body_assessment": true,
+    "new_device_reservation_is_not_duplicate_inventory": true,
+    "same_job_resume_consumes_second_kit": false,
+    "stored_data_is_physical_patient": false,
+    "current_completion_provider_skill_used": true,
+    "normal_service_roll": false,
+    "no_universal_psychosis_or_ego_cost": true,
+    "single_framework_in_this_profile": true,
+    "unsupported_devices_remain_installed": true,
+    "core_life_support_and_all_organ_transplants_complete": false,
+    "all_implants_and_medicine_complete": false,
+    "actual_participant_playtest": false
+  }
+}

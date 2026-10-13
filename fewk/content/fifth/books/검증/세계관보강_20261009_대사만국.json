@@ -1,0 +1,408 @@
+{
+  "id": "FEWK-AMBASSADOR-20261009",
+  "date": "2026-10-09",
+  "status": "author_canon_and_four_focused_world_additions_integrated",
+  "before_snapshot": "세계관보강_20261009_대사만국_반영전.json",
+  "previous_record": "세계관_종합리뷰_20261009.json",
+  "world_version": "v1.04",
+  "design_version": "v1.43",
+  "input_hashes": {
+    "00_제5판_설계기준.md": "53690c85ab54b7e2b867ef74c7eac3ec33d878da9c73520b61d81e1b4672fbec",
+    "01_텀블벅_이지룰_초안.md": "72f0f7a9c2fe6cc408884caaeae21ec563b179a256e84d4c58aaa84ccd7ad5cb",
+    "02_타롯_해킹과_지능전_초안.md": "1613f14e485eb4f075cfb1805266afe05cf8db16fa5f11f165b8850ca9ad41e4",
+    "10_CoreRulebook.md": "b6c1992a9280533408003e51c5063802eaffb098b0febc60869f026e86327baa",
+    "11_WorldLorebook.md": "325885c8b451b3dd09fe8a3fa9557fbdd77076ea17ea4a406420dbbbd85d13ba",
+    "12_룰시트와캐릭터시트.md": "d48276e573608547697331fa6f5c38eb21a076292a402ed2d2b97dc64eb9767c",
+    "13_입문시나리오.md": "e4c269c4af7494360330974ac52baaf6c6aeff24f42f35f8892b11b6fda8d0da",
+    "14_레디메이드_러너.md": "abf0ff117466d8c6d89570658ebe1ff0fc02415cbb0488d3a316be3440494dc9",
+    "15_표준튜터리얼_시나리오.md": "3a85aaafc96d32796bc37601ff3762fd58b174d8b5b03b7bcaffe60a39721022",
+    "../00_최신본_기준.md": "3ee1571bdd28f84364d2d74be8226dd4eba0438c393e5d7a7982823ac6b25ab8",
+    "../01_작업계획.md": "a4500809b0832b952584e9a25570f7bd3dc6578d9a4cd280ff74d396c376b07f"
+  },
+  "output_hashes": {
+    "00_제5판_설계기준.md": "e6d4e3c1545119176aad4af387f821ff2a52e1d951bd8e6b8939713346741bc1",
+    "01_텀블벅_이지룰_초안.md": "72f0f7a9c2fe6cc408884caaeae21ec563b179a256e84d4c58aaa84ccd7ad5cb",
+    "02_타롯_해킹과_지능전_초안.md": "1613f14e485eb4f075cfb1805266afe05cf8db16fa5f11f165b8850ca9ad41e4",
+    "10_CoreRulebook.md": "b6c1992a9280533408003e51c5063802eaffb098b0febc60869f026e86327baa",
+    "11_WorldLorebook.md": "d806aa04938d5d729333014895bba161936d2ea78a401a3d5ba7f57b841d7785",
+    "12_룰시트와캐릭터시트.md": "d48276e573608547697331fa6f5c38eb21a076292a402ed2d2b97dc64eb9767c",
+    "13_입문시나리오.md": "e4c269c4af7494360330974ac52baaf6c6aeff24f42f35f8892b11b6fda8d0da",
+    "14_레디메이드_러너.md": "2ce361f0966d45e843c69731723f1384eda48aa0a4995d0c49150226aefc0743",
+    "15_표준튜터리얼_시나리오.md": "1968e5bc81c586484816c0472cc282d791508c30f8157eff7ff4834094e46460"
+  },
+  "changed_files": [
+    "00_제5판_설계기준.md",
+    "11_WorldLorebook.md",
+    "14_레디메이드_러너.md",
+    "15_표준튜터리얼_시나리오.md",
+    "../00_최신본_기준.md",
+    "../01_작업계획.md"
+  ],
+  "changes": [
+    {
+      "file": "11_WorldLorebook.md",
+      "change": "current World version"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "change": "author era division and present baseline"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 39,
+      "change": "current era in historical introduction"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 21,
+      "change": "creation principle is not public knowledge"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 21,
+      "change": "practical industrial knowledge versus secret mechanism"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 51,
+      "change": "research secrecy without closing existing mysteries"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 26,
+      "change": "Heuksa and Sinsa grounded in original definitions"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 27,
+      "change": "two engineering branches and bodily compatibility"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 27,
+      "change": "compact repair culture with a concrete character stake"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 36,
+      "change": "corporate coercion through deceptive legitimacy and a playable conflict"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 55,
+      "change": "one small independent hub and an intriguing standard job hook"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 74,
+      "change": "salary recipient and local support confirmed by author"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 74,
+      "change": "salary and gift structure made into a concise relationship story"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 17,
+      "change": "propagate confirmed dropout definition"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "chapter": 55,
+      "change": "dropout definition in Gumi story"
+    },
+    {
+      "file": "11_WorldLorebook.md",
+      "change": "current glossary definition; historical duplicate preserved"
+    },
+    {
+      "file": "14_레디메이드_러너.md",
+      "change": "character book era notation"
+    },
+    {
+      "file": "14_레디메이드_러너.md",
+      "change": "character start era"
+    },
+    {
+      "file": "15_표준튜터리얼_시나리오.md",
+      "change": "tutorial book era notation"
+    },
+    {
+      "file": "15_표준튜터리얼_시나리오.md",
+      "change": "tutorial start era"
+    },
+    {
+      "file": "00_제5판_설계기준.md",
+      "change": "current design version"
+    },
+    {
+      "file": "00_제5판_설계기준.md",
+      "change": "current world baseline"
+    },
+    {
+      "file": "00_제5판_설계기준.md",
+      "change": "historical questions distinguished from pending guidance"
+    },
+    {
+      "file": "00_제5판_설계기준.md",
+      "change": "review recommendations do not override author era"
+    },
+    {
+      "file": "00_제5판_설계기준.md",
+      "change": "author answers, four concise additions and no required pending questions"
+    },
+    {
+      "file": "../00_최신본_기준.md",
+      "change": "review baseline marked historical"
+    },
+    {
+      "file": "../00_최신본_기준.md",
+      "change": "previous review hash pointer is historical"
+    },
+    {
+      "file": "../00_최신본_기준.md",
+      "change": "current author-integrated baseline and four additions"
+    },
+    {
+      "file": "../01_작업계획.md",
+      "change": "author answers and focused additions completed; no necessary current question"
+    }
+  ],
+  "author_confirmed": [
+    "current era is ambassador era; three sections are war, ambassador era and post-Moonwind",
+    "Gumi fortress is a famous independent hub; additional hubs may be created",
+    "will-worker wages go to material original; local necessities and original-sent money or gifts are distinct",
+    "corporate coercion uses deceptive public framing instead of openly proclaiming oppression",
+    "engineering branches and occupations must be grounded in existing wiki and source",
+    "creation principle unknown to residents; Colosseum has partial knowledge and western labs suspect"
+  ],
+  "new_authorized_settings": [
+    {
+      "id": "S01",
+      "title": "월급은 나에게, 선물은 다른 나에게",
+      "chapter": 74,
+      "scope": "everyday original/will-worker relationship vignette"
+    },
+    {
+      "id": "S02",
+      "title": "집이 점령구역이 되는 아침",
+      "chapter": 36,
+      "scope": "corporate public framing and neighborhood conflict"
+    },
+    {
+      "id": "S03",
+      "title": "도포와 크롬이 만나는 작업대",
+      "chapter": 27,
+      "scope": "repair culture and retaining a familiar body"
+    },
+    {
+      "id": "S04",
+      "title": "구남항의 마지막 창고",
+      "chapter": 55,
+      "scope": "one newly authored small independent physical-realm hub"
+    }
+  ],
+  "review_item_updates": {
+    "A01": "wording corrected in current reader summaries; historical appendix preserved",
+    "B03": "source-grounded terminology and repair culture integrated",
+    "B06": "author wage/support structure and gift relationship integrated",
+    "B01_B08_B09": "deceptive corporate framing integrated without universal policy schema",
+    "C01_C02": "one local independent hub and a job hook integrated"
+  },
+  "previous_questions": {
+    "Q1": "answered_by_author_era_definition",
+    "Q2": "author_authorizes_further_hubs",
+    "Q3": "author_wage_and_corporate_framing_integrated",
+    "Q4": "resolved_for_current_scope_by_existing_source_review",
+    "Q5": "answered_by_author_private_knowledge_distribution"
+  },
+  "required_pending_author_questions": [],
+  "new_global_era_reorganization_or_rights_code": false,
+  "review_backlog_all_items_adopted": false,
+  "dice_engine_or_numeric_profiles_changed": false,
+  "current_character_and_tutorial_numeric_versions_unchanged": true,
+  "source_reviews": [
+    {
+      "path": "[FEWK위키]/_하/흑사.md",
+      "sha256": "e042734abebfe064e05817c1be18a40421f0803fce00c87d59ac2a5abce9373d",
+      "review_mode": "selected_definitions_and_quoted_original_passages",
+      "not_inherited": [
+        "legacy_level_stats_and_resources",
+        "unverified_population_and_market_share",
+        "unresolved_biography_merges"
+      ]
+    },
+    {
+      "path": "[FEWK위키]/_사/신사.md",
+      "sha256": "e675fb13b5fa8a1f06402328f73f3eef03acac76aae87cfc7598409d7a919072",
+      "review_mode": "selected_definitions_and_quoted_original_passages",
+      "not_inherited": [
+        "legacy_level_stats_and_resources",
+        "unverified_population_and_market_share",
+        "unresolved_biography_merges"
+      ]
+    },
+    {
+      "path": "[FEWK위키]/_하/흑공 메카트로닉스.md",
+      "sha256": "d82fb1ad7de3e308209120596624398f723ae2870772dfdd689af01cbd08e642",
+      "review_mode": "selected_definitions_and_quoted_original_passages",
+      "not_inherited": [
+        "legacy_level_stats_and_resources",
+        "unverified_population_and_market_share",
+        "unresolved_biography_merges"
+      ]
+    },
+    {
+      "path": "[FEWK위키]/_사/신기 메카트로닉스.md",
+      "sha256": "9278ef29e56212789b5b30d4936e1c2575a2e8f61af97e0ed8d74691cb6b6558",
+      "review_mode": "selected_definitions_and_quoted_original_passages",
+      "not_inherited": [
+        "legacy_level_stats_and_resources",
+        "unverified_population_and_market_share",
+        "unresolved_biography_merges"
+      ]
+    },
+    {
+      "path": "[FEWK위키]/_마/메카트로닉스.md",
+      "sha256": "34e7b27b7286698dfe0e35093daf3378b19860b55e73ff7efbf6ce9033de0346",
+      "review_mode": "selected_definitions_and_quoted_original_passages",
+      "not_inherited": [
+        "legacy_level_stats_and_resources",
+        "unverified_population_and_market_share",
+        "unresolved_biography_merges"
+      ]
+    },
+    {
+      "path": "[FEWK위키]/_카/콜로세움 연구소.md",
+      "sha256": "8247720d4fe27ea9f638f276a0b99e658ff943c8222b4bd975647fa5416f0e03",
+      "review_mode": "selected_definitions_and_quoted_original_passages",
+      "not_inherited": [
+        "legacy_level_stats_and_resources",
+        "unverified_population_and_market_share",
+        "unresolved_biography_merges"
+      ]
+    },
+    {
+      "path": "_FEWK 설정자료용/업로드 자료/__wiki onepage.txt",
+      "sha256": "dad0d6e63a5304bfead70966d69fca8e12e2b1ffd296eb525b466617b935bba8",
+      "review_mode": "five_named_original_entries_only",
+      "passages": [
+        {
+          "topic": "메카트로닉스",
+          "lines": [
+            3608,
+            3618
+          ],
+          "text": "메카트로닉스(Mechatronics) \n\n[[문명과 기술]]\n\n메카트로닉스는 문명 핵심기술로서 [[흑공]]과 [[신기]]와 함께 [[<사건_검은수평선>]]이후의 기술을 이야기하는 명칭입니다. 기전공학 즉 메카트로닉스의 본래의 뜻은 기계공학 mechanics 과 전자공학 electronics의 합성어이지만, [[<사건_검은수평선>]]이후 전자가 작동하지 않기 때문에 [[흑공]] 기반의 비정형적 물질을 전자공학의 논리와 설계를 기계공학적으로 재해석하여 구성한 기술 문명을 의미하게된 단어입니다.  \n\n메카트로닉스는 [[흑공]]을 기반하기 때문에 메카트로닉스는 곧 [[흑공 메카트로닉스]]와 같은 뜻이었지만, FEWK지역에는 [[신기]]가 존재하기 때문에 이를 구분하기위해 [[흑공 메카트로닉스]]와 [[신기 메카트로닉스]]가 편의상 분리되어있긴 합니다만, 이 역시 상호호환적으로 발전하고 있습니다. \n\n\n  * [[흑공 메카트로닉스]]\n  * [[신기 메카트로닉스]]"
+        },
+        {
+          "topic": "신기 메카트로닉스",
+          "lines": [
+            6583,
+            6589
+          ],
+          "text": "신기 메카트로닉스\n  * 목차: [[메카트로닉스]]\n\n[[메카트로닉스]]는 [[서국]]의 [[기술]]이지만,[[FEWK국]]에서는 [[신사]],[[신기]] 기반으로 [[메카트로닉스]] 기술이 적용된 [[임플란트]]와 [[장비]], [[탈것]], [[파워셀]]이 존재합니다. \n\n이렇게 [[신기]]기반으로 발전한 [[메카트로닉스]] 기술을 [[신기 메카트로닉스]]라고 합니다. \n[[교수]]들은 [[신기]]를 [[초과학]]으로 분류합니다. "
+        },
+        {
+          "topic": "신사",
+          "lines": [
+            7011,
+            7028
+          ],
+          "text": "신사([Sinsa],神士)\n  * 대표NFT: [[nft FEWK0023]]\n  * 목차: [[직업]]\n\n신사는 [[신기]]를 사용하는 모든 [[클래스]]와 [[직업]]군을 부르는 이름입니다. 대표적으로 [[신호사]]와 [[신수사]]들이 유명한 신사 직업입니다. 신사들은 [[신단]]에서 뿜어지는 [[신기]]를 몸에 저장하고 이 에너지를 [[능력]]과 [[기술]], [[신기 임플란트]], [[신물]], [[장비]]를 통해 직업적인 역할을 수행합니다. 신사들이 능력을 사용할 때 둘러감은 신성한 느낌의 오색 빛의 기운이 신사의 상징과 같은 이미지인데 체내에 신기를 보관하는 것을 넘어 그 신기를 사용할 때 나타납니다. [[신기]]와 [[신사]]를 종교적으로 인식하는 사람들은 이 오색빛을 ‘[[감로]]'라고 부르기도 합니다. \n\n신사 클래스 그룹은 [[신단]]에 관련된 [[신호사]]들이 가장 많은 수를 이루고 있습니다. 이들은 [[신단]]을 찾거나, 유지하고, 기능을 설계, 재구성하거나 심지어 용도에 맞는 새로운 신단을 만들어냅니다. \n\n신단이 여러가지 지형지물이나 나무, 강 등이 원천힌 경우도 많지만 인위적인 신단은 [[돌칩]]으로 유명한 [[신단석]]을 이용하는 경우가 많습니다. [[신호사]]들은 이를 배치하거나 조각하여 만듭니다. 그 외에도 [[신기사]], [[신단주사]], [[신산령사]] [[신수사]]등이 있습니다. \n\n신사들은 공통적으로 몸에 보관할 수 있는 신기의 양이 있습니다. 이 양은 조금 의미가 다르긴 하지만, 측정 방법이 딱히 없는 탓에 신기로 움직일 수 있는 [[동력단위]]와 대응하는 ‘[[셀]]'로 표현합니다. \n\n  * [[신전사]]\n  * [[신기사]]\n  * [[신수사]]\n  * [[신법사]]\n  * [[신단주사]]\n  * [[신호사]](들)"
+        },
+        {
+          "topic": "흑공 메카트로닉스",
+          "lines": [
+            14644,
+            14650
+          ],
+          "text": "흑공 메카트로닉스\n\n  * 목차: [[메카트로닉스]]\n\n\n[[흑공]]을 중심으로 [[흑공샘플]]등을 활용하는 [[메카트로닉스]]기술. \n사실 [[메카트로닉스]] 자체가 [[흑공]]기반의 [[기술]]이기 때문에 사실 동의어입니다만, [[신기]]기반의 [[신기 메카트로닉스]]와 구분하기 위한 명칭입니다. "
+        },
+        {
+          "topic": "흑사",
+          "lines": [
+            14780,
+            14787
+          ],
+          "text": "흑사(黑士) \n\n흑사는 [[흑공]]을 기반으로 하는 모든 자들을 통칭하는 표현입니다. 하지만 [[흑공]]을 기반으로 한다는 것은 [[신기 인터렉션]]을 가지는 것보다 더 광범위한 영역입니다. 일반적으로는 [[흑공 메카트로닉스]]기반의 장비를 사용하는 것으로 [[서국]]의 기술기반의 [[임플란트]]와 장비를 사용하는 모든 [[클래스]]와 [[직업]]군을 통칭하는 개념입니다. [[신사]]들은 신기가 [[임플란트]]와 충돌하는 성향이 있어 절제하는 편이기 때문에, 흑사란 명칭을 전투용 [[임플란트]]를 단단히 장비한 사람을 부르는데 쓰기도하고, 흑사들이 [[대사국]]에 고용되어 일하는 경우가 많기 때문에 [[러너]]와 대치되는 개념으로 쓰기도 합니다. \n\n\n  * [[흑전사]]\n  * [[흑번제사]]\n  * [[흑루사]]"
+        }
+      ]
+    }
+  ],
+  "protected_historical_record_hashes": {
+    "세계관_종합리뷰_20261009.json": "5c11bf2a0623b08124ea1e2fde21c755bc9d85e8d3cc3d1b9484ee6a2a454c16",
+    "세계관_종합리뷰_20261009_반영전.json": "a11d450e288f177bfa2eeafa20b7303b633be9ffa4b28e52c045af6bd08b1170",
+    "세계관보강_20261009_사회구조.json": "f7dfe7ca78c6a8af054c6e99182b9665ba7f111f449fb68850a9671e9d8d763a",
+    "세계관보강_20261009_사회구조_반영전.json": "d458997cf2857a2fc9bce040d36350599f653f237efc1a99ae1306ac5aee134e",
+    "세계관보강_20261009_추가답변.json": "fab16e69af9ae4b91c9cd7bd42400b4e0c74de551ff4b4882906f5b961d89140",
+    "세계관보강_20261009.json": "8b37f92abf9055c78b406666fe9f30167c77ec1a794e3ea0cb8b98cd2e4daa66",
+    "캐릭터와시나리오북_편집.json": "5afd0f8ad74e214b0a1ad575aec107217fb871d0f496496a007729fdee815e15",
+    "완료_관문.json": "f031ce076e7de35488953bdc37a14aeee7a0dd7326538fb9a2d431cd418d0c26"
+  },
+  "intentional_unknowns_preserved": [
+    "childbirth_exception_and_possible_world_inheritance",
+    "paradox_magnitude_for_independent_will_return_to_dead_original_realm",
+    "unexplored_deeper_dimensions"
+  ],
+  "verification": {
+    "status": "readback_structure_content_hash_and_preservation_passed",
+    "checked_documents": 11,
+    "local_file_links_checked": 879,
+    "named_anchor_links_checked": 945,
+    "missing_file_links": [],
+    "missing_named_anchors": [],
+    "markdown_fences_balanced": true,
+    "before_snapshot_hashes_verified": 11,
+    "current_working_document_hashes_verified": 9,
+    "protected_historical_records_verified": 8,
+    "unchanged_reader_documents": [
+      "01_텀블벅_이지룰_초안.md",
+      "02_타롯_해킹과_지능전_초안.md",
+      "10_CoreRulebook.md",
+      "12_룰시트와캐릭터시트.md",
+      "13_입문시나리오.md"
+    ],
+    "character_and_tutorial_only_era_wording_changed": true,
+    "previous_anchors_preserved": true,
+    "numbered_world_headings_unchanged": 77,
+    "source_hashes_verified": 7,
+    "targeted_content_checks": {
+      "present_ambassador_era": true,
+      "three_era_sections": true,
+      "creation_principle_not_public": true,
+      "partial_research_knowledge": true,
+      "salary_original_and_local_support": true,
+      "deceptive_public_framing": true,
+      "engineering_and_body_compatibility": true,
+      "four_additions": true,
+      "current_glossary_dropout_corrected": true,
+      "historical_glossary_preserved": true,
+      "no_required_pending_questions": true,
+      "unchanged_original_rule_numeric_version": true
+    },
+    "rules_numeric_suite_rerun": false,
+    "human_playtesting_performed": false,
+    "final_layout_performed": false,
+    "historical_results_relabelled_as_current": false
+  },
+  "new_section_locations": [
+    {
+      "line": 937,
+      "title": "도포와 크롬이 만나는 작업대"
+    },
+    {
+      "line": 1245,
+      "title": "집이 점령구역이 되는 아침"
+    },
+    {
+      "line": 2000,
+      "title": "구남항의 마지막 창고"
+    },
+    {
+      "line": 3019,
+      "title": "월급은 나에게, 선물은 다른 나에게"
+    }
+  ]
+}

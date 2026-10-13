@@ -1,0 +1,85 @@
+{
+  "id": "TAR-P-02",
+  "version": "0.3",
+  "date": "2026-10-06",
+  "common_engine": "P-FEWK-0.2",
+  "skill_source": "입문_프로필.json:12숙련과 최종T",
+  "bonus_rule": "floor(clamp(T,1,99)/20)",
+  "deck_modes": {
+    "56": {
+      "suits": [
+        "S",
+        "W",
+        "C",
+        "P"
+      ],
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    "52": {
+      "suits": [
+        "S",
+        "W",
+        "C",
+        "P"
+      ],
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    }
+  },
+  "hand": 5,
+  "exchanges_max": 3,
+  "points_to_end": 2,
+  "submission_default": "sealed_batch",
+  "combat_exchange_seconds": 5,
+  "representative_main_actions_per_exchange": 1,
+  "effects_apply": "once_after_resolution",
+  "new_persistent_person_resources": [],
+  "actual_participant_playtest": false,
+  "paradise_fleet_rules_reproduction": false,
+  "npc_public_score_policy": {
+    "id": "median_chase",
+    "optional_example": true,
+    "first_or_tied": "lower_median_of_remaining_hand",
+    "NPC_behind": "highest_remaining_card",
+    "NPC_ahead": "lowest_remaining_card",
+    "reads": "own_hand_and_prior_public_points_only",
+    "current_PC_submission_access": false,
+    "hidden_PC_hand_access": false,
+    "introduced_new_persistent_person_resources": false
+  },
+  "sequential_information_contract": {
+    "PC_sees": "own_hand_and_prior_public_cards_and_points",
+    "NPC_policy_locked_before_PC_submissions": true,
+    "case_evidence": "타롯_전략검증결과.json",
+    "global_optimal_or_mutual_equilibrium_proven": false,
+    "human_fun_verified": false
+  }
+}

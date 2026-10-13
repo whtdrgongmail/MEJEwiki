@@ -1,0 +1,37 @@
+{
+  "id": "EXP-BYTE-01",
+  "date": "2026-10-05",
+  "status": "new_declared_workshop_example_not_canon",
+  "engine": "P-FEWK-0.2",
+  "scope": "ordinary material layer standards and supported transport/reconstruction; not all IO or black-cloud physics",
+  "source_lower_layer": 1,
+  "source_item_grams": 400,
+  "item_ids": [
+    "P1",
+    "P2",
+    "P3"
+  ],
+  "storage_capacity_jaa": "1/10",
+  "initial_storage_jaa": "0",
+  "destination_layer": 0,
+  "destination_resource_jaa": 800,
+  "authorized": true,
+  "move_item_ids": [
+    "P1",
+    "P2"
+  ],
+  "reconstruct_item_ids": [
+    "P1"
+  ],
+  "unsupported_capacity_is_unrollable": true,
+  "contract": {
+    "reward_oyat_equivalent": 6,
+    "transport_fee_oyat_equivalent": 1,
+    "fabrication_fee_oyat_equivalent": 2,
+    "actual_payment": "physical_oyat",
+    "eat_after_settlement_oyat": 1,
+    "credits_per_oyat": 10000,
+    "prices_status": "new_example_not_global_price_table"
+  },
+  "participant_evidence": false
+}
