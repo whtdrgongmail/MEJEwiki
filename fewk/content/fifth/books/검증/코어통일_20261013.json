@@ -1,0 +1,182 @@
+{
+  "id": "CORE-UNIFY-01",
+  "date": "2026-10-13",
+  "steps": [
+    {
+      "step": "타롯 기본 규칙 확정",
+      "status": "complete",
+      "detail": "TAR-P-03 card, Hold and dot numbers retained; v0.5 clarifies shared action/state references."
+    },
+    {
+      "step": "코어와 시트 참조 수정",
+      "status": "complete",
+      "detail": "Beginner quick reference and action/recovery anchors; separate operation, injury and effect records."
+    },
+    {
+      "step": "회복·행동·상태 표현 통일",
+      "status": "complete",
+      "detail": "First aid once until full HP; rest/clinic completion 24h apart with 6h actual work; ready attack expires at round end; basic movement shares main; HP0 distinct from confirmed death."
+    },
+    {
+      "step": "러너와 튜터리얼 예시 교체",
+      "status": "complete",
+      "detail": "12 runner recovery records, movement/treatment/shield/repair examples, T01 20-second example, T03/T06 action use, independent card exercises and teammates in one round."
+    }
+  ],
+  "tests": {
+    "코어통일_검증결과.json": {
+      "checks_passed": 48,
+      "sha256": "99063a7eda0233566ccfe84478c005a2707b19bb3246daaebf0d6acc98751448"
+    },
+    "일반플레이_검증결과.json": {
+      "checks_passed": 55,
+      "sha256": "5f0fa522f83ce357ff2d96e5d5edeaac131a54cd94258d75f80b84df8ef7b386"
+    },
+    "러너와튜터리얼_검증결과.json": {
+      "checks_passed": 1277,
+      "sha256": "ac9b65bb421345c52d465f135de1edbe1ec8be1d265ad401b7ad07496d4557e8"
+    },
+    "몸노출_계산검증결과.json": {
+      "checks_passed": 82,
+      "sha256": "66907c764b810b5b7fa94902cef0ded8e644196a7997815cd8f38669a7fc81b8"
+    },
+    "임플란트_검증결과.json": {
+      "checks_passed": 64,
+      "sha256": "73fe72443b208ff7b2d8355c462123c8ba97eea7e42840402b443a534d3fb1e6"
+    },
+    "시간이동_검증결과.json": {
+      "checks_passed": 30,
+      "sha256": "6f72c62e0ce229773984a90a040d6048be6986f0542713ab015ba3c306a840a8"
+    }
+  },
+  "tarot_inherited_checks": 47,
+  "links_checked": 299,
+  "clarifications_requiring_balance_followup": [
+    "The former ambiguous 24-hour window is explicitly measured since the last successful rest/clinic completion.",
+    "A reserved attack expires at the end of its reserved round rather than carrying into a fresh round."
+  ],
+  "maintenance": [
+    "Time-travel source assertion now reads the two editorial statements from the existing editorial-evidence file where they were previously moved; assertion content unchanged.",
+    "Old numbered-window test fixtures are supported by a compatibility wrapper; current boundary tests use actual elapsed seconds."
+  ],
+  "human_playtest": false,
+  "files": [
+    {
+      "path": "../00_최신본_기준.md",
+      "sha256": "87384c2d8e13e2c5f257a6c8d0b2e6f8ca094f1e512e3f0edd59dc946db58af1",
+      "bytes": 79494
+    },
+    {
+      "path": "../01_작업계획.md",
+      "sha256": "c7cb4947882b8ba1d64b146e09bd73ffdc41406b2397c634150f90b91946ded2",
+      "bytes": 141785
+    },
+    {
+      "path": "00_제5판_설계기준.md",
+      "sha256": "df2e1b20d06bf46f629192ca94be4e059f86bbddde185c04dc49ddfd7f4f1c83",
+      "bytes": 368699
+    },
+    {
+      "path": "01_텀블벅_이지룰_초안.md",
+      "sha256": "0017f43297adeb00d4f9bfd65a3a9e19ae609de0fba447894407066655e1ea47",
+      "bytes": 24447
+    },
+    {
+      "path": "02_타롯_해킹과_지능전_초안.md",
+      "sha256": "7242fea9af7d069addebb8a119195bf36024206ad6fcafae4184cba901f1581d",
+      "bytes": 29255
+    },
+    {
+      "path": "10_CoreRulebook.md",
+      "sha256": "f9f3a46e70ecf621062fb12de79da89861035a5c2707fb1a395008966c0dd922",
+      "bytes": 408182
+    },
+    {
+      "path": "12_룰시트와캐릭터시트.md",
+      "sha256": "9a8f15bc88746a7257aa7b377ad5d841b90acbaa5f92e14de47a8b31e45866c5",
+      "bytes": 130736
+    },
+    {
+      "path": "13_입문시나리오.md",
+      "sha256": "75122311f129c7f949bf370bf4e93969eb7940e40cee04a0d2265c23a54bbea1",
+      "bytes": 57236
+    },
+    {
+      "path": "14_레디메이드_러너.md",
+      "sha256": "5679ccd71fa9ad26b8f3439fe325ffb4cccab7902f962b2ef2876a475751db46",
+      "bytes": 91262
+    },
+    {
+      "path": "15_표준튜터리얼_시나리오.md",
+      "sha256": "3083087be1110eb85f33c39d4206ce13767ca47350b576c573a34d5ed06380ca",
+      "bytes": 94274
+    },
+    {
+      "path": "검증/러너와튜터리얼_검증.py",
+      "sha256": "d20b0bd5cc7d32ed74770d29432c66d205d1810179ba3805f1b435cc9b76e7e6",
+      "bytes": 18727
+    },
+    {
+      "path": "검증/러너와튜터리얼_검증결과.json",
+      "sha256": "ac9b65bb421345c52d465f135de1edbe1ec8be1d265ad401b7ad07496d4557e8",
+      "bytes": 46570
+    },
+    {
+      "path": "검증/레디메이드_러너프로필.json",
+      "sha256": "6d58e361ab70532856c90df23c5959ec4c48513d771d719f2e06e6488fa094f5",
+      "bytes": 72809
+    },
+    {
+      "path": "검증/몸노출_계산검증결과.json",
+      "sha256": "66907c764b810b5b7fa94902cef0ded8e644196a7997815cd8f38669a7fc81b8",
+      "bytes": 8091
+    },
+    {
+      "path": "검증/시간이동_검증.py",
+      "sha256": "e4bc4eb8be357e27245076359a54ecc96f8fff77df091c1ff19c0044db75c966",
+      "bytes": 12976
+    },
+    {
+      "path": "검증/시간이동_검증결과.json",
+      "sha256": "6f72c62e0ce229773984a90a040d6048be6986f0542713ab015ba3c306a840a8",
+      "bytes": 4995
+    },
+    {
+      "path": "검증/일반플레이_검증.py",
+      "sha256": "9919eb054fcb585948b49225b9b45f53537a33e5b31a8db0a8af3921c115ef93",
+      "bytes": 15329
+    },
+    {
+      "path": "검증/일반플레이_검증결과.json",
+      "sha256": "5f0fa522f83ce357ff2d96e5d5edeaac131a54cd94258d75f80b84df8ef7b386",
+      "bytes": 4180
+    },
+    {
+      "path": "검증/임플란트_검증결과.json",
+      "sha256": "73fe72443b208ff7b2d8355c462123c8ba97eea7e42840402b443a534d3fb1e6",
+      "bytes": 4199
+    },
+    {
+      "path": "검증/입문_프로필.json",
+      "sha256": "f5f4144a8efd9d44c907640b58da30ab71828e73b0d0622a36b6889b8fab14d7",
+      "bytes": 3207
+    },
+    {
+      "path": "검증/코어통일_검증.py",
+      "sha256": "4e4125b2f5d263e0ef9d80ff0d02c1a97d1c8658a7194af128ec02e3b4d1b397",
+      "bytes": 7998
+    },
+    {
+      "path": "검증/코어통일_검증결과.json",
+      "sha256": "99063a7eda0233566ccfe84478c005a2707b19bb3246daaebf0d6acc98751448",
+      "bytes": 2422
+    },
+    {
+      "path": "검증/표준튜터리얼_프로필.json",
+      "sha256": "f7be2dac6643df5f84c2393227097fd62c8220ca92f50f879458607382091cd7",
+      "bytes": 34670
+    }
+  ],
+  "world_sha256": "bcb4aac69b17aa6dcb92717e6687145040be964d32df8b17460567d32df86988",
+  "before_snapshot": "코어통일_20261013_반영전.json"
+}

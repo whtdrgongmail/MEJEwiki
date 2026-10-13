@@ -89,10 +89,10 @@
     }
   ],
   "artifacts_sha256": {
-    "10_CoreRulebook.md": "7676f851d5b46acc55a77ee69962196e71226ccef5d8d2c939281531723a9ef4",
-    "12_룰시트와캐릭터시트.md": "ae322c199c7c9fb636b84c06a81052899ce80d3c459888ae332a14bd1a420ff6",
-    "검증/입문_프로필.json": "24fb4b594346497662f09dd9d3ffd99c79fa3ea098fdeb360ce54956727d6a3f",
-    "검증/일반플레이_검증.py": "d23e6363f1ca28beddf8b7cd9c24839c2ba0ea66eada525295b4663e6b493585"
+    "10_CoreRulebook.md": "f9f3a46e70ecf621062fb12de79da89861035a5c2707fb1a395008966c0dd922",
+    "12_룰시트와캐릭터시트.md": "9a8f15bc88746a7257aa7b377ad5d841b90acbaa5f92e14de47a8b31e45866c5",
+    "검증\\입문_프로필.json": "f5f4144a8efd9d44c907640b58da30ab71828e73b0d0622a36b6889b8fab14d7",
+    "검증\\일반플레이_검증.py": "9919eb054fcb585948b49225b9b45f53537a33e5b31a8db0a8af3921c115ef93"
   },
   "actual_participant_playtest": false,
   "full_combat_balance_proven": false,

@@ -1,7 +1,7 @@
 {
   "edition": 5,
   "manuscript_closeout": "2026-10-10",
-  "rules_revision": "2026-10-13 TAR-P-03",
+  "rules_revision": "2026-10-13 CORE-UNIFY-01 / TAR-P-03 v0.5",
   "publication_status": "manuscript; typesetting and participant playtesting pending",
   "documents": [
     {
@@ -16,75 +16,75 @@
       "file": "content/fifth/books/10_CoreRulebook.md",
       "title": "Core Rulebook",
       "description": "공통 백분율 규칙",
-      "version": "0.50"
+      "version": "0.51"
     },
     {
       "page": "fifth/books/01_텀블벅_이지룰_초안",
       "file": "content/fifth/books/01_텀블벅_이지룰_초안.md",
       "title": "이지룰",
       "description": "처음 시작하는 판정과 플레이",
-      "version": "P0.32"
+      "version": "P0.33"
     },
     {
       "page": "fifth/books/12_룰시트와캐릭터시트",
       "file": "content/fifth/books/12_룰시트와캐릭터시트.md",
       "title": "룰시트·캐릭터시트",
       "description": "인물·몸·차원·장면 기록",
-      "version": "0.45"
+      "version": "0.46"
     },
     {
       "page": "fifth/books/14_레디메이드_러너",
       "file": "content/fifth/books/14_레디메이드_러너.md",
       "title": "캐릭터북 · 러너 12인",
       "description": "고른 인물로 바로 시작하기",
-      "version": "1.2"
+      "version": "1.3"
     },
     {
       "page": "fifth/books/15_표준튜터리얼_시나리오",
       "file": "content/fifth/books/15_표준튜터리얼_시나리오.md",
       "title": "튜터리얼 · 6편",
       "description": "첫 플레이와 진행 연습",
-      "version": "1.2"
+      "version": "1.3"
     },
     {
       "page": "fifth/books/13_입문시나리오",
       "file": "content/fifth/books/13_입문시나리오.md",
       "title": "입문 시나리오",
       "description": "함께 맡는 첫 의뢰",
-      "version": "0.6"
+      "version": "0.7"
     },
     {
       "page": "fifth/books/02_타롯_해킹과_지능전_초안",
       "file": "content/fifth/books/02_타롯_해킹과_지능전_초안.md",
       "title": "타롯 · 해킹과 지능전",
       "description": "선택해서 쓰는 대결 모듈",
-      "version": "0.4"
+      "version": "0.5"
     }
   ],
   "files": [
     {
       "path": "content/fifth/books/00_제5판_설계기준.md",
       "source": "00_제5판_설계기준.md",
-      "bytes": 367771,
-      "sha256": "74ef61a19ec541aaabb81e1f57465fcd10ff7e434928aee9341c22aeca8cfbfd"
+      "bytes": 368699,
+      "sha256": "df2e1b20d06bf46f629192ca94be4e059f86bbddde185c04dc49ddfd7f4f1c83"
     },
     {
       "path": "content/fifth/books/01_텀블벅_이지룰_초안.md",
       "source": "01_텀블벅_이지룰_초안.md",
-      "bytes": 23754,
-      "sha256": "f1807419c1c8446167b205dabf396fbd8a907d7d4a7f9b9a1d94db92a1f92937"
+      "bytes": 24447,
+      "sha256": "0017f43297adeb00d4f9bfd65a3a9e19ae609de0fba447894407066655e1ea47"
     },
     {
       "path": "content/fifth/books/02_타롯_해킹과_지능전_초안.md",
       "source": "02_타롯_해킹과_지능전_초안.md",
-      "bytes": 28015,
-      "sha256": "6e34d491e299b8e552905b1a660d0e1426f652bf6dd0e774418e89b05e525f6b"
+      "bytes": 29255,
+      "sha256": "7242fea9af7d069addebb8a119195bf36024206ad6fcafae4184cba901f1581d"
     },
     {
       "path": "content/fifth/books/10_CoreRulebook.md",
       "source": "10_CoreRulebook.md",
-      "bytes": 402444,
-      "sha256": "843d9d6e709d5eff2ecaa869f077ce9dc36c2f14169be908c853dd40da0f73a3"
+      "bytes": 408182,
+      "sha256": "f9f3a46e70ecf621062fb12de79da89861035a5c2707fb1a395008966c0dd922"
     },
     {
       "path": "content/fifth/books/11_WorldLorebook.md",
@@ -95,26 +95,26 @@
     {
       "path": "content/fifth/books/12_룰시트와캐릭터시트.md",
       "source": "12_룰시트와캐릭터시트.md",
-      "bytes": 129104,
-      "sha256": "e53cb7ea4435f0093caeecc05264e6c78d4edfa3f0080a0bb4326d47fbd1337b"
+      "bytes": 130736,
+      "sha256": "9a8f15bc88746a7257aa7b377ad5d841b90acbaa5f92e14de47a8b31e45866c5"
     },
     {
       "path": "content/fifth/books/13_입문시나리오.md",
       "source": "13_입문시나리오.md",
-      "bytes": 56779,
-      "sha256": "ba254c5caedb50f68496184698d45b22a63cc3b5eb4a1d64c29d825384b9da8f"
+      "bytes": 57236,
+      "sha256": "75122311f129c7f949bf370bf4e93969eb7940e40cee04a0d2265c23a54bbea1"
     },
     {
       "path": "content/fifth/books/14_레디메이드_러너.md",
       "source": "14_레디메이드_러너.md",
-      "bytes": 87810,
-      "sha256": "ee75bcbd22d05ea4b6f24887e822b00706d0449d3c9c1b991de86a6d4e19d254"
+      "bytes": 91262,
+      "sha256": "5679ccd71fa9ad26b8f3439fe325ffb4cccab7902f962b2ef2876a475751db46"
     },
     {
       "path": "content/fifth/books/15_표준튜터리얼_시나리오.md",
       "source": "15_표준튜터리얼_시나리오.md",
-      "bytes": 90801,
-      "sha256": "8819581d8e0e27c5a179b17613b6ed37ce436865b831c437a89fe76607ba83af"
+      "bytes": 94274,
+      "sha256": "3083087be1110eb85f33c39d4206ce13767ca47350b576c573a34d5ed06380ca"
     },
     {
       "path": "content/fifth/books/16_아트워크_제작목록.md",
@@ -281,14 +281,14 @@
     {
       "path": "content/fifth/books/검증/러너와튜터리얼_검증.py",
       "source": "검증/러너와튜터리얼_검증.py",
-      "bytes": 18150,
-      "sha256": "b4d4b085913ec83e5e4ef50b071b79e8239fd1f81e711aae0c6016e9934fd1fc"
+      "bytes": 18727,
+      "sha256": "d20b0bd5cc7d32ed74770d29432c66d205d1810179ba3805f1b435cc9b76e7e6"
     },
     {
       "path": "content/fifth/books/검증/러너와튜터리얼_검증결과.json",
       "source": "검증/러너와튜터리얼_검증결과.json",
-      "bytes": 46398,
-      "sha256": "11e08629f7ba06799668e8dbb23702c7cd6d65a9c92a54e71b4afb1f28cc90d1"
+      "bytes": 46570,
+      "sha256": "ac9b65bb421345c52d465f135de1edbe1ec8be1d265ad401b7ad07496d4557e8"
     },
     {
       "path": "content/fifth/books/검증/러너와튜터리얼_대조.json",
@@ -299,8 +299,8 @@
     {
       "path": "content/fifth/books/검증/레디메이드_러너프로필.json",
       "source": "검증/레디메이드_러너프로필.json",
-      "bytes": 70401,
-      "sha256": "136909bdeec4328b041dd16bf5a643532e0879ed9bd068dde794b1608d089e1c"
+      "bytes": 72809,
+      "sha256": "6d58e361ab70532856c90df23c5959ec4c48513d771d719f2e06e6488fa094f5"
     },
     {
       "path": "content/fifth/books/검증/로어북_편집근거_20261010.md",
@@ -317,8 +317,8 @@
     {
       "path": "content/fifth/books/검증/몸노출_계산검증결과.json",
       "source": "검증/몸노출_계산검증결과.json",
-      "bytes": 8090,
-      "sha256": "2eaef3f87bacac74f0764459a7c860f5e46f920073f544913b9e7203a8cf6465"
+      "bytes": 8091,
+      "sha256": "66907c764b810b5b7fa94902cef0ded8e644196a7997815cd8f38669a7fc81b8"
     },
     {
       "path": "content/fifth/books/검증/몸노출_계산프로필.json",
@@ -467,14 +467,14 @@
     {
       "path": "content/fifth/books/검증/시간이동_검증.py",
       "source": "검증/시간이동_검증.py",
-      "bytes": 12827,
-      "sha256": "6d56a34d39411eaca96b6ebf1ff4cd81b0b59c6b79bb028de77b59ea0137da99"
+      "bytes": 12976,
+      "sha256": "e4bc4eb8be357e27245076359a54ecc96f8fff77df091c1ff19c0044db75c966"
     },
     {
       "path": "content/fifth/books/검증/시간이동_검증결과.json",
       "source": "검증/시간이동_검증결과.json",
-      "bytes": 4878,
-      "sha256": "856cbc6af531afbfa2d29ebd8a1fecff93bff3d7ab4abd70721879f3a1feda2b"
+      "bytes": 4995,
+      "sha256": "6f72c62e0ce229773984a90a040d6048be6986f0542713ab015ba3c306a840a8"
     },
     {
       "path": "content/fifth/books/검증/시간이동_프로필.json",
@@ -629,14 +629,14 @@
     {
       "path": "content/fifth/books/검증/일반플레이_검증.py",
       "source": "검증/일반플레이_검증.py",
-      "bytes": 14466,
-      "sha256": "d23e6363f1ca28beddf8b7cd9c24839c2ba0ea66eada525295b4663e6b493585"
+      "bytes": 15329,
+      "sha256": "9919eb054fcb585948b49225b9b45f53537a33e5b31a8db0a8af3921c115ef93"
     },
     {
       "path": "content/fifth/books/검증/일반플레이_검증결과.json",
       "source": "검증/일반플레이_검증결과.json",
-      "bytes": 4178,
-      "sha256": "ade1ac2d467b95b962982725921383c547357fe847b9176018216b5f4c8202ca"
+      "bytes": 4180,
+      "sha256": "5f0fa522f83ce357ff2d96e5d5edeaac131a54cd94258d75f80b84df8ef7b386"
     },
     {
       "path": "content/fifth/books/검증/일상과오지_기준선검토.json",
@@ -659,8 +659,8 @@
     {
       "path": "content/fifth/books/검증/임플란트_검증결과.json",
       "source": "검증/임플란트_검증결과.json",
-      "bytes": 4196,
-      "sha256": "5307e0ee26384f6ac587c4d155c3bca91b494195b54e7f307d64db0b76f762b0"
+      "bytes": 4199,
+      "sha256": "73fe72443b208ff7b2d8355c462123c8ba97eea7e42840402b443a534d3fb1e6"
     },
     {
       "path": "content/fifth/books/검증/임플란트_프로필.json",
@@ -671,8 +671,8 @@
     {
       "path": "content/fifth/books/검증/입문_프로필.json",
       "source": "검증/입문_프로필.json",
-      "bytes": 2683,
-      "sha256": "24fb4b594346497662f09dd9d3ffd99c79fa3ea098fdeb360ce54956727d6a3f"
+      "bytes": 3207,
+      "sha256": "f5f4144a8efd9d44c907640b58da30ab71828e73b0d0622a36b6889b8fab14d7"
     },
     {
       "path": "content/fifth/books/검증/입문시나리오_검토.json",
@@ -807,6 +807,30 @@
       "sha256": "5afd0f8ad74e214b0a1ad575aec107217fb871d0f496496a007729fdee815e15"
     },
     {
+      "path": "content/fifth/books/검증/코어통일_20261013.json",
+      "source": "검증/코어통일_20261013.json",
+      "bytes": 6771,
+      "sha256": "a9f71ec3dc7b80ce4f16002fbf22262da3d6c5cb4340af5434eba9f34e3604d8"
+    },
+    {
+      "path": "content/fifth/books/검증/코어통일_20261013_반영전.json",
+      "source": "검증/코어통일_20261013_반영전.json",
+      "bytes": 1634662,
+      "sha256": "a019c065e4cc966a245eec70afe08ed1950c775b8ca79b9e81fd957309ef1ed5"
+    },
+    {
+      "path": "content/fifth/books/검증/코어통일_검증.py",
+      "source": "검증/코어통일_검증.py",
+      "bytes": 7998,
+      "sha256": "4e4125b2f5d263e0ef9d80ff0d02c1a97d1c8658a7194af128ec02e3b4d1b397"
+    },
+    {
+      "path": "content/fifth/books/검증/코어통일_검증결과.json",
+      "source": "검증/코어통일_검증결과.json",
+      "bytes": 2422,
+      "sha256": "99063a7eda0233566ccfe84478c005a2707b19bb3246daaebf0d6acc98751448"
+    },
+    {
       "path": "content/fifth/books/검증/타롯_개정_20261013.json",
       "source": "검증/타롯_개정_20261013.json",
       "bytes": 3615,
@@ -887,8 +911,8 @@
     {
       "path": "content/fifth/books/검증/표준튜터리얼_프로필.json",
       "source": "검증/표준튜터리얼_프로필.json",
-      "bytes": 34315,
-      "sha256": "d5dbe2be5eac1d1dc316ed463ab97ea6c36d888cd671f6d6a9537c66d79f5673"
+      "bytes": 34670,
+      "sha256": "f7be2dac6643df5f84c2393227097fd62c8220ca92f50f879458607382091cd7"
     },
     {
       "path": "content/fifth/books/검증/현재_원고상태.json",
@@ -917,14 +941,14 @@
     {
       "path": "content/fifth/00_최신본_기준.md",
       "source": "../00_최신본_기준.md",
-      "bytes": 78497,
-      "sha256": "28375a87dc2f2287205b97d74d7996c066dff0d98395dd7ed089861dcc0c056c"
+      "bytes": 79494,
+      "sha256": "87384c2d8e13e2c5f257a6c8d0b2e6f8ca094f1e512e3f0edd59dc946db58af1"
     },
     {
       "path": "content/fifth/01_작업계획.md",
       "source": "../01_작업계획.md",
-      "bytes": 140802,
-      "sha256": "0b0655aed5470a5b5e3b89588b021e03d7a30372be78b93278a47a5e61686cd8"
+      "bytes": 141785,
+      "sha256": "c7cb4947882b8ba1d64b146e09bd73ffdc41406b2397c634150f90b91946ded2"
     }
   ],
   "excluded": [

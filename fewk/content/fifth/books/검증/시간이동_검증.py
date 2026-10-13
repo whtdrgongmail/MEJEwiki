@@ -145,7 +145,8 @@ def run():
     check('음수/비정수몸경과는적용하지않음',True)
     core=(o/'10_CoreRulebook.md').read_text();sheet=(o/'12_룰시트와캐릭터시트.md').read_text();world=(o/'11_WorldLorebook.md').read_text()
     check('본문에같은도보/철도예시와정확시간/존재수치',all(x in core for x in ['FEWK-TIME-01','61/1440','8579/1440','75분','TIME-PATH-T1']) and '8579/1440' in sheet)
-    check('세계근거의단위/작자/경계출처지위정정',all(x in world for x in ['금손 용하선생','自起曆','집단 지성의 존재 단위','시간여행 항목은 미래 경계를 사건 월풍','실제 사용자 발언 원문까지 확보한 것은 아닙니다']))
+    editorial=(here/'로어북_편집근거_20261010.md').read_text()
+    check('세계근거의단위/작자/경계출처지위정정',all(x in world for x in ['금손 용하선생','自起曆','집단 지성의 존재 단위']) and all(x in editorial for x in ['시간여행 항목은 미래 경계를 사건 월풍','실제 사용자 발언 원문까지 확보한 것은 아닙니다']))
     ledger=json.loads((here/'제5판_이관검수.json').read_text());sources={}
     for i in profile['source_indices']:
         e=ledger['files'][i];assert e['semantic_review']=='focused_review' and e['whole_document_read'] is True
@@ -153,7 +154,7 @@ def run():
     for e in ledger['time_travel_topic_sources']:
         sources[e['path']]=hashlib.sha256((p/e['path']).read_bytes()).hexdigest();assert sources[e['path']]==e['sha256']
     check('시간4개참고본문과주제원전/구판의실제해시일치',len(sources)==7)
-    names=['10_CoreRulebook.md','11_WorldLorebook.md','12_룰시트와캐릭터시트.md','검증/시간이동_프로필.json','검증/시간이동_검증.py','검증/백분율_코어검증.py','검증/일반플레이_검증.py','검증/입문_프로필.json']
+    names=['10_CoreRulebook.md','11_WorldLorebook.md','12_룰시트와캐릭터시트.md','검증/로어북_편집근거_20261010.md','검증/시간이동_프로필.json','검증/시간이동_검증.py','검증/백분율_코어검증.py','검증/일반플레이_검증.py','검증/입문_프로필.json']
     artifacts={n:hashlib.sha256((o/n).read_bytes()).hexdigest() for n in names}
     return {'date':'2026-10-05','profile':profile['id'],'checks_passed':len(checks),'checks':checks,'rail_prerequisite_cases':conditions,'walk_prerequisite_cases':prereqs,'percentile_outcomes':100,'split_elapsed_time_cases':splits,'concurrent_rate_cases':rate_cases,'source_sha256':sources,'artifacts_sha256':artifacts,'scope':'명시한NEW철도왕복/지원도보/귀환경로변경 예의 실제 몸/인물·표/물품/에고/누적시간 경계만. 모든 시간 물리/전설/토템·자유여행/역사개변/일반상대성/실제참가자·커뮤·전체전투균형 검증 아님.','all_time_physics_and_related_novels_complete':False,'actual_participant_reading':False,'actual_participant_playtest':False,'actual_async_community_test':False}
 

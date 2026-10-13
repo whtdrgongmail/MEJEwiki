@@ -146,8 +146,20 @@
     "clinic_heal": 4,
     "clinic_zero": 1,
     "rest_clinic_shared_limit": 1,
-    "storage_passive_heal": 0
+    "storage_passive_heal": 0,
+    "recovery_window_basis": "elapsed_body_time_since_last_successful_rest_or_clinic_completion",
+    "completion_gap_seconds": 86400,
+    "work_seconds": 21600,
+    "first_aid_independent_of_rest_clinic": true,
+    "full_hp_does_not_reset_recovery_clock": true
   },
   "actual_participant_playtest": false,
-  "canonical_gear_stats_imported": false
+  "canonical_gear_stats_imported": false,
+  "action_clarification": {
+    "round_seconds": 5,
+    "basic_move_can_precede_or_follow_main": true,
+    "ready_attack_expires": "end_of_reserved_round",
+    "healing_or_body_switch_refills_actions": false
+  },
+  "rules_revision": "2026-10-13 CORE-UNIFY-01"
 }

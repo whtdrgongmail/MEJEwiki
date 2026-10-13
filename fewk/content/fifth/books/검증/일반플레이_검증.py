@@ -25,6 +25,7 @@ class Body:
     destroyed:bool=False
     first_aid_effect:bool=False
     recovery_window:int=-1
+    last_recovery_s:int=-1
 
 def new_round(b):
     b.reaction=1;b.main=1;b.move=10;b.blocked=False
@@ -68,13 +69,29 @@ def aid(b,kits,success=True):
         b.first_aid_effect=b.hp<12
     return kits
 
-def recover(b,window,clinic=False,stored=False):
-    if stored or b.destroyed or b.recovery_window==window:return False
+def recover_at(b,completed_s,work_s=21600,clinic=False,stored=False):
+    """Apply a completed treatment; 24h is measured since the last effect.
+
+    The caller supplies actual completed work, not OOC waiting or a date label.
+    Material availability and treatment support are preconditions of this helper.
+    """
+    if work_s<21600 or completed_s<work_s:return False
+    if stored or b.destroyed or b.hp>=12:return False
+    if b.last_recovery_s>=0 and completed_s-b.last_recovery_s<86400:return False
     if not clinic and b.hp==0:return False
-    b.recovery_window=window
     b.hp=1 if b.hp==0 else min(12,b.hp+(4 if clinic else 2))
+    b.last_recovery_s=completed_s
     if b.hp==12:b.first_aid_effect=False
     return True
+
+def recover(b,window,clinic=False,stored=False):
+    """Compatibility for old numbered-window examples: 6h, 30h, 54h..."""
+    # Legacy fixtures may set only this used-window marker. Current time-aware
+    # examples call recover_at and track last_recovery_s directly.
+    if b.recovery_window==window:return False
+    result=recover_at(b,window*86400+21600,clinic=clinic,stored=stored)
+    if result:b.recovery_window=window
+    return result
 
 def move(b,meters,extra=False):
     if b.hp==0 or b.destroyed or meters<0:raise ValueError('movement infeasible')

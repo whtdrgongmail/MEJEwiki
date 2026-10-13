@@ -101,10 +101,15 @@ def run():
             check(mid+name+' real path positive',length>0,True)
     check('every main/reserve gets an assigned mission',used,set(by_id))
     missions={x['id']:x for x in p['missions']}
-    # T01:20m 접근+5초 잠금+5초 수거+20m귀환+5초 인계. 각자 주요의 중복이 없다.
-    approach,_=walk(20);ret,_=walk(20)
-    check('T01 basic service delivery timeline',approach+5+5+ret+5,35)
-    check('T01 before seizure',35<=missions['T01']['deadline_s'],True)
+    # T01: arrival by basic movement permits the same turn's unused main.
+    b=Body();move(b,10)                         # 0-5 A -> D
+    new_round(b);move(b,10);b.main-=1           # 5-10 D -> C, unlock
+    check('T01 arrival shares unlock main',(b.move,b.main),(0,0))
+    new_round(b);b.main-=1;move(b,10)           # 10-15 collect, C -> D
+    new_round(b);move(b,10);b.main-=1           # 15-20 D -> A, handoff
+    check('T01 basic service delivery timeline',4*p['round_s'],20)
+    check('T01 profile reflects composed actions',p['T01_uninterrupted_service_example_seconds'],20)
+    check('T01 before seizure',20<=missions['T01']['deadline_s'],True)
     # T02:사본/반납을 순차로 해도 대피하는 사람은 그동안 각자 움직인다.
     check('T02 two independent authorized copy sizes',missions['T02']['personal_copy_chars']<=10000,True)
     check('T02 aid and actual move change',(missions['T02']['miso_start_HP']+2,missions['T02']['miso_first_aid_HP'],missions['T02']['miso_after_aid_move']),(7,7,10))
@@ -174,8 +179,10 @@ def run():
     check('preserved previous complete package',len(before_files),9)
     for row in before_files.values():
         check('snapshot integrity '+row['path'],hashlib.sha256(row['text'].encode()).hexdigest(),row['sha256'])
-    check('character book edition',runners['editorial_version'],'1.1')
-    check('scenario book edition',p['editorial_version'],'1.1')
+    check('character book edition',runners['editorial_version'],'1.3')
+    check('scenario book edition',p['editorial_version'],'1.3')
+    check('character book header follows profile','· v'+runners['editorial_version']+' ·' in roster,True)
+    check('scenario book header follows profile','· v'+p['editorial_version']+' ·' in book,True)
     for r in by_id.values():
         rid=r['id'];frag=roster.split(f'<a id="fewk-runner-{rid.lower()}"></a>',1)[1].split('<a id=',1)[0]
         for heading in runners['character_book_sections']:
@@ -224,7 +231,7 @@ def run():
     names=['14_레디메이드_러너.md','15_표준튜터리얼_시나리오.md','10_CoreRulebook.md','11_WorldLorebook.md','12_룰시트와캐릭터시트.md','13_입문시나리오.md']
     names+=['검증/'+n for n in ['레디메이드_러너프로필.json','표준튜터리얼_프로필.json','러너와튜터리얼_검증.py','시나리오_확장프로필.json','일반플레이_검증.py','운송_검증.py','운송_프로필.json','백분율_코어검증.py','스페셜_검증.py','고유효과_프로필.json']]
     hashes={n:hashlib.sha256((O/n).read_bytes()).hexdigest() for n in names}
-    return {'date':'2026-10-08','id':'FEWK-RUNNER-TUTORIAL-CHECK','checks_passed':len(checks),'checks':checks,'runners':12,'principal_runners':6,'reserve_runners':6,'complete_bodies':24,'skill_rows':144,'tutorial_scenarios':6,'artifacts_sha256':hashes,'actual_participant_playtest':False,'full_encounter_balance_verified':False,'scope':'완성 시트의 배분/구매/몸/고유 기능 조건·실제 전투/운전 모형과 공개된 경로/시간/마감/정산 경계. 재미·참가자 독해·전술 균형의 실측은 포함하지 않음.'}
+    return {'date':'2026-10-13','id':'FEWK-RUNNER-TUTORIAL-CHECK','checks_passed':len(checks),'checks':checks,'runners':12,'principal_runners':6,'reserve_runners':6,'complete_bodies':24,'skill_rows':144,'tutorial_scenarios':6,'artifacts_sha256':hashes,'actual_participant_playtest':False,'full_encounter_balance_verified':False,'scope':'완성 시트의 배분/구매/몸/고유 기능 조건·실제 전투/운전 모형과 공개된 경로/시간/마감/정산 경계. 재미·참가자 독해·전술 균형의 실측은 포함하지 않음.'}
 
 if __name__=='__main__':
     d=run();(HERE/'러너와튜터리얼_검증결과.json').write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
