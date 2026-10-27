@@ -179,18 +179,54 @@
     for (const name of [...new Set(data.assets.map(a => a.category))].sort((a,b) => a.localeCompare(b,'ko'))) category.add(new Option(name,name));
     const params = new URLSearchParams(location.search);
     search.value = params.get('q') || ''; group.value = params.get('group') || ''; category.value = params.get('category') || '';
-    let filtered = [], shown = 0;
+    const sections = [
+      {id:'landscapes', title:'풍경', note:'도시와 차원계, 시설과 생활의 장면'},
+      {id:'people', title:'인물', note:'등장인물과 러너, 여러 몸과 존재'},
+      {id:'objects', title:'사물', note:'장비와 물건, 기술·규칙 도해'},
+      {id:'emblems', title:'문장·로고', note:'문장과 표식, 세계의 상징'}
+    ];
+    const personCategories = new Set(['인물 프로필','로어 인물의 초상과 대표 장면','러너','신수와 다른 존재','생활과 관계의 장면','전투와 이동 장면']);
+    const objectCategories = new Set(['장비와 물건의 도감','장비와 물건','타롯 규칙','튜터리얼']);
+    const overrides = {'base-a01':'people','base-a02':'people','base-a05':'objects','base-e05':'objects','base-e10':'people','base-e11':'people','base-e13':'objects','base-e14':'objects','base-e19':'objects','expanded-x036':'objects','expanded-x037':'objects','expanded-x055':'objects','expanded-x056':'people','expanded-x057':'objects','expanded-x058':'objects'};
+    function sectionOf(asset) {
+      if (overrides[asset.id]) return overrides[asset.id];
+      if (asset.category === '문장과 표식') return 'emblems';
+      if (personCategories.has(asset.category)) return 'people';
+      if (objectCategories.has(asset.category)) return 'objects';
+      return 'landscapes';
+    }
+    let filtered = [];
+    grid.classList.remove('art-grid');
+    const navigation = make('nav','art-section-nav');
+    navigation.setAttribute('aria-label','전체 이미지 섹션');
+    grid.before(navigation);
     function append() {
-      const batch = filtered.slice(shown,shown+48);
-      batch.forEach(asset => grid.append(card(asset)));
-      shown += batch.length;
-      more.hidden = shown >= filtered.length;
-      more.textContent = '더 보기 ('+shown+' / '+filtered.length+')';
+      navigation.replaceChildren();
+      for (const section of sections) {
+        const items = filtered.filter(a => sectionOf(a) === section.id);
+        if (!items.length) continue;
+        const jump = make('a','',section.title+' '+items.length);
+        jump.href = '#catalogue-'+section.id; navigation.append(jump);
+        const block = make('section','art-catalogue-section art-collection');
+        block.id = 'catalogue-'+section.id; block._artAssets = items;
+        block.append(make('h2','',section.title+' · '+items.length+'장'),make('p','art-section-note',section.note));
+        const cards = make('div','art-grid'); block.append(cards);
+        const button = make('button','art-section-more');button.type = 'button';
+        let shown = 0;
+        function addPage() {
+          const batch = items.slice(shown,shown+24);
+          batch.forEach(asset => cards.append(card(asset)));shown += batch.length;
+          button.hidden = shown >= items.length;
+          button.textContent = section.title+' 더 보기 ('+shown+' / '+items.length+')';
+        }
+        button.addEventListener('click',addPage);block.append(button);grid.append(block);addPage();
+      }
+      more.hidden = true;
     }
     function filter() {
       const words = search.value.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
       filtered = data.assets.filter(a => (!group.value || a.group === group.value) && (!category.value || a.category === category.value) && words.every(word => [a.title,a.description,a.character,a.outfit,a.category,a.source_id].join(' ').toLocaleLowerCase().includes(word)));
-      shown = 0; grid.replaceChildren(); grid._artAssets = filtered;
+      grid.replaceChildren(); grid._artAssets = filtered;
       count.textContent = filtered.length+'장 / 전체 '+data.summary.images+'장';
       document.getElementById('artEmpty').hidden = Boolean(filtered.length);
       append();
@@ -201,7 +237,7 @@
       history.replaceState(null,'',location.pathname+(query.size ? '?'+query : '')+location.hash);
     }
     search.addEventListener('input', filter); group.addEventListener('change', filter); category.addEventListener('change', filter);
-    more.addEventListener('click', append);
+
     document.getElementById('artReset').addEventListener('click', () => { search.value = ''; group.value = ''; category.value = ''; filter(); search.focus(); });
     function openHash() {
       const asset = data.assets.find(a => '#'+a.id === location.hash);
