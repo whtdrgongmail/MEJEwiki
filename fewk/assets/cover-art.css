@@ -2,3 +2,20 @@
 .cover-emblems{grid-template-columns:1fr}.cover-emblems img{max-height:520px;object-fit:contain;background:white}
 
 .art-section-nav{display:flex;flex-wrap:wrap;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--border)}.art-section-nav a{text-decoration:none;font-weight:600}.art-catalogue-section{scroll-margin-top:1.5rem;margin:3rem 0}.art-catalogue-section h2{margin-bottom:.3rem}.art-section-note{color:var(--text-muted);margin-top:0}.art-section-more{display:block;margin:1.5rem auto}.art-section-more[hidden]{display:none}
+
+/* Large terminal-style catalogue controls. */
+.art-gallery .art-section-more{
+ display:block;width:min(100%,680px);min-height:76px;margin:2rem auto 3rem;
+ padding:1.2rem 1.5rem;border:2px solid #63e5d2;border-radius:0;
+ background:#111b24;color:#9ffff0;
+ font-family:"Bahnschrift","Consolas","SFMono-Regular","Liberation Mono",monospace;
+ font-size:clamp(1.1rem,2.2vw,1.65rem);font-weight:700;letter-spacing:.1em;
+ font-variant-numeric:tabular-nums;line-height:1.35;
+ box-shadow:5px 5px 0 #203f48;transition:background .15s,color .15s,box-shadow .15s;
+}
+.art-gallery .art-section-more:hover{background:#203b45;color:#fff;box-shadow:7px 7px 0 #315560}
+.art-gallery .art-section-more:active{box-shadow:2px 2px 0 #203f48}
+.art-gallery .art-section-more:focus-visible{outline:3px solid var(--accent);outline-offset:6px}
+.art-gallery .art-section-more[hidden]{display:none}
+@media(max-width:600px){.art-gallery .art-section-more{min-height:72px;padding:1rem .65rem;letter-spacing:.055em;font-size:1.08rem}}
+@media(prefers-reduced-motion:reduce){.art-gallery .art-section-more{transition:none}}

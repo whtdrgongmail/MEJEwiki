@@ -217,7 +217,8 @@
           const batch = items.slice(shown,shown+24);
           batch.forEach(asset => cards.append(card(asset)));shown += batch.length;
           button.hidden = shown >= items.length;
-          button.textContent = section.title+' 더 보기 ('+shown+' / '+items.length+')';
+          button.textContent = 'MORE INFO ... ('+shown+'/'+items.length+')';
+          button.setAttribute('aria-label', section.title+' 더 보기, '+items.length+'장 중 '+shown+'장 표시');
         }
         button.addEventListener('click',addPage);block.append(button);grid.append(block);addPage();
       }
