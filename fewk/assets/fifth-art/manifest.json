@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "summary": {
-    "images": 702,
+    "images": 703,
     "groups": {
       "기본 삽화": 100,
       "세계와 생활": 200,
       "인물 프로필": 396,
       "규칙과 예시": 2,
-      "추가 풍경": 4
+      "추가 풍경": 5
     },
-    "full_bytes": 94019768,
-    "thumb_bytes": 12901220,
-    "source_bytes": 1384378601,
+    "full_bytes": 94249962,
+    "thumb_bytes": 12930716,
+    "source_bytes": 1386675389,
     "transparent": 60,
-    "images_with_reader_placements": 554,
+    "images_with_reader_placements": 555,
     "encoding": {
       "format": "WebP",
       "full_max_edge": 1600,
@@ -23633,6 +23633,40 @@
       "source": "추가풍경200/L004_대령대사관_수직회랑_v01.png",
       "source_sha256": "af843fd2675e9befaab39b0abea735a2f17cd5bbf32df0ba76a92bd76eedc360",
       "source_bytes": 2496025,
+      "placements": [
+        {
+          "page": "fifth/books/11_WorldLorebook",
+          "anchor": "fewk-world-35",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "id": "landscape-l005",
+      "source_id": "L005",
+      "group": "추가 풍경",
+      "category": "도시·시설의 내부와 생활",
+      "title": "난초대사관 — 기술 전시 회랑",
+      "description": "난초대사국은 문화·기술력 강국 · 세부 공간 구조는 미술적 해석입니다.",
+      "character": "",
+      "character_id": "",
+      "outfit": "",
+      "form": "",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "transparent": false,
+      "src": "assets/fifth-art/landscape-l005-8e1f0317b4.webp",
+      "thumb": "assets/fifth-art/thumbs/landscape-l005-8e1f0317b4.webp",
+      "thumb_width": 480,
+      "thumb_height": 320,
+      "bytes": 230194,
+      "thumb_bytes": 29496,
+      "sha256": "6910ad02af119dce54bb2e3ddd3a6ef395f41b0076e9de71bea9c84cbcb9a0d3",
+      "thumb_sha256": "a7f8659bc7021098891a232a998b30dd62da15e2361de0f74d51590ad73a0aea",
+      "source": "추가풍경200/L005_난초대사관_기술전시회랑_v01.png",
+      "source_sha256": "8e1f0317b4b358d49bbb450dae5b7091e4c713198438caf30c20074ef8cbe2bd",
+      "source_bytes": 2296788,
       "placements": [
         {
           "page": "fifth/books/11_WorldLorebook",
