@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "summary": {
-    "images": 715,
+    "images": 716,
     "groups": {
       "기본 삽화": 100,
       "세계와 생활": 200,
       "인물 프로필": 396,
       "규칙과 예시": 2,
-      "추가 풍경": 17
+      "추가 풍경": 18
     },
-    "full_bytes": 98113028,
-    "thumb_bytes": 13371402,
-    "source_bytes": 1421047451,
+    "full_bytes": 98356764,
+    "thumb_bytes": 13401248,
+    "source_bytes": 1423635896,
     "transparent": 60,
-    "images_with_reader_placements": 567,
+    "images_with_reader_placements": 568,
     "encoding": {
       "format": "WebP",
       "full_max_edge": 1600,
@@ -24075,6 +24075,40 @@
       "source": "추가풍경200/L017_캐슬하버_왕복기관아래골목_v01.png",
       "source_sha256": "30128af0913701202a787dc91babbe31ebc64684d913a11e257688e861883ccc",
       "source_bytes": 3064922,
+      "placements": [
+        {
+          "page": "fifth/books/11_WorldLorebook",
+          "anchor": "fewk-world-49",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "id": "landscape-l018",
+      "source_id": "L018",
+      "group": "추가 풍경",
+      "category": "도시·시설의 내부와 생활",
+      "title": "올라이즈 — 침몰선 인양 현장",
+      "description": "앞바다 수심 40m에 수십 년간 쌓인 로세아 군함·화물선 잔해, 해조류·말미잘, 금속 회수로 생계를 잇는 잠수부 · 세부 공간 구조는 미술적 해석입니다.",
+      "character": "",
+      "character_id": "",
+      "outfit": "",
+      "form": "",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "transparent": false,
+      "src": "assets/fifth-art/landscape-l018-2751a74a07.webp",
+      "thumb": "assets/fifth-art/thumbs/landscape-l018-2751a74a07.webp",
+      "thumb_width": 480,
+      "thumb_height": 320,
+      "bytes": 243736,
+      "thumb_bytes": 29846,
+      "sha256": "ad674e012beecdb8832f946fbcb69340abd4d0046c171a129a4357c70519c9ec",
+      "thumb_sha256": "67dad21444560f51e1e6538d501627d7ff3aa4d2a19e4f8d231440bb3ddf6c5e",
+      "source": "추가풍경200/L018_올라이즈_침몰선인양현장_v01.png",
+      "source_sha256": "2751a74a072380e2c47e37a28904a143f5dfcb59c17217056079b81854acc0c8",
+      "source_bytes": 2588445,
       "placements": [
         {
           "page": "fifth/books/11_WorldLorebook",
