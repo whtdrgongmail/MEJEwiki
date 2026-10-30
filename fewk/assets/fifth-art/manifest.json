@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "summary": {
-    "images": 709,
+    "images": 710,
     "groups": {
       "기본 삽화": 100,
       "세계와 생활": 200,
       "인물 프로필": 396,
       "규칙과 예시": 2,
-      "추가 풍경": 11
+      "추가 풍경": 12
     },
-    "full_bytes": 96227596,
-    "thumb_bytes": 13153042,
-    "source_bytes": 1404285630,
+    "full_bytes": 96492722,
+    "thumb_bytes": 13187460,
+    "source_bytes": 1406820785,
     "transparent": 60,
-    "images_with_reader_placements": 561,
+    "images_with_reader_placements": 562,
     "encoding": {
       "format": "WebP",
       "full_max_edge": 1600,
@@ -23875,6 +23875,40 @@
         {
           "page": "fifth/books/11_WorldLorebook",
           "anchor": "fewk-world-49",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "id": "landscape-l012",
+      "source_id": "L012",
+      "group": "추가 풍경",
+      "category": "도시·시설의 내부와 생활",
+      "title": "신성 본사 — 회수 임플란트 검수장",
+      "description": "신성의 임플란트·의료·연산·에너지 사업과 캐치먼트 본사; 브라이트캐슬은 별도 군사연구 구역 · 세부 공간 구조는 미술적 해석입니다.",
+      "character": "",
+      "character_id": "",
+      "outfit": "",
+      "form": "",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "transparent": false,
+      "src": "assets/fifth-art/landscape-l012-c9863925f9.webp",
+      "thumb": "assets/fifth-art/thumbs/landscape-l012-c9863925f9.webp",
+      "thumb_width": 480,
+      "thumb_height": 320,
+      "bytes": 265126,
+      "thumb_bytes": 34418,
+      "sha256": "9d726878f74e16fe696e0edae084b6bb92ced378d97dafda3b6d0742f44f35df",
+      "thumb_sha256": "46dde605dfcd4756306d9d5f831ae26c866179a18c7c143eae3f9d5ec9edd9e9",
+      "source": "추가풍경200/L012_신성본사_회수임플란트검수장_v01.png",
+      "source_sha256": "c9863925f9f33c87d8757e260b0dd7d15c60f51c0bbaf04edf31ec26edb37091",
+      "source_bytes": 2535155,
+      "placements": [
+        {
+          "page": "fifth/books/11_WorldLorebook",
+          "anchor": "fewk-world-36",
           "role": "gallery"
         }
       ]
