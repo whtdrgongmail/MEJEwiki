@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "summary": {
-    "images": 713,
+    "images": 714,
     "groups": {
       "기본 삽화": 100,
       "세계와 생활": 200,
       "인물 프로필": 396,
       "규칙과 예시": 2,
-      "추가 풍경": 15
+      "추가 풍경": 16
     },
-    "full_bytes": 97429742,
-    "thumb_bytes": 13301532,
-    "source_bytes": 1414942782,
+    "full_bytes": 97760402,
+    "thumb_bytes": 13334762,
+    "source_bytes": 1417982529,
     "transparent": 60,
-    "images_with_reader_placements": 565,
+    "images_with_reader_placements": 566,
     "encoding": {
       "format": "WebP",
       "full_max_edge": 1600,
@@ -24011,6 +24011,40 @@
         {
           "page": "fifth/books/11_WorldLorebook",
           "anchor": "fewk-world-45",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "id": "landscape-l016",
+      "source_id": "L016",
+      "group": "추가 풍경",
+      "category": "도시·시설의 내부와 생활",
+      "title": "클린하버 — 강판 적치장",
+      "description": "철강·화학·섬유 산업, 올라이즈 원자재 공급과 1차 가공, 부식된 공장 풍경. 지방 소속은 원전 간 불일치로 단정하지 않음 · 세부 공간 구조는 미술적 해석입니다.",
+      "character": "",
+      "character_id": "",
+      "outfit": "",
+      "form": "",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "transparent": false,
+      "src": "assets/fifth-art/landscape-l016-9edc398855.webp",
+      "thumb": "assets/fifth-art/thumbs/landscape-l016-9edc398855.webp",
+      "thumb_width": 480,
+      "thumb_height": 320,
+      "bytes": 330660,
+      "thumb_bytes": 33230,
+      "sha256": "e6c223362edadbd5d234e68dbe943db8a822d90c5bec138e30d44b85bd9e6c0d",
+      "thumb_sha256": "c6d74a7f6587b4ea31a56d0ac72f1e187ae0e113f6ae22f86e61a0f019113a6e",
+      "source": "추가풍경200/L016_클린하버_강판적치장_v01.png",
+      "source_sha256": "9edc39885584f85441d93a0d0b84a9d1640fb5a1d8bf0266190ddcfce87fa9e6",
+      "source_bytes": 3039747,
+      "placements": [
+        {
+          "page": "fifth/books/11_WorldLorebook",
+          "anchor": "fewk-world-49",
           "role": "gallery"
         }
       ]
