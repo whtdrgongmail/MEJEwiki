@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "summary": {
-    "images": 710,
+    "images": 711,
     "groups": {
       "기본 삽화": 100,
       "세계와 생활": 200,
       "인물 프로필": 396,
       "규칙과 예시": 2,
-      "추가 풍경": 12
+      "추가 풍경": 13
     },
-    "full_bytes": 96492722,
-    "thumb_bytes": 13187460,
-    "source_bytes": 1406820785,
+    "full_bytes": 96872884,
+    "thumb_bytes": 13233596,
+    "source_bytes": 1409801194,
     "transparent": 60,
-    "images_with_reader_placements": 562,
+    "images_with_reader_placements": 563,
     "encoding": {
       "format": "WebP",
       "full_max_edge": 1600,
@@ -23909,6 +23909,40 @@
         {
           "page": "fifth/books/11_WorldLorebook",
           "anchor": "fewk-world-36",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "id": "landscape-l013",
+      "source_id": "L013",
+      "group": "추가 풍경",
+      "category": "도시·시설의 내부와 생활",
+      "title": "하이썬 — 꽃시장 출하장",
+      "description": "화훼·생명공학 도시; FEWK 전역 고급 행사에 꽃을 공급하는 꽃시장 · 세부 공간 구조는 미술적 해석입니다.",
+      "character": "",
+      "character_id": "",
+      "outfit": "",
+      "form": "",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "transparent": false,
+      "src": "assets/fifth-art/landscape-l013-f91026df57.webp",
+      "thumb": "assets/fifth-art/thumbs/landscape-l013-f91026df57.webp",
+      "thumb_width": 480,
+      "thumb_height": 320,
+      "bytes": 380162,
+      "thumb_bytes": 46136,
+      "sha256": "cc5594f75f90d325754f61b9c8b5480a8edbf34ddda5545f368a3323afdaf067",
+      "thumb_sha256": "8f386626511b8f40645026a559152ab2ac11e2dc1c23c7f2284e8e4a53bfc6b5",
+      "source": "추가풍경200/L013_하이썬_꽃시장출하장_v01.png",
+      "source_sha256": "f91026df5791aaa23c61d1ec0482d2473ad6eeed54329b44a470ad17afa54639",
+      "source_bytes": 2980409,
+      "placements": [
+        {
+          "page": "fifth/books/11_WorldLorebook",
+          "anchor": "fewk-world-45",
           "role": "gallery"
         }
       ]
