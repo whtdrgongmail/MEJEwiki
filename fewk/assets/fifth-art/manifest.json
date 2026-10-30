@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "summary": {
-    "images": 705,
+    "images": 706,
     "groups": {
       "기본 삽화": 100,
       "세계와 생활": 200,
       "인물 프로필": 396,
       "규칙과 예시": 2,
-      "추가 풍경": 7
+      "추가 풍경": 8
     },
-    "full_bytes": 94992056,
-    "thumb_bytes": 13012460,
-    "source_bytes": 1392738979,
+    "full_bytes": 95302740,
+    "thumb_bytes": 13048474,
+    "source_bytes": 1395618205,
     "transparent": 60,
-    "images_with_reader_placements": 557,
+    "images_with_reader_placements": 558,
     "encoding": {
       "format": "WebP",
       "full_max_edge": 1600,
@@ -23739,6 +23739,40 @@
         {
           "page": "fifth/books/11_WorldLorebook",
           "anchor": "fewk-world-35",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "id": "landscape-l008",
+      "source_id": "L008",
+      "group": "추가 풍경",
+      "category": "도시·시설의 내부와 생활",
+      "title": "자포드 — 옹기 작업장 연락 창구",
+      "description": "자포드 관할; 쇠락한 옛 기와·옹기 마을; 느슨한 노마드 협력 · 세부 공간 구조는 미술적 해석입니다.",
+      "character": "",
+      "character_id": "",
+      "outfit": "",
+      "form": "",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "transparent": false,
+      "src": "assets/fifth-art/landscape-l008-dfb13005a0.webp",
+      "thumb": "assets/fifth-art/thumbs/landscape-l008-dfb13005a0.webp",
+      "thumb_width": 480,
+      "thumb_height": 320,
+      "bytes": 310684,
+      "thumb_bytes": 36014,
+      "sha256": "cbf96f15e22667fe9c52eb1da55fdd04af8cb8c04daf7653610b6ad654f9de41",
+      "thumb_sha256": "956188575470aae3ab343ba72935e1081ef2cb83f40fbae0d66035474a3a0334",
+      "source": "추가풍경200/L008_자포드_옹기작업장연락창구_v01.png",
+      "source_sha256": "dfb13005a0a0a6c7999db611e78d7338f8b02fbc7242f82f3a4ed7b7199313da",
+      "source_bytes": 2879226,
+      "placements": [
+        {
+          "page": "fifth/books/11_WorldLorebook",
+          "anchor": "fewk-world-49",
           "role": "gallery"
         }
       ]
