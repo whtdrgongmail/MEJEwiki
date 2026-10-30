@@ -1,18 +1,19 @@
 {
   "schema": 1,
   "summary": {
-    "images": 698,
+    "images": 700,
     "groups": {
       "기본 삽화": 100,
       "세계와 생활": 200,
       "인물 프로필": 396,
-      "규칙과 예시": 2
+      "규칙과 예시": 2,
+      "추가 풍경": 2
     },
-    "full_bytes": 93076612,
-    "thumb_bytes": 12787860,
-    "source_bytes": 1374565518,
+    "full_bytes": 93501636,
+    "thumb_bytes": 12842018,
+    "source_bytes": 1379185019,
     "transparent": 60,
-    "images_with_reader_placements": 550,
+    "images_with_reader_placements": 552,
     "encoding": {
       "format": "WebP",
       "full_max_edge": 1600,
@@ -23500,6 +23501,74 @@
         {
           "page": "fifth/books/12_룰시트와캐릭터시트",
           "anchor": "fewk-sheet-09",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "id": "landscape-l001",
+      "source_id": "L001",
+      "group": "추가 풍경",
+      "category": "도시·시설의 내부와 생활",
+      "title": "미모대사관 — 팀 의뢰 중정",
+      "description": "서울 서부 단일 대사관; 군대 중심 통치; 대규모 팀 임무 의뢰 · 세부 공간 구조는 미술적 해석입니다.",
+      "character": "",
+      "character_id": "",
+      "outfit": "",
+      "form": "",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "transparent": false,
+      "src": "assets/fifth-art/landscape-l001-66eb51ef49.webp",
+      "thumb": "assets/fifth-art/thumbs/landscape-l001-66eb51ef49.webp",
+      "thumb_width": 480,
+      "thumb_height": 320,
+      "bytes": 240238,
+      "thumb_bytes": 28604,
+      "sha256": "7695de55791cc37f3c222f7ee259869bddd95b361a606f6f11b76263ead2a29e",
+      "thumb_sha256": "073c4eb6646c311ada3b59199097687c23cd8eb22fcf7054f919b8d56bf49add",
+      "source": "추가풍경200/L001_미모대사관_팀의뢰중정_v01.png",
+      "source_sha256": "66eb51ef49e72c7b566c23f6f3faff2912ede11e4e5173d2feb80462a503881d",
+      "source_bytes": 2485864,
+      "placements": [
+        {
+          "page": "fifth/books/11_WorldLorebook",
+          "anchor": "fewk-world-35",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "id": "landscape-l002",
+      "source_id": "L002",
+      "group": "추가 풍경",
+      "category": "도시·시설의 내부와 생활",
+      "title": "신성 본사 — 입사 측정 대기홀",
+      "description": "신성 입사 시험의 바이트 정보량 측정; 본사 캐치먼트 소재 · 세부 공간 구조는 미술적 해석입니다.",
+      "character": "",
+      "character_id": "",
+      "outfit": "",
+      "form": "",
+      "version": 1,
+      "width": 1024,
+      "height": 1536,
+      "transparent": false,
+      "src": "assets/fifth-art/landscape-l002-6c112b9a59.webp",
+      "thumb": "assets/fifth-art/thumbs/landscape-l002-6c112b9a59.webp",
+      "thumb_width": 320,
+      "thumb_height": 480,
+      "bytes": 184786,
+      "thumb_bytes": 25554,
+      "sha256": "c3b9b889fa02e3f2039bc45f7fb7827114c23c58e8ae6e386e53a6ec7efb4c08",
+      "thumb_sha256": "0ad0f8a3030b1af1adc64ec486273db15629c117a4bac662f7ed22f2e4e9e49a",
+      "source": "추가풍경200/L002_신성본사_입사측정대기홀_v01.png",
+      "source_sha256": "6c112b9a59193676d4a2eec954b5af74c277d89d035d457cf95713f968327837",
+      "source_bytes": 2133637,
+      "placements": [
+        {
+          "page": "fifth/books/11_WorldLorebook",
+          "anchor": "fewk-world-36",
           "role": "gallery"
         }
       ]
