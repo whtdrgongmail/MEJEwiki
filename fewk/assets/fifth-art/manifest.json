@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "summary": {
-    "images": 708,
+    "images": 709,
     "groups": {
       "기본 삽화": 100,
       "세계와 생활": 200,
       "인물 프로필": 396,
       "규칙과 예시": 2,
-      "추가 풍경": 10
+      "추가 풍경": 11
     },
-    "full_bytes": 95919322,
-    "thumb_bytes": 13120712,
-    "source_bytes": 1401317628,
+    "full_bytes": 96227596,
+    "thumb_bytes": 13153042,
+    "source_bytes": 1404285630,
     "transparent": 60,
-    "images_with_reader_placements": 560,
+    "images_with_reader_placements": 561,
     "encoding": {
       "format": "WebP",
       "full_max_edge": 1600,
@@ -23841,6 +23841,40 @@
         {
           "page": "fifth/books/11_WorldLorebook",
           "anchor": "fewk-world-35",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "id": "landscape-l011",
+      "source_id": "L011",
+      "group": "추가 풍경",
+      "category": "도시·시설의 내부와 생활",
+      "title": "옐로타운 — 수질 정화 필터 정비",
+      "description": "수중 시설, 로봇 어업·수질 정화 기술·수중 양식 산업 · 세부 공간 구조는 미술적 해석입니다.",
+      "character": "",
+      "character_id": "",
+      "outfit": "",
+      "form": "",
+      "version": 1,
+      "width": 1024,
+      "height": 1536,
+      "transparent": false,
+      "src": "assets/fifth-art/landscape-l011-61a76a2f01.webp",
+      "thumb": "assets/fifth-art/thumbs/landscape-l011-61a76a2f01.webp",
+      "thumb_width": 320,
+      "thumb_height": 480,
+      "bytes": 308274,
+      "thumb_bytes": 32330,
+      "sha256": "53991f01e1db6f35ec00be262c2ac0fc6527f03e8087f5207cfb8652e7b9a3d4",
+      "thumb_sha256": "bd0dbaf2430b5fab5c727411d00123ce17dd847edf601a41e542ad1d5e954891",
+      "source": "추가풍경200/L011_옐로타운_수질정화필터_v01.png",
+      "source_sha256": "61a76a2f010dc9dc573b54a8fb4fb08b968b9800a6bc01475f6685305448d5f7",
+      "source_bytes": 2968002,
+      "placements": [
+        {
+          "page": "fifth/books/11_WorldLorebook",
+          "anchor": "fewk-world-49",
           "role": "gallery"
         }
       ]
