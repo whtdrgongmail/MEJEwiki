@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "summary": {
-    "images": 714,
+    "images": 715,
     "groups": {
       "기본 삽화": 100,
       "세계와 생활": 200,
       "인물 프로필": 396,
       "규칙과 예시": 2,
-      "추가 풍경": 16
+      "추가 풍경": 17
     },
-    "full_bytes": 97760402,
-    "thumb_bytes": 13334762,
-    "source_bytes": 1417982529,
+    "full_bytes": 98113028,
+    "thumb_bytes": 13371402,
+    "source_bytes": 1421047451,
     "transparent": 60,
-    "images_with_reader_placements": 566,
+    "images_with_reader_placements": 567,
     "encoding": {
       "format": "WebP",
       "full_max_edge": 1600,
@@ -24041,6 +24041,40 @@
       "source": "추가풍경200/L016_클린하버_강판적치장_v01.png",
       "source_sha256": "9edc39885584f85441d93a0d0b84a9d1640fb5a1d8bf0266190ddcfce87fa9e6",
       "source_bytes": 3039747,
+      "placements": [
+        {
+          "page": "fifth/books/11_WorldLorebook",
+          "anchor": "fewk-world-49",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "id": "landscape-l017",
+      "source_id": "L017",
+      "group": "추가 풍경",
+      "category": "도시·시설의 내부와 생활",
+      "title": "캐슬하버 — 왕복기관 아래 부품 골목",
+      "description": "초기 흑공 산업의 거대 노후 공장; 구형 시설에 필요한 자재와 저가 생산 공급 · 세부 공간 구조는 미술적 해석입니다.",
+      "character": "",
+      "character_id": "",
+      "outfit": "",
+      "form": "",
+      "version": 1,
+      "width": 1024,
+      "height": 1536,
+      "transparent": false,
+      "src": "assets/fifth-art/landscape-l017-30128af091.webp",
+      "thumb": "assets/fifth-art/thumbs/landscape-l017-30128af091.webp",
+      "thumb_width": 320,
+      "thumb_height": 480,
+      "bytes": 352626,
+      "thumb_bytes": 36640,
+      "sha256": "e2ccc5e8888a069e298361f360cfa07d09781d929c31be55dc2418ac6c6673e9",
+      "thumb_sha256": "ea6bde97cad22d91ed582d17b1bf48d5514ee9f68a9a872a611bd4e58d7f4119",
+      "source": "추가풍경200/L017_캐슬하버_왕복기관아래골목_v01.png",
+      "source_sha256": "30128af0913701202a787dc91babbe31ebc64684d913a11e257688e861883ccc",
+      "source_bytes": 3064922,
       "placements": [
         {
           "page": "fifth/books/11_WorldLorebook",
