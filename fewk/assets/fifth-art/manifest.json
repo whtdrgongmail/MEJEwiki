@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "summary": {
-    "images": 711,
+    "images": 712,
     "groups": {
       "기본 삽화": 100,
       "세계와 생활": 200,
       "인물 프로필": 396,
       "규칙과 예시": 2,
-      "추가 풍경": 13
+      "추가 풍경": 14
     },
-    "full_bytes": 96872884,
-    "thumb_bytes": 13233596,
-    "source_bytes": 1409801194,
+    "full_bytes": 97209186,
+    "thumb_bytes": 13271984,
+    "source_bytes": 1412643125,
     "transparent": 60,
-    "images_with_reader_placements": 563,
+    "images_with_reader_placements": 564,
     "encoding": {
       "format": "WebP",
       "full_max_edge": 1600,
@@ -23939,6 +23939,40 @@
       "source": "추가풍경200/L013_하이썬_꽃시장출하장_v01.png",
       "source_sha256": "f91026df5791aaa23c61d1ec0482d2473ad6eeed54329b44a470ad17afa54639",
       "source_bytes": 2980409,
+      "placements": [
+        {
+          "page": "fifth/books/11_WorldLorebook",
+          "anchor": "fewk-world-45",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "id": "landscape-l014",
+      "source_id": "L014",
+      "group": "추가 풍경",
+      "category": "도시·시설의 내부와 생활",
+      "title": "너티즈 — 복제기 수리 골목",
+      "description": "가정용 임플란트·복제기 생산 중심 도시; 서민구와 노마드 외곽 · 세부 공간 구조는 미술적 해석입니다.",
+      "character": "",
+      "character_id": "",
+      "outfit": "",
+      "form": "",
+      "version": 1,
+      "width": 1024,
+      "height": 1536,
+      "transparent": false,
+      "src": "assets/fifth-art/landscape-l014-bf72c98cce.webp",
+      "thumb": "assets/fifth-art/thumbs/landscape-l014-bf72c98cce.webp",
+      "thumb_width": 320,
+      "thumb_height": 480,
+      "bytes": 336302,
+      "thumb_bytes": 38388,
+      "sha256": "f74f1cfe766d8b250582e3e27e34c7d916f767ad689e4707c731944738f2cfe9",
+      "thumb_sha256": "5382dba4c05d28adf97bcbf7edd263972532f9e362277f9b0907adef6ccb629e",
+      "source": "추가풍경200/L014_너티즈_복제기수리골목_v01.png",
+      "source_sha256": "bf72c98cceef2830c1fe26411e0d06f7ac4de6952c8f2059f4aa491516c058d9",
+      "source_bytes": 2841931,
       "placements": [
         {
           "page": "fifth/books/11_WorldLorebook",
