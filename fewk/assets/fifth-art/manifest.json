@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "summary": {
-    "images": 701,
+    "images": 702,
     "groups": {
       "기본 삽화": 100,
       "세계와 생활": 200,
       "인물 프로필": 396,
       "규칙과 예시": 2,
-      "추가 풍경": 3
+      "추가 풍경": 4
     },
-    "full_bytes": 93783348,
-    "thumb_bytes": 12873858,
-    "source_bytes": 1381882576,
+    "full_bytes": 94019768,
+    "thumb_bytes": 12901220,
+    "source_bytes": 1384378601,
     "transparent": 60,
-    "images_with_reader_placements": 553,
+    "images_with_reader_placements": 554,
     "encoding": {
       "format": "WebP",
       "full_max_edge": 1600,
@@ -23603,6 +23603,40 @@
         {
           "page": "fifth/books/11_WorldLorebook",
           "anchor": "fewk-world-49",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "id": "landscape-l004",
+      "source_id": "L004",
+      "group": "추가 풍경",
+      "category": "도시·시설의 내부와 생활",
+      "title": "대령대사관 — 수직 회랑",
+      "description": "서울 센트럴부 대사관; 강한 통치 영향력 · 세부 공간 구조는 미술적 해석입니다.",
+      "character": "",
+      "character_id": "",
+      "outfit": "",
+      "form": "",
+      "version": 1,
+      "width": 1024,
+      "height": 1536,
+      "transparent": false,
+      "src": "assets/fifth-art/landscape-l004-af843fd267.webp",
+      "thumb": "assets/fifth-art/thumbs/landscape-l004-af843fd267.webp",
+      "thumb_width": 320,
+      "thumb_height": 480,
+      "bytes": 236420,
+      "thumb_bytes": 27362,
+      "sha256": "2f379be325156958257821462bd50cadd7a46725041e33ac32acebb7e1302fbb",
+      "thumb_sha256": "ed2d538d53fc3295252dcaaee5b82765c89afb91842e17367808bac715a274aa",
+      "source": "추가풍경200/L004_대령대사관_수직회랑_v01.png",
+      "source_sha256": "af843fd2675e9befaab39b0abea735a2f17cd5bbf32df0ba76a92bd76eedc360",
+      "source_bytes": 2496025,
+      "placements": [
+        {
+          "page": "fifth/books/11_WorldLorebook",
+          "anchor": "fewk-world-35",
           "role": "gallery"
         }
       ]
