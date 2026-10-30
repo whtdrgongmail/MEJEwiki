@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "summary": {
-    "images": 716,
+    "images": 717,
     "groups": {
       "기본 삽화": 100,
       "세계와 생활": 200,
       "인물 프로필": 396,
       "규칙과 예시": 2,
-      "추가 풍경": 18
+      "추가 풍경": 19
     },
-    "full_bytes": 98356764,
-    "thumb_bytes": 13401248,
-    "source_bytes": 1423635896,
+    "full_bytes": 98650722,
+    "thumb_bytes": 13437600,
+    "source_bytes": 1426324121,
     "transparent": 60,
-    "images_with_reader_placements": 568,
+    "images_with_reader_placements": 569,
     "encoding": {
       "format": "WebP",
       "full_max_edge": 1600,
@@ -24109,6 +24109,40 @@
       "source": "추가풍경200/L018_올라이즈_침몰선인양현장_v01.png",
       "source_sha256": "2751a74a072380e2c47e37a28904a143f5dfcb59c17217056079b81854acc0c8",
       "source_bytes": 2588445,
+      "placements": [
+        {
+          "page": "fifth/books/11_WorldLorebook",
+          "anchor": "fewk-world-49",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "id": "landscape-l019",
+      "source_id": "L019",
+      "group": "추가 풍경",
+      "category": "도시·시설의 내부와 생활",
+      "title": "포인트리버 — 신단석 교역 마당",
+      "description": "포인트리버 신단석 생산·교역; 피스풀 메카트로닉스 제한과 신단·돌칩 기반; 자연 신단석 분류 · 세부 공간 구조는 미술적 해석입니다.",
+      "character": "",
+      "character_id": "",
+      "outfit": "",
+      "form": "",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "transparent": false,
+      "src": "assets/fifth-art/landscape-l019-077a8915f9.webp",
+      "thumb": "assets/fifth-art/thumbs/landscape-l019-077a8915f9.webp",
+      "thumb_width": 480,
+      "thumb_height": 320,
+      "bytes": 293958,
+      "thumb_bytes": 36352,
+      "sha256": "39d2ed6630882ac9b9bb918dfd4b0bd04f151b692533b755bee2ada37f5c2070",
+      "thumb_sha256": "4826b8dce0585bbc54726c5fa1a1695878309ea61703aabe27a76d415373511a",
+      "source": "추가풍경200/L019_포인트리버_신단석교역마당_v01.png",
+      "source_sha256": "077a8915f9b1c8939a58cad263de83a8e100956be9468a00a8417b0b5b9a5b42",
+      "source_bytes": 2688225,
       "placements": [
         {
           "page": "fifth/books/11_WorldLorebook",
