@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "summary": {
-    "images": 707,
+    "images": 708,
     "groups": {
       "기본 삽화": 100,
       "세계와 생활": 200,
       "인물 프로필": 396,
       "규칙과 예시": 2,
-      "추가 풍경": 9
+      "추가 풍경": 10
     },
-    "full_bytes": 95514730,
-    "thumb_bytes": 13076836,
-    "source_bytes": 1398015057,
+    "full_bytes": 95919322,
+    "thumb_bytes": 13120712,
+    "source_bytes": 1401317628,
     "transparent": 60,
-    "images_with_reader_placements": 559,
+    "images_with_reader_placements": 560,
     "encoding": {
       "format": "WebP",
       "full_max_edge": 1600,
@@ -23803,6 +23803,40 @@
       "source": "추가풍경200/L009_코스트타운_의료면허자료고_v01.png",
       "source_sha256": "3cd8e0bb0032eaaddd5988ba37cd6bc013da56b4a79ba74dca1a568df91c8f2e",
       "source_bytes": 2396852,
+      "placements": [
+        {
+          "page": "fifth/books/11_WorldLorebook",
+          "anchor": "fewk-world-35",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "id": "landscape-l010",
+      "source_id": "L010",
+      "group": "추가 풍경",
+      "category": "도시·시설의 내부와 생활",
+      "title": "파인포레스트 — 중재정",
+      "description": "파인포레스트 산림 자원; 대리대사국의 외교 중재 특화와 외교관 명문 설정 · 세부 공간 구조는 미술적 해석입니다.",
+      "character": "",
+      "character_id": "",
+      "outfit": "",
+      "form": "",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "transparent": false,
+      "src": "assets/fifth-art/landscape-l010-3f41533061.webp",
+      "thumb": "assets/fifth-art/thumbs/landscape-l010-3f41533061.webp",
+      "thumb_width": 480,
+      "thumb_height": 320,
+      "bytes": 404592,
+      "thumb_bytes": 43876,
+      "sha256": "a919d796b326b5e2e049de49637dce12693d1508eebee8034e83e094e4769545",
+      "thumb_sha256": "9fbd53a7ee3addd56c1477b8d431e2442c3e47e437a95344d56f8793c53c1cdf",
+      "source": "추가풍경200/L010_파인포레스트_중재정_v01.png",
+      "source_sha256": "3f41533061561e511218fdff7d21f98dc726645c533dc72da346b886da0e8a38",
+      "source_bytes": 3302571,
       "placements": [
         {
           "page": "fifth/books/11_WorldLorebook",
