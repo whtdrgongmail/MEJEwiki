@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "summary": {
-    "images": 712,
+    "images": 713,
     "groups": {
       "기본 삽화": 100,
       "세계와 생활": 200,
       "인물 프로필": 396,
       "규칙과 예시": 2,
-      "추가 풍경": 14
+      "추가 풍경": 15
     },
-    "full_bytes": 97209186,
-    "thumb_bytes": 13271984,
-    "source_bytes": 1412643125,
+    "full_bytes": 97429742,
+    "thumb_bytes": 13301532,
+    "source_bytes": 1414942782,
     "transparent": 60,
-    "images_with_reader_placements": 564,
+    "images_with_reader_placements": 565,
     "encoding": {
       "format": "WebP",
       "full_max_edge": 1600,
@@ -23973,6 +23973,40 @@
       "source": "추가풍경200/L014_너티즈_복제기수리골목_v01.png",
       "source_sha256": "bf72c98cceef2830c1fe26411e0d06f7ac4de6952c8f2059f4aa491516c058d9",
       "source_bytes": 2841931,
+      "placements": [
+        {
+          "page": "fifth/books/11_WorldLorebook",
+          "anchor": "fewk-world-45",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "id": "landscape-l015",
+      "source_id": "L015",
+      "group": "추가 풍경",
+      "category": "도시·시설의 내부와 생활",
+      "title": "드라코카인드 — 연구동 옥상 교정 데크",
+      "description": "대학교와 연구소가 많은 교육·연구 중심 도시 · 세부 공간 구조는 미술적 해석입니다.",
+      "character": "",
+      "character_id": "",
+      "outfit": "",
+      "form": "",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "transparent": false,
+      "src": "assets/fifth-art/landscape-l015-626fb3af36.webp",
+      "thumb": "assets/fifth-art/thumbs/landscape-l015-626fb3af36.webp",
+      "thumb_width": 480,
+      "thumb_height": 320,
+      "bytes": 220556,
+      "thumb_bytes": 29548,
+      "sha256": "ea29bf4c3671f5c6d46430679999499de6be95e8a46cca6824be22d9f19008b6",
+      "thumb_sha256": "1bd40073b5c14016f979697434c9233b77ea88db6c1731aedda3fd12767aea6d",
+      "source": "추가풍경200/L015_드라코카인드_옥상교정데크_v01.png",
+      "source_sha256": "626fb3af36c06207b3a6befcd8f4b79170d3f6b311af6a5b3bc51251dde6594f",
+      "source_bytes": 2299657,
       "placements": [
         {
           "page": "fifth/books/11_WorldLorebook",
