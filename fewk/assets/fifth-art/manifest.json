@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "summary": {
-    "images": 717,
+    "images": 718,
     "groups": {
       "기본 삽화": 100,
       "세계와 생활": 200,
       "인물 프로필": 396,
       "규칙과 예시": 2,
-      "추가 풍경": 19
+      "추가 풍경": 20
     },
-    "full_bytes": 98650722,
-    "thumb_bytes": 13437600,
-    "source_bytes": 1426324121,
+    "full_bytes": 99029800,
+    "thumb_bytes": 13486704,
+    "source_bytes": 1429166342,
     "transparent": 60,
-    "images_with_reader_placements": 569,
+    "images_with_reader_placements": 570,
     "encoding": {
       "format": "WebP",
       "full_max_edge": 1600,
@@ -24143,6 +24143,40 @@
       "source": "추가풍경200/L019_포인트리버_신단석교역마당_v01.png",
       "source_sha256": "077a8915f9b1c8939a58cad263de83a8e100956be9468a00a8417b0b5b9a5b42",
       "source_bytes": 2688225,
+      "placements": [
+        {
+          "page": "fifth/books/11_WorldLorebook",
+          "anchor": "fewk-world-49",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "id": "landscape-l020",
+      "source_id": "L020",
+      "group": "추가 풍경",
+      "category": "도시·시설의 내부와 생활",
+      "title": "오픈시티 — 인삼 상점 거리",
+      "description": "피스풀의 외부 개방 경제지역; 궁정구에서도 신뢰하는 인삼 추출물; 특산물 집산과 여러 대사국 사무소 · 세부 공간 구조는 미술적 해석입니다.",
+      "character": "",
+      "character_id": "",
+      "outfit": "",
+      "form": "",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "transparent": false,
+      "src": "assets/fifth-art/landscape-l020-0fe1b04e04.webp",
+      "thumb": "assets/fifth-art/thumbs/landscape-l020-0fe1b04e04.webp",
+      "thumb_width": 480,
+      "thumb_height": 320,
+      "bytes": 379078,
+      "thumb_bytes": 49104,
+      "sha256": "624e002bdcb0ab8936c5bed9241105f9a042412067e0a04d71896fb47a462538",
+      "thumb_sha256": "4ba5c2851c61db0ca5d21948a5f34d664ac7917f7ea16d75a3cc3d55242234ad",
+      "source": "추가풍경200/L020_오픈시티_인삼상점거리_v01.png",
+      "source_sha256": "0fe1b04e04bc9d2b60fd845347d3389e5259e7fec58538fe1f7b09d5c08ffa4d",
+      "source_bytes": 2842221,
       "placements": [
         {
           "page": "fifth/books/11_WorldLorebook",
