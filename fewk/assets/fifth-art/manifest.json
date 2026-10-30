@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "summary": {
-    "images": 700,
+    "images": 701,
     "groups": {
       "기본 삽화": 100,
       "세계와 생활": 200,
       "인물 프로필": 396,
       "규칙과 예시": 2,
-      "추가 풍경": 2
+      "추가 풍경": 3
     },
-    "full_bytes": 93501636,
-    "thumb_bytes": 12842018,
-    "source_bytes": 1379185019,
+    "full_bytes": 93783348,
+    "thumb_bytes": 12873858,
+    "source_bytes": 1381882576,
     "transparent": 60,
-    "images_with_reader_placements": 552,
+    "images_with_reader_placements": 553,
     "encoding": {
       "format": "WebP",
       "full_max_edge": 1600,
@@ -23569,6 +23569,40 @@
         {
           "page": "fifth/books/11_WorldLorebook",
           "anchor": "fewk-world-36",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "id": "landscape-l003",
+      "source_id": "L003",
+      "group": "추가 풍경",
+      "category": "도시·시설의 내부와 생활",
+      "title": "퍼스트넷 — 흑선 아래 통로",
+      "description": "퍼스트넷 외래항; 로세아 감독; 거대 강철 흑선 컨테이너선과 로봇 하역 · 세부 공간 구조는 미술적 해석입니다.",
+      "character": "",
+      "character_id": "",
+      "outfit": "",
+      "form": "",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "transparent": false,
+      "src": "assets/fifth-art/landscape-l003-b79accdf6f.webp",
+      "thumb": "assets/fifth-art/thumbs/landscape-l003-b79accdf6f.webp",
+      "thumb_width": 480,
+      "thumb_height": 320,
+      "bytes": 281712,
+      "thumb_bytes": 31840,
+      "sha256": "a8e7a9b887aa9212eda2f909deca508c4d3beb6ac9bdc056641536e8af9f4459",
+      "thumb_sha256": "168b493b36a21fdfb4bcb073eccb251ed55f3d3ec68a84b039e3f92dcf5a75f7",
+      "source": "추가풍경200/L003_퍼스트넷_흑선아래통로_v01.png",
+      "source_sha256": "b79accdf6f2dfa21e2059bf253fe1f89ce276fb04682ea5d9a3906f65da7a61b",
+      "source_bytes": 2697557,
+      "placements": [
+        {
+          "page": "fifth/books/11_WorldLorebook",
+          "anchor": "fewk-world-49",
           "role": "gallery"
         }
       ]
