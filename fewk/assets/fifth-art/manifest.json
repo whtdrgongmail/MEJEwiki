@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "summary": {
-    "images": 704,
+    "images": 705,
     "groups": {
       "기본 삽화": 100,
       "세계와 생활": 200,
       "인물 프로필": 396,
       "규칙과 예시": 2,
-      "추가 풍경": 6
+      "추가 풍경": 7
     },
-    "full_bytes": 94646194,
-    "thumb_bytes": 12976752,
-    "source_bytes": 1389696349,
+    "full_bytes": 94992056,
+    "thumb_bytes": 13012460,
+    "source_bytes": 1392738979,
     "transparent": 60,
-    "images_with_reader_placements": 556,
+    "images_with_reader_placements": 557,
     "encoding": {
       "format": "WebP",
       "full_max_edge": 1600,
@@ -23701,6 +23701,40 @@
       "source": "추가풍경200/L006_하난초대사관_운송시연정원_v01.png",
       "source_sha256": "98b4d1c09bfe1565522eb48debf5d26c52ca54d178f0e09002941b30052551c6",
       "source_bytes": 3020960,
+      "placements": [
+        {
+          "page": "fifth/books/11_WorldLorebook",
+          "anchor": "fewk-world-35",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "id": "landscape-l007",
+      "source_id": "L007",
+      "group": "추가 풍경",
+      "category": "도시·시설의 내부와 생활",
+      "title": "홀로대사국 — 개척 장비 준비창",
+      "description": "홀로대사국의 버그계 개척 · 세부 공간 구조는 미술적 해석입니다.",
+      "character": "",
+      "character_id": "",
+      "outfit": "",
+      "form": "",
+      "version": 1,
+      "width": 1024,
+      "height": 1536,
+      "transparent": false,
+      "src": "assets/fifth-art/landscape-l007-2fc5171cf0.webp",
+      "thumb": "assets/fifth-art/thumbs/landscape-l007-2fc5171cf0.webp",
+      "thumb_width": 320,
+      "thumb_height": 480,
+      "bytes": 345862,
+      "thumb_bytes": 35708,
+      "sha256": "a4ac1d5e9c3bcd895a3c4a7792def0101e136d5ba0f82f0e77013960fed1f8b4",
+      "thumb_sha256": "dd27709bc0ed8d2e8c5372e26b83abbd7b27663fe73aca27c17fe765feff767f",
+      "source": "추가풍경200/L007_홀로대사국_개척장비준비창_v01.png",
+      "source_sha256": "2fc5171cf0b035b61e9488de6d521d99120efd3572644569731e8764319deac4",
+      "source_bytes": 3042630,
       "placements": [
         {
           "page": "fifth/books/11_WorldLorebook",
