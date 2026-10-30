@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "summary": {
-    "images": 703,
+    "images": 704,
     "groups": {
       "기본 삽화": 100,
       "세계와 생활": 200,
       "인물 프로필": 396,
       "규칙과 예시": 2,
-      "추가 풍경": 5
+      "추가 풍경": 6
     },
-    "full_bytes": 94249962,
-    "thumb_bytes": 12930716,
-    "source_bytes": 1386675389,
+    "full_bytes": 94646194,
+    "thumb_bytes": 12976752,
+    "source_bytes": 1389696349,
     "transparent": 60,
-    "images_with_reader_placements": 555,
+    "images_with_reader_placements": 556,
     "encoding": {
       "format": "WebP",
       "full_max_edge": 1600,
@@ -23667,6 +23667,40 @@
       "source": "추가풍경200/L005_난초대사관_기술전시회랑_v01.png",
       "source_sha256": "8e1f0317b4b358d49bbb450dae5b7091e4c713198438caf30c20074ef8cbe2bd",
       "source_bytes": 2296788,
+      "placements": [
+        {
+          "page": "fifth/books/11_WorldLorebook",
+          "anchor": "fewk-world-35",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "id": "landscape-l006",
+      "source_id": "L006",
+      "group": "추가 풍경",
+      "category": "도시·시설의 내부와 생활",
+      "title": "하난초대사관 — 운송 시연 정원",
+      "description": "서울 동부 대사관; 흑공 운송 기술과 해양·경제 협력 · 세부 공간 구조는 미술적 해석입니다.",
+      "character": "",
+      "character_id": "",
+      "outfit": "",
+      "form": "",
+      "version": 1,
+      "width": 1536,
+      "height": 1024,
+      "transparent": false,
+      "src": "assets/fifth-art/landscape-l006-98b4d1c09b.webp",
+      "thumb": "assets/fifth-art/thumbs/landscape-l006-98b4d1c09b.webp",
+      "thumb_width": 480,
+      "thumb_height": 320,
+      "bytes": 396232,
+      "thumb_bytes": 46036,
+      "sha256": "703468b83e9931394d84678886f6283ead15ae6f56d42a366a341ea510118520",
+      "thumb_sha256": "c29192dfa6fb644b90fb878c93a1b9412a68cef8133ba16ef0eac0bc386e5c7c",
+      "source": "추가풍경200/L006_하난초대사관_운송시연정원_v01.png",
+      "source_sha256": "98b4d1c09bfe1565522eb48debf5d26c52ca54d178f0e09002941b30052551c6",
+      "source_bytes": 3020960,
       "placements": [
         {
           "page": "fifth/books/11_WorldLorebook",
